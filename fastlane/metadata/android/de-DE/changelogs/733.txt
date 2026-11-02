@@ -1,7 +1,3 @@
-• Tagebuch zur Funktionsliste im README hinzugefügt
 • Tagebucheinträge werden automatisch großgeschrieben
-• README bereinigt
-• Tagesanzahl in Screenshots korrigiert
 • Pluralisierung der Tage in eigenen Einträgen korrigiert
 • Symbolauswahl leichter scrollbar gemacht
-• Helles Design für Screenshots der Eintragsbearbeitung verwendet

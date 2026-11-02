@@ -1,2 +1,0 @@
-• Perbaiki build android stage
-• Perbaiki building untuk linux

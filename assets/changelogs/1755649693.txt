@@ -1,2 +1,0 @@
-• Add flag to skip screenshots in deploy.sh
-• Checkout code before getting build number in github

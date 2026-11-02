@@ -1,3 +1,1 @@
-• Dodaj brakujący import do build.gradle.kts
 • Dodaj politykę prywatności
-• Zaloguj się do wydania podczas budowy

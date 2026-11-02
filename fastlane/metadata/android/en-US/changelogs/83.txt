@@ -1,3 +1,1 @@
-• Add missing imports to build.gradle.kts
 • Add privacy policy
-• Sign for release when building

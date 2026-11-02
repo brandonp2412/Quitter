@@ -1,2 +1,0 @@
-• Android-Build korrigiert
-• Experimentelle Coroutine-Warnung von MSVC für Windows-Builds unterdrückt

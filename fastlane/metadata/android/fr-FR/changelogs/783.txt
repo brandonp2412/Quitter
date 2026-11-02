@@ -1,2 +1,0 @@
-• Corrige un test unitaire
-• Renomme les termes concernés en AC

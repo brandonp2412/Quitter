@@ -1,2 +1,0 @@
-• Perbaiki android build
-• Perbaiki suppress MSVC experimental coroutine deprecation error untuk Windows build

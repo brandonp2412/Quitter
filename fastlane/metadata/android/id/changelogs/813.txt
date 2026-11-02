@@ -1,3 +1,1 @@
 • Perubahan — Fixed journal_page.dart darkmode visuals
-• Reformat lib
-• Hapus yq installation dari deploy.sh

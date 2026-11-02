@@ -2,6 +2,4 @@
 • Initialize all hari at 1
 • Only start at 1 don't Tambahkan 1 untuk user input
 • Hapus start tombol when you type your # dari hari
-• Hapus verbose flag untuk copying changelogs
-• Specify device untuk tangkapan layar
 • Start counting hari at 1 instead dari zero

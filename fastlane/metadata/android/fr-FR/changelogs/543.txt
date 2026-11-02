@@ -1,4 +1,3 @@
-• Ajoute le badge « Disponible sur le Web »
 • Ajoute le cannabis à la page des paramètres
 • Met automatiquement une majuscule aux entrées personnalisées
 • Modifie les messages toast lors de l’exportation et de l’importation

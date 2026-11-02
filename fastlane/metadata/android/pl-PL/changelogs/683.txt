@@ -6,4 +6,3 @@
 • Popraw kontrast kolorów ikon
 • Uczyń kolory kontrastowe spójnymi
 • Make homescreen widgets aktualizacja codziennie
-• Zmień szablony stron

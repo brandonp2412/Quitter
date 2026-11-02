@@ -1,2 +1,1 @@
-• Neueste lokalisierte Release Notes vervollständigt
 • Japanische Quellenlokalisierung abgeschlossen

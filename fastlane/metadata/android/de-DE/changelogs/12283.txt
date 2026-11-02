@@ -1,5 +1,3 @@
 • Neuplanung von Hintergrundaufgaben korrigiert
 • Asynchrone Navigationsrennen bei Meilensteinen abgesichert
-• Redundante Android-Build-Kommentare entfernt
 • Kontrollfluss vereinfacht und veraltete Kommentare entfernt
-• Lockfile für reproduzierbare Builds aktualisiert

@@ -1,4 +1,1 @@
-• Expose PIN submit action by user-facing label
-• Hide Linux integration pengujian di dwl
-• Prefer PIN action label di pengujian
-• Perbaiki harden screenshot emulator recovery
+• Tombol kirim PIN kini memiliki label yang jelas

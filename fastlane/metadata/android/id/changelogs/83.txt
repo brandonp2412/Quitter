@@ -1,3 +1,1 @@
-• Tambahkan missing imports untuk build.gradle.kts
 • Tambahkan privasi policy
-• Sign untuk rilis when building

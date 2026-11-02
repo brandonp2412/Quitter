@@ -1,3 +1,0 @@
-• Fix creating github release
-• Push at the end of deploy.sh
-• Run screenshotting locally

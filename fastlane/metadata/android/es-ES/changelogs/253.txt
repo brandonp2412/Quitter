@@ -1,3 +1,2 @@
 • Añade fechas a la lista secundaria
-• Solo firma compilaciones si existen las claves
 • Actualiza los días al volver a enfocar la aplicación

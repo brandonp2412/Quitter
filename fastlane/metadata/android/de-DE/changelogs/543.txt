@@ -1,4 +1,3 @@
-• Web-Badge hinzugefügt
 • Cannabis zur Einstellungsseite hinzugefügt
 • Eigene Einträge werden automatisch großgeschrieben
 • Meldungen beim Exportieren/Importieren geändert

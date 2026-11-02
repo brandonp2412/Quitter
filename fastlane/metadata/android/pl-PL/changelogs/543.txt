@@ -1,4 +1,3 @@
-• Dodaj go na pajęczynie
 • Dodaj marihuanę do strony ustawień
 • Autokapitalizacja niestandardowych wpisów
 • Zmiana wiadomości tostów przy eksporcie importującym

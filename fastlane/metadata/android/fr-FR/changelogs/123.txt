@@ -1,1 +1,0 @@
-• Intègre la séparation par ABI dans build.gradle.kts

@@ -1,4 +1,3 @@
-• Add get it on web badge
 • Add marijuana to the settings page
 • Auto-capitalize custom entries
 • Change toast messages when exporting/importing

@@ -6,4 +6,3 @@
 • Melhorar o contraste da cor dos ícones
 • Torne as cores contrastantes consistentes
 • Faça com que os widgets do ecrã inicial sejam atualizados diariamente
-• Refatorar modelos de página

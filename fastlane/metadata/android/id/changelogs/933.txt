@@ -1,2 +1,1 @@
 • Perbaiki main padding
-• Perbaiki unit pengujian

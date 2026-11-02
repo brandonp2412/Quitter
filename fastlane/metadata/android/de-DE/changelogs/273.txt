@@ -1,2 +1,1 @@
-• Protokollausgabe im Gradle-Build reduziert
 • Startseite neu gestaltet

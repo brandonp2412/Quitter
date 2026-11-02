@@ -1,3 +1,2 @@
 • Milestone cards are now fully tappable
 • Added Arabic, Indonesian, Brazilian Portuguese, and European Portuguese
-• Improved Android build and dependency maintenance

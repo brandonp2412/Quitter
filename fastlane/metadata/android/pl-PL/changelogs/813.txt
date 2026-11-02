@@ -1,3 +1,1 @@
 • Naprawiono wygląd trybu ciemnego w journalpage.dart
-• Przeformatuj lib
-• Usuń instalację yq z deploy.sh

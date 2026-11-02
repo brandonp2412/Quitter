@@ -1,2 +1,0 @@
-• Reproduzierbarkeit des F-Droid-Lockfiles korrigiert
-• Patrol-Tests gegen Timing-Probleme gehärtet

@@ -1,3 +1,2 @@
 • Tambahkan dates untuk trailing list
-• Only sign builds if  keys exist
 • Refresh hari di app focus

@@ -1,4 +1,0 @@
-• Intenta otra corrección de pruebas Patrol
-• Intenta corregir Patrol en CI/CD
-• Corrige las canalizaciones
-• Intenta corregir la canalización

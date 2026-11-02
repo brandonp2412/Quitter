@@ -1,4 +1,0 @@
-• Fix lint warnings
-• Remove some bloat from deploy.sh
-• Try fix homescreen widget updates
-• Try to fix home widget updates

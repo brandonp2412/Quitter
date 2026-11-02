@@ -1,4 +1,2 @@
 • Tambahkan notifications
 • Fiddle dengan scrolling di alcohol & vaping
-• Perbaiki flutter setup untuk build-android
-• Perbaiki wack code di pengaturan halaman

@@ -1,6 +1,3 @@
-• Corrigir cobertura completa de localização da loja
-• Correção das notas de versão 1.1.71 localizadas
-• Corrigir notas de versão localizadas da App Store
 • Corrigir a localização dos termos sociais e estimulantes restantes
 • Corrigir cópia de recuperação B12 em japonês e chinês polonês
 • Corrigir cópia polonesa de marcos em japonês e chinês

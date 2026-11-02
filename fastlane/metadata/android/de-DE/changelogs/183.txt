@@ -2,6 +2,4 @@
 • Alle Tage werden mit 1 initialisiert
 • Benutzereingaben werden nicht mehr zusätzlich um 1 erhöht
 • Startschaltfläche wird nach Eingabe der Tage ausgeblendet
-• Ausführliche Ausgabe beim Kopieren von Änderungsprotokollen entfernt
-• Gerät für Screenshots festgelegt
 • Tageszählung beginnt bei 1 statt bei 0

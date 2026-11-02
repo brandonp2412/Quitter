@@ -6,4 +6,3 @@
 • Farbkontrast der Symbole verbessert
 • Kontrastfarben vereinheitlicht
 • Startbildschirm-Widgets werden täglich aktualisiert
-• Seitenvorlagen refaktoriert

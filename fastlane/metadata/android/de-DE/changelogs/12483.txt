@@ -1,4 +1,3 @@
-• Release Notes für 1.1.68 lokalisiert
 • Fallback-Text des Android-Widgets lokalisiert
 • Native macOS-Menüs lokalisiert
 • Russische Play-Store-Lokalisierung aktualisiert

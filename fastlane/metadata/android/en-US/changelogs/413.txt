@@ -1,3 +1,0 @@
-• Add Marijuana and Nicotine Pouches to screenshots
-• Add new screenshots to README
-• Include different quitting stages in screenshots

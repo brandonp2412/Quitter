@@ -1,2 +1,0 @@
-• Corrigir a reprodutibilidade do arquivo de bloqueio do F-Droid
-• Testes Harden Patrol contra o tempo

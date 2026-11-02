@@ -3,5 +3,4 @@
 • Perbarui search pengaturan text
 • filter notification toggles untuk active addictions only
 • fire preview notification when enabling an addiction toggle
-• Perbaiki clean up what's new log dan prevent future duplicates
 • Perbaiki dynamic card heights, flat search bar, shorter notifications

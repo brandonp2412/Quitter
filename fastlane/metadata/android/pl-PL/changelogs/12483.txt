@@ -1,4 +1,3 @@
-• Napraw lokalizację 1.1.68 notatek wydania
 • Napraw lokalizację widget Android fallback
 • Popraw lokalizację menu natywnego MacOS
 • Napraw odświeżanie rosyjskiego Play Store lokalizacji

@@ -1,4 +1,3 @@
-• Añade la insignia «Obtener en la web»
 • Añade marihuana a la página de ajustes
 • Capitaliza automáticamente las entradas personalizadas
 • Cambia los mensajes al exportar e importar

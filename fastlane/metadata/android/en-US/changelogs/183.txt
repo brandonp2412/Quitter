@@ -2,6 +2,4 @@
 • Initialize all days at 1
 • Only start at 1 don't add 1 to user input
 • Remove start button when you type your # of days
-• Remove verbose flag for copying changelogs
-• Specify device for screenshots
 • Start counting days at 1 instead of zero

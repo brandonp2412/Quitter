@@ -6,4 +6,3 @@
 • Improve icon color contrast
 • Make contrast colors consistent
 • Make homescreen widgets update daily
-• Refactor page templates

@@ -1,2 +1,0 @@
-• Option zum Überspringen der Screenshots in deploy.sh hinzugefügt
-• Code wird vor dem Ermitteln der Build-Nummer auf GitHub ausgecheckt

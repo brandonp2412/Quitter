@@ -1,4 +1,3 @@
-• Adicionar selo de acesso à web
 • Adicione maconha à página de configurações
 • Capitalizar automaticamente entradas personalizadas
 • Alterar mensagens do sistema ao exportar/importar

@@ -1,3 +1,0 @@
-• Corrige los códigos de versión de los ABI divididos
-• Genera capturas de todas las pantallas
-• Iguala los colores de la aplicación en las insignias

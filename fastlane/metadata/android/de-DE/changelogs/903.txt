@@ -1,4 +1,1 @@
-• Paketabschluss für Azure verbessert
-• Microsoft-Store-Deployment weiter stabilisiert
 • Snackbar verschoben
-• Integrationstests können mit -n übersprungen werden

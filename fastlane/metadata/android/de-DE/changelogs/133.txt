@@ -1,3 +1,1 @@
-• Google-Play-Deploy-Schritt korrigiert
 • Neurologie-Symbol der Erinnerungen korrigiert
-• Ausführung in GitHub-Releases korrigiert

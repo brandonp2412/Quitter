@@ -1,6 +1,2 @@
 • Add animations when you start quitting
-• Add get it on google play badge [skip ci]
-• Add get it on Google Play badge [skip ci]
-• Configure for Microsoft Store [skip ci]
 • Fix nicotine pouches still showing after hiding
-• Replace references to com.example.quitter -> com.quitter.app

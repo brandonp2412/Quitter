@@ -1,3 +1,0 @@
-• 誤ってコミットされた TODO.txt を削除
-• Flutter 3.38.3 に更新
-• Android ウィジェットの Patrol テストを修正

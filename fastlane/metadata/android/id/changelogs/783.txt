@@ -1,2 +1,0 @@
-• Perbaiki unit pengujian
-• Rename relevant words untuk AC

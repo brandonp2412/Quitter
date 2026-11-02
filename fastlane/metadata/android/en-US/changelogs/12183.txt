@@ -1,3 +1,0 @@
-• Remove accidental TODO.txt committed
-• Update flutter to 3.38.3
-• Fix run Android widget Patrol test

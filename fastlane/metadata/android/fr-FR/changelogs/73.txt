@@ -1,3 +1,0 @@
-• Corrige la création des versions GitHub
-• Effectue un push à la fin de deploy.sh
-• Exécute la capture d’écran localement

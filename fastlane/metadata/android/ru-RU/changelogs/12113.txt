@@ -1,2 +1,0 @@
-• Исправлена сборка Android
-• Для Windows подавлено предупреждение MSVC об устаревших experimental coroutines

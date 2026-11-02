@@ -1,3 +1,0 @@
-• Versionscodes für getrennte ABIs korrigiert
-• Screenshots für alle Ansichten erzeugt
-• App-Farben der Badges angeglichen

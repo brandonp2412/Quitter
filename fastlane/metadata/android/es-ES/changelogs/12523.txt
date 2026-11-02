@@ -1,3 +1,2 @@
-• Localiza las notas de la versión 1.1.72
 • Mejora las traducciones sobre recuperación en español y ruso
 • Mejora el texto restante sobre recuperación en ruso

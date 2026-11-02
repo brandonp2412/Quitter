@@ -1,3 +1,1 @@
-• Perbaiki google play deploy step
 • Perbaiki reminders neurology icon
-• Perbaiki running di github releases

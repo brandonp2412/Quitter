@@ -1,3 +1,1 @@
 • Corrige les parcours pas encore commencés
-• Corrige les problèmes de lint
-• Accélère le défilement dans le test de captures d’écran

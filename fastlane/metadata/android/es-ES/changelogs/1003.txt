@@ -1,8 +1,3 @@
 • Permite establecer el idioma manualmente
 • Añade localización japonesa para todos los hitos
 • Añade compatibilidad con japonés
-• Corrige pruebas unitarias de la página de ajustes
-• Corrige pruebas unitarias
-• Actualiza la configuración l10n para Flutter 3.38+
-• Formatea whats_new
-• Actualiza Flutter a 3.38.3

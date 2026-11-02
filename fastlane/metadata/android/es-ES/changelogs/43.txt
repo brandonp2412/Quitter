@@ -1,4 +1,2 @@
 • Añade notificaciones
 • Ajusta el desplazamiento en las pantallas de alcohol y vapeo
-• Corrige la configuración de Flutter para build-android
-• Corrige código problemático en la página de ajustes

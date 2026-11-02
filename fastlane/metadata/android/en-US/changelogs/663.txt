@@ -1,3 +1,2 @@
 • Add pure black theme
 • Include custom entries in notifications
-• Remove in_app_review

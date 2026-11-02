@@ -1,7 +1,4 @@
 • Allow selecting custom entries in homescreen widget
 • Change title & color label on custom entry page
-• Fix screenshots in README
 • Fix "What's new" page on web
 • Make color selector label more consistent
-• Remove awkward links on README
-• Small refactor

@@ -1,2 +1,0 @@
-• Ajoute l’en-tête Content-Type manquant à la finalisation Azure
-• Nettoie le script de déploiement

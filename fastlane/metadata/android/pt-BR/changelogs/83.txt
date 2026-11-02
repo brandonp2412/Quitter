@@ -1,3 +1,1 @@
-• Adicionar importações ausentes em build.gradle.kts
 • Adicionar política de privacidade
-• Assinar para liberação durante a construção

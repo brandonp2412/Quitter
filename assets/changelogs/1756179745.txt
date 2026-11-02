@@ -1,6 +1,4 @@
-• Add "Download from the Microsoft Store" badge
 • Add hint texts
 • Default day to 1 if you clear the input
 • Factor out layout of quitting pages
-• Fix deploy.sh when multiple devices are connected
 • Reset quitting if you clear the days field

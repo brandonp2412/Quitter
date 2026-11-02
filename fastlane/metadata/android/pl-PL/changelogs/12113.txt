@@ -1,2 +1,0 @@
-• Napraw budowę androida
-• Poprawiono tłumienie MSVC eksperymentalny błąd coroutine deprecation for Windows build

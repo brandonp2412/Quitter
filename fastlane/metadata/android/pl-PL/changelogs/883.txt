@@ -1,4 +1,2 @@
 • Dodaj czas PIN
-• Napraw finalizację azur rollout
 • Napraw timeout blokowania
-• Poprawione testy jednostkowe

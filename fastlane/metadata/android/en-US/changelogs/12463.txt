@@ -1,2 +1,1 @@
 • Fix complete native localization coverage
-• Fix localize latest release notes

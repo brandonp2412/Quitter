@@ -1,4 +1,1 @@
-• Tambahkan claude slop untuk azure package finalization
-• Tambahkan more slop untuk allegedly finalize msstore deployments
-• Move snackbar
-• Skip integration pengujian dengan -n
+• Pindahkan notifikasi sementara

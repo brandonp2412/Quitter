@@ -1,3 +1,1 @@
 • Perbaiki journeys not yet started
-• Perbaiki lints
-• Scroll quicker di screenshot pengujian

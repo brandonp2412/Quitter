@@ -1,4 +1,2 @@
 • Deutsche Übersetzungen hinzugefügt
-• Deutsche Store-Screenshots hinzugefügt
 • Deutsch im Sprachauswahlmenü beschriftet
-• Deutsche Lokalisierungsbindungen neu generiert

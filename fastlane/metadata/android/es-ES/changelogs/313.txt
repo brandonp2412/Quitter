@@ -1,2 +1,1 @@
-• Corrige la creación de versiones de GitHub
 • Elimina el color de la barra de la aplicación

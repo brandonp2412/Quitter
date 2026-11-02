@@ -1,4 +1,2 @@
 • Dodaj nagłówek sekcji do About
-• Zamieść Changelog do notatek wydania github
 • Popraw linki na stronie o stronie
-• Ograniczenie rejestrowania wdrożeń

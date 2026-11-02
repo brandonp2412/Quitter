@@ -1,3 +1,1 @@
 • ส่วนหน้า: แก้ไขภาพ Journal_page.dart darkmode
-• ฟอร์แมต lib
-• ลบการติดตั้ง yq ออกจาก Deploy.sh

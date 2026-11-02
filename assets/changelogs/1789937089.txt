@@ -1,2 +1,1 @@
-• Fix complete latest localized release notes
 • Fix finish Japanese reference localization

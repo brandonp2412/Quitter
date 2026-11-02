@@ -1,3 +1,0 @@
-• Corrigir códigos de versão do split abis
-• Gere capturas de tela para todas as telas
-• Combine cores de aplicativos para emblemas

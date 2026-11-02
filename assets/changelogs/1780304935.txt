@@ -1,5 +1,4 @@
 • Change colors of edit/delete on quitting cards
-• Fix gradle properties error
 • Fix journal page error
 • Fix left padding on home page search
 • move settings into a button inside the home search bar

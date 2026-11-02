@@ -1,4 +1,1 @@
-• Ajoute du code expérimental pour la finalisation du package Azure
-• Ajoute davantage de code expérimental pour finaliser les déploiements Microsoft Store
 • Déplace le SnackBar
-• Ignore les tests d’intégration avec -n

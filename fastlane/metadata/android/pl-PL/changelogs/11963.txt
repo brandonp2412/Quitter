@@ -3,5 +3,4 @@
 • Aktualizuj tekst ustawień wyszukiwania
 • filtry włączają się tylko do aktywnych uzależnień
 • powiadomienia o podglądzie pożaru, gdy umożliwia przełączanie się uzależnienia
-• Napraw to, co nowego dziennika i zapobiec przyszłych duplikatów
 • Napraw dynamiczne wysokości kart, płaski bar wyszukiwania, krótsze powiadomienia

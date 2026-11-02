@@ -1,2 +1,0 @@
-• Android ビルドを修正
-• Windows ビルドで MSVC の experimental coroutine 非推奨警告を抑制

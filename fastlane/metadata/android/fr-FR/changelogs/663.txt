@@ -1,3 +1,2 @@
 • Ajoute un thème noir pur
 • Inclut les entrées personnalisées dans les notifications
-• Supprime in_app_review

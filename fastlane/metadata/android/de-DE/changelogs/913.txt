@@ -1,2 +1,0 @@
-• Fehlenden Content-Type-Header zum Azure-Abschluss hinzugefügt
-• Deployment-Skript bereinigt

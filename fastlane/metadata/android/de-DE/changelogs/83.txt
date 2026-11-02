@@ -1,3 +1,1 @@
-• Fehlende Imports zu build.gradle.kts hinzugefügt
 • Datenschutzerklärung hinzugefügt
-• Release-Builds werden signiert

@@ -1,3 +1,2 @@
 • Meilensteinkarten sind jetzt vollständig antippbar
 • Arabisch, Indonesisch sowie brasilianisches und europäisches Portugiesisch hinzugefügt
-• Android-Build und Abhängigkeitsverwaltung verbessert

@@ -1,2 +1,0 @@
-• ساخت Android اصلاح شد
-• هشدار منسوخ‌شدن coroutine آزمایشی MSVC در ساخت Windows سرکوب شد

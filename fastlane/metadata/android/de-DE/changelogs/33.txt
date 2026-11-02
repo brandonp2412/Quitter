@@ -1,2 +1,0 @@
-• Android-Build-Schritt korrigiert
-• Build unter Linux korrigiert

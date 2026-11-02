@@ -1,2 +1,0 @@
-• 修復 Android 構建
-• Windows 構建中抑制 MSVC experimental coroutine 棄用錯誤

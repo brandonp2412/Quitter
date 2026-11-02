@@ -1,2 +1,0 @@
-• Fix build android stage
-• Fix building for linux

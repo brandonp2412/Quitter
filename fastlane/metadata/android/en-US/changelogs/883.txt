@@ -1,4 +1,2 @@
 • Add PIN timeout
-• Fix azure rollout finalization
 • Fix locking timeout
-• Fix unit tests

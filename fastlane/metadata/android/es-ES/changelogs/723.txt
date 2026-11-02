@@ -1,6 +1,4 @@
 • Añade pestaña de diario
 • Añade paginación a la página del diario
-• Alterna temas en las capturas
 • Corrige el desplazamiento en el diario
 • Coloca las pestañas en la barra de la aplicación
-• Elimina imports sin usar

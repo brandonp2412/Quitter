@@ -1,2 +1,1 @@
-• localize Play listing dan tangkapan layar
 • localize web metadata dan privasi policy

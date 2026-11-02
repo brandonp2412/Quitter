@@ -1,2 +1,1 @@
-• ลดการบันทึกใน gradle build
 • Restyle หน้าแรก

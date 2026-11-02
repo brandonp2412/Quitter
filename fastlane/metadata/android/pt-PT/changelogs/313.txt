@@ -1,2 +1,1 @@
-• Correção na criação de versões do github
 • Remover a coloração da barra de aplicações

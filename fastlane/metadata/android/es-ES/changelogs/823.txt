@@ -1,3 +1,1 @@
 • Corrige la apariencia del modo oscuro en journal_page.dart
-• Reformatea lib
-• Elimina la instalación de yq de deploy.sh

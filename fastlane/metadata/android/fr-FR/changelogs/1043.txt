@@ -1,4 +1,3 @@
 • Ajoute le suivi de l’addiction à la cocaïne
-• Ajoute le badge « Disponible sur F-Droid »
 • Ajoute le suivi de la méthamphétamine
 • Ajoute une barre de recherche

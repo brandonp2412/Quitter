@@ -1,3 +1,2 @@
 • Adicionar datas à lista final
-• Assine builds somente se as chaves existirem
 • Atualizar dias com foco no aplicação

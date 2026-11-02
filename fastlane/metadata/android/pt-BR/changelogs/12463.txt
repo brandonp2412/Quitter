@@ -1,2 +1,1 @@
 • Corrigir cobertura completa de localização nativa
-• Correção da localização das notas de versão mais recentes

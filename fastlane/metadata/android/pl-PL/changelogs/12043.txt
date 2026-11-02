@@ -1,5 +1,4 @@
 • Zmień kolory edytowania usuń przy rzucaniu kart
-• Błąd właściwości gradle &apos; a
 • Napraw błąd strony dziennika
 • Popraw lewy wyściełacz na stronie głównej wyszukiwania
 • przenieś ustawienia do przycisku wewnątrz paska wyszukiwania

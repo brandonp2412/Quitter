@@ -1,4 +1,3 @@
-• localize 1.1.63 rilis notes
 • Perbaiki clean Spanish alcohol dan kratom milestones
 • Perbaiki complete Spanish GHB milestone translations
 • Perbaiki complete Spanish MAOI milestone translations

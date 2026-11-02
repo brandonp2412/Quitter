@@ -1,3 +1,1 @@
-• Añade imports que faltaban a build.gradle.kts
 • Añade la política de privacidad
-• Firma las compilaciones de lanzamiento

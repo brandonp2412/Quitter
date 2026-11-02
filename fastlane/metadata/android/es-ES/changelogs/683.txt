@@ -6,4 +6,3 @@
 • Mejora el contraste de color de los iconos
 • Hace coherentes los colores de contraste
 • Actualiza diariamente los widgets de inicio
-• Refactoriza plantillas de páginas

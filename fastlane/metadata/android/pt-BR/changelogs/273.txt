@@ -1,2 +1,1 @@
-• Reduzir o registro no gradle build
 • Reestilizar a página inicial

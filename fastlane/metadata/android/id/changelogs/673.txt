@@ -1,1 +1,0 @@
-• Tambahkan missing icon.png untuk fastlane folder

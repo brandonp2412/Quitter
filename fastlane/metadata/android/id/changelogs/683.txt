@@ -6,4 +6,3 @@
 • Tingkatkan icon color contrast
 • Make contrast colors consistent
 • Make homescreen widgets Perbarui daily
-• Refactor halaman templates

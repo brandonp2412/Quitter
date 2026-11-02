@@ -1,2 +1,0 @@
-• แก้ไขบิลด์ Android
-• แก้ไขข้อผิดพลาดการเลิกใช้ Coroutine แบบทดลองของ MSVC สำหรับ Windows build

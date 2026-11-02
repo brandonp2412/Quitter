@@ -1,4 +1,2 @@
 • Ajoute les notifications
 • Ajuste le défilement pour l’alcool et le vapotage
-• Corrige la configuration de Flutter pour build-android
-• Corrige du code bancal dans la page des paramètres

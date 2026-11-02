@@ -1,2 +1,0 @@
-• Dodaj brakujący nagłówek typu Content- Type do azure finalizacji
-• Oczyść skrypt wdrożenia

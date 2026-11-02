@@ -1,4 +1,2 @@
 • Abschnittsüberschrift zu „Über“ hinzugefügt
-• Änderungsprotokoll in GitHub-Release-Notes eingebettet
 • Links auf der Infoseite korrigiert
-• Protokollausgabe bei Deployments reduziert

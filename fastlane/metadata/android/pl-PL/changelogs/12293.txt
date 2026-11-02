@@ -1,2 +1,0 @@
-• Fix F- Droid Lockfile odtwarzalność
-• Harden Patrol testuje czas

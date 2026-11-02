@@ -1,3 +1,0 @@
-• Perbaiki creating github rilis
-• Push at  end dari deploy.sh
-• Run screenshotting locally

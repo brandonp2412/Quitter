@@ -1,3 +1,0 @@
-• Napraw tworzenie github wydania
-• Przyj na koniec rozmieszczania.sh
-• Uruchom skanowanie lokalnie

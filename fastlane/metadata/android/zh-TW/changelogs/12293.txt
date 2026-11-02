@@ -1,2 +1,0 @@
-• 修復 F-Droid lockfile 可復現性
-• 提高 Patrol 測試對時序波動的容錯

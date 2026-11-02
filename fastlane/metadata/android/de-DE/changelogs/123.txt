@@ -1,1 +1,0 @@
-• ABI-Aufteilung direkt in build.gradle.kts integriert

@@ -1,2 +1,1 @@
-• Réduit les journaux lors de la compilation Gradle
 • Restyle la page d’accueil

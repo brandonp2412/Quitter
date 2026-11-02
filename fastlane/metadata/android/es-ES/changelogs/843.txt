@@ -1,3 +1,1 @@
-• Formatea lib/main.dart
-• Elimina la configuración de la ruta del SDK de Flutter de VS Code
 • Permanece en ajustes al activar o desactivar la página del diario

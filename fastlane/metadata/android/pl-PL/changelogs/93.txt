@@ -1,3 +1,0 @@
-• Napraw kody wersji podzielonych konopi
-• Generuj zrzuty ekranu dla wszystkich ekranów
-• Dopasuj kolory aplikacji do identyfikatorów
