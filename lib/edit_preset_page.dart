@@ -117,15 +117,6 @@ class _EditPresetPageState extends State<EditPresetPage> {
                       return InputDecorator(
                         decoration: InputDecoration(
                           labelText: l10n.editEntryColor,
-                          suffixIcon: IconButton(
-                            tooltip: l10n.quitResetButton,
-                            icon: const Icon(Icons.restore),
-                            onPressed: () => setState(() {
-                              _selectedColor =
-                                  widget.defaultColor ?? widget.color;
-                              _resetColor = true;
-                            }),
-                          ),
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -152,6 +143,17 @@ class _EditPresetPageState extends State<EditPresetPage> {
                     },
                   ),
                 ),
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: TextButton.icon(
+                    onPressed: () => setState(() {
+                      _selectedColor = widget.defaultColor ?? widget.color;
+                      _resetColor = true;
+                    }),
+                    icon: const Icon(Icons.restore),
+                    label: Text(l10n.quitResetButton),
+                  ),
+                ),
                 const SizedBox(height: 20),
                 FocusableActionDetector(
                   child: Builder(
@@ -160,14 +162,6 @@ class _EditPresetPageState extends State<EditPresetPage> {
                       return InputDecorator(
                         decoration: InputDecoration(
                           labelText: l10n.editEntryIcon,
-                          suffixIcon: IconButton(
-                            tooltip: l10n.quitResetButton,
-                            icon: const Icon(Icons.restore),
-                            onPressed: () => setState(() {
-                              _selectedIcon = widget.defaultIcon ?? widget.icon;
-                              _resetIcon = true;
-                            }),
-                          ),
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -193,6 +187,17 @@ class _EditPresetPageState extends State<EditPresetPage> {
                         ),
                       );
                     },
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: TextButton.icon(
+                    onPressed: () => setState(() {
+                      _selectedIcon = widget.defaultIcon ?? widget.icon;
+                      _resetIcon = true;
+                    }),
+                    icon: const Icon(Icons.restore),
+                    label: Text(l10n.quitResetButton),
                   ),
                 ),
               ],

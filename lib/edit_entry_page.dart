@@ -204,15 +204,6 @@ class _EditEntryPageState extends State<EditEntryPage> {
                           labelText: AppLocalizations.of(
                             context,
                           )!.editEntryColor,
-                          suffixIcon: IconButton(
-                            tooltip: AppLocalizations.of(
-                              context,
-                            )!.quitResetButton,
-                            icon: const Icon(Icons.restore),
-                            onPressed: () => setState(() {
-                              _selectedColor = Colors.blue;
-                            }),
-                          ),
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -238,6 +229,16 @@ class _EditEntryPageState extends State<EditEntryPage> {
                     },
                   ),
                 ),
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: TextButton.icon(
+                    onPressed: () => setState(() {
+                      _selectedColor = Colors.blue;
+                    }),
+                    icon: const Icon(Icons.restore),
+                    label: Text(AppLocalizations.of(context)!.quitResetButton),
+                  ),
+                ),
                 const SizedBox(height: 20),
                 FocusableActionDetector(
                   onFocusChange: (hasFocus) {
@@ -251,15 +252,6 @@ class _EditEntryPageState extends State<EditEntryPage> {
                           labelText: AppLocalizations.of(
                             context,
                           )!.editEntryIcon,
-                          suffixIcon: IconButton(
-                            tooltip: AppLocalizations.of(
-                              context,
-                            )!.quitResetButton,
-                            icon: const Icon(Icons.restore),
-                            onPressed: () => setState(() {
-                              _selectedIcon = Icons.star;
-                            }),
-                          ),
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -284,6 +276,16 @@ class _EditEntryPageState extends State<EditEntryPage> {
                         ),
                       );
                     },
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: TextButton.icon(
+                    onPressed: () => setState(() {
+                      _selectedIcon = Icons.star;
+                    }),
+                    icon: const Icon(Icons.restore),
+                    label: Text(AppLocalizations.of(context)!.quitResetButton),
                   ),
                 ),
               ],
