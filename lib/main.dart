@@ -213,6 +213,11 @@ class _QuitterAppState extends State<QuitterApp>
               theme: ThemeData(
                 colorScheme: lightColorScheme,
                 useMaterial3: true,
+                sliderTheme: const SliderThemeData(
+                  trackHeight: 3,
+                  thumbShape: RoundSliderThumbShape(enabledThumbRadius: 7),
+                  overlayShape: RoundSliderOverlayShape(overlayRadius: 14),
+                ),
                 popupMenuTheme: const PopupMenuThemeData(
                   menuPadding: EdgeInsets.zero,
                 ),
@@ -220,6 +225,11 @@ class _QuitterAppState extends State<QuitterApp>
               darkTheme: ThemeData(
                 colorScheme: darkColorScheme,
                 useMaterial3: true,
+                sliderTheme: const SliderThemeData(
+                  trackHeight: 3,
+                  thumbShape: RoundSliderThumbShape(enabledThumbRadius: 7),
+                  overlayShape: RoundSliderOverlayShape(overlayRadius: 14),
+                ),
                 popupMenuTheme: const PopupMenuThemeData(
                   menuPadding: EdgeInsets.zero,
                 ),
