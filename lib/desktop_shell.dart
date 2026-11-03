@@ -69,6 +69,7 @@ class DesktopShell extends StatelessWidget {
                       padding: const EdgeInsets.all(20),
                       child: TextButton.icon(
                         style: TextButton.styleFrom(
+                          foregroundColor: colors.onSurface,
                           alignment: AlignmentDirectional.centerStart,
                           padding: const EdgeInsets.all(16),
                         ),
