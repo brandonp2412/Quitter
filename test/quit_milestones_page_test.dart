@@ -66,6 +66,85 @@ void main() {
     expect(persisted, DateTime(2020, 1, 10));
     expect(find.byType(DatePickerDialog), findsNothing);
   });
+  testWidgets('desktop milestone opening scrolls smoothly to progress', (
+    tester,
+  ) async {
+    tester.view.physicalSize = const Size(1440, 800);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+
+    final quitDate = DateTime.now().subtract(const Duration(days: 108));
+    SharedPreferences.setMockInitialValues({
+      'alcohol': quitDate.toIso8601String(),
+    });
+    final settings = SettingsProvider();
+    await settings.loadPreferences();
+    final addictions = AddictionProvider();
+    await addictions.loadAddictions();
+    final milestones = List.generate(
+      24,
+      (index) => QuitMilestone(
+        day: index * 7 + 1,
+        title: 'Milestone $index',
+        description: 'Recovery progress for this milestone.',
+        reference: 'Source',
+        link: 'https://example.com',
+        referenceContent: 'Benefits',
+      ),
+    );
+
+    await tester.pumpWidget(
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider.value(value: settings),
+          ChangeNotifierProvider.value(value: addictions),
+        ],
+        child: MaterialApp(
+          localizationsDelegates: const [
+            AppLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
+          supportedLocales: AppLocalizations.supportedLocales,
+          home: QuitMilestonesPage(
+            title: 'Alcohol',
+            storageKey: 'alcohol',
+            milestones: milestones,
+            headerStarted: 'Started',
+            headerNotStarted: 'Not started',
+            subtitleStarted: 'Started subtitle',
+            subtitleNotStarted: 'Not started subtitle',
+            initialStarted: true,
+          ),
+        ),
+      ),
+    );
+
+    final scroll = tester.widget<Scrollbar>(find.byType(Scrollbar)).controller!;
+    expect(scroll.offset, 0);
+    await tester.pump(const Duration(milliseconds: 100));
+    final early = scroll.offset;
+    await tester.pump(const Duration(milliseconds: 200));
+    final middle = scroll.offset;
+    await tester.pump(const Duration(milliseconds: 300));
+    final late = scroll.offset;
+    await tester.pumpAndSettle();
+    final end = scroll.offset;
+
+    expect(end, greaterThan(1000));
+    expect(early, greaterThanOrEqualTo(0));
+    expect(early, lessThan(end * 0.12));
+    expect(middle, greaterThan(early));
+    expect(late, greaterThan(middle));
+    expect(late, lessThan(end));
+    expect(
+      tester.getTopLeft(find.text('Milestone 15')).dy,
+      inInclusiveRange(0, 800),
+    );
+  });
+
   for (final width in [1000.0, 1440.0]) {
     testWidgets('desktop milestones keep summary beside timeline at $width', (
       tester,

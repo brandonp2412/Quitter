@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
@@ -81,15 +82,36 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
           ? (nextIndex == -1 ? widget.milestones.length - 1 : 0)
           : nextIndex - 1;
       WidgetsBinding.instance.addPostFrameCallback((_) {
-        final ctx = _targetTileKey.currentContext;
-        if (ctx != null && mounted) {
+        final target = _targetTileKey.currentContext?.findRenderObject();
+        if (!mounted || target == null || !_scroll.hasClients) return;
+
+        final desktop = MediaQuery.sizeOf(context).width >= 1000;
+        if (!desktop) {
           Scrollable.ensureVisible(
-            ctx,
+            _targetTileKey.currentContext!,
             alignment: 0.1,
             duration: const Duration(milliseconds: 500),
             curve: Curves.easeOut,
           );
+          return;
         }
+
+        final position = _scroll.position;
+        final destination = RenderAbstractViewport.of(target)
+            .getOffsetToReveal(target, 0.1)
+            .offset
+            .clamp(position.minScrollExtent, position.maxScrollExtent);
+        final distance = (destination - position.pixels).abs();
+        if (distance < 1) return;
+
+        final durationMs = (600 + distance / position.viewportDimension * 180)
+            .round()
+            .clamp(650, 1400);
+        _scroll.animateTo(
+          destination,
+          duration: Duration(milliseconds: durationMs),
+          curve: Curves.easeInOutSine,
+        );
       });
     }
   }
