@@ -201,8 +201,6 @@ class _SettingsPageState extends State<SettingsPage> {
     final path = await FilePicker.saveFile(
       dialogTitle: l10n.settingsExportSaveDialog,
       fileName: 'quitter-$timestamp.json',
-      type: FileType.custom,
-      allowedExtensions: ['json'],
       bytes: Uint8List.fromList(utf8.encode(json)),
     );
 
@@ -238,10 +236,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Future<void> _importData(BuildContext context) async {
     final l10n = AppLocalizations.of(context)!;
-    final result = await FilePicker.pickFiles(
-      type: FileType.custom,
-      allowedExtensions: ['json'],
-    );
+    final result = await FilePicker.pickFiles();
     if (result.isEmpty) return;
 
     try {
