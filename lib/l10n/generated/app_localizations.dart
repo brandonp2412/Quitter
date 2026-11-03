@@ -207,7 +207,7 @@ abstract class AppLocalizations {
   /// Description for the kratom recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A week through the rough patch of kratom withdrawal. That\'s the hardest part handled.'**
+  /// **'The rough patch of kratom withdrawal is behind you. That\'s the hardest part handled.'**
   String get kratomMilestone7Description;
 
   /// Title for the kratom recovery milestone at 14 days.
@@ -849,7 +849,7 @@ abstract class AppLocalizations {
   /// Description for the synthetic cannabinoids recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A week through the worst of synthetic cannabinoid withdrawal. That\'s the hardest part handled.'**
+  /// **'The worst of synthetic cannabinoid withdrawal is behind you. That\'s the hardest part handled.'**
   String get synthetic_cannabinoidsMilestone7Description;
 
   /// Title for the synthetic cannabinoids recovery milestone at 14 days.
@@ -1611,7 +1611,7 @@ abstract class AppLocalizations {
   /// Description for the meth recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A week through the worst of meth withdrawal. That\'s the hardest part handled, and it only gets easier from here.'**
+  /// **'The worst of meth withdrawal is behind you. And it only gets easier from here.'**
   String get methMilestone7Description;
 
   /// Title for the meth recovery milestone at 30 days.
@@ -4059,7 +4059,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 7 description
   ///
   /// In en, this message translates to:
-  /// **'A week through the peak of opioid withdrawal. That\'s the hardest part handled.'**
+  /// **'The peak of opioid withdrawal is behind you. That\'s the hardest part handled.'**
   String get opioidMilestone7Description;
 
   /// Opioid milestone day 14 title
