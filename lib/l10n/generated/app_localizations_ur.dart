@@ -1270,6 +1270,9 @@ class AppLocalizationsUr extends AppLocalizations {
   String get stopTracking => 'نکالو';
 
   @override
+  String get homeCardEdit => 'ترمیم کریں';
+
+  @override
   String get addAddictionTitle => 'اصلاح کرنا';
 
   @override

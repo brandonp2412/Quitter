@@ -1286,6 +1286,9 @@ class AppLocalizationsPl extends AppLocalizations {
   String get stopTracking => 'Usuń';
 
   @override
+  String get homeCardEdit => 'Edytuj';
+
+  @override
   String get addAddictionTitle => 'Śledź addycję';
 
   @override

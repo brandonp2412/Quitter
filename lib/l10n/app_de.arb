@@ -708,6 +708,7 @@
   "@stopTrackingDialogMessage": {"description": "Message for stop tracking confirmation dialog"},
   "stopTracking": "Entfernen",
   "@stopTracking": {"description": "Remove button text in stop tracking dialog"},
+  "homeCardEdit": "Bearbeiten",
   "addAddictionTitle": "Verfolge eine Sucht",
   "@addAddictionTitle": {"description": "Title for the add addiction picker page"},
   "addAddictionCustom": "Zoll",

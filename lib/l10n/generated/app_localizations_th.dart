@@ -1264,6 +1264,9 @@ class AppLocalizationsTh extends AppLocalizations {
   String get stopTracking => 'ลบ';
 
   @override
+  String get homeCardEdit => 'แก้ไข';
+
+  @override
   String get addAddictionTitle => 'ติดตามการติดยาเสพติด';
 
   @override

@@ -876,6 +876,10 @@
   "@stopTracking": {
     "description": "Remove button text in stop tracking dialog"
   },
+  "homeCardEdit": "Edit",
+  "@homeCardEdit": {
+    "description": "Desktop card context menu action for editing a tracked addiction"
+  },
   "addAddictionTitle": "Track an Addiction",
   "@addAddictionTitle": {
     "description": "Title for the add addiction picker page"

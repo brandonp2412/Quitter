@@ -1225,6 +1225,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get stopTracking => '删除';
 
   @override
+  String get homeCardEdit => '编辑';
+
+  @override
   String get addAddictionTitle => '追踪一个成瘾';
 
   @override
@@ -5584,6 +5587,9 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get stopTracking => '刪除';
+
+  @override
+  String get homeCardEdit => '編輯';
 
   @override
   String get addAddictionTitle => '追蹤一個成癮';

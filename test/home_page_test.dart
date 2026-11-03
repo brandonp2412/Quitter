@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -29,7 +30,7 @@ void main() {
     await addictionProvider.loadAddictions();
   });
 
-  Widget createTestWidget() {
+  Widget createTestWidget({TargetPlatform platform = TargetPlatform.android}) {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider<SettingsProvider>.value(value: settingsProvider),
@@ -37,15 +38,16 @@ void main() {
           value: addictionProvider,
         ),
       ],
-      child: const MaterialApp(
-        localizationsDelegates: [
+      child: MaterialApp(
+        theme: ThemeData(platform: platform),
+        localizationsDelegates: const [
           AppLocalizations.delegate,
           GlobalMaterialLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate,
           GlobalCupertinoLocalizations.delegate,
         ],
         supportedLocales: AppLocalizations.supportedLocales,
-        home: HomePage(),
+        home: const HomePage(),
       ),
     );
   }
@@ -139,13 +141,13 @@ void main() {
       await tester.longPress(find.text('Alcohol'));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.byIcon(Icons.close));
+      await tester.tap(find.byIcon(Icons.delete_outline));
       await tester.pumpAndSettle();
 
       expect(find.text('Stop tracking Alcohol?'), findsOneWidget);
     });
 
-    testWidgets('should show stop tracking sheet when X icon is tapped', (
+    testWidgets('should show stop tracking sheet when trash icon is tapped', (
       WidgetTester tester,
     ) async {
       SharedPreferences.setMockInitialValues({'alcohol': '2024-01-01'});
@@ -158,7 +160,7 @@ void main() {
       await tester.longPress(find.text('Alcohol'));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.byIcon(Icons.close));
+      await tester.tap(find.byIcon(Icons.delete_outline));
       await tester.pumpAndSettle();
 
       expect(find.text('Stop tracking Alcohol?'), findsOneWidget);
@@ -179,7 +181,7 @@ void main() {
       await tester.longPress(find.text('Alcohol'));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.byIcon(Icons.close));
+      await tester.tap(find.byIcon(Icons.delete_outline));
       await tester.pumpAndSettle();
 
       await tester.tap(find.text('Cancel'));
@@ -202,12 +204,84 @@ void main() {
       await tester.longPress(find.text('Alcohol'));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.byIcon(Icons.close));
+      await tester.tap(find.byIcon(Icons.delete_outline));
       await tester.pumpAndSettle();
 
       await tester.tap(find.text('Remove'));
       await tester.pumpAndSettle();
       expect(find.text('Alcohol'), findsNothing);
+    });
+  });
+
+  group('HomePage Desktop Card Tests', () {
+    setUp(() async {
+      SharedPreferences.setMockInitialValues({
+        'alcohol': '2024-01-01',
+        'vaping': '2024-01-01',
+      });
+      addictionProvider = AddictionProvider();
+      await addictionProvider.loadAddictions();
+    });
+
+    Future<void> rightClick(WidgetTester tester, String title) async {
+      final gesture = await tester.startGesture(
+        tester.getCenter(find.text(title)),
+        kind: PointerDeviceKind.mouse,
+        buttons: kSecondaryMouseButton,
+      );
+      await gesture.up();
+      await tester.pumpAndSettle();
+    }
+
+    testWidgets('right-click offers edit and remove without edit mode', (
+      WidgetTester tester,
+    ) async {
+      await tester.pumpWidget(createTestWidget(platform: TargetPlatform.linux));
+      await tester.pumpAndSettle();
+
+      await rightClick(tester, 'Alcohol');
+
+      expect(find.text('Edit'), findsOneWidget);
+      expect(find.text('Remove'), findsOneWidget);
+      expect(find.byIcon(Icons.check), findsNothing);
+      await tester.tap(find.text('Edit'));
+      await tester.pumpAndSettle();
+      expect(find.text('Edit entry'), findsOneWidget);
+    });
+
+    testWidgets('right-click remove confirms before deleting', (
+      WidgetTester tester,
+    ) async {
+      await tester.pumpWidget(createTestWidget(platform: TargetPlatform.linux));
+      await tester.pumpAndSettle();
+
+      await rightClick(tester, 'Alcohol');
+      await tester.tap(find.text('Remove'));
+      await tester.pumpAndSettle();
+
+      expect(find.text('Stop tracking Alcohol?'), findsOneWidget);
+      expect(find.text('Alcohol'), findsOneWidget);
+    });
+
+    testWidgets('long-press dragging reorders without edit controls', (
+      WidgetTester tester,
+    ) async {
+      await tester.pumpWidget(createTestWidget(platform: TargetPlatform.linux));
+      await tester.pumpAndSettle();
+
+      final drag = await tester.startGesture(
+        tester.getCenter(find.text('Alcohol')),
+        kind: PointerDeviceKind.mouse,
+      );
+      await tester.pump(kLongPressTimeout + const Duration(milliseconds: 100));
+      await drag.moveTo(tester.getCenter(find.text('Vaping')));
+      await tester.pump(const Duration(milliseconds: 700));
+      await drag.up();
+      await tester.pumpAndSettle();
+
+      expect(addictionProvider.cardOrder, ['vaping', 'alcohol']);
+      expect(find.byIcon(Icons.check), findsNothing);
+      expect(find.byIcon(Icons.delete_outline), findsNothing);
     });
   });
 

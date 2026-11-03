@@ -1289,6 +1289,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get stopTracking => 'Удалить';
 
   @override
+  String get homeCardEdit => 'Изменить';
+
+  @override
   String get addAddictionTitle => 'Отследить зависимость';
 
   @override

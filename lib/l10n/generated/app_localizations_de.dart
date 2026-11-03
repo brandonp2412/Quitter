@@ -1284,6 +1284,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get stopTracking => 'Entfernen';
 
   @override
+  String get homeCardEdit => 'Bearbeiten';
+
+  @override
   String get addAddictionTitle => 'Verfolge eine Sucht';
 
   @override

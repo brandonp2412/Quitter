@@ -876,6 +876,7 @@
   "@stopTracking": {
     "description": "Remove button text in stop tracking dialog"
   },
+  "homeCardEdit": "Editar",
   "addAddictionTitle": "Seguir una adicción",
   "@addAddictionTitle": {
     "description": "Title for the add addiction picker page"

@@ -1282,6 +1282,9 @@ class AppLocalizationsPt extends AppLocalizations {
   String get stopTracking => 'Remover';
 
   @override
+  String get homeCardEdit => 'Editar';
+
+  @override
   String get addAddictionTitle => 'Acompanhar um vício';
 
   @override
@@ -5819,6 +5822,9 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get stopTracking => 'Remover';
+
+  @override
+  String get homeCardEdit => 'Editar';
 
   @override
   String get addAddictionTitle => 'Rastrear um vício';

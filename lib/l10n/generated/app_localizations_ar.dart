@@ -1260,6 +1260,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get stopTracking => 'يزيل';
 
   @override
+  String get homeCardEdit => 'تعديل';
+
+  @override
   String get addAddictionTitle => 'تتبع الإدمان';
 
   @override

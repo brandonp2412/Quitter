@@ -1285,6 +1285,9 @@ class AppLocalizationsId extends AppLocalizations {
   String get stopTracking => 'Hapus';
 
   @override
+  String get homeCardEdit => 'Sunting';
+
+  @override
   String get addAddictionTitle => 'Melacak Kecanduan';
 
   @override

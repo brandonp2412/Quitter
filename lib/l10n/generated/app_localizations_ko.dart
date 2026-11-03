@@ -1238,6 +1238,9 @@ class AppLocalizationsKo extends AppLocalizations {
   String get stopTracking => '제거하다';
 
   @override
+  String get homeCardEdit => '편집';
+
+  @override
   String get addAddictionTitle => '중독 추적';
 
   @override

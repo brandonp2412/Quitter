@@ -2250,6 +2250,12 @@ abstract class AppLocalizations {
   /// **'Remove'**
   String get stopTracking;
 
+  /// Desktop card context menu action for editing a tracked addiction
+  ///
+  /// In en, this message translates to:
+  /// **'Edit'**
+  String get homeCardEdit;
+
   /// Title for the add addiction picker page
   ///
   /// In en, this message translates to:

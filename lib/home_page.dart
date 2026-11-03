@@ -44,6 +44,8 @@ import 'package:quitter/whats_new.dart';
 import 'package:reorderable_grid_view/reorderable_grid_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+enum _CardAction { edit, remove }
+
 class _CardData {
   const _CardData({
     required this.key,
@@ -554,6 +556,58 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     return cards;
   }
 
+  Future<void> _showCardContextMenu(Offset position, _CardData card) async {
+    final overlay =
+        Overlay.of(context).context.findRenderObject()! as RenderBox;
+    final point = overlay.globalToLocal(position);
+    final l10n = AppLocalizations.of(context)!;
+    final action = await showMenu<_CardAction>(
+      context: context,
+      position: RelativeRect.fromLTRB(
+        point.dx,
+        point.dy,
+        overlay.size.width - point.dx,
+        overlay.size.height - point.dy,
+      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      items: [
+        PopupMenuItem(
+          value: _CardAction.edit,
+          child: Row(
+            children: [
+              const Icon(Icons.edit_outlined, size: 20),
+              const SizedBox(width: 12),
+              Text(l10n.homeCardEdit),
+            ],
+          ),
+        ),
+        PopupMenuItem(
+          value: _CardAction.remove,
+          child: Row(
+            children: [
+              Icon(
+                Icons.delete_outline,
+                size: 20,
+                color: Theme.of(context).colorScheme.error,
+              ),
+              const SizedBox(width: 12),
+              Text(l10n.stopTracking),
+            ],
+          ),
+        ),
+      ],
+    );
+    if (!mounted) return;
+    switch (action) {
+      case _CardAction.edit:
+        card.onRename();
+      case _CardAction.remove:
+        card.onDelete();
+      case null:
+        break;
+    }
+  }
+
   List<_CardData> _sortByOrder(List<_CardData> cards, List<String> order) {
     if (order.isEmpty) return cards;
     final indexMap = {for (var i = 0; i < order.length; i++) order[i]: i};
@@ -567,6 +621,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
+    final isDesktop = switch (Theme.of(context).platform) {
+      TargetPlatform.linux ||
+      TargetPlatform.macOS ||
+      TargetPlatform.windows => true,
+      _ => false,
+    };
     return PopScope(
       canPop: !_isEditMode,
       onPopInvokedWithResult: (didPop, result) {
@@ -710,7 +770,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                           physics: const NeverScrollableScrollPhysics(),
                           dragEnabled: _searchQuery.isEmpty,
                           onDragStart: (_) {
-                            setState(() => _isEditMode = true);
+                            if (!isDesktop) setState(() => _isEditMode = true);
                           },
                           onReorder: (oldIndex, newIndex) {
                             if (_searchQuery.isNotEmpty) return;
@@ -728,11 +788,21 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                                 icon: data.icon,
                                 gradientColors: data.gradientColors,
                                 quitDate: data.quitDate,
-                                onTap: _isEditMode
+                                onTap: !isDesktop && _isEditMode
                                     ? () => setState(() => _isEditMode = false)
                                     : data.onTap,
-                                onDelete: _isEditMode ? data.onDelete : null,
-                                onRename: _isEditMode ? data.onRename : null,
+                                onDelete: !isDesktop && _isEditMode
+                                    ? data.onDelete
+                                    : null,
+                                onRename: !isDesktop && _isEditMode
+                                    ? data.onRename
+                                    : null,
+                                onSecondaryTapDown: isDesktop
+                                    ? (details) => _showCardContextMenu(
+                                        details.globalPosition,
+                                        data,
+                                      )
+                                    : null,
                               ),
                             );
                           }).toList(),
@@ -745,7 +815,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
             ),
           ],
         ),
-        floatingActionButton: _isEditMode
+        floatingActionButton: !isDesktop && _isEditMode
             ? FloatingActionButton.extended(
                 onPressed: () => setState(() => _isEditMode = false),
                 label: Text(l10n.done),

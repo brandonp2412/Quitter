@@ -1226,6 +1226,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get stopTracking => '削除';
 
   @override
+  String get homeCardEdit => '編集';
+
+  @override
   String get addAddictionTitle => '依存症を追跡する';
 
   @override

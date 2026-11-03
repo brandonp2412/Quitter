@@ -876,6 +876,7 @@
   "@stopTracking": {
     "description": "Remove button text in stop tracking dialog"
   },
+  "homeCardEdit": "編輯",
   "addAddictionTitle": "追蹤一個成癮",
   "@addAddictionTitle": {
     "description": "Title for the add addiction picker page"

@@ -15,6 +15,7 @@ class QuitCard extends StatelessWidget {
     required this.onTap,
     this.onDelete,
     this.onRename,
+    this.onSecondaryTapDown,
   });
 
   final String title;
@@ -29,6 +30,8 @@ class QuitCard extends StatelessWidget {
 
   /// When non-null, shows a rename badge in the top-right corner.
   final VoidCallback? onRename;
+
+  final GestureTapDownCallback? onSecondaryTapDown;
 
   @override
   Widget build(BuildContext context) {
@@ -60,6 +63,7 @@ class QuitCard extends StatelessWidget {
           ),
           child: InkWell(
             onTap: onTap,
+            onSecondaryTapDown: onSecondaryTapDown,
             borderRadius: BorderRadius.circular(20),
             splashColor: Colors.white.withAlpha(76),
             highlightColor: Colors.white.withAlpha(25),
@@ -184,7 +188,11 @@ class QuitCard extends StatelessWidget {
                   color: gradientColors.last,
                   shape: BoxShape.circle,
                 ),
-                child: const Icon(Icons.close, color: Colors.white, size: 16),
+                child: const Icon(
+                  Icons.delete_outline,
+                  color: Colors.white,
+                  size: 16,
+                ),
               ),
             ),
           ),

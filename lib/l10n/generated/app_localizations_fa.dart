@@ -1263,6 +1263,9 @@ class AppLocalizationsFa extends AppLocalizations {
   String get stopTracking => 'حذف';
 
   @override
+  String get homeCardEdit => 'ویرایش';
+
+  @override
   String get addAddictionTitle => 'پیگیری یک عادت';
 
   @override
