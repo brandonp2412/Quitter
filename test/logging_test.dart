@@ -53,4 +53,17 @@ void main() {
         .first;
     expect(border.length, 111);
   });
+
+  test('test logs keep warnings and errors without routine noise', () {
+    for (final key in [TalkerKey.debug, TalkerKey.info, TalkerKey.verbose]) {
+      expect(talker.filter.filter(TalkerLog('routine', key: key)), isFalse);
+    }
+    for (final key in [
+      TalkerKey.warning,
+      TalkerKey.error,
+      TalkerKey.critical,
+    ]) {
+      expect(talker.filter.filter(TalkerLog('important', key: key)), isTrue);
+    }
+  });
 }
