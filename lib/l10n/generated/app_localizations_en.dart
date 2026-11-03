@@ -67,49 +67,49 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get kratomMilestone30Description =>
-      'A month without kratom. Your sleep, appetite and mood have had time to rebuild without the substance steering them.';
+      'Your sleep, appetite and mood have had time to rebuild without the substance steering them.';
 
   @override
   String get kratomMilestone90Title => 'Three months clear';
 
   @override
   String get kratomMilestone90Description =>
-      'Three months without kratom, which means three months of your body running on its own schedule again.';
+      'Your body is running on its own schedule again, with kratom no longer setting the pace.';
 
   @override
   String get kratomMilestone365Title => 'A year without kratom';
 
   @override
   String get kratomMilestone365Description =>
-      'A full year without kratom, through the situations that used to bring it out.';
+      'The situations that used to trigger kratom use no longer set your agenda.';
 
   @override
   String get kratomMilestone730Title => 'Two years';
 
   @override
   String get kratomMilestone730Description =>
-      'Two years without kratom. The routine has been rebuilt, and the habit has had to find new footing without it.';
+      'The routine has been rebuilt, and the habit has had to find new footing without it.';
 
   @override
   String get kratomMilestone1095Title => 'Three years of your own';
 
   @override
   String get kratomMilestone1095Description =>
-      'Three years kratom-free. That\'s a long time to keep your body and routine independent of it.';
+      'That\'s a long time to keep your body and routine independent of it.';
 
   @override
   String get kratomMilestone1460Title => 'Four years, still clear';
 
   @override
   String get kratomMilestone1460Description =>
-      'Four years without kratom. The old habit is a footnote to how you live now.';
+      'The old habit is a footnote to how you live now.';
 
   @override
   String get kratomMilestone1825Title => 'Five years';
 
   @override
   String get kratomMilestone1825Description =>
-      'Five years clear of kratom, through stress, changes and ordinary Tuesdays.';
+      'You\'ve stayed clear through stress, change and ordinary life.';
 
   @override
   String get gabapentinoidsPageTitle => 'Gabapentinoids';
@@ -178,7 +178,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ghbMilestone7Description =>
-      'A full week through the most acute danger window is serious work, with medical support where it was needed.';
+      'You\'ve made it through the most acute danger window, with medical support where it was needed.';
 
   @override
   String get ghbMilestone14Title => 'Two weeks clear';
@@ -192,21 +192,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ghbMilestone30Description =>
-      'A month in, the body\'s had time to start repairing the damage GHB does to the nervous system.';
+      'Your nervous system has had time to begin recovering from the effects of GHB.';
 
   @override
   String get ghbMilestone90Title => 'Three months on';
 
   @override
   String get ghbMilestone90Description =>
-      'Three months without GHB. The acute phase is well behind you now, and the steadier gains can start to show.';
+      'The acute phase is well behind you now, and the steadier gains can start to show.';
 
   @override
   String get ghbMilestone180Title => 'Half a year clear';
 
   @override
   String get ghbMilestone180Description =>
-      'Half a year of recovery from a substance that punishes inconsistency. You\'ve shown you can be consistent.';
+      'You\'ve shown consistency in recovering from a substance that can make it hard to maintain.';
 
   @override
   String get ketaminePageTitle => 'Ketamine Recovery';
@@ -243,7 +243,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ketamineMilestone7Description =>
-      'A full week without ketamine, through the early low and the cravings.';
+      'You\'ve navigated the early low and cravings, often the hardest stretch.';
 
   @override
   String get ketamineMilestone14Title => 'Two weeks, more space';
@@ -257,56 +257,56 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ketamineMilestone30Description =>
-      'A month without ketamine. Your bladder and kidneys have had sustained time away from the chemical strain.';
+      'Your bladder and kidneys have had sustained time away from the chemical strain.';
 
   @override
   String get ketamineMilestone90Title => 'Three months clear';
 
   @override
   String get ketamineMilestone90Description =>
-      'Three months without ketamine. The mood, bladder and cognitive fallout from use have all had real time to settle.';
+      'The mood, bladder and cognitive fallout from use have all had real time to settle.';
 
   @override
   String get ketamineMilestone180Title => 'Six months without it';
 
   @override
   String get ketamineMilestone180Description =>
-      'Half a year of letting your body recover from ketamine. The repairs that matter take time, and you\'ve given them time.';
+      'The repairs that matter take time, and you\'ve given them time.';
 
   @override
   String get ketamineMilestone365Title => 'A year clear';
 
   @override
   String get ketamineMilestone365Description =>
-      'A full year without ketamine, through the social settings that used to come with it.';
+      'You\'ve handled social settings that used to involve ketamine.';
 
   @override
   String get ketamineMilestone730Title => 'Two years, still clear';
 
   @override
   String get ketamineMilestone730Description =>
-      'Two years without ketamine. The habits and the people who supported the change have had time to take hold.';
+      'The habits and the people who supported the change have had time to take hold.';
 
   @override
   String get ketamineMilestone1095Title => 'Three years of distance';
 
   @override
   String get ketamineMilestone1095Description =>
-      'Three years ketamine-free. Your bladder, mood and mind have had a long, steady break from the damage use does.';
+      'Your bladder, mood and mind have had a long, steady break from the damage use does.';
 
   @override
   String get ketamineMilestone1460Title => 'Four years';
 
   @override
   String get ketamineMilestone1460Description =>
-      'Four years without ketamine. The old pattern is well behind you now, and the new one is the default.';
+      'The old pattern is well behind you now, and the new one is the default.';
 
   @override
   String get ketamineMilestone1825Title => 'Five years';
 
   @override
   String get ketamineMilestone1825Description =>
-      'Five years without ketamine. Half a decade of your body repairing itself, and of you staying the course.';
+      'Your body has had sustained time to recover, and you\'ve stayed the course.';
 
   @override
   String get inhalantsPageTitle => 'Inhalants Recovery';
@@ -343,7 +343,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get inhalantsMilestone7Description =>
-      'A week without inhalants, through what can be a rough stretch. Your heart and brain get more time away from acute exposure.';
+      'You\'ve kept going through what can be a rough stretch. Your heart and brain get more time away from acute exposure.';
 
   @override
   String get inhalantsMilestone14Title => 'Two weeks, no new exposure';
@@ -357,28 +357,28 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get inhalantsMilestone30Description =>
-      'A month of letting your body work on the repair that inhalant abuse demands.';
+      'Your body has had breathing room for the repair inhalant use can demand.';
 
   @override
   String get inhalantsMilestone90Title => 'Three months clear';
 
   @override
   String get inhalantsMilestone90Description =>
-      'Three months sober from inhalants. Your heart and nervous system have had real time away from acute chemical exposure.';
+      'Your heart and nervous system have had real time away from acute chemical exposure.';
 
   @override
   String get inhalantsMilestone365Title => 'A year without inhalants';
 
   @override
   String get inhalantsMilestone365Description =>
-      'A year without inhalants. The organ damage risks that come with use have been switched off for a full year.';
+      'Avoiding further exposure helps protect your organs from additional inhalant-related harm.';
 
   @override
   String get inhalantsMilestone730Title => 'Two years';
 
   @override
   String get inhalantsMilestone730Description =>
-      'Two years of keeping inhalants out of your life, through the situations that used to pull you back.';
+      'Situations that used to pull you back have become easier to navigate without inhalants.';
 
   @override
   String get synthetic_cannabinoidsPageTitle => 'Synthetic Cannabinoids';
@@ -438,7 +438,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
-      'A month without synthetic cannabinoids. Your brain has had sustained time away from the chemicals that are worse than regular cannabis.';
+      'Your brain has had sustained time away from the chemicals that are worse than regular cannabis.';
 
   @override
   String get synthetic_cannabinoidsMilestone90Title =>
@@ -446,14 +446,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      'Three months without synthetic cannabinoids. The anxiety, the paranoia and the memory issues have all had real time to settle.';
+      'The anxiety, the paranoia and the memory issues have all had real time to settle.';
 
   @override
   String get synthetic_cannabinoidsMilestone180Title => 'Half a year clear';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
-      'Half a year without synthetic cannabinoids. Your brain has had sustained time to recover from chemicals that are harder on it than regular cannabis.';
+      'Your brain has had sustained time to recover from chemicals that are harder on it than regular cannabis.';
 
   @override
   String get synthetic_cannabinoidsWithdrawalReference =>
@@ -468,7 +468,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone730Description =>
-      'Two years without synthetic cannabinoids. The habit, the settings and the chemical strain are all behind you now.';
+      'The habit, the settings and the chemical strain are all behind you now.';
 
   @override
   String get synthetic_cannabinoidsMilestone1095Title =>
@@ -476,7 +476,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1095Description =>
-      'Three years without synthetic cannabinoids. Your brain has had a long stretch clear of the harsher chemicals.';
+      'Your brain has had a long stretch clear of the harsher chemicals.';
 
   @override
   String get synthetic_cannabinoidsMilestone1460Title =>
@@ -484,14 +484,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1460Description =>
-      'Four years without synthetic cannabinoids. The old pattern is well behind you, and the new one is the default.';
+      'The old pattern is well behind you, and the new one is the default.';
 
   @override
   String get synthetic_cannabinoidsMilestone1825Title => 'Five years';
 
   @override
   String get synthetic_cannabinoidsMilestone1825Description =>
-      'Five years without synthetic cannabinoids. Half a decade of your brain working without the chemicals that are worse than regular cannabis.';
+      'Your brain has had a long break from chemicals that can be harsher than regular cannabis.';
 
   @override
   String get synthetic_cannabinoidsLongTermReference =>
@@ -539,7 +539,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get mdmaMilestone7Description =>
-      'A week without MDMA, past the part where the post-use low is at its worst.';
+      'You\'re past the point when the post-use low is often at its worst.';
 
   @override
   String get mdmaMilestone14Title => 'Two weeks without MDMA';
@@ -553,21 +553,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get mdmaMilestone30Description =>
-      'A month without MDMA. Your serotonin has had real time to recover from the repeated strain of use.';
+      'Your serotonin has had real time to recover from the repeated strain of use.';
 
   @override
   String get mdmaMilestone90Title => 'Three Months On';
 
   @override
   String get mdmaMilestone90Description =>
-      'Three months without MDMA. The mood crashes that came with each use are a pattern you\'ve broken.';
+      'The mood crashes that came with each use are a pattern you\'ve broken.';
 
   @override
   String get mdmaMilestone365Title => 'A full year off MDMA';
 
   @override
   String get mdmaMilestone365Description =>
-      'A year without MDMA, through the nights and settings that used to come with it.';
+      'Nights out and familiar settings no longer have to involve MDMA.';
 
   @override
   String get steroidsPageTitle => 'Anabolic Steroids';
@@ -605,42 +605,42 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get steroidsMilestone14Description =>
-      'Two weeks off steroids. Natural testosterone production is trying to kick back in, and the mood and energy can stay low while it does.';
+      'Natural testosterone production is trying to kick back in, and the mood and energy can stay low while it does.';
 
   @override
   String get steroidsMilestone30Title => 'A month off steroids';
 
   @override
   String get steroidsMilestone30Description =>
-      'A month off steroids. Your hormonal system has had a full cycle of time to start rebuilding on its own.';
+      'Your hormonal system has had a full cycle of time to start rebuilding on its own.';
 
   @override
   String get steroidsMilestone90Title => 'Three months off';
 
   @override
   String get steroidsMilestone90Description =>
-      'Three months off steroids. Your natural hormone production is further along the road back, and the mood and energy can start to follow.';
+      'Your natural hormone production is further along the road back, and the mood and energy can start to follow.';
 
   @override
   String get steroidsMilestone180Title => 'Six months clear';
 
   @override
   String get steroidsMilestone180Description =>
-      'Half a year off steroids. Your hormonal system has had sustained time to rebuild, and the longer you stay off, the further it gets.';
+      'Your hormonal system has had sustained time to rebuild, and the longer you stay off, the further it gets.';
 
   @override
   String get steroidsMilestone365Title => 'One year, no cycle';
 
   @override
   String get steroidsMilestone365Description =>
-      'A year off steroids, through the gym and the settings that used to come with it.';
+      'You\'ve navigated the gym and familiar settings without another cycle.';
 
   @override
   String get steroidsMilestone730Title => 'Two years off';
 
   @override
   String get steroidsMilestone730Description =>
-      'Two years off steroids. Your body\'s been making its own hormones for a long time now, and the recovery is real.';
+      'Your body\'s been making its own hormones for a long time now, and the recovery is real.';
 
   @override
   String get appTitle => 'Quitter';
@@ -729,7 +729,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get adderallMilestone365Description =>
-      'You\'ve spent a full year changing the habits around Adderall misuse.';
+      'You\'ve kept changing the habits around Adderall misuse.';
 
   @override
   String get benzoPageTitle => 'Benzodiazepines';
@@ -822,7 +822,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get benzoMilestone1825Description =>
-      'Benzodiazepine recovery can be complicated, which makes the five-year mark all the more worth celebrating.';
+      'A complicated recovery is worth celebrating, whatever your pace.';
 
   @override
   String get addictionMeth => 'Meth';
@@ -872,7 +872,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get methMilestone30Description =>
-      'A month without meth. Your sleep, appetite and mood have had time to rebuild without the crash cycle.';
+      'Your sleep, appetite and mood have had time to rebuild without the crash cycle.';
 
   @override
   String get methMilestone90Title => 'Three months of recovery';
@@ -886,28 +886,28 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get methMilestone180Description =>
-      'Half a year without meth. Your brain has had sustained time to repair the dopamine damage that use causes.';
+      'Your brain has had sustained time to repair the dopamine damage that use causes.';
 
   @override
   String get methMilestone365Title => 'One year without meth';
 
   @override
   String get methMilestone365Description =>
-      'A year without meth, through the settings and the people that used to come with it.';
+      'You\'ve navigated familiar places and people without returning to meth.';
 
   @override
   String get methMilestone420Title => 'Fourteen months on';
 
   @override
   String get methMilestone420Description =>
-      '420 days without meth. That\'s a long time to keep the crash cycle out of your life.';
+      'That\'s a long time to keep the crash cycle out of your life.';
 
   @override
   String get methMilestone730Title => 'Two years';
 
   @override
   String get methMilestone730Description =>
-      'Two years without meth. The habit, the settings and the aftermath are all behind you now.';
+      'The habit, the settings and the aftermath are all behind you now.';
 
   @override
   String get addictionNitrousOxide => 'Nitrous Oxide';
@@ -948,7 +948,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone7Description =>
-      'A week without nitrous. Your nervous system has its first sustained stretch of time away from B12 inactivation.';
+      'Your nervous system has its first sustained stretch of time away from B12 inactivation.';
 
   @override
   String get nitrousOxideMilestone14Title => 'Two weeks clear';
@@ -962,21 +962,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone30Description =>
-      'A month without nitrous. Your B12 levels have had time to recover, which is the base your nerves need to repair.';
+      'Your B12 levels have had time to recover, which is the base your nerves need to repair.';
 
   @override
   String get nitrousOxideMilestone90Title => 'Three months of recovery';
 
   @override
   String get nitrousOxideMilestone90Description =>
-      'Three months without nitrous. Your nervous system has had a full season of B12 it can put to work on repair.';
+      'Your nervous system has had a full season of B12 it can put to work on repair.';
 
   @override
   String get nitrousOxideMilestone365Title => 'A year clear';
 
   @override
   String get nitrousOxideMilestone365Description =>
-      'A year without nitrous. Whatever the damage, your body has had a full year of proper nutrition to repair it.';
+      'Your body has had sustained time with proper nutrition to support nerve repair.';
 
   @override
   String get addictionCocaine => 'Cocaine';
@@ -1054,7 +1054,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get cocaineMilestone365Description =>
-      'You\'ve dodged a full year of cocaine\'s acute heart and stroke risks.';
+      'You\'ve avoided further exposure to cocaine\'s acute heart and stroke risks.';
 
   @override
   String get cocaineMilestone730Title => 'Two years without cocaine';
@@ -1082,7 +1082,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get cocaineMilestone1825Description =>
-      'Five years of life no longer organised around cocaine. You can be properly pleased with that.';
+      'Life is no longer organised around cocaine. You can be properly pleased with that.';
 
   @override
   String get tabJournal => 'Journal';
@@ -2080,7 +2080,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get alcoholMilestone1Description =>
-      'One night without alcohol takes its hold off your sleep, though the first nights can still be rough, especially if withdrawal is involved.';
+      'Without another drink, sleep can begin to change, though the early nights can still be rough, especially if withdrawal is involved.';
 
   @override
   String get alcoholMilestone3Title => 'Three days';
@@ -2157,70 +2157,70 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get smokingMilestone7Description =>
-      'A week smoke-free, through the peak of nicotine withdrawal.';
+      'The peak of nicotine withdrawal may be behind you.';
 
   @override
   String get smokingMilestone14Title => 'Two weeks, more air';
 
   @override
   String get smokingMilestone14Description =>
-      'Two weeks smoke-free. Your circulation and your sense of smell and taste are starting to come back around.';
+      'Your circulation and your sense of smell and taste are starting to come back around.';
 
   @override
   String get smokingMilestone30Title => 'A month for your lungs';
 
   @override
   String get smokingMilestone30Description =>
-      'A month smoke-free. Your lung function and your breathing have had real time to improve.';
+      'Your lung function and your breathing have had real time to improve.';
 
   @override
   String get smokingMilestone90Title => 'Three months, building gains';
 
   @override
   String get smokingMilestone90Description =>
-      'Three months smoke-free. Your circulation, your lungs and your energy have all had sustained time to improve.';
+      'Your circulation, your lungs and your energy have all had sustained time to improve.';
 
   @override
   String get smokingMilestone180Title => 'Six months, lungs at work';
 
   @override
   String get smokingMilestone180Description =>
-      'Half a year smoke-free. Your risk of heart attack has already fallen, and it keeps falling.';
+      'Your risk of heart attack has already fallen, and it keeps falling.';
 
   @override
   String get smokingMilestone365Title => 'A year without cigarettes';
 
   @override
   String get smokingMilestone365Description =>
-      'A year smoke-free. Your risk of heart disease has fallen by about half, and your lungs are working harder for you.';
+      'Your risk of heart disease has fallen by about half, and your lungs are working harder for you.';
 
   @override
   String get smokingMilestone730Title => 'Two years';
 
   @override
   String get smokingMilestone730Description =>
-      'Two years smoke-free. The cough, the breathlessness and the cravings are all well behind you now.';
+      'The cough, the breathlessness and the cravings are all well behind you now.';
 
   @override
   String get smokingMilestone1095Title => 'Three years, still smoke-free';
 
   @override
   String get smokingMilestone1095Description =>
-      'Three years smoke-free. Your heart disease risk is far lower than it was, and your lungs have had years to heal.';
+      'Your heart disease risk is far lower than it was, and your lungs have had years to heal.';
 
   @override
   String get smokingMilestone1460Title => 'Four years';
 
   @override
   String get smokingMilestone1460Description =>
-      'Four years smoke-free. The old habit is a closed chapter, and your body\'s had years to repair.';
+      'The old habit is a closed chapter, and your body\'s had years to repair.';
 
   @override
   String get smokingMilestone1825Title => 'Five years';
 
   @override
   String get smokingMilestone1825Description =>
-      'Five years smoke-free. Your risk of many smoking-related cancers has fallen sharply, and your lungs are a lot stronger.';
+      'Your risk of many smoking-related cancers has fallen sharply, and your lungs are a lot stronger.';
 
   @override
   String get marijuanaMilestone1Title => 'First day without cannabis';
@@ -2241,7 +2241,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get marijuanaMilestone7Description =>
-      'A full week through the peak of cannabis withdrawal, the part where most people give up.';
+      'You\'ve navigated the peak of cannabis withdrawal, often the point where people struggle most.';
 
   @override
   String get marijuanaMilestone14Title => 'Two weeks without it';
@@ -2255,7 +2255,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get marijuanaMilestone30Description =>
-      'A month without cannabis. Your sleep, appetite and mood have had time to find their own rhythm.';
+      'Your sleep, appetite and mood have had time to find their own rhythm.';
 
   @override
   String get marijuanaMilestone60Title => 'Two months, more focus';
@@ -2269,21 +2269,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get marijuanaMilestone90Description =>
-      'Three months without cannabis. The cognitive fog that comes with daily use has had real time to lift.';
+      'The cognitive fog that comes with daily use has had real time to lift.';
 
   @override
   String get marijuanaMilestone180Title => 'Six months, plenty done';
 
   @override
   String get marijuanaMilestone180Description =>
-      'Half a year without cannabis. Your memory, attention and mood have had sustained time away from THC\'s effect.';
+      'Your memory, attention and mood have had sustained time away from THC\'s effect.';
 
   @override
   String get marijuanaMilestone365Title => 'One year without cannabis';
 
   @override
   String get marijuanaMilestone365Description =>
-      'A year without cannabis, through the social settings that used to come with it.';
+      'You\'ve handled social settings that used to involve cannabis.';
 
   @override
   String get opioidMilestone1Title => 'Day one: get support';
@@ -2311,7 +2311,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get opioidMilestone30Description =>
-      'A month opioid-free. Your body\'s own pain system is starting to recalibrate without the drug steering it.';
+      'Your body\'s own pain system is starting to recalibrate without the drug steering it.';
 
   @override
   String get opioidMilestone60Title => 'Two months, more balance';
@@ -2325,49 +2325,49 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get opioidMilestone90Description =>
-      'Three months opioid-free. Your body is learning to manage on its own again, and that\'s real, lasting work.';
+      'Your body is learning to manage on its own again, and that\'s real, lasting work.';
 
   @override
   String get opioidMilestone180Title => 'Half a year';
 
   @override
   String get opioidMilestone180Description =>
-      'Half a year opioid-free. The pain, the sleep and the mood have all had sustained time to find their footing.';
+      'The pain, the sleep and the mood have all had sustained time to find their footing.';
 
   @override
   String get opioidMilestone365Title => 'One year of recovery';
 
   @override
   String get opioidMilestone365Description =>
-      'A year opioid-free, through the pain and the settings that used to come with it.';
+      'You\'ve managed pain and familiar triggers without returning to the old pattern.';
 
   @override
   String get opioidMilestone730Title => 'Two years';
 
   @override
   String get opioidMilestone730Description =>
-      'Two years opioid-free. The routines that supported the recovery have had time to take hold.';
+      'The routines that supported the recovery have had time to take hold.';
 
   @override
   String get opioidMilestone1095Title => 'Three years of follow-through';
 
   @override
   String get opioidMilestone1095Description =>
-      'Three years opioid-free. Your body has run a long stretch entirely on its own.';
+      'Your body has run a long stretch entirely on its own.';
 
   @override
   String get opioidMilestone1460Title => 'Four years';
 
   @override
   String get opioidMilestone1460Description =>
-      'Four years opioid-free. The old pattern is a closed chapter, and the new one is the default.';
+      'The old pattern is a closed chapter, and the new one is the default.';
 
   @override
   String get opioidMilestone1825Title => 'Five years';
 
   @override
   String get opioidMilestone1825Description =>
-      'Five years opioid-free. Half a decade of your body and your life working without the drug.';
+      'You\'ve built a life in which your body and routines no longer revolve around the drug.';
 
   @override
   String get socialMediaMilestone1Title => 'A day off the feed';
@@ -2381,56 +2381,56 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get socialMediaMilestone3Description =>
-      'Three days without the feed. The urge to check is a reflex, and it fades the more you ignore it.';
+      'The urge to check is a reflex, and it fades the more you ignore it.';
 
   @override
   String get socialMediaMilestone7Title => 'A week of your attention';
 
   @override
   String get socialMediaMilestone7Description =>
-      'A week without social media. The compulsion to check is losing its grip, and your attention is getting longer stretches of its own.';
+      'The compulsion to check is losing its grip, and your attention is getting longer stretches of its own.';
 
   @override
   String get socialMediaMilestone14Title => 'Two weeks, quieter nights';
 
   @override
   String get socialMediaMilestone14Description =>
-      'Two weeks without the feed. Your attention span and your boredom tolerance are both getting stronger.';
+      'Your attention span and your boredom tolerance are both getting stronger.';
 
   @override
   String get socialMediaMilestone30Title => 'A month off the feed';
 
   @override
   String get socialMediaMilestone30Description =>
-      'A month without social media. The habit of checking is fading, and real conversations are getting more of your time.';
+      'The habit of checking is fading, and real conversations are getting more of your time.';
 
   @override
   String get socialMediaMilestone60Title => 'Two months, less comparing';
 
   @override
   String get socialMediaMilestone60Description =>
-      'Two months without social media. Your attention, your mood and your sleep have all had sustained time away from the feed.';
+      'Your attention, your mood and your sleep have all had sustained time away from the feed.';
 
   @override
   String get socialMediaMilestone90Title => 'Three months, time back';
 
   @override
   String get socialMediaMilestone90Description =>
-      'Three months without social media. The compulsion is a lot quieter, and your head has room it didn\'t have before.';
+      'The compulsion is a lot quieter, and your head has room it didn\'t have before.';
 
   @override
   String get socialMediaMilestone180Title => 'Half a year unplugged';
 
   @override
   String get socialMediaMilestone180Description =>
-      'Half a year without social media. The reflex reach for the phone has faded, and your attention works for you now.';
+      'The reflex reach for the phone has faded, and your attention works for you now.';
 
   @override
   String get socialMediaMilestone365Title => 'One year, no doomscroll';
 
   @override
   String get socialMediaMilestone365Description =>
-      'A year without social media, through the boredom and the notifications that used to pull you back.';
+      'Boredom and notifications no longer have to pull you back into the feed.';
 
   @override
   String get nicotinePouchesMilestone1Title => 'First day pouch-free';
@@ -2459,7 +2459,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      'A week without pouches, through the peak of nicotine withdrawal.';
+      'The peak of nicotine withdrawal may be behind you.';
 
   @override
   String get nicotinePouchesMilestone14Title => 'Two weeks clear';
@@ -2481,7 +2481,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone730Description =>
-      'Two years without pouches. The reflex reach for your mouth has had plenty of time to fade.';
+      'The reflex reach for your mouth has had plenty of time to fade.';
 
   @override
   String get nicotinePouchesReferenceDay730 =>
@@ -2492,7 +2492,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone1095Description =>
-      'Three years pouch-free. Whatever the habit cost you, that bill has stopped growing for a long time now.';
+      'Whatever the habit cost you, that bill has stopped growing for a long time now.';
 
   @override
   String get nicotinePouchesReferenceDay1095 =>
@@ -2503,7 +2503,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone1460Description =>
-      'Four years without pouches. The old reflex is a memory, and your mouth\'s been off nicotine for a very long time.';
+      'The old reflex is a memory, and your mouth\'s been off nicotine for a very long time.';
 
   @override
   String get nicotinePouchesReferenceDay1460 =>
@@ -2514,7 +2514,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone1825Description =>
-      'Five years without pouches. Half a decade off nicotine, through every situation that used to call for one.';
+      'You\'ve navigated the situations that used to call for nicotine without reaching for a pouch.';
 
   @override
   String get nicotinePouchesReferenceDay1825 =>
@@ -2539,77 +2539,77 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get pornographyMilestone7Description =>
-      'A week of noticing when the urge shows up and what\'s behind it. You\'re building a map of your own triggers.';
+      'You\'re learning when urges show up and what\'s behind them. That\'s a useful map of your own triggers.';
 
   @override
   String get pornographyMilestone14Title => 'Two weeks, know the triggers';
 
   @override
   String get pornographyMilestone14Description =>
-      'Two weeks without pornography. The habit is losing its grip, and the situations that used to feed it are getting less power.';
+      'The habit is losing its grip, and the situations that used to feed it are getting less power.';
 
   @override
   String get pornographyMilestone30Title => 'A month in charge';
 
   @override
   String get pornographyMilestone30Description =>
-      'A month without pornography. The old reflex is fading, and real-world connection is getting more of your attention.';
+      'The old reflex is fading, and real-world connection is getting more of your attention.';
 
   @override
   String get pornographyMilestone90Title => 'Three months, change that sticks';
 
   @override
   String get pornographyMilestone90Description =>
-      'Three months without pornography. The habit that used to run in the background is a lot quieter now.';
+      'The habit that used to run in the background is a lot quieter now.';
 
   @override
   String get pornographyMilestone180Title => 'Half a year of control';
 
   @override
   String get pornographyMilestone180Description =>
-      'Half a year without pornography. Your attention and your dopamine have had sustained time to reset.';
+      'Your attention and your dopamine have had sustained time to reset.';
 
   @override
   String get pornographyMilestone365Title => 'One year';
 
   @override
   String get pornographyMilestone365Description =>
-      'A year without pornography, through the late nights and the boredom that used to feed it.';
+      'Late nights and boredom no longer have to dictate the habit.';
 
   @override
   String get pornographyMilestone730Title => 'Two years';
 
   @override
   String get pornographyMilestone730Description =>
-      'Two years without pornography. The habit is gone, and the time it used to take is yours now.';
+      'The habit is gone, and the time it used to take is yours now.';
 
   @override
   String get pornographyMilestone1095Title => 'Three years of control';
 
   @override
   String get pornographyMilestone1095Description =>
-      'Three years without pornography. Your attention has had a long stretch to point somewhere real.';
+      'Your attention has had a long stretch to point somewhere real.';
 
   @override
   String get pornographyMilestone1460Title => 'Four years, your terms';
 
   @override
   String get pornographyMilestone1460Description =>
-      'Four years without pornography. The old pattern is well behind you, and the new one is the default.';
+      'The old pattern is well behind you, and the new one is the default.';
 
   @override
   String get pornographyMilestone1825Title => 'Five years';
 
   @override
   String get pornographyMilestone1825Description =>
-      'Five years without pornography. Half a decade of your attention working for you instead of against you.';
+      'Your attention now works for you instead of against you.';
 
   @override
   String get customMilestone1Title => 'One day down';
 
   @override
   String get customMilestone1Description =>
-      'A full day without the habit. If you\'re stopping a substance, follow safe withdrawal advice.';
+      'If you\'re stopping a substance, follow safe withdrawal advice.';
 
   @override
   String get customMilestone3Title => 'Three days';
@@ -2637,7 +2637,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get customMilestone30Description =>
-      'A month of building the new way of doing things.';
+      'A new way of doing things is beginning to take shape.';
 
   @override
   String get customMilestone90Title => 'Three months clear';
@@ -2658,35 +2658,35 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get customMilestone365Description =>
-      'A full year of birthdays, seasons, workdays and days off, spent with room for a different habit.';
+      'Birthdays, seasons, workdays and days off have all made room for a different habit.';
 
   @override
   String get customMilestone730Title => 'Two years';
 
   @override
   String get customMilestone730Description =>
-      'Two years of the habit out of the routine. Whatever it replaced it with is starting to stick.';
+      'The old habit is out of the routine, and what has replaced it is starting to stick.';
 
   @override
   String get customMilestone1095Title => 'Three years, still going';
 
   @override
   String get customMilestone1095Description =>
-      'Three years in, the change has weathered enough real life to count as part of you.';
+      'The change has weathered enough real life to feel like part of who you are.';
 
   @override
   String get customMilestone1460Title => 'Four years';
 
   @override
   String get customMilestone1460Description =>
-      'Four years of doing things differently, through whatever life brought.';
+      'You\'ve kept doing things differently, whatever life brought.';
 
   @override
   String get customMilestone1825Title => 'Five years';
 
   @override
   String get customMilestone1825Description =>
-      'Five years, and the habit you set out to change is a habit of the past.';
+      'The habit you set out to change is now part of your past.';
 
   @override
   String get customReferenceDay1095 =>
@@ -2731,21 +2731,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ssriMilestone7Description =>
-      'A week off an SSRI, through the part where \'brain zaps\' and sleep disruption are worst. Push through with your prescriber in the loop.';
+      'This can be a difficult stretch for \'brain zaps\' and disrupted sleep. Keep your prescriber in the loop.';
 
   @override
   String get ssriMilestone14Title => 'Two weeks, check in';
 
   @override
   String get ssriMilestone14Description =>
-      'Two weeks off an SSRI. The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.';
+      'The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.';
 
   @override
   String get ssriMilestone30Title => 'A month after the taper';
 
   @override
   String get ssriMilestone30Description =>
-      'A month off an SSRI. Your serotonin has had time to find its own balance without the medication steering it.';
+      'Your serotonin has had time to find its own balance without the medication steering it.';
 
   @override
   String get ssriMilestone90Title => 'Three months: a checkpoint';
@@ -2759,14 +2759,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ssriMilestone180Description =>
-      'Half a year off an SSRI. Whatever prompted the change, you\'ve held the line through it.';
+      'Whatever prompted the change, you\'ve held the line through it.';
 
   @override
   String get ssriMilestone365Title => 'One year after the taper';
 
   @override
   String get ssriMilestone365Description =>
-      'A year off an SSRI. The first real year of your mood finding its own footing without the medication.';
+      'Your mood has had time to find its footing without the medication.';
 
   @override
   String get settingsShowSsriTracking => 'Show SSRI tracking';
@@ -2805,49 +2805,49 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get snriMilestone7Description =>
-      'A week off an SNRI, through the part where \'brain zaps\' and sleep disruption are worst. Push through with your prescriber in the loop.';
+      'This can be a difficult stretch for \'brain zaps\' and disrupted sleep. Keep your prescriber in the loop.';
 
   @override
   String get snriMilestone14Title => 'Two weeks, still adjusting';
 
   @override
   String get snriMilestone14Description =>
-      'Two weeks off an SNRI. The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.';
+      'The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.';
 
   @override
   String get snriMilestone30Title => 'A month after SNRI taper';
 
   @override
   String get snriMilestone30Description =>
-      'A month off an SNRI. Your serotonin and noradrenaline have had time to find their own balance.';
+      'Your serotonin and noradrenaline have had time to find their own balance.';
 
   @override
   String get snriMilestone90Title => 'Three months, worth checking';
 
   @override
   String get snriMilestone90Description =>
-      'Three months off an SNRI. Your mood chemistry has had a full season to settle without the medication steering it.';
+      'Your mood chemistry has had a full season to settle without the medication steering it.';
 
   @override
   String get snriMilestone180Title => 'Half a year on';
 
   @override
   String get snriMilestone180Description =>
-      'Half a year off an SNRI. Whatever prompted the change, you\'ve held the line through it.';
+      'Whatever prompted the change, you\'ve held the line through it.';
 
   @override
   String get snriMilestone365Title => 'One year after stopping';
 
   @override
   String get snriMilestone365Description =>
-      'A year off an SNRI. A full year of your serotonin and noradrenaline working without the drug steering them.';
+      'You\'ve had time to observe how you feel without the medication, with your prescriber\'s support.';
 
   @override
   String get snriMilestone730Title => 'Two years';
 
   @override
   String get snriMilestone730Description =>
-      'Two years off an SNRI. Whatever you hoped the stop would bring, you\'ve had time to check.';
+      'Whatever you hoped the stop would bring, you\'ve had time to check.';
 
   @override
   String get snriReferenceDay730 =>
@@ -2858,7 +2858,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get snriMilestone1095Description =>
-      'Three years off an SNRI. Your brain\'s chemistry has run a long stretch on its own settings.';
+      'Your brain\'s chemistry has run a long stretch on its own settings.';
 
   @override
   String get snriReferenceDay1095 =>
@@ -2869,7 +2869,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get snriMilestone1460Description =>
-      'Four years off an SNRI. The off-switch you made has become the status quo.';
+      'The off-switch you made has become the status quo.';
 
   @override
   String get snriReferenceDay1460 =>
@@ -2880,7 +2880,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get snriMilestone1825Description =>
-      'Five years off an SNRI. Half a decade of your mood on its own terms.';
+      'Your mood has had time to settle on its own terms.';
 
   @override
   String get snriReferenceDay1825 =>
@@ -2923,49 +2923,49 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaMilestone7Description =>
-      'A week off a TCA, through the part where nausea and sleep disruption are worst. Push through with your prescriber in the loop.';
+      'This can be a difficult stretch for nausea and disrupted sleep. Keep your prescriber in the loop.';
 
   @override
   String get tcaMilestone14Title => 'Two weeks, taking stock';
 
   @override
   String get tcaMilestone14Description =>
-      'Two weeks off a TCA. The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.';
+      'The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.';
 
   @override
   String get tcaMilestone30Title => 'A month after stopping';
 
   @override
   String get tcaMilestone30Description =>
-      'A month off a TCA. Your serotonin and noradrenaline have had time to find their own balance.';
+      'Your serotonin and noradrenaline have had time to find their own balance.';
 
   @override
   String get tcaMilestone90Title => 'Three months on';
 
   @override
   String get tcaMilestone90Description =>
-      'Three months off a TCA. Your mood chemistry has had a full season to settle without the medication steering it.';
+      'Your mood chemistry has had a full season to settle without the medication steering it.';
 
   @override
   String get tcaMilestone180Title => 'Six months, looking after you';
 
   @override
   String get tcaMilestone180Description =>
-      'Half a year off a TCA. Whatever prompted the change, you\'ve held the line through it.';
+      'Whatever prompted the change, you\'ve held the line through it.';
 
   @override
   String get tcaMilestone365Title => 'A year since the taper';
 
   @override
   String get tcaMilestone365Description =>
-      'A year off a TCA. A whole year of your mood chemistry settling without the medication in the mix.';
+      'Your mood may have had time to settle without the medication in the mix.';
 
   @override
   String get tcaMilestone730Title => 'Two years';
 
   @override
   String get tcaMilestone730Description =>
-      'Two years off a TCA. Long enough to know which of your moods are genuinely yours.';
+      'Long enough to know which of your moods are genuinely yours.';
 
   @override
   String get tcaReferenceDay730 =>
@@ -2976,7 +2976,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaMilestone1095Description =>
-      'Three years off a TCA. The change has weathered enough real life to be permanent.';
+      'The change has weathered enough real life to be permanent.';
 
   @override
   String get tcaReferenceDay1095 =>
@@ -2987,7 +2987,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaMilestone1460Description =>
-      'Four years off a TCA. Whatever prompted it, the decision has stood.';
+      'Whatever prompted it, the decision has stood.';
 
   @override
   String get tcaReferenceDay1460 =>
@@ -2998,7 +2998,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaMilestone1825Description =>
-      'Five years off a TCA. A long, careful call, kept for half a decade.';
+      'A long, careful decision has been kept through changing circumstances.';
 
   @override
   String get tcaReferenceDay1825 =>
@@ -3041,42 +3041,42 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get maoiMilestone7Description =>
-      'A week past the hardest part of stopping an MAOI, and the food rules still apply. Keep following your prescriber\'s guidance.';
+      'The hardest part of stopping may be behind you, but the food rules still apply. Keep following your prescriber\'s guidance.';
 
   @override
   String get maoiMilestone14Title => 'Two weeks: check the plan';
 
   @override
   String get maoiMilestone14Description =>
-      'Two weeks off an MAOI. Mood can dip in the first few weeks after stopping, and that\'s something to watch with your prescriber.';
+      'Mood can dip in the first few weeks after stopping, and that\'s something to watch with your prescriber.';
 
   @override
   String get maoiMilestone30Title => 'A month after stopping';
 
   @override
   String get maoiMilestone30Description =>
-      'A month without an MAOI. Whatever your prescriber\'s plan was for this change, you\'re holding it together.';
+      'Whatever your prescriber\'s plan was for this change, you\'re holding it together.';
 
   @override
   String get maoiMilestone90Title => 'Three months, check in';
 
   @override
   String get maoiMilestone90Description =>
-      'Three months without an MAOI. Your mood chemistry has had a full season to settle on its own.';
+      'Your mood chemistry has had a full season to settle on its own.';
 
   @override
   String get maoiMilestone180Title => 'Half a year on';
 
   @override
   String get maoiMilestone180Description =>
-      'Half a year off an MAOI, with the dietary rules a memory. Whatever the next step is, you\'ve got the discipline for it.';
+      'The dietary rules may now be a memory. Whatever the next step is, you\'ve got the discipline for it.';
 
   @override
   String get maoiMilestone365Title => 'One year after the taper';
 
   @override
   String get maoiMilestone365Description =>
-      'A year without an MAOI. A long, careful medical plan, followed through to the end.';
+      'A long, careful medical plan, followed through to the end.';
 
   @override
   String get settingsShowMaoiTracking => 'Show MAOI tracking';
@@ -3586,7 +3586,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get methMilestone1095Description =>
-      'Three years meth-free. A long, steady break from the damage meth does to the brain.';
+      'A long, steady break from the damage meth does to the brain.';
 
   @override
   String get methReferenceDay1095 =>
@@ -3597,7 +3597,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get methMilestone1460Description =>
-      'Four years without meth. The old pattern is gone, and the person you are now runs without it.';
+      'The old pattern is gone, and the person you are now runs without it.';
 
   @override
   String get methReferenceDay1460 =>
@@ -3608,7 +3608,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get methMilestone1825Description =>
-      'Five years without meth. Half a decade of your brain repairing itself, and of you staying the course.';
+      'Your brain has had sustained time to recover, and you\'ve stayed the course.';
 
   @override
   String get methReferenceDay1825 =>
@@ -3979,28 +3979,28 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get vapingMilestone730Description =>
-      'Two years vape-free. The reflex reach for the device has faded, and your lungs have had sustained time away from the aerosol.';
+      'The reflex reach for the device has faded, and your lungs have had sustained time away from the aerosol.';
 
   @override
   String get vapingMilestone1095Title => 'Three years';
 
   @override
   String get vapingMilestone1095Description =>
-      'Three years vape-free. Your lungs and your heart have had years away from the aerosol, and the habit is well gone.';
+      'Your lungs and your heart have had years away from the aerosol, and the habit is well gone.';
 
   @override
   String get vapingMilestone1460Title => 'Four years, still clear';
 
   @override
   String get vapingMilestone1460Description =>
-      'Four years vape-free. The old pattern is a closed chapter, and your body\'s had years to repair.';
+      'The old pattern is a closed chapter, and your body\'s had years to repair.';
 
   @override
   String get vapingMilestone1825Title => 'Five years';
 
   @override
   String get vapingMilestone1825Description =>
-      'Five years vape-free. Half a decade of your lungs working without the aerosol, and of you staying the course.';
+      'Your lungs have had sustained time away from the aerosol, and you\'ve stayed the course.';
 
   @override
   String get vapingLongTermReference =>
@@ -4052,7 +4052,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get adderallMilestone1825Description =>
-      'That\'s five years of protecting the life you\'ve built.';
+      'You\'ve protected the life and healthier routines you\'ve built.';
 
   @override
   String get adderallReferenceDay1825 =>
@@ -4107,7 +4107,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ghbMilestone730Description =>
-      'Two years without GHB. The routines that used to revolve around it have been replaced, and you know the early warnings now.';
+      'The routines that used to revolve around it have been replaced, and you know the early warnings now.';
 
   @override
   String get ghbReferenceDay730 =>
@@ -4118,7 +4118,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ghbMilestone1095Description =>
-      'Three years of GHB recovery. People and habits that fit the new life have had time to settle in.';
+      'People and habits that fit the new life have had time to settle in.';
 
   @override
   String get ghbReferenceDay1095 =>
@@ -4129,7 +4129,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ghbMilestone1460Description =>
-      'Four years, and GHB is a closed chapter rather than a recurring one.';
+      'GHB has become a closed chapter rather than a recurring one.';
 
   @override
   String get ghbReferenceDay1460 =>
@@ -4140,7 +4140,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ghbMilestone1825Description =>
-      'Five years without GHB. That\'s a long time to prove the recovery sticks.';
+      'The routines that support recovery have proved durable.';
 
   @override
   String get ghbReferenceDay1825 =>
@@ -4151,21 +4151,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get inhalantsMilestone1095Description =>
-      'Three years sober. Inhalant use is a hard habit to break, and you\'ve broken it for good and proper.';
+      'Inhalant use is a hard habit to break, and you\'ve broken it for good and proper.';
 
   @override
   String get inhalantsMilestone1460Title => 'Four years of staying clear';
 
   @override
   String get inhalantsMilestone1460Description =>
-      'Four years without inhalants. The routines that built that recovery have had plenty of time to take root.';
+      'The routines that built that recovery have had plenty of time to take root.';
 
   @override
   String get inhalantsMilestone1825Title => 'Five years';
 
   @override
   String get inhalantsMilestone1825Description =>
-      'Five years without inhalants. That\'s half a decade of protecting your heart, brain and lungs.';
+      'You\'ve kept protecting your heart, brain and lungs by avoiding further exposure.';
 
   @override
   String get inhalantsReferenceDay1095 =>
@@ -4184,28 +4184,28 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get maoiMilestone730Description =>
-      'Two years without an MAOI. The change was the cautious kind, and you\'ve kept it.';
+      'The change was the cautious kind, and you\'ve kept it.';
 
   @override
   String get maoiMilestone1095Title => 'Three years, steady';
 
   @override
   String get maoiMilestone1095Description =>
-      'Three years off an MAOI. The careful exit you planned has become just how things are now.';
+      'The careful exit you planned has become just how things are now.';
 
   @override
   String get maoiMilestone1460Title => 'Four years, still you';
 
   @override
   String get maoiMilestone1460Description =>
-      'Four years without an MAOI. Whatever prompted the change, it\'s stayed changed.';
+      'Whatever prompted the change, it\'s stayed changed.';
 
   @override
   String get maoiMilestone1825Title => 'Five years';
 
   @override
   String get maoiMilestone1825Description =>
-      'Five years off an MAOI. A long, careful decision, kept for a very long time.';
+      'That careful medical decision has held through changing circumstances.';
 
   @override
   String get maoiReferenceDay730 =>
@@ -4228,7 +4228,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get marijuanaMilestone730Description =>
-      'Two years without cannabis. The habit is gone, and the routines that replaced it have had time to stick.';
+      'The habit is gone, and the routines that replaced it have had time to stick.';
 
   @override
   String get marijuanaReferenceDay730 =>
@@ -4239,7 +4239,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get marijuanaMilestone1095Description =>
-      'Three years cannabis-free. Your memory and mood have had a long stretch away from THC\'s daily pull.';
+      'Your memory and mood have had a long stretch away from THC\'s daily pull.';
 
   @override
   String get marijuanaReferenceDay1095 =>
@@ -4250,7 +4250,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get marijuanaMilestone1460Description =>
-      'Four years without cannabis. The old pattern isn\'t a close call anymore; it\'s just over.';
+      'The old pattern isn\'t a close call anymore; it\'s just over.';
 
   @override
   String get marijuanaReferenceDay1460 =>
@@ -4261,7 +4261,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get marijuanaMilestone1825Description =>
-      'Five years without cannabis. Half a decade of your brain working without THC in the loop.';
+      'Your brain has had sustained time away from THC\'s daily effects.';
 
   @override
   String get marijuanaReferenceDay1825 =>
@@ -4272,7 +4272,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get mdmaMilestone730Description =>
-      'Two years without MDMA. The ritual of it is gone, and the mood that came after is gone with it.';
+      'The ritual of it is gone, and the mood that came after is gone with it.';
 
   @override
   String get mdmaReferenceDay730 =>
@@ -4283,7 +4283,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get mdmaMilestone1095Description =>
-      'Three years MDMA-free. That\'s a long time to keep your heart and mood on a stable footing.';
+      'That\'s a long time to keep your heart and mood on a stable footing.';
 
   @override
   String get mdmaReferenceDay1095 =>
@@ -4294,7 +4294,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get mdmaMilestone1460Description =>
-      'Four years without MDMA. The old habit and its aftermath are well behind you now.';
+      'The old habit and its aftermath are well behind you now.';
 
   @override
   String get mdmaReferenceDay1460 =>
@@ -4305,7 +4305,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get mdmaMilestone1825Description =>
-      'Five years without MDMA. Half a decade of your chemistry working without repeated strain.';
+      'Your body has had sustained time without the repeated strain of MDMA use.';
 
   @override
   String get mdmaReferenceDay1825 =>
@@ -4316,7 +4316,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone730Description =>
-      'Two years without nitrous. The reflex, the settings and the risk are all gone from your life now.';
+      'The reflex, the settings and the risk are all gone from your life now.';
 
   @override
   String get nitrousOxideReferenceDay730 =>
@@ -4327,7 +4327,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone1095Description =>
-      'Three years nitrous-free. Your nerves and your B12 have had a long, steady break to recover.';
+      'Your nerves and your B12 have had a long, steady break to recover.';
 
   @override
   String get nitrousOxideReferenceDay1095 =>
@@ -4338,7 +4338,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone1460Description =>
-      'Four years without nitrous. The old habit is well behind you, and your body\'s had years to heal.';
+      'The old habit is well behind you, and your body\'s had years to heal.';
 
   @override
   String get nitrousOxideReferenceDay1460 =>
@@ -4349,7 +4349,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone1825Description =>
-      'Five years without nitrous. Half a decade of your nervous system working with the vitamins it needs.';
+      'Your nervous system has had a long stretch of getting the vitamins it needs.';
 
   @override
   String get nitrousOxideReferenceDay1825 =>
@@ -4360,7 +4360,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get socialMediaMilestone730Description =>
-      'Two years without social media. The scroll you used to fill an evening with is now just an evening.';
+      'The scroll you used to fill an evening with is now just an evening.';
 
   @override
   String get socialMediaReferenceDay730 =>
@@ -4371,7 +4371,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get socialMediaMilestone1095Description =>
-      'Three years without social media. Your attention has had a long stretch to do something else.';
+      'Your attention has had a long stretch to do something else.';
 
   @override
   String get socialMediaReferenceDay1095 =>
@@ -4382,7 +4382,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get socialMediaMilestone1460Description =>
-      'Four years without social media. The old reflex is a closed chapter, and the new one is the default.';
+      'The old reflex is a closed chapter, and the new one is the default.';
 
   @override
   String get socialMediaReferenceDay1460 =>
@@ -4393,7 +4393,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get socialMediaMilestone1825Description =>
-      'Five years without social media. Half a decade of attention you actually get to keep.';
+      'You\'ve reclaimed attention that used to disappear into the feed.';
 
   @override
   String get socialMediaReferenceDay1825 =>
@@ -4404,7 +4404,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ssriMilestone730Description =>
-      'Two years off an SSRI. You\'ve had time to see how your mood actually behaves on its own, without the guesswork.';
+      'You\'ve had time to see how your mood actually behaves on its own, without the guesswork.';
 
   @override
   String get ssriReferenceDay730 =>
@@ -4415,7 +4415,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ssriMilestone1095Description =>
-      'Three years off an SSRI. The mood you have now belongs to you, not to a schedule.';
+      'The mood you have now belongs to you, not to a schedule.';
 
   @override
   String get ssriReferenceDay1095 =>
@@ -4426,7 +4426,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ssriMilestone1460Description =>
-      'Four years off an SSRI. The decision to stop has held up against everything that\'s come since.';
+      'The decision to stop has held up against everything that\'s come since.';
 
   @override
   String get ssriReferenceDay1460 =>
@@ -4437,7 +4437,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ssriMilestone1825Description =>
-      'Five years off an SSRI. A careful medical decision, kept faithfully for half a decade.';
+      'A careful medical decision has held through changing circumstances.';
 
   @override
   String get ssriReferenceDay1825 =>
@@ -4448,7 +4448,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get steroidsMilestone1095Description =>
-      'Three years off steroids. A long stretch of your body running on its own chemistry.';
+      'A long stretch of your body running on its own chemistry.';
 
   @override
   String get steroidsReferenceDay1095 =>
@@ -4459,7 +4459,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get steroidsMilestone1460Description =>
-      'Four years off steroids. The old pattern is a closed chapter, and your body\'s been on its own for years.';
+      'The old pattern is a closed chapter, and your body\'s been on its own for years.';
 
   @override
   String get steroidsReferenceDay1460 =>
@@ -4470,7 +4470,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get steroidsMilestone1825Description =>
-      'Five years off steroids. Half a decade of your hormonal system working on its own, and of you staying the course.';
+      'Your hormone system has had sustained time to function without anabolic steroids, and you\'ve stayed the course.';
 
   @override
   String get steroidsReferenceDay1825 =>

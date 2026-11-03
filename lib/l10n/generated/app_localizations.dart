@@ -231,7 +231,7 @@ abstract class AppLocalizations {
   /// Description for the kratom recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month without kratom. Your sleep, appetite and mood have had time to rebuild without the substance steering them.'**
+  /// **'Your sleep, appetite and mood have had time to rebuild without the substance steering them.'**
   String get kratomMilestone30Description;
 
   /// Title for the kratom recovery milestone at 90 days.
@@ -243,7 +243,7 @@ abstract class AppLocalizations {
   /// Description for the kratom recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months without kratom, which means three months of your body running on its own schedule again.'**
+  /// **'Your body is running on its own schedule again, with kratom no longer setting the pace.'**
   String get kratomMilestone90Description;
 
   /// Title for the kratom recovery milestone at 365 days.
@@ -255,7 +255,7 @@ abstract class AppLocalizations {
   /// Description for the kratom recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A full year without kratom, through the situations that used to bring it out.'**
+  /// **'The situations that used to trigger kratom use no longer set your agenda.'**
   String get kratomMilestone365Description;
 
   /// Title for the kratom recovery milestone at 730 days.
@@ -267,7 +267,7 @@ abstract class AppLocalizations {
   /// Description for the kratom recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years without kratom. The routine has been rebuilt, and the habit has had to find new footing without it.'**
+  /// **'The routine has been rebuilt, and the habit has had to find new footing without it.'**
   String get kratomMilestone730Description;
 
   /// Title for the kratom recovery milestone at 1095 days.
@@ -279,7 +279,7 @@ abstract class AppLocalizations {
   /// Description for the kratom recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years kratom-free. That\'s a long time to keep your body and routine independent of it.'**
+  /// **'That\'s a long time to keep your body and routine independent of it.'**
   String get kratomMilestone1095Description;
 
   /// Title for the kratom recovery milestone at 1460 days.
@@ -291,7 +291,7 @@ abstract class AppLocalizations {
   /// Description for the kratom recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years without kratom. The old habit is a footnote to how you live now.'**
+  /// **'The old habit is a footnote to how you live now.'**
   String get kratomMilestone1460Description;
 
   /// Title for the kratom recovery milestone at 1825 days.
@@ -303,7 +303,7 @@ abstract class AppLocalizations {
   /// Description for the kratom recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years clear of kratom, through stress, changes and ordinary Tuesdays.'**
+  /// **'You\'ve stayed clear through stress, change and ordinary life.'**
   String get kratomMilestone1825Description;
 
   /// Title of the gabapentinoids recovery page.
@@ -423,7 +423,7 @@ abstract class AppLocalizations {
   /// Description for the ghb recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A full week through the most acute danger window is serious work, with medical support where it was needed.'**
+  /// **'You\'ve made it through the most acute danger window, with medical support where it was needed.'**
   String get ghbMilestone7Description;
 
   /// Title for the ghb recovery milestone at 14 days.
@@ -447,7 +447,7 @@ abstract class AppLocalizations {
   /// Description for the ghb recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month in, the body\'s had time to start repairing the damage GHB does to the nervous system.'**
+  /// **'Your nervous system has had time to begin recovering from the effects of GHB.'**
   String get ghbMilestone30Description;
 
   /// Title for the ghb recovery milestone at 90 days.
@@ -459,7 +459,7 @@ abstract class AppLocalizations {
   /// Description for the ghb recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months without GHB. The acute phase is well behind you now, and the steadier gains can start to show.'**
+  /// **'The acute phase is well behind you now, and the steadier gains can start to show.'**
   String get ghbMilestone90Description;
 
   /// Title for the ghb recovery milestone at 180 days.
@@ -471,7 +471,7 @@ abstract class AppLocalizations {
   /// Description for the ghb recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
-  /// **'Half a year of recovery from a substance that punishes inconsistency. You\'ve shown you can be consistent.'**
+  /// **'You\'ve shown consistency in recovering from a substance that can make it hard to maintain.'**
   String get ghbMilestone180Description;
 
   /// Title of the ketamine recovery page.
@@ -537,7 +537,7 @@ abstract class AppLocalizations {
   /// Description for the ketamine recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A full week without ketamine, through the early low and the cravings.'**
+  /// **'You\'ve navigated the early low and cravings, often the hardest stretch.'**
   String get ketamineMilestone7Description;
 
   /// Title for the ketamine recovery milestone at 14 days.
@@ -561,7 +561,7 @@ abstract class AppLocalizations {
   /// Description for the ketamine recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month without ketamine. Your bladder and kidneys have had sustained time away from the chemical strain.'**
+  /// **'Your bladder and kidneys have had sustained time away from the chemical strain.'**
   String get ketamineMilestone30Description;
 
   /// Title for the ketamine recovery milestone at 90 days.
@@ -573,7 +573,7 @@ abstract class AppLocalizations {
   /// Description for the ketamine recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months without ketamine. The mood, bladder and cognitive fallout from use have all had real time to settle.'**
+  /// **'The mood, bladder and cognitive fallout from use have all had real time to settle.'**
   String get ketamineMilestone90Description;
 
   /// Title for the ketamine recovery milestone at 180 days.
@@ -585,7 +585,7 @@ abstract class AppLocalizations {
   /// Description for the ketamine recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
-  /// **'Half a year of letting your body recover from ketamine. The repairs that matter take time, and you\'ve given them time.'**
+  /// **'The repairs that matter take time, and you\'ve given them time.'**
   String get ketamineMilestone180Description;
 
   /// Title for the ketamine recovery milestone at 365 days.
@@ -597,7 +597,7 @@ abstract class AppLocalizations {
   /// Description for the ketamine recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A full year without ketamine, through the social settings that used to come with it.'**
+  /// **'You\'ve handled social settings that used to involve ketamine.'**
   String get ketamineMilestone365Description;
 
   /// Title for the ketamine recovery milestone at 730 days.
@@ -609,7 +609,7 @@ abstract class AppLocalizations {
   /// Description for the ketamine recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years without ketamine. The habits and the people who supported the change have had time to take hold.'**
+  /// **'The habits and the people who supported the change have had time to take hold.'**
   String get ketamineMilestone730Description;
 
   /// Title for the ketamine recovery milestone at 1095 days.
@@ -621,7 +621,7 @@ abstract class AppLocalizations {
   /// Description for the ketamine recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years ketamine-free. Your bladder, mood and mind have had a long, steady break from the damage use does.'**
+  /// **'Your bladder, mood and mind have had a long, steady break from the damage use does.'**
   String get ketamineMilestone1095Description;
 
   /// Title for the ketamine recovery milestone at 1460 days.
@@ -633,7 +633,7 @@ abstract class AppLocalizations {
   /// Description for the ketamine recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years without ketamine. The old pattern is well behind you now, and the new one is the default.'**
+  /// **'The old pattern is well behind you now, and the new one is the default.'**
   String get ketamineMilestone1460Description;
 
   /// Title for the ketamine recovery milestone at 1825 days.
@@ -645,7 +645,7 @@ abstract class AppLocalizations {
   /// Description for the ketamine recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years without ketamine. Half a decade of your body repairing itself, and of you staying the course.'**
+  /// **'Your body has had sustained time to recover, and you\'ve stayed the course.'**
   String get ketamineMilestone1825Description;
 
   /// Title of the inhalants recovery page.
@@ -711,7 +711,7 @@ abstract class AppLocalizations {
   /// Description for the inhalants recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A week without inhalants, through what can be a rough stretch. Your heart and brain get more time away from acute exposure.'**
+  /// **'You\'ve kept going through what can be a rough stretch. Your heart and brain get more time away from acute exposure.'**
   String get inhalantsMilestone7Description;
 
   /// Title for the inhalants recovery milestone at 14 days.
@@ -735,7 +735,7 @@ abstract class AppLocalizations {
   /// Description for the inhalants recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month of letting your body work on the repair that inhalant abuse demands.'**
+  /// **'Your body has had breathing room for the repair inhalant use can demand.'**
   String get inhalantsMilestone30Description;
 
   /// Title for the inhalants recovery milestone at 90 days.
@@ -747,7 +747,7 @@ abstract class AppLocalizations {
   /// Description for the inhalants recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months sober from inhalants. Your heart and nervous system have had real time away from acute chemical exposure.'**
+  /// **'Your heart and nervous system have had real time away from acute chemical exposure.'**
   String get inhalantsMilestone90Description;
 
   /// Title for the inhalants recovery milestone at 365 days.
@@ -759,7 +759,7 @@ abstract class AppLocalizations {
   /// Description for the inhalants recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A year without inhalants. The organ damage risks that come with use have been switched off for a full year.'**
+  /// **'Avoiding further exposure helps protect your organs from additional inhalant-related harm.'**
   String get inhalantsMilestone365Description;
 
   /// Title for the inhalants recovery milestone at 730 days.
@@ -771,7 +771,7 @@ abstract class AppLocalizations {
   /// Description for the inhalants recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years of keeping inhalants out of your life, through the situations that used to pull you back.'**
+  /// **'Situations that used to pull you back have become easier to navigate without inhalants.'**
   String get inhalantsMilestone730Description;
 
   /// Title of the synthetic cannabinoids recovery page.
@@ -873,7 +873,7 @@ abstract class AppLocalizations {
   /// Description for the synthetic cannabinoids recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month without synthetic cannabinoids. Your brain has had sustained time away from the chemicals that are worse than regular cannabis.'**
+  /// **'Your brain has had sustained time away from the chemicals that are worse than regular cannabis.'**
   String get synthetic_cannabinoidsMilestone30Description;
 
   /// Title for the synthetic cannabinoids recovery milestone at 90 days.
@@ -885,7 +885,7 @@ abstract class AppLocalizations {
   /// Description for the synthetic cannabinoids recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months without synthetic cannabinoids. The anxiety, the paranoia and the memory issues have all had real time to settle.'**
+  /// **'The anxiety, the paranoia and the memory issues have all had real time to settle.'**
   String get synthetic_cannabinoidsMilestone90Description;
 
   /// Title for the synthetic cannabinoids recovery milestone at 180 days.
@@ -897,7 +897,7 @@ abstract class AppLocalizations {
   /// Description for the synthetic cannabinoids recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
-  /// **'Half a year without synthetic cannabinoids. Your brain has had sustained time to recover from chemicals that are harder on it than regular cannabis.'**
+  /// **'Your brain has had sustained time to recover from chemicals that are harder on it than regular cannabis.'**
   String get synthetic_cannabinoidsMilestone180Description;
 
   /// Synthetic cannabinoids withdrawal reference.
@@ -921,7 +921,7 @@ abstract class AppLocalizations {
   /// Description for the synthetic cannabinoids recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years without synthetic cannabinoids. The habit, the settings and the chemical strain are all behind you now.'**
+  /// **'The habit, the settings and the chemical strain are all behind you now.'**
   String get synthetic_cannabinoidsMilestone730Description;
 
   /// Title for the synthetic cannabinoids recovery milestone at 1095 days.
@@ -933,7 +933,7 @@ abstract class AppLocalizations {
   /// Description for the synthetic cannabinoids recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years without synthetic cannabinoids. Your brain has had a long stretch clear of the harsher chemicals.'**
+  /// **'Your brain has had a long stretch clear of the harsher chemicals.'**
   String get synthetic_cannabinoidsMilestone1095Description;
 
   /// Title for the synthetic cannabinoids recovery milestone at 1460 days.
@@ -945,7 +945,7 @@ abstract class AppLocalizations {
   /// Description for the synthetic cannabinoids recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years without synthetic cannabinoids. The old pattern is well behind you, and the new one is the default.'**
+  /// **'The old pattern is well behind you, and the new one is the default.'**
   String get synthetic_cannabinoidsMilestone1460Description;
 
   /// Title for the synthetic cannabinoids recovery milestone at 1825 days.
@@ -957,7 +957,7 @@ abstract class AppLocalizations {
   /// Description for the synthetic cannabinoids recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years without synthetic cannabinoids. Half a decade of your brain working without the chemicals that are worse than regular cannabis.'**
+  /// **'Your brain has had a long break from chemicals that can be harsher than regular cannabis.'**
   String get synthetic_cannabinoidsMilestone1825Description;
 
   /// Synthetic cannabinoids long term reference.
@@ -1041,7 +1041,7 @@ abstract class AppLocalizations {
   /// Description for the mdma recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A week without MDMA, past the part where the post-use low is at its worst.'**
+  /// **'You\'re past the point when the post-use low is often at its worst.'**
   String get mdmaMilestone7Description;
 
   /// Title for the mdma recovery milestone at 14 days.
@@ -1065,7 +1065,7 @@ abstract class AppLocalizations {
   /// Description for the mdma recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month without MDMA. Your serotonin has had real time to recover from the repeated strain of use.'**
+  /// **'Your serotonin has had real time to recover from the repeated strain of use.'**
   String get mdmaMilestone30Description;
 
   /// Title for the mdma recovery milestone at 90 days.
@@ -1077,7 +1077,7 @@ abstract class AppLocalizations {
   /// Description for the mdma recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months without MDMA. The mood crashes that came with each use are a pattern you\'ve broken.'**
+  /// **'The mood crashes that came with each use are a pattern you\'ve broken.'**
   String get mdmaMilestone90Description;
 
   /// Title for the mdma recovery milestone at 365 days.
@@ -1089,7 +1089,7 @@ abstract class AppLocalizations {
   /// Description for the mdma recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A year without MDMA, through the nights and settings that used to come with it.'**
+  /// **'Nights out and familiar settings no longer have to involve MDMA.'**
   String get mdmaMilestone365Description;
 
   /// Title of the steroids recovery page.
@@ -1155,7 +1155,7 @@ abstract class AppLocalizations {
   /// Description for the steroids recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
-  /// **'Two weeks off steroids. Natural testosterone production is trying to kick back in, and the mood and energy can stay low while it does.'**
+  /// **'Natural testosterone production is trying to kick back in, and the mood and energy can stay low while it does.'**
   String get steroidsMilestone14Description;
 
   /// Title for the steroids recovery milestone at 30 days.
@@ -1167,7 +1167,7 @@ abstract class AppLocalizations {
   /// Description for the steroids recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month off steroids. Your hormonal system has had a full cycle of time to start rebuilding on its own.'**
+  /// **'Your hormonal system has had a full cycle of time to start rebuilding on its own.'**
   String get steroidsMilestone30Description;
 
   /// Title for the steroids recovery milestone at 90 days.
@@ -1179,7 +1179,7 @@ abstract class AppLocalizations {
   /// Description for the steroids recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months off steroids. Your natural hormone production is further along the road back, and the mood and energy can start to follow.'**
+  /// **'Your natural hormone production is further along the road back, and the mood and energy can start to follow.'**
   String get steroidsMilestone90Description;
 
   /// Title for the steroids recovery milestone at 180 days.
@@ -1191,7 +1191,7 @@ abstract class AppLocalizations {
   /// Description for the steroids recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
-  /// **'Half a year off steroids. Your hormonal system has had sustained time to rebuild, and the longer you stay off, the further it gets.'**
+  /// **'Your hormonal system has had sustained time to rebuild, and the longer you stay off, the further it gets.'**
   String get steroidsMilestone180Description;
 
   /// Title for the steroids recovery milestone at 365 days.
@@ -1203,7 +1203,7 @@ abstract class AppLocalizations {
   /// Description for the steroids recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A year off steroids, through the gym and the settings that used to come with it.'**
+  /// **'You\'ve navigated the gym and familiar settings without another cycle.'**
   String get steroidsMilestone365Description;
 
   /// Title for the steroids recovery milestone at 730 days.
@@ -1215,7 +1215,7 @@ abstract class AppLocalizations {
   /// Description for the steroids recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years off steroids. Your body\'s been making its own hormones for a long time now, and the recovery is real.'**
+  /// **'Your body\'s been making its own hormones for a long time now, and the recovery is real.'**
   String get steroidsMilestone730Description;
 
   /// The main application title
@@ -1371,7 +1371,7 @@ abstract class AppLocalizations {
   /// Description for the adderall recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'You\'ve spent a full year changing the habits around Adderall misuse.'**
+  /// **'You\'ve kept changing the habits around Adderall misuse.'**
   String get adderallMilestone365Description;
 
   /// Title of the benzo recovery page.
@@ -1533,7 +1533,7 @@ abstract class AppLocalizations {
   /// Description for the benzo recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Benzodiazepine recovery can be complicated, which makes the five-year mark all the more worth celebrating.'**
+  /// **'A complicated recovery is worth celebrating, whatever your pace.'**
   String get benzoMilestone1825Description;
 
   /// Name of the meth addiction category.
@@ -1623,7 +1623,7 @@ abstract class AppLocalizations {
   /// Description for the meth recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month without meth. Your sleep, appetite and mood have had time to rebuild without the crash cycle.'**
+  /// **'Your sleep, appetite and mood have had time to rebuild without the crash cycle.'**
   String get methMilestone30Description;
 
   /// Title for the meth recovery milestone at 90 days.
@@ -1647,7 +1647,7 @@ abstract class AppLocalizations {
   /// Description for the meth recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
-  /// **'Half a year without meth. Your brain has had sustained time to repair the dopamine damage that use causes.'**
+  /// **'Your brain has had sustained time to repair the dopamine damage that use causes.'**
   String get methMilestone180Description;
 
   /// Title for the meth recovery milestone at 365 days.
@@ -1659,7 +1659,7 @@ abstract class AppLocalizations {
   /// Description for the meth recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A year without meth, through the settings and the people that used to come with it.'**
+  /// **'You\'ve navigated familiar places and people without returning to meth.'**
   String get methMilestone365Description;
 
   /// Title for the meth recovery milestone at 420 days.
@@ -1671,7 +1671,7 @@ abstract class AppLocalizations {
   /// Description for the meth recovery milestone at 420 days.
   ///
   /// In en, this message translates to:
-  /// **'420 days without meth. That\'s a long time to keep the crash cycle out of your life.'**
+  /// **'That\'s a long time to keep the crash cycle out of your life.'**
   String get methMilestone420Description;
 
   /// Title for the meth recovery milestone at 730 days.
@@ -1683,7 +1683,7 @@ abstract class AppLocalizations {
   /// Description for the meth recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years without meth. The habit, the settings and the aftermath are all behind you now.'**
+  /// **'The habit, the settings and the aftermath are all behind you now.'**
   String get methMilestone730Description;
 
   /// Name of the nitrous oxide addiction category.
@@ -1755,7 +1755,7 @@ abstract class AppLocalizations {
   /// Description for the nitrous oxide recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A week without nitrous. Your nervous system has its first sustained stretch of time away from B12 inactivation.'**
+  /// **'Your nervous system has its first sustained stretch of time away from B12 inactivation.'**
   String get nitrousOxideMilestone7Description;
 
   /// Title for the nitrous oxide recovery milestone at 14 days.
@@ -1779,7 +1779,7 @@ abstract class AppLocalizations {
   /// Description for the nitrous oxide recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month without nitrous. Your B12 levels have had time to recover, which is the base your nerves need to repair.'**
+  /// **'Your B12 levels have had time to recover, which is the base your nerves need to repair.'**
   String get nitrousOxideMilestone30Description;
 
   /// Title for the nitrous oxide recovery milestone at 90 days.
@@ -1791,7 +1791,7 @@ abstract class AppLocalizations {
   /// Description for the nitrous oxide recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months without nitrous. Your nervous system has had a full season of B12 it can put to work on repair.'**
+  /// **'Your nervous system has had a full season of B12 it can put to work on repair.'**
   String get nitrousOxideMilestone90Description;
 
   /// Title for the nitrous oxide recovery milestone at 365 days.
@@ -1803,7 +1803,7 @@ abstract class AppLocalizations {
   /// Description for the nitrous oxide recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A year without nitrous. Whatever the damage, your body has had a full year of proper nutrition to repair it.'**
+  /// **'Your body has had sustained time with proper nutrition to support nerve repair.'**
   String get nitrousOxideMilestone365Description;
 
   /// Name of the cocaine addiction category.
@@ -1941,7 +1941,7 @@ abstract class AppLocalizations {
   /// Description for the cocaine recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'You\'ve dodged a full year of cocaine\'s acute heart and stroke risks.'**
+  /// **'You\'ve avoided further exposure to cocaine\'s acute heart and stroke risks.'**
   String get cocaineMilestone365Description;
 
   /// Title for the cocaine recovery milestone at 730 days.
@@ -1989,7 +1989,7 @@ abstract class AppLocalizations {
   /// Description for the cocaine recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years of life no longer organised around cocaine. You can be properly pleased with that.'**
+  /// **'Life is no longer organised around cocaine. You can be properly pleased with that.'**
   String get cocaineMilestone1825Description;
 
   /// Tab label for the Journal tab
@@ -3687,7 +3687,7 @@ abstract class AppLocalizations {
   /// Alcohol milestone day 1 description
   ///
   /// In en, this message translates to:
-  /// **'One night without alcohol takes its hold off your sleep, though the first nights can still be rough, especially if withdrawal is involved.'**
+  /// **'Without another drink, sleep can begin to change, though the early nights can still be rough, especially if withdrawal is involved.'**
   String get alcoholMilestone1Description;
 
   /// Alcohol milestone day 3 title
@@ -3819,7 +3819,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 7 description
   ///
   /// In en, this message translates to:
-  /// **'A week smoke-free, through the peak of nicotine withdrawal.'**
+  /// **'The peak of nicotine withdrawal may be behind you.'**
   String get smokingMilestone7Description;
 
   /// Smoking milestone day 14 title
@@ -3831,7 +3831,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 14 description
   ///
   /// In en, this message translates to:
-  /// **'Two weeks smoke-free. Your circulation and your sense of smell and taste are starting to come back around.'**
+  /// **'Your circulation and your sense of smell and taste are starting to come back around.'**
   String get smokingMilestone14Description;
 
   /// Smoking milestone day 30 title
@@ -3843,7 +3843,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 30 description
   ///
   /// In en, this message translates to:
-  /// **'A month smoke-free. Your lung function and your breathing have had real time to improve.'**
+  /// **'Your lung function and your breathing have had real time to improve.'**
   String get smokingMilestone30Description;
 
   /// Smoking milestone day 90 title
@@ -3855,7 +3855,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 90 description
   ///
   /// In en, this message translates to:
-  /// **'Three months smoke-free. Your circulation, your lungs and your energy have all had sustained time to improve.'**
+  /// **'Your circulation, your lungs and your energy have all had sustained time to improve.'**
   String get smokingMilestone90Description;
 
   /// Smoking milestone day 180 title
@@ -3867,7 +3867,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 180 description
   ///
   /// In en, this message translates to:
-  /// **'Half a year smoke-free. Your risk of heart attack has already fallen, and it keeps falling.'**
+  /// **'Your risk of heart attack has already fallen, and it keeps falling.'**
   String get smokingMilestone180Description;
 
   /// Smoking milestone day 365 title
@@ -3879,7 +3879,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'A year smoke-free. Your risk of heart disease has fallen by about half, and your lungs are working harder for you.'**
+  /// **'Your risk of heart disease has fallen by about half, and your lungs are working harder for you.'**
   String get smokingMilestone365Description;
 
   /// Smoking milestone day 730 title
@@ -3891,7 +3891,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 730 description
   ///
   /// In en, this message translates to:
-  /// **'Two years smoke-free. The cough, the breathlessness and the cravings are all well behind you now.'**
+  /// **'The cough, the breathlessness and the cravings are all well behind you now.'**
   String get smokingMilestone730Description;
 
   /// Smoking milestone day 1095 title
@@ -3903,7 +3903,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 1095 description
   ///
   /// In en, this message translates to:
-  /// **'Three years smoke-free. Your heart disease risk is far lower than it was, and your lungs have had years to heal.'**
+  /// **'Your heart disease risk is far lower than it was, and your lungs have had years to heal.'**
   String get smokingMilestone1095Description;
 
   /// Smoking milestone day 1460 title
@@ -3915,7 +3915,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 1460 description
   ///
   /// In en, this message translates to:
-  /// **'Four years smoke-free. The old habit is a closed chapter, and your body\'s had years to repair.'**
+  /// **'The old habit is a closed chapter, and your body\'s had years to repair.'**
   String get smokingMilestone1460Description;
 
   /// Smoking milestone day 1825 title
@@ -3927,7 +3927,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 1825 description
   ///
   /// In en, this message translates to:
-  /// **'Five years smoke-free. Your risk of many smoking-related cancers has fallen sharply, and your lungs are a lot stronger.'**
+  /// **'Your risk of many smoking-related cancers has fallen sharply, and your lungs are a lot stronger.'**
   String get smokingMilestone1825Description;
 
   /// Marijuana milestone day 1 title
@@ -3963,7 +3963,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 7 description
   ///
   /// In en, this message translates to:
-  /// **'A full week through the peak of cannabis withdrawal, the part where most people give up.'**
+  /// **'You\'ve navigated the peak of cannabis withdrawal, often the point where people struggle most.'**
   String get marijuanaMilestone7Description;
 
   /// Marijuana milestone day 14 title
@@ -3987,7 +3987,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 30 description
   ///
   /// In en, this message translates to:
-  /// **'A month without cannabis. Your sleep, appetite and mood have had time to find their own rhythm.'**
+  /// **'Your sleep, appetite and mood have had time to find their own rhythm.'**
   String get marijuanaMilestone30Description;
 
   /// Marijuana milestone day 60 title
@@ -4011,7 +4011,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 90 description
   ///
   /// In en, this message translates to:
-  /// **'Three months without cannabis. The cognitive fog that comes with daily use has had real time to lift.'**
+  /// **'The cognitive fog that comes with daily use has had real time to lift.'**
   String get marijuanaMilestone90Description;
 
   /// Marijuana milestone day 180 title
@@ -4023,7 +4023,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 180 description
   ///
   /// In en, this message translates to:
-  /// **'Half a year without cannabis. Your memory, attention and mood have had sustained time away from THC\'s effect.'**
+  /// **'Your memory, attention and mood have had sustained time away from THC\'s effect.'**
   String get marijuanaMilestone180Description;
 
   /// Marijuana milestone day 365 title
@@ -4035,7 +4035,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'A year without cannabis, through the social settings that used to come with it.'**
+  /// **'You\'ve handled social settings that used to involve cannabis.'**
   String get marijuanaMilestone365Description;
 
   /// Opioid milestone day 1 title
@@ -4083,7 +4083,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 30 description
   ///
   /// In en, this message translates to:
-  /// **'A month opioid-free. Your body\'s own pain system is starting to recalibrate without the drug steering it.'**
+  /// **'Your body\'s own pain system is starting to recalibrate without the drug steering it.'**
   String get opioidMilestone30Description;
 
   /// Opioid milestone day 60 title
@@ -4107,7 +4107,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 90 description
   ///
   /// In en, this message translates to:
-  /// **'Three months opioid-free. Your body is learning to manage on its own again, and that\'s real, lasting work.'**
+  /// **'Your body is learning to manage on its own again, and that\'s real, lasting work.'**
   String get opioidMilestone90Description;
 
   /// Opioid milestone day 180 title
@@ -4119,7 +4119,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 180 description
   ///
   /// In en, this message translates to:
-  /// **'Half a year opioid-free. The pain, the sleep and the mood have all had sustained time to find their footing.'**
+  /// **'The pain, the sleep and the mood have all had sustained time to find their footing.'**
   String get opioidMilestone180Description;
 
   /// Opioid milestone day 365 title
@@ -4131,7 +4131,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'A year opioid-free, through the pain and the settings that used to come with it.'**
+  /// **'You\'ve managed pain and familiar triggers without returning to the old pattern.'**
   String get opioidMilestone365Description;
 
   /// Opioid milestone day 730 title
@@ -4143,7 +4143,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 730 description
   ///
   /// In en, this message translates to:
-  /// **'Two years opioid-free. The routines that supported the recovery have had time to take hold.'**
+  /// **'The routines that supported the recovery have had time to take hold.'**
   String get opioidMilestone730Description;
 
   /// Opioid milestone day 1095 title
@@ -4155,7 +4155,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 1095 description
   ///
   /// In en, this message translates to:
-  /// **'Three years opioid-free. Your body has run a long stretch entirely on its own.'**
+  /// **'Your body has run a long stretch entirely on its own.'**
   String get opioidMilestone1095Description;
 
   /// Opioid milestone day 1460 title
@@ -4167,7 +4167,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 1460 description
   ///
   /// In en, this message translates to:
-  /// **'Four years opioid-free. The old pattern is a closed chapter, and the new one is the default.'**
+  /// **'The old pattern is a closed chapter, and the new one is the default.'**
   String get opioidMilestone1460Description;
 
   /// Opioid milestone day 1825 title
@@ -4179,7 +4179,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 1825 description
   ///
   /// In en, this message translates to:
-  /// **'Five years opioid-free. Half a decade of your body and your life working without the drug.'**
+  /// **'You\'ve built a life in which your body and routines no longer revolve around the drug.'**
   String get opioidMilestone1825Description;
 
   /// Social media milestone day 1 title
@@ -4203,7 +4203,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 3 description
   ///
   /// In en, this message translates to:
-  /// **'Three days without the feed. The urge to check is a reflex, and it fades the more you ignore it.'**
+  /// **'The urge to check is a reflex, and it fades the more you ignore it.'**
   String get socialMediaMilestone3Description;
 
   /// Social media milestone day 7 title
@@ -4215,7 +4215,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 7 description
   ///
   /// In en, this message translates to:
-  /// **'A week without social media. The compulsion to check is losing its grip, and your attention is getting longer stretches of its own.'**
+  /// **'The compulsion to check is losing its grip, and your attention is getting longer stretches of its own.'**
   String get socialMediaMilestone7Description;
 
   /// Social media milestone day 14 title
@@ -4227,7 +4227,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 14 description
   ///
   /// In en, this message translates to:
-  /// **'Two weeks without the feed. Your attention span and your boredom tolerance are both getting stronger.'**
+  /// **'Your attention span and your boredom tolerance are both getting stronger.'**
   String get socialMediaMilestone14Description;
 
   /// Social media milestone day 30 title
@@ -4239,7 +4239,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 30 description
   ///
   /// In en, this message translates to:
-  /// **'A month without social media. The habit of checking is fading, and real conversations are getting more of your time.'**
+  /// **'The habit of checking is fading, and real conversations are getting more of your time.'**
   String get socialMediaMilestone30Description;
 
   /// Social media milestone day 60 title
@@ -4251,7 +4251,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 60 description
   ///
   /// In en, this message translates to:
-  /// **'Two months without social media. Your attention, your mood and your sleep have all had sustained time away from the feed.'**
+  /// **'Your attention, your mood and your sleep have all had sustained time away from the feed.'**
   String get socialMediaMilestone60Description;
 
   /// Social media milestone day 90 title
@@ -4263,7 +4263,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 90 description
   ///
   /// In en, this message translates to:
-  /// **'Three months without social media. The compulsion is a lot quieter, and your head has room it didn\'t have before.'**
+  /// **'The compulsion is a lot quieter, and your head has room it didn\'t have before.'**
   String get socialMediaMilestone90Description;
 
   /// Social media milestone day 180 title
@@ -4275,7 +4275,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 180 description
   ///
   /// In en, this message translates to:
-  /// **'Half a year without social media. The reflex reach for the phone has faded, and your attention works for you now.'**
+  /// **'The reflex reach for the phone has faded, and your attention works for you now.'**
   String get socialMediaMilestone180Description;
 
   /// Social media milestone day 365 title
@@ -4287,7 +4287,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'A year without social media, through the boredom and the notifications that used to pull you back.'**
+  /// **'Boredom and notifications no longer have to pull you back into the feed.'**
   String get socialMediaMilestone365Description;
 
   /// Nicotine pouches milestone day 1 title
@@ -4335,7 +4335,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 7 description
   ///
   /// In en, this message translates to:
-  /// **'A week without pouches, through the peak of nicotine withdrawal.'**
+  /// **'The peak of nicotine withdrawal may be behind you.'**
   String get nicotinePouchesMilestone7Description;
 
   /// Nicotine pouches milestone day 14 title
@@ -4371,7 +4371,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 730 description
   ///
   /// In en, this message translates to:
-  /// **'Two years without pouches. The reflex reach for your mouth has had plenty of time to fade.'**
+  /// **'The reflex reach for your mouth has had plenty of time to fade.'**
   String get nicotinePouchesMilestone730Description;
 
   /// Nicotine pouches reference content for day 730
@@ -4389,7 +4389,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 1095 description
   ///
   /// In en, this message translates to:
-  /// **'Three years pouch-free. Whatever the habit cost you, that bill has stopped growing for a long time now.'**
+  /// **'Whatever the habit cost you, that bill has stopped growing for a long time now.'**
   String get nicotinePouchesMilestone1095Description;
 
   /// Nicotine pouches reference content for day 1095
@@ -4407,7 +4407,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 1460 description
   ///
   /// In en, this message translates to:
-  /// **'Four years without pouches. The old reflex is a memory, and your mouth\'s been off nicotine for a very long time.'**
+  /// **'The old reflex is a memory, and your mouth\'s been off nicotine for a very long time.'**
   String get nicotinePouchesMilestone1460Description;
 
   /// Nicotine pouches reference content for day 1460
@@ -4425,7 +4425,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 1825 description
   ///
   /// In en, this message translates to:
-  /// **'Five years without pouches. Half a decade off nicotine, through every situation that used to call for one.'**
+  /// **'You\'ve navigated the situations that used to call for nicotine without reaching for a pouch.'**
   String get nicotinePouchesMilestone1825Description;
 
   /// Nicotine pouches reference content for day 1825
@@ -4467,7 +4467,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 7 description
   ///
   /// In en, this message translates to:
-  /// **'A week of noticing when the urge shows up and what\'s behind it. You\'re building a map of your own triggers.'**
+  /// **'You\'re learning when urges show up and what\'s behind them. That\'s a useful map of your own triggers.'**
   String get pornographyMilestone7Description;
 
   /// Pornography milestone day 14 title
@@ -4479,7 +4479,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 14 description
   ///
   /// In en, this message translates to:
-  /// **'Two weeks without pornography. The habit is losing its grip, and the situations that used to feed it are getting less power.'**
+  /// **'The habit is losing its grip, and the situations that used to feed it are getting less power.'**
   String get pornographyMilestone14Description;
 
   /// Pornography milestone day 30 title
@@ -4491,7 +4491,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 30 description
   ///
   /// In en, this message translates to:
-  /// **'A month without pornography. The old reflex is fading, and real-world connection is getting more of your attention.'**
+  /// **'The old reflex is fading, and real-world connection is getting more of your attention.'**
   String get pornographyMilestone30Description;
 
   /// Pornography milestone day 90 title
@@ -4503,7 +4503,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 90 description
   ///
   /// In en, this message translates to:
-  /// **'Three months without pornography. The habit that used to run in the background is a lot quieter now.'**
+  /// **'The habit that used to run in the background is a lot quieter now.'**
   String get pornographyMilestone90Description;
 
   /// Pornography milestone day 180 title
@@ -4515,7 +4515,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 180 description
   ///
   /// In en, this message translates to:
-  /// **'Half a year without pornography. Your attention and your dopamine have had sustained time to reset.'**
+  /// **'Your attention and your dopamine have had sustained time to reset.'**
   String get pornographyMilestone180Description;
 
   /// Pornography milestone day 365 title
@@ -4527,7 +4527,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'A year without pornography, through the late nights and the boredom that used to feed it.'**
+  /// **'Late nights and boredom no longer have to dictate the habit.'**
   String get pornographyMilestone365Description;
 
   /// Pornography milestone day 730 title
@@ -4539,7 +4539,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 730 description
   ///
   /// In en, this message translates to:
-  /// **'Two years without pornography. The habit is gone, and the time it used to take is yours now.'**
+  /// **'The habit is gone, and the time it used to take is yours now.'**
   String get pornographyMilestone730Description;
 
   /// Pornography milestone day 1095 title
@@ -4551,7 +4551,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 1095 description
   ///
   /// In en, this message translates to:
-  /// **'Three years without pornography. Your attention has had a long stretch to point somewhere real.'**
+  /// **'Your attention has had a long stretch to point somewhere real.'**
   String get pornographyMilestone1095Description;
 
   /// Pornography milestone day 1460 title
@@ -4563,7 +4563,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 1460 description
   ///
   /// In en, this message translates to:
-  /// **'Four years without pornography. The old pattern is well behind you, and the new one is the default.'**
+  /// **'The old pattern is well behind you, and the new one is the default.'**
   String get pornographyMilestone1460Description;
 
   /// Pornography milestone day 1825 title
@@ -4575,7 +4575,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 1825 description
   ///
   /// In en, this message translates to:
-  /// **'Five years without pornography. Half a decade of your attention working for you instead of against you.'**
+  /// **'Your attention now works for you instead of against you.'**
   String get pornographyMilestone1825Description;
 
   /// Custom milestone day 1 title
@@ -4587,7 +4587,7 @@ abstract class AppLocalizations {
   /// Custom milestone day 1 description
   ///
   /// In en, this message translates to:
-  /// **'A full day without the habit. If you\'re stopping a substance, follow safe withdrawal advice.'**
+  /// **'If you\'re stopping a substance, follow safe withdrawal advice.'**
   String get customMilestone1Description;
 
   /// Custom milestone day 3 title
@@ -4635,7 +4635,7 @@ abstract class AppLocalizations {
   /// Custom milestone day 30 description
   ///
   /// In en, this message translates to:
-  /// **'A month of building the new way of doing things.'**
+  /// **'A new way of doing things is beginning to take shape.'**
   String get customMilestone30Description;
 
   /// Custom milestone day 90 title
@@ -4671,7 +4671,7 @@ abstract class AppLocalizations {
   /// Custom milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'A full year of birthdays, seasons, workdays and days off, spent with room for a different habit.'**
+  /// **'Birthdays, seasons, workdays and days off have all made room for a different habit.'**
   String get customMilestone365Description;
 
   /// Custom milestone day 730 title
@@ -4683,7 +4683,7 @@ abstract class AppLocalizations {
   /// Custom milestone day 730 description
   ///
   /// In en, this message translates to:
-  /// **'Two years of the habit out of the routine. Whatever it replaced it with is starting to stick.'**
+  /// **'The old habit is out of the routine, and what has replaced it is starting to stick.'**
   String get customMilestone730Description;
 
   /// Title for the custom recovery milestone at 1095 days.
@@ -4695,7 +4695,7 @@ abstract class AppLocalizations {
   /// Description for the custom recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years in, the change has weathered enough real life to count as part of you.'**
+  /// **'The change has weathered enough real life to feel like part of who you are.'**
   String get customMilestone1095Description;
 
   /// Title for the custom recovery milestone at 1460 days.
@@ -4707,7 +4707,7 @@ abstract class AppLocalizations {
   /// Description for the custom recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years of doing things differently, through whatever life brought.'**
+  /// **'You\'ve kept doing things differently, whatever life brought.'**
   String get customMilestone1460Description;
 
   /// Title for the custom recovery milestone at 1825 days.
@@ -4719,7 +4719,7 @@ abstract class AppLocalizations {
   /// Description for the custom recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years, and the habit you set out to change is a habit of the past.'**
+  /// **'The habit you set out to change is now part of your past.'**
   String get customMilestone1825Description;
 
   /// Source for the custom recovery milestone at 1095 days.
@@ -4797,7 +4797,7 @@ abstract class AppLocalizations {
   /// Description for the ssri recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A week off an SSRI, through the part where \'brain zaps\' and sleep disruption are worst. Push through with your prescriber in the loop.'**
+  /// **'This can be a difficult stretch for \'brain zaps\' and disrupted sleep. Keep your prescriber in the loop.'**
   String get ssriMilestone7Description;
 
   /// Title for the ssri recovery milestone at 14 days.
@@ -4809,7 +4809,7 @@ abstract class AppLocalizations {
   /// Description for the ssri recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
-  /// **'Two weeks off an SSRI. The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.'**
+  /// **'The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.'**
   String get ssriMilestone14Description;
 
   /// Title for the ssri recovery milestone at 30 days.
@@ -4821,7 +4821,7 @@ abstract class AppLocalizations {
   /// Description for the ssri recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month off an SSRI. Your serotonin has had time to find its own balance without the medication steering it.'**
+  /// **'Your serotonin has had time to find its own balance without the medication steering it.'**
   String get ssriMilestone30Description;
 
   /// Title for the ssri recovery milestone at 90 days.
@@ -4845,7 +4845,7 @@ abstract class AppLocalizations {
   /// Description for the ssri recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
-  /// **'Half a year off an SSRI. Whatever prompted the change, you\'ve held the line through it.'**
+  /// **'Whatever prompted the change, you\'ve held the line through it.'**
   String get ssriMilestone180Description;
 
   /// Title for the ssri recovery milestone at 365 days.
@@ -4857,7 +4857,7 @@ abstract class AppLocalizations {
   /// Description for the ssri recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A year off an SSRI. The first real year of your mood finding its own footing without the medication.'**
+  /// **'Your mood has had time to find its footing without the medication.'**
   String get ssriMilestone365Description;
 
   /// Settings show ssri tracking.
@@ -4929,7 +4929,7 @@ abstract class AppLocalizations {
   /// Description for the snri recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A week off an SNRI, through the part where \'brain zaps\' and sleep disruption are worst. Push through with your prescriber in the loop.'**
+  /// **'This can be a difficult stretch for \'brain zaps\' and disrupted sleep. Keep your prescriber in the loop.'**
   String get snriMilestone7Description;
 
   /// Title for the snri recovery milestone at 14 days.
@@ -4941,7 +4941,7 @@ abstract class AppLocalizations {
   /// Description for the snri recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
-  /// **'Two weeks off an SNRI. The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.'**
+  /// **'The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.'**
   String get snriMilestone14Description;
 
   /// Title for the snri recovery milestone at 30 days.
@@ -4953,7 +4953,7 @@ abstract class AppLocalizations {
   /// Description for the snri recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month off an SNRI. Your serotonin and noradrenaline have had time to find their own balance.'**
+  /// **'Your serotonin and noradrenaline have had time to find their own balance.'**
   String get snriMilestone30Description;
 
   /// Title for the snri recovery milestone at 90 days.
@@ -4965,7 +4965,7 @@ abstract class AppLocalizations {
   /// Description for the snri recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months off an SNRI. Your mood chemistry has had a full season to settle without the medication steering it.'**
+  /// **'Your mood chemistry has had a full season to settle without the medication steering it.'**
   String get snriMilestone90Description;
 
   /// Title for the snri recovery milestone at 180 days.
@@ -4977,7 +4977,7 @@ abstract class AppLocalizations {
   /// Description for the snri recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
-  /// **'Half a year off an SNRI. Whatever prompted the change, you\'ve held the line through it.'**
+  /// **'Whatever prompted the change, you\'ve held the line through it.'**
   String get snriMilestone180Description;
 
   /// Title for the snri recovery milestone at 365 days.
@@ -4989,7 +4989,7 @@ abstract class AppLocalizations {
   /// Description for the snri recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A year off an SNRI. A full year of your serotonin and noradrenaline working without the drug steering them.'**
+  /// **'You\'ve had time to observe how you feel without the medication, with your prescriber\'s support.'**
   String get snriMilestone365Description;
 
   /// Title for the snri recovery milestone at 730 days.
@@ -5001,7 +5001,7 @@ abstract class AppLocalizations {
   /// Description for the snri recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years off an SNRI. Whatever you hoped the stop would bring, you\'ve had time to check.'**
+  /// **'Whatever you hoped the stop would bring, you\'ve had time to check.'**
   String get snriMilestone730Description;
 
   /// Source for the snri recovery milestone at 730 days.
@@ -5019,7 +5019,7 @@ abstract class AppLocalizations {
   /// Description for the snri recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years off an SNRI. Your brain\'s chemistry has run a long stretch on its own settings.'**
+  /// **'Your brain\'s chemistry has run a long stretch on its own settings.'**
   String get snriMilestone1095Description;
 
   /// Source for the snri recovery milestone at 1095 days.
@@ -5037,7 +5037,7 @@ abstract class AppLocalizations {
   /// Description for the snri recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years off an SNRI. The off-switch you made has become the status quo.'**
+  /// **'The off-switch you made has become the status quo.'**
   String get snriMilestone1460Description;
 
   /// Source for the snri recovery milestone at 1460 days.
@@ -5055,7 +5055,7 @@ abstract class AppLocalizations {
   /// Description for the snri recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years off an SNRI. Half a decade of your mood on its own terms.'**
+  /// **'Your mood has had time to settle on its own terms.'**
   String get snriMilestone1825Description;
 
   /// Source for the snri recovery milestone at 1825 days.
@@ -5133,7 +5133,7 @@ abstract class AppLocalizations {
   /// Description for the tca recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A week off a TCA, through the part where nausea and sleep disruption are worst. Push through with your prescriber in the loop.'**
+  /// **'This can be a difficult stretch for nausea and disrupted sleep. Keep your prescriber in the loop.'**
   String get tcaMilestone7Description;
 
   /// Title for the tca recovery milestone at 14 days.
@@ -5145,7 +5145,7 @@ abstract class AppLocalizations {
   /// Description for the tca recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
-  /// **'Two weeks off a TCA. The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.'**
+  /// **'The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.'**
   String get tcaMilestone14Description;
 
   /// Title for the tca recovery milestone at 30 days.
@@ -5157,7 +5157,7 @@ abstract class AppLocalizations {
   /// Description for the tca recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month off a TCA. Your serotonin and noradrenaline have had time to find their own balance.'**
+  /// **'Your serotonin and noradrenaline have had time to find their own balance.'**
   String get tcaMilestone30Description;
 
   /// Title for the tca recovery milestone at 90 days.
@@ -5169,7 +5169,7 @@ abstract class AppLocalizations {
   /// Description for the tca recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months off a TCA. Your mood chemistry has had a full season to settle without the medication steering it.'**
+  /// **'Your mood chemistry has had a full season to settle without the medication steering it.'**
   String get tcaMilestone90Description;
 
   /// Title for the tca recovery milestone at 180 days.
@@ -5181,7 +5181,7 @@ abstract class AppLocalizations {
   /// Description for the tca recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
-  /// **'Half a year off a TCA. Whatever prompted the change, you\'ve held the line through it.'**
+  /// **'Whatever prompted the change, you\'ve held the line through it.'**
   String get tcaMilestone180Description;
 
   /// Title for the tca recovery milestone at 365 days.
@@ -5193,7 +5193,7 @@ abstract class AppLocalizations {
   /// Description for the tca recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A year off a TCA. A whole year of your mood chemistry settling without the medication in the mix.'**
+  /// **'Your mood may have had time to settle without the medication in the mix.'**
   String get tcaMilestone365Description;
 
   /// Title for the tca recovery milestone at 730 days.
@@ -5205,7 +5205,7 @@ abstract class AppLocalizations {
   /// Description for the tca recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years off a TCA. Long enough to know which of your moods are genuinely yours.'**
+  /// **'Long enough to know which of your moods are genuinely yours.'**
   String get tcaMilestone730Description;
 
   /// Source for the tca recovery milestone at 730 days.
@@ -5223,7 +5223,7 @@ abstract class AppLocalizations {
   /// Description for the tca recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years off a TCA. The change has weathered enough real life to be permanent.'**
+  /// **'The change has weathered enough real life to be permanent.'**
   String get tcaMilestone1095Description;
 
   /// Source for the tca recovery milestone at 1095 days.
@@ -5241,7 +5241,7 @@ abstract class AppLocalizations {
   /// Description for the tca recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years off a TCA. Whatever prompted it, the decision has stood.'**
+  /// **'Whatever prompted it, the decision has stood.'**
   String get tcaMilestone1460Description;
 
   /// Source for the tca recovery milestone at 1460 days.
@@ -5259,7 +5259,7 @@ abstract class AppLocalizations {
   /// Description for the tca recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years off a TCA. A long, careful call, kept for half a decade.'**
+  /// **'A long, careful decision has been kept through changing circumstances.'**
   String get tcaMilestone1825Description;
 
   /// Source for the tca recovery milestone at 1825 days.
@@ -5337,7 +5337,7 @@ abstract class AppLocalizations {
   /// Description for the maoi recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
-  /// **'A week past the hardest part of stopping an MAOI, and the food rules still apply. Keep following your prescriber\'s guidance.'**
+  /// **'The hardest part of stopping may be behind you, but the food rules still apply. Keep following your prescriber\'s guidance.'**
   String get maoiMilestone7Description;
 
   /// Title for the maoi recovery milestone at 14 days.
@@ -5349,7 +5349,7 @@ abstract class AppLocalizations {
   /// Description for the maoi recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
-  /// **'Two weeks off an MAOI. Mood can dip in the first few weeks after stopping, and that\'s something to watch with your prescriber.'**
+  /// **'Mood can dip in the first few weeks after stopping, and that\'s something to watch with your prescriber.'**
   String get maoiMilestone14Description;
 
   /// Title for the maoi recovery milestone at 30 days.
@@ -5361,7 +5361,7 @@ abstract class AppLocalizations {
   /// Description for the maoi recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
-  /// **'A month without an MAOI. Whatever your prescriber\'s plan was for this change, you\'re holding it together.'**
+  /// **'Whatever your prescriber\'s plan was for this change, you\'re holding it together.'**
   String get maoiMilestone30Description;
 
   /// Title for the maoi recovery milestone at 90 days.
@@ -5373,7 +5373,7 @@ abstract class AppLocalizations {
   /// Description for the maoi recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
-  /// **'Three months without an MAOI. Your mood chemistry has had a full season to settle on its own.'**
+  /// **'Your mood chemistry has had a full season to settle on its own.'**
   String get maoiMilestone90Description;
 
   /// Title for the maoi recovery milestone at 180 days.
@@ -5385,7 +5385,7 @@ abstract class AppLocalizations {
   /// Description for the maoi recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
-  /// **'Half a year off an MAOI, with the dietary rules a memory. Whatever the next step is, you\'ve got the discipline for it.'**
+  /// **'The dietary rules may now be a memory. Whatever the next step is, you\'ve got the discipline for it.'**
   String get maoiMilestone180Description;
 
   /// Title for the maoi recovery milestone at 365 days.
@@ -5397,7 +5397,7 @@ abstract class AppLocalizations {
   /// Description for the maoi recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
-  /// **'A year without an MAOI. A long, careful medical plan, followed through to the end.'**
+  /// **'A long, careful medical plan, followed through to the end.'**
   String get maoiMilestone365Description;
 
   /// Settings show maoi tracking.
@@ -6183,7 +6183,7 @@ abstract class AppLocalizations {
   /// Description for the meth recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years meth-free. A long, steady break from the damage meth does to the brain.'**
+  /// **'A long, steady break from the damage meth does to the brain.'**
   String get methMilestone1095Description;
 
   /// Source for the meth recovery milestone at 1095 days.
@@ -6201,7 +6201,7 @@ abstract class AppLocalizations {
   /// Description for the meth recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years without meth. The old pattern is gone, and the person you are now runs without it.'**
+  /// **'The old pattern is gone, and the person you are now runs without it.'**
   String get methMilestone1460Description;
 
   /// Source for the meth recovery milestone at 1460 days.
@@ -6219,7 +6219,7 @@ abstract class AppLocalizations {
   /// Description for the meth recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years without meth. Half a decade of your brain repairing itself, and of you staying the course.'**
+  /// **'Your brain has had sustained time to recover, and you\'ve stayed the course.'**
   String get methMilestone1825Description;
 
   /// Source for the meth recovery milestone at 1825 days.
@@ -6783,7 +6783,7 @@ abstract class AppLocalizations {
   /// Description for the vaping recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years vape-free. The reflex reach for the device has faded, and your lungs have had sustained time away from the aerosol.'**
+  /// **'The reflex reach for the device has faded, and your lungs have had sustained time away from the aerosol.'**
   String get vapingMilestone730Description;
 
   /// Title for the vaping recovery milestone at 1095 days.
@@ -6795,7 +6795,7 @@ abstract class AppLocalizations {
   /// Description for the vaping recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years vape-free. Your lungs and your heart have had years away from the aerosol, and the habit is well gone.'**
+  /// **'Your lungs and your heart have had years away from the aerosol, and the habit is well gone.'**
   String get vapingMilestone1095Description;
 
   /// Title for the vaping recovery milestone at 1460 days.
@@ -6807,7 +6807,7 @@ abstract class AppLocalizations {
   /// Description for the vaping recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years vape-free. The old pattern is a closed chapter, and your body\'s had years to repair.'**
+  /// **'The old pattern is a closed chapter, and your body\'s had years to repair.'**
   String get vapingMilestone1460Description;
 
   /// Title for the vaping recovery milestone at 1825 days.
@@ -6819,7 +6819,7 @@ abstract class AppLocalizations {
   /// Description for the vaping recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years vape-free. Half a decade of your lungs working without the aerosol, and of you staying the course.'**
+  /// **'Your lungs have had sustained time away from the aerosol, and you\'ve stayed the course.'**
   String get vapingMilestone1825Description;
 
   /// Vaping long term reference.
@@ -6903,7 +6903,7 @@ abstract class AppLocalizations {
   /// Description for the adderall recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'That\'s five years of protecting the life you\'ve built.'**
+  /// **'You\'ve protected the life and healthier routines you\'ve built.'**
   String get adderallMilestone1825Description;
 
   /// Source for the adderall recovery milestone at 1825 days.
@@ -6993,7 +6993,7 @@ abstract class AppLocalizations {
   /// Description for the ghb recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years without GHB. The routines that used to revolve around it have been replaced, and you know the early warnings now.'**
+  /// **'The routines that used to revolve around it have been replaced, and you know the early warnings now.'**
   String get ghbMilestone730Description;
 
   /// Source for the ghb recovery milestone at 730 days.
@@ -7011,7 +7011,7 @@ abstract class AppLocalizations {
   /// Description for the ghb recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years of GHB recovery. People and habits that fit the new life have had time to settle in.'**
+  /// **'People and habits that fit the new life have had time to settle in.'**
   String get ghbMilestone1095Description;
 
   /// Source for the ghb recovery milestone at 1095 days.
@@ -7029,7 +7029,7 @@ abstract class AppLocalizations {
   /// Description for the ghb recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years, and GHB is a closed chapter rather than a recurring one.'**
+  /// **'GHB has become a closed chapter rather than a recurring one.'**
   String get ghbMilestone1460Description;
 
   /// Source for the ghb recovery milestone at 1460 days.
@@ -7047,7 +7047,7 @@ abstract class AppLocalizations {
   /// Description for the ghb recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years without GHB. That\'s a long time to prove the recovery sticks.'**
+  /// **'The routines that support recovery have proved durable.'**
   String get ghbMilestone1825Description;
 
   /// Source for the ghb recovery milestone at 1825 days.
@@ -7065,7 +7065,7 @@ abstract class AppLocalizations {
   /// Description for the inhalants recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years sober. Inhalant use is a hard habit to break, and you\'ve broken it for good and proper.'**
+  /// **'Inhalant use is a hard habit to break, and you\'ve broken it for good and proper.'**
   String get inhalantsMilestone1095Description;
 
   /// Title for the inhalants recovery milestone at 1460 days.
@@ -7077,7 +7077,7 @@ abstract class AppLocalizations {
   /// Description for the inhalants recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years without inhalants. The routines that built that recovery have had plenty of time to take root.'**
+  /// **'The routines that built that recovery have had plenty of time to take root.'**
   String get inhalantsMilestone1460Description;
 
   /// Title for the inhalants recovery milestone at 1825 days.
@@ -7089,7 +7089,7 @@ abstract class AppLocalizations {
   /// Description for the inhalants recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years without inhalants. That\'s half a decade of protecting your heart, brain and lungs.'**
+  /// **'You\'ve kept protecting your heart, brain and lungs by avoiding further exposure.'**
   String get inhalantsMilestone1825Description;
 
   /// Source for the inhalants recovery milestone at 1095 days.
@@ -7119,7 +7119,7 @@ abstract class AppLocalizations {
   /// Description for the maoi recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years without an MAOI. The change was the cautious kind, and you\'ve kept it.'**
+  /// **'The change was the cautious kind, and you\'ve kept it.'**
   String get maoiMilestone730Description;
 
   /// Title for the maoi recovery milestone at 1095 days.
@@ -7131,7 +7131,7 @@ abstract class AppLocalizations {
   /// Description for the maoi recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years off an MAOI. The careful exit you planned has become just how things are now.'**
+  /// **'The careful exit you planned has become just how things are now.'**
   String get maoiMilestone1095Description;
 
   /// Title for the maoi recovery milestone at 1460 days.
@@ -7143,7 +7143,7 @@ abstract class AppLocalizations {
   /// Description for the maoi recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years without an MAOI. Whatever prompted the change, it\'s stayed changed.'**
+  /// **'Whatever prompted the change, it\'s stayed changed.'**
   String get maoiMilestone1460Description;
 
   /// Title for the maoi recovery milestone at 1825 days.
@@ -7155,7 +7155,7 @@ abstract class AppLocalizations {
   /// Description for the maoi recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years off an MAOI. A long, careful decision, kept for a very long time.'**
+  /// **'That careful medical decision has held through changing circumstances.'**
   String get maoiMilestone1825Description;
 
   /// Source for the maoi recovery milestone at 730 days.
@@ -7191,7 +7191,7 @@ abstract class AppLocalizations {
   /// Description for the marijuana recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years without cannabis. The habit is gone, and the routines that replaced it have had time to stick.'**
+  /// **'The habit is gone, and the routines that replaced it have had time to stick.'**
   String get marijuanaMilestone730Description;
 
   /// Source for the marijuana recovery milestone at 730 days.
@@ -7209,7 +7209,7 @@ abstract class AppLocalizations {
   /// Description for the marijuana recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years cannabis-free. Your memory and mood have had a long stretch away from THC\'s daily pull.'**
+  /// **'Your memory and mood have had a long stretch away from THC\'s daily pull.'**
   String get marijuanaMilestone1095Description;
 
   /// Source for the marijuana recovery milestone at 1095 days.
@@ -7227,7 +7227,7 @@ abstract class AppLocalizations {
   /// Description for the marijuana recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years without cannabis. The old pattern isn\'t a close call anymore; it\'s just over.'**
+  /// **'The old pattern isn\'t a close call anymore; it\'s just over.'**
   String get marijuanaMilestone1460Description;
 
   /// Source for the marijuana recovery milestone at 1460 days.
@@ -7245,7 +7245,7 @@ abstract class AppLocalizations {
   /// Description for the marijuana recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years without cannabis. Half a decade of your brain working without THC in the loop.'**
+  /// **'Your brain has had sustained time away from THC\'s daily effects.'**
   String get marijuanaMilestone1825Description;
 
   /// Source for the marijuana recovery milestone at 1825 days.
@@ -7263,7 +7263,7 @@ abstract class AppLocalizations {
   /// Description for the mdma recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years without MDMA. The ritual of it is gone, and the mood that came after is gone with it.'**
+  /// **'The ritual of it is gone, and the mood that came after is gone with it.'**
   String get mdmaMilestone730Description;
 
   /// Source for the mdma recovery milestone at 730 days.
@@ -7281,7 +7281,7 @@ abstract class AppLocalizations {
   /// Description for the mdma recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years MDMA-free. That\'s a long time to keep your heart and mood on a stable footing.'**
+  /// **'That\'s a long time to keep your heart and mood on a stable footing.'**
   String get mdmaMilestone1095Description;
 
   /// Source for the mdma recovery milestone at 1095 days.
@@ -7299,7 +7299,7 @@ abstract class AppLocalizations {
   /// Description for the mdma recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years without MDMA. The old habit and its aftermath are well behind you now.'**
+  /// **'The old habit and its aftermath are well behind you now.'**
   String get mdmaMilestone1460Description;
 
   /// Source for the mdma recovery milestone at 1460 days.
@@ -7317,7 +7317,7 @@ abstract class AppLocalizations {
   /// Description for the mdma recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years without MDMA. Half a decade of your chemistry working without repeated strain.'**
+  /// **'Your body has had sustained time without the repeated strain of MDMA use.'**
   String get mdmaMilestone1825Description;
 
   /// Source for the mdma recovery milestone at 1825 days.
@@ -7335,7 +7335,7 @@ abstract class AppLocalizations {
   /// Description for the nitrous oxide recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years without nitrous. The reflex, the settings and the risk are all gone from your life now.'**
+  /// **'The reflex, the settings and the risk are all gone from your life now.'**
   String get nitrousOxideMilestone730Description;
 
   /// Source for the nitrous oxide recovery milestone at 730 days.
@@ -7353,7 +7353,7 @@ abstract class AppLocalizations {
   /// Description for the nitrous oxide recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years nitrous-free. Your nerves and your B12 have had a long, steady break to recover.'**
+  /// **'Your nerves and your B12 have had a long, steady break to recover.'**
   String get nitrousOxideMilestone1095Description;
 
   /// Source for the nitrous oxide recovery milestone at 1095 days.
@@ -7371,7 +7371,7 @@ abstract class AppLocalizations {
   /// Description for the nitrous oxide recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years without nitrous. The old habit is well behind you, and your body\'s had years to heal.'**
+  /// **'The old habit is well behind you, and your body\'s had years to heal.'**
   String get nitrousOxideMilestone1460Description;
 
   /// Source for the nitrous oxide recovery milestone at 1460 days.
@@ -7389,7 +7389,7 @@ abstract class AppLocalizations {
   /// Description for the nitrous oxide recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years without nitrous. Half a decade of your nervous system working with the vitamins it needs.'**
+  /// **'Your nervous system has had a long stretch of getting the vitamins it needs.'**
   String get nitrousOxideMilestone1825Description;
 
   /// Source for the nitrous oxide recovery milestone at 1825 days.
@@ -7407,7 +7407,7 @@ abstract class AppLocalizations {
   /// Description for the social media recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years without social media. The scroll you used to fill an evening with is now just an evening.'**
+  /// **'The scroll you used to fill an evening with is now just an evening.'**
   String get socialMediaMilestone730Description;
 
   /// Source for the social media recovery milestone at 730 days.
@@ -7425,7 +7425,7 @@ abstract class AppLocalizations {
   /// Description for the social media recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years without social media. Your attention has had a long stretch to do something else.'**
+  /// **'Your attention has had a long stretch to do something else.'**
   String get socialMediaMilestone1095Description;
 
   /// Source for the social media recovery milestone at 1095 days.
@@ -7443,7 +7443,7 @@ abstract class AppLocalizations {
   /// Description for the social media recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years without social media. The old reflex is a closed chapter, and the new one is the default.'**
+  /// **'The old reflex is a closed chapter, and the new one is the default.'**
   String get socialMediaMilestone1460Description;
 
   /// Source for the social media recovery milestone at 1460 days.
@@ -7461,7 +7461,7 @@ abstract class AppLocalizations {
   /// Description for the social media recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years without social media. Half a decade of attention you actually get to keep.'**
+  /// **'You\'ve reclaimed attention that used to disappear into the feed.'**
   String get socialMediaMilestone1825Description;
 
   /// Source for the social media recovery milestone at 1825 days.
@@ -7479,7 +7479,7 @@ abstract class AppLocalizations {
   /// Description for the ssri recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
-  /// **'Two years off an SSRI. You\'ve had time to see how your mood actually behaves on its own, without the guesswork.'**
+  /// **'You\'ve had time to see how your mood actually behaves on its own, without the guesswork.'**
   String get ssriMilestone730Description;
 
   /// Source for the ssri recovery milestone at 730 days.
@@ -7497,7 +7497,7 @@ abstract class AppLocalizations {
   /// Description for the ssri recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years off an SSRI. The mood you have now belongs to you, not to a schedule.'**
+  /// **'The mood you have now belongs to you, not to a schedule.'**
   String get ssriMilestone1095Description;
 
   /// Source for the ssri recovery milestone at 1095 days.
@@ -7515,7 +7515,7 @@ abstract class AppLocalizations {
   /// Description for the ssri recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years off an SSRI. The decision to stop has held up against everything that\'s come since.'**
+  /// **'The decision to stop has held up against everything that\'s come since.'**
   String get ssriMilestone1460Description;
 
   /// Source for the ssri recovery milestone at 1460 days.
@@ -7533,7 +7533,7 @@ abstract class AppLocalizations {
   /// Description for the ssri recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years off an SSRI. A careful medical decision, kept faithfully for half a decade.'**
+  /// **'A careful medical decision has held through changing circumstances.'**
   String get ssriMilestone1825Description;
 
   /// Source for the ssri recovery milestone at 1825 days.
@@ -7551,7 +7551,7 @@ abstract class AppLocalizations {
   /// Description for the steroids recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
-  /// **'Three years off steroids. A long stretch of your body running on its own chemistry.'**
+  /// **'A long stretch of your body running on its own chemistry.'**
   String get steroidsMilestone1095Description;
 
   /// Source for the steroids recovery milestone at 1095 days.
@@ -7569,7 +7569,7 @@ abstract class AppLocalizations {
   /// Description for the steroids recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
-  /// **'Four years off steroids. The old pattern is a closed chapter, and your body\'s been on its own for years.'**
+  /// **'The old pattern is a closed chapter, and your body\'s been on its own for years.'**
   String get steroidsMilestone1460Description;
 
   /// Source for the steroids recovery milestone at 1460 days.
@@ -7587,7 +7587,7 @@ abstract class AppLocalizations {
   /// Description for the steroids recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
-  /// **'Five years off steroids. Half a decade of your hormonal system working on its own, and of you staying the course.'**
+  /// **'Your hormone system has had sustained time to function without anabolic steroids, and you\'ve stayed the course.'**
   String get steroidsMilestone1825Description;
 
   /// Source for the steroids recovery milestone at 1825 days.
