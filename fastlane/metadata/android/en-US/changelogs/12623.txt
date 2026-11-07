@@ -1,0 +1,10 @@
+• Reduce repitition of milestones
+• Remove features and privacy section from README
+• Remove local development instructions from README
+• simplify desktop card editing and reordering
+• fix(android): enable edge-to-edge and retain crash logs
+• Fix remove repeated duration copy from milestones
+• Fix render custom preset icons as vectors
+• Fix smooth desktop milestone progress scrolling
+• Fix use normal text color for desktop settings button
+• ui: align picker reset buttons to start
