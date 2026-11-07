@@ -53,11 +53,15 @@ void _talkerOutput(String message) {
 }
 
 void installTalkerErrorHandlers() {
+  final previousFlutterHandler = FlutterError.onError;
   FlutterError.onError = (details) {
-    FlutterError.presentError(details);
+    previousFlutterHandler?.call(details);
     talker.handle(details.exception, details.stack, 'Flutter framework error');
   };
+
+  final previousPlatformHandler = PlatformDispatcher.instance.onError;
   PlatformDispatcher.instance.onError = (error, stackTrace) {
+    previousPlatformHandler?.call(error, stackTrace);
     talker.handle(error, stackTrace, 'Uncaught platform error');
     return true;
   };
