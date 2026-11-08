@@ -120,5 +120,6 @@
   "1790216567": "• Se completaron las etiquetas de confirmación en español",
   "1790334106": "• Se añadieron las traducciones al alemán\n• Se añadió la etiqueta «Alemán» al selector de idioma",
   "1792007720": "• Ahora puedes tocar cualquier parte de las tarjetas de hitos\n• Añadidos árabe, indonesio y portugués de Brasil y Portugal",
-  "1793508331": "• Los mosaicos de vapeo ahora muestran un icono más grande\n• El botón Donar y la barra de pestañas quedan fuera de la navegación del sistema de Android\n• El pie de la página «Novedades» ahora se alinea con la barra de pestañas\n• Los avisos de actualización aparecen como máximo una vez cada 14 días"
+  "1793508331": "• Los mosaicos de vapeo ahora muestran un icono más grande\n• El botón Donar y la barra de pestañas quedan fuera de la navegación del sistema de Android\n• El pie de la página «Novedades» ahora se alinea con la barra de pestañas\n• Los avisos de actualización aparecen como máximo una vez cada 14 días",
+  "1794092321": "• Menos repeticiones y textos de duración duplicados en los hitos\n• README sin secciones de funciones, privacidad ni desarrollo local\n• Edición y ordenación de tarjetas más sencillas en el escritorio\n• Android: vista de borde a borde y registros de fallos guardados\n• Iconos vectoriales para preajustes personalizados\n• Progreso de hitos con desplazamiento más fluido en el escritorio\n• Color de texto normal en ajustes del escritorio\n• Botones de restablecimiento al inicio de los selectores"
 }

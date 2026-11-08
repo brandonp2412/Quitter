@@ -1,0 +1,8 @@
+• Mengurangi pengulangan pencapaian dan teks durasi
+• Menghapus bagian fitur, privasi, dan pengembangan lokal dari README
+• Mempermudah penyuntingan dan pengurutan kartu desktop
+• Android: tampilan hingga tepi layar dan log kerusakan disimpan
+• Ikon prasetel khusus dalam format vektor
+• Pengguliran kemajuan pencapaian desktop lebih halus
+• Warna teks biasa untuk tombol pengaturan desktop
+• Tombol reset diratakan ke awal pemilih

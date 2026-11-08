@@ -1,0 +1,8 @@
+• Menos repetições e durações duplicadas nos marcos
+• README sem secções de funcionalidades, privacidade e desenvolvimento local
+• Edição e ordenação de cartões mais simples no computador
+• Android: apresentação de margem a margem e registos de falhas guardados
+• Ícones vetoriais para predefinições personalizadas
+• Deslocação mais fluida do progresso dos marcos no computador
+• Cor de texto normal no botão de definições do computador
+• Botões de reposição no início dos seletores

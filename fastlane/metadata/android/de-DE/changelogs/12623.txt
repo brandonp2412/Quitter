@@ -1,0 +1,8 @@
+• Weniger Wiederholungen und doppelte Zeitangaben bei Meilensteinen
+• README ohne Funktions-, Datenschutz- und lokale Entwicklungsabschnitte
+• Desktop-Karten einfacher bearbeiten und sortieren
+• Android: randlose Anzeige und gespeicherte Absturzprotokolle
+• Eigene Vorlagensymbole als Vektoren
+• Flüssigeres Scrollen des Meilensteinfortschritts am Desktop
+• Normale Textfarbe am Desktop-Einstellungsbutton
+• Zurücksetzen am Anfang der Auswahlfelder

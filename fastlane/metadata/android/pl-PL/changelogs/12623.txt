@@ -1,0 +1,8 @@
+• Mniej powtórzeń i podwójnych opisów czasu w kamieniach milowych
+• README bez sekcji funkcji, prywatności i lokalnego programowania
+• Łatwiejsza edycja i sortowanie kart na komputerze
+• Android: widok od krawędzi do krawędzi i zachowane dzienniki awarii
+• Własne ikony szablonów jako wektory
+• Płynniejsze przewijanie postępu kamieni milowych na komputerze
+• Zwykły kolor tekstu przycisku ustawień na komputerze
+• Resetowanie wyrównane do początku pól wyboru

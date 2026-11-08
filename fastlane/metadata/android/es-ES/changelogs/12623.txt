@@ -1,0 +1,8 @@
+• Menos repeticiones y textos de duración duplicados en los hitos
+• README sin secciones de funciones, privacidad ni desarrollo local
+• Edición y ordenación de tarjetas más sencillas en el escritorio
+• Android: vista de borde a borde y registros de fallos guardados
+• Iconos vectoriales para preajustes personalizados
+• Progreso de hitos con desplazamiento más fluido en el escritorio
+• Color de texto normal en ajustes del escritorio
+• Botones de restablecimiento al inicio de los selectores

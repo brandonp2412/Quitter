@@ -120,5 +120,6 @@
   "1790216567": "• Finalisation des libellés de confirmation en espagnol",
   "1790334106": "• Ajout des traductions allemandes\n• Ajout du libellé « Allemand » dans le sélecteur de langue",
   "1792007720": "• Les cartes des étapes sont désormais entièrement cliquables\n• Ajout de l’arabe, de l’indonésien et du portugais du Brésil et du Portugal",
-  "1793508331": "• Les tuiles de vapotage affichent désormais une icône plus grande\n• Le bouton Faire un don et la barre d’onglets restent dégagés de la navigation système Android\n• Le pied de page « Nouveautés » est désormais aligné sur la barre d’onglets\n• Les avis de mise à jour s’affichent au maximum une fois tous les 14 jours"
+  "1793508331": "• Les tuiles de vapotage affichent désormais une icône plus grande\n• Le bouton Faire un don et la barre d’onglets restent dégagés de la navigation système Android\n• Le pied de page « Nouveautés » est désormais aligné sur la barre d’onglets\n• Les avis de mise à jour s’affichent au maximum une fois tous les 14 jours",
+  "1794092321": "• Moins de répétitions et de durées en double dans les étapes\n• README sans sections sur les fonctionnalités, la confidentialité et le développement local\n• Cartes plus faciles à modifier et trier sur ordinateur\n• Android : affichage bord à bord et journaux de plantage conservés\n• Icônes vectorielles des modèles personnalisés\n• Progression des étapes : défilement plus fluide sur ordinateur\n• Couleur normale du bouton des paramètres sur ordinateur\n• Réinitialisation au début des sélecteurs"
 }

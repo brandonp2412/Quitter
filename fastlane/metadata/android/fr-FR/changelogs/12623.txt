@@ -1,0 +1,8 @@
+• Moins de répétitions et de durées en double dans les étapes
+• README sans sections sur les fonctionnalités, la confidentialité et le développement local
+• Cartes plus faciles à modifier et trier sur ordinateur
+• Android : affichage bord à bord et journaux de plantage conservés
+• Icônes vectorielles des modèles personnalisés
+• Progression des étapes : défilement plus fluide sur ordinateur
+• Couleur normale du bouton des paramètres sur ordinateur
+• Réinitialisation au début des sélecteurs
