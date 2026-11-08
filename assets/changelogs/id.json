@@ -121,5 +121,6 @@
   "1790334106": "• feat(l10n): Tambahkan German translations\n• Perbaiki(l10n): label German di bahasa picker",
   "1792007720": "• Seluruh area kartu pencapaian kini dapat diketuk\n• Menambahkan bahasa Arab, Indonesia, Portugis Brasil, dan Portugis Portugal",
   "1793508331": "• Ikon pada ubin vaping kini lebih besar\n• Tombol Donasi dan bilah tab tidak tertutup navigasi sistem Android\n• Footer halaman Yang Baru kini sejajar dengan bilah tab\n• Pemberitahuan pembaruan kini muncul paling sering setiap 14 hari",
-  "1794092321": "• Mengurangi pengulangan pencapaian dan teks durasi\n• Menghapus bagian fitur, privasi, dan pengembangan lokal dari README\n• Mempermudah penyuntingan dan pengurutan kartu desktop\n• Android: tampilan hingga tepi layar dan log kerusakan disimpan\n• Ikon prasetel khusus dalam format vektor\n• Pengguliran kemajuan pencapaian desktop lebih halus\n• Warna teks biasa untuk tombol pengaturan desktop\n• Tombol reset diratakan ke awal pemilih"
+  "1794092321": "• Mengurangi pengulangan pencapaian dan teks durasi\n• Menghapus bagian fitur, privasi, dan pengembangan lokal dari README\n• Mempermudah penyuntingan dan pengurutan kartu desktop\n• Android: tampilan hingga tepi layar dan log kerusakan disimpan\n• Ikon prasetel khusus dalam format vektor\n• Pengguliran kemajuan pencapaian desktop lebih halus\n• Warna teks biasa untuk tombol pengaturan desktop\n• Tombol reset diratakan ke awal pemilih",
+  "1794181230": "• Memperbaiki build Android agar F-Droid dapat memverifikasi rilis."
 }

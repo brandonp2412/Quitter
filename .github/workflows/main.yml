@@ -219,7 +219,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      - name: Bump versions and generate changelog
+      - name: Bump versions and verify release notes
         id: bump
         run: |
           CURRENT_VERSION=$(grep '^version:' pubspec.yaml | sed 's/version: //' | sed 's/+.*//')
@@ -244,49 +244,8 @@ jobs:
           CHANGELOG_FILE="fastlane/metadata/android/en-US/changelogs/$CHANGELOG_NUMBER.txt"
           mkdir -p "$(dirname "$CHANGELOG_FILE")"
 
-          LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
-          if [ -n "$LAST_TAG" ]; then
-            git --no-pager log --pretty=format:'%s' "$LAST_TAG"..HEAD
-          else
-            git --no-pager log --pretty=format:'%s'
-          fi | sort -u \
-            | grep -v "^Merge " \
-            | grep -v "^Release " \
-            | grep -v "^Bump " \
-            | grep -v "\[skip ci\]" \
-            | grep -v "^ci:" \
-            | grep -v "^chore:" \
-            | grep -v "^test:" \
-            | grep -v "^refactor:" \
-            | grep -v "^style:" \
-            | grep -v "^docs:" \
-            | grep -v "^build:" \
-            | grep -v "^Generate " \
-            | grep -v "^Format " \
-            | grep -v "^Ran " \
-            | grep -v "^Run " \
-            | grep -v "^Fix tests" \
-            | grep -v "^Fix unit tests" \
-            | grep -v "^Fix integration" \
-            | grep -v "^Fix lint" \
-            | grep -v "^Add .*test" \
-            | head -10 \
-            | sed 's/^feat: //' \
-            | sed 's/^fix: /Fix /' \
-            | sed 's/^perf: //' \
-            | sed 's/^/• /' > "$CHANGELOG_FILE"
-
-          [ -s "$CHANGELOG_FILE" ] || echo "• Bug fixes and improvements" > "$CHANGELOG_FILE"
-
-          TIMESTAMP=$(date +%s)
-          ASSET_CHANGELOG="assets/changelogs/$TIMESTAMP.txt"
-
-          DUPLICATE=$(grep -rl "^$(head -1 "$CHANGELOG_FILE" | sed 's/[.[\*^$()+?{|]/\\&/g')$" assets/changelogs/ 2>/dev/null | head -1)
-          if [ -z "$DUPLICATE" ]; then
-            cp "$CHANGELOG_FILE" "$ASSET_CHANGELOG"
-          else
-            echo "Skipping duplicate asset changelog (matches $DUPLICATE)"
-          fi
+          test -s "$CHANGELOG_FILE"
+          python3 scripts/sync_play_changelogs.py --check
 
       - name: Commit, tag, and push the tested release
         id: release

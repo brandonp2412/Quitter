@@ -1,0 +1,1 @@
+• Memperbaiki build Android agar F-Droid dapat memverifikasi rilis.

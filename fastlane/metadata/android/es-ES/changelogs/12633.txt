@@ -1,0 +1,1 @@
+• Corregida la compilación de Android para que F-Droid pueda verificar las versiones.
