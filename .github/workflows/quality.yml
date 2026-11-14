@@ -47,7 +47,9 @@ jobs:
       - name: Analyze
         run: flutter/bin/flutter analyze --no-fatal-infos lib test
       - name: Run custom lints
-        run: flutter/bin/dart run custom_lint
+        run: |
+          export PATH="$PWD/flutter/bin:$PATH"
+          dart run custom_lint
 
       - name: Test
         run: flutter/bin/flutter test
