@@ -120,26 +120,28 @@ class _SettingsPageState extends State<SettingsPage> {
                     ),
                   ),
                   Expanded(
-                    child: !hasResults && _searchQuery.isNotEmpty
-                        ? AppEmptyState(
-                            icon: Icons.search_off_rounded,
-                            title: l10n.noSearchResults,
-                            actionLabel: l10n.clearSearch,
-                            actionIcon: Icons.close_rounded,
-                            onAction: _searchController.clear,
-                          )
-                        : desktop
-                        ? _desktopSettingsSections(sections)
-                        : ListView(
-                            padding: const EdgeInsets.all(16),
-                            children: [
-                              for (final section in sections)
-                                if (section.isNotEmpty) ...[
-                                  ...section,
-                                  const SizedBox(height: 24),
+                    child: switch (!hasResults && _searchQuery.isNotEmpty) {
+                      true => AppEmptyState(
+                        icon: Icons.search_off_rounded,
+                        title: l10n.noSearchResults,
+                        actionLabel: l10n.clearSearch,
+                        actionIcon: Icons.close_rounded,
+                        onAction: _searchController.clear,
+                      ),
+                      false =>
+                        desktop
+                            ? _desktopSettingsSections(sections)
+                            : ListView(
+                                padding: const EdgeInsets.all(16),
+                                children: [
+                                  for (final section in sections)
+                                    if (section.isNotEmpty) ...[
+                                      ...section,
+                                      const SizedBox(height: 24),
+                                    ],
                                 ],
-                            ],
-                          ),
+                              ),
+                    },
                   ),
                   SizedBox(height: MediaQuery.of(context).padding.bottom),
                 ],
@@ -1370,15 +1372,21 @@ class _ColorSchemePicker extends StatelessWidget {
                         width: 3,
                       ),
                     ),
-                    child: isSelected
-                        ? const Icon(Icons.check, color: Colors.white, size: 20)
-                        : isCustom
-                        ? const Icon(
-                            Icons.colorize_outlined,
-                            color: Colors.white,
-                            size: 20,
-                          )
-                        : null,
+                    child: switch (isSelected) {
+                      true => const Icon(
+                        Icons.check,
+                        color: Colors.white,
+                        size: 20,
+                      ),
+                      false =>
+                        isCustom
+                            ? const Icon(
+                                Icons.colorize_outlined,
+                                color: Colors.white,
+                                size: 20,
+                              )
+                            : null,
+                    },
                   ),
                 ),
               );

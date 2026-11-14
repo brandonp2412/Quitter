@@ -658,69 +658,65 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
                   ),
                 ),
                 Expanded(
-                  child: filtered.isEmpty
-                      ? AppEmptyState(
-                          icon: options.isEmpty
-                              ? Icons.check_circle_outline_rounded
-                              : Icons.search_off_rounded,
-                          title: options.isEmpty
-                              ? l10n.addAddictionNoneAvailable
-                              : l10n.noSearchResults,
-                          message: l10n.addAddictionCustomSubtitle,
-                          actionLabel: l10n.homeTrackAnyway,
-                          actionIcon: Icons.add_rounded,
-                          onAction: () => Navigator.of(context).pushReplacement(
+                  child: switch (filtered.isEmpty) {
+                    true => AppEmptyState(
+                      icon: options.isEmpty
+                          ? Icons.check_circle_outline_rounded
+                          : Icons.search_off_rounded,
+                      title: options.isEmpty
+                          ? l10n.addAddictionNoneAvailable
+                          : l10n.noSearchResults,
+                      message: l10n.addAddictionCustomSubtitle,
+                      actionLabel: l10n.homeTrackAnyway,
+                      actionIcon: Icons.add_rounded,
+                      onAction: () => Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(
+                          builder: (_) => const EditEntryPage(),
+                        ),
+                      ),
+                    ),
+                    false => ListView(
+                      padding: const EdgeInsets.symmetric(vertical: 8),
+                      children: [
+                        ...filtered.map(
+                          (option) => _AddictionTile(
+                            option: option,
+                            onTap: () => Navigator.of(context).pushReplacement(
+                              MaterialPageRoute(
+                                builder: (_) => option.destination,
+                              ),
+                            ),
+                          ),
+                        ),
+                        const Divider(height: 32),
+                        ListTile(
+                          leading: Container(
+                            width: 48,
+                            height: 48,
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                colors: [
+                                  Theme.of(context).colorScheme.primary,
+                                  Theme.of(context).colorScheme.secondary,
+                                ],
+                                begin: Alignment.topLeft,
+                                end: Alignment.bottomRight,
+                              ),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: const Icon(Icons.add, color: Colors.white),
+                          ),
+                          title: Text(l10n.addAddictionCustom),
+                          subtitle: Text(l10n.addAddictionCustomSubtitle),
+                          onTap: () => Navigator.of(context).pushReplacement(
                             MaterialPageRoute(
                               builder: (_) => const EditEntryPage(),
                             ),
                           ),
-                        )
-                      : ListView(
-                          padding: const EdgeInsets.symmetric(vertical: 8),
-                          children: [
-                            ...filtered.map(
-                              (option) => _AddictionTile(
-                                option: option,
-                                onTap: () =>
-                                    Navigator.of(context).pushReplacement(
-                                      MaterialPageRoute(
-                                        builder: (_) => option.destination,
-                                      ),
-                                    ),
-                              ),
-                            ),
-                            const Divider(height: 32),
-                            ListTile(
-                              leading: Container(
-                                width: 48,
-                                height: 48,
-                                decoration: BoxDecoration(
-                                  gradient: LinearGradient(
-                                    colors: [
-                                      Theme.of(context).colorScheme.primary,
-                                      Theme.of(context).colorScheme.secondary,
-                                    ],
-                                    begin: Alignment.topLeft,
-                                    end: Alignment.bottomRight,
-                                  ),
-                                  borderRadius: BorderRadius.circular(12),
-                                ),
-                                child: const Icon(
-                                  Icons.add,
-                                  color: Colors.white,
-                                ),
-                              ),
-                              title: Text(l10n.addAddictionCustom),
-                              subtitle: Text(l10n.addAddictionCustomSubtitle),
-                              onTap: () =>
-                                  Navigator.of(context).pushReplacement(
-                                    MaterialPageRoute(
-                                      builder: (_) => const EditEntryPage(),
-                                    ),
-                                  ),
-                            ),
-                          ],
                         ),
+                      ],
+                    ),
+                  },
                 ),
               ],
             ),

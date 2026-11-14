@@ -78,9 +78,10 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       final nextIndex = widget.milestones.indexWhere(
         (m) => currentDayFromQuitOn < m.day,
       );
-      _targetIndex = nextIndex <= 0
-          ? (nextIndex == -1 ? widget.milestones.length - 1 : 0)
-          : nextIndex - 1;
+      _targetIndex = switch (nextIndex <= 0) {
+        true => (nextIndex == -1 ? widget.milestones.length - 1 : 0),
+        false => nextIndex - 1,
+      };
       WidgetsBinding.instance.addPostFrameCallback((_) {
         final target = _targetTileKey.currentContext?.findRenderObject();
         if (!mounted || target == null || !_scroll.hasClients) return;

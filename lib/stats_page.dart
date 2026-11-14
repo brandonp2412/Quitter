@@ -741,9 +741,10 @@ class _StreaksCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final maxDays = entries.isEmpty
-        ? 1
-        : entries.map((e) => e.days).reduce((a, b) => a > b ? a : b);
+    final maxDays = switch (entries.isEmpty) {
+      true => 1,
+      false => entries.map((e) => e.days).reduce((a, b) => a > b ? a : b),
+    };
 
     return Container(
       padding: const EdgeInsets.all(20),

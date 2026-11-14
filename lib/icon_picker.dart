@@ -109,74 +109,70 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
         const SizedBox(height: 16),
         SizedBox(
           height: widget.gridHeight,
-          child: filteredIcons.isEmpty
-              ? AppEmptyState(
-                  icon: Icons.search_off_rounded,
-                  title: l10n.iconNoResults,
-                  actionLabel: l10n.clearSearch,
-                  actionIcon: Icons.close_rounded,
-                  onAction: _searchController.clear,
-                )
-              : LayoutBuilder(
-                  builder: (context, constraints) {
-                    final int crossAxisCount =
-                        (constraints.maxWidth / (_maxTileExtent + _spacing))
-                            .floor()
-                            .clamp(1, 12);
-                    final double tileExtent =
-                        (constraints.maxWidth -
-                            _spacing * (crossAxisCount - 1)) /
-                        crossAxisCount;
-                    _scrollToSelected(crossAxisCount, tileExtent + _spacing);
+          child: switch (filteredIcons.isEmpty) {
+            true => AppEmptyState(
+              icon: Icons.search_off_rounded,
+              title: l10n.iconNoResults,
+              actionLabel: l10n.clearSearch,
+              actionIcon: Icons.close_rounded,
+              onAction: _searchController.clear,
+            ),
+            false => LayoutBuilder(
+              builder: (context, constraints) {
+                final int crossAxisCount =
+                    (constraints.maxWidth / (_maxTileExtent + _spacing))
+                        .floor()
+                        .clamp(1, 12);
+                final double tileExtent =
+                    (constraints.maxWidth - _spacing * (crossAxisCount - 1)) /
+                    crossAxisCount;
+                _scrollToSelected(crossAxisCount, tileExtent + _spacing);
 
-                    return GridView.builder(
-                      controller: _scrollController,
-                      padding: EdgeInsets.zero,
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: crossAxisCount,
-                        crossAxisSpacing: _spacing,
-                        mainAxisSpacing: _spacing,
+                return GridView.builder(
+                  controller: _scrollController,
+                  padding: EdgeInsets.zero,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: crossAxisCount,
+                    crossAxisSpacing: _spacing,
+                    mainAxisSpacing: _spacing,
+                  ),
+                  itemCount: filteredIcons.length,
+                  itemBuilder: (context, index) {
+                    final icon = filteredIcons[index];
+                    final bool isSelected = widget.selectedIcon == icon;
+                    return GestureDetector(
+                      onTap: () => widget.onIconSelected(icon),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(8.0),
+                          gradient: isSelected
+                              ? LinearGradient(
+                                  colors: [
+                                    widget.iconColor ?? Colors.purple,
+                                    widget.iconColor?.withValues(alpha: 0.7) ??
+                                        Colors.purple.withValues(alpha: 0.7),
+                                  ],
+                                  begin: Alignment.topLeft,
+                                  end: Alignment.bottomRight,
+                                )
+                              : null,
+                        ),
+                        child: AddictionIcon(
+                          icon,
+                          size: widget.iconSize,
+                          color: isSelected
+                              ? getContrastingColor(
+                                  widget.iconColor ?? Colors.purple,
+                                )
+                              : null,
+                        ),
                       ),
-                      itemCount: filteredIcons.length,
-                      itemBuilder: (context, index) {
-                        final icon = filteredIcons[index];
-                        final bool isSelected = widget.selectedIcon == icon;
-                        return GestureDetector(
-                          onTap: () => widget.onIconSelected(icon),
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8.0),
-                              gradient: isSelected
-                                  ? LinearGradient(
-                                      colors: [
-                                        widget.iconColor ?? Colors.purple,
-                                        widget.iconColor?.withValues(
-                                              alpha: 0.7,
-                                            ) ??
-                                            Colors.purple.withValues(
-                                              alpha: 0.7,
-                                            ),
-                                      ],
-                                      begin: Alignment.topLeft,
-                                      end: Alignment.bottomRight,
-                                    )
-                                  : null,
-                            ),
-                            child: AddictionIcon(
-                              icon,
-                              size: widget.iconSize,
-                              color: isSelected
-                                  ? getContrastingColor(
-                                      widget.iconColor ?? Colors.purple,
-                                    )
-                                  : null,
-                            ),
-                          ),
-                        );
-                      },
                     );
                   },
-                ),
+                );
+              },
+            ),
+          },
         ),
       ],
     );

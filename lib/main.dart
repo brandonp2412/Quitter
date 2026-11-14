@@ -243,97 +243,93 @@ class _QuitterAppState extends State<QuitterApp>
                     ? Colors.black
                     : null,
               ),
-              home: settings.isPinEnabled && !settings.isUnlocked
-                  ? PinPage()
-                  : Builder(
-                      builder: (context) => LayoutBuilder(
-                        builder: (context, constraints) {
-                          if (constraints.maxWidth >= 1000) {
-                            return DesktopShell(
-                              controller: _tabController,
-                              showJournal: settings.showJournal,
-                            );
-                          }
-                          return Material(
-                            color: Theme.of(context).scaffoldBackgroundColor,
-                            child: SafeArea(
-                              bottom: false,
-                              child: Column(
-                                children: [
-                                  AppBar(
-                                    title: AnimatedBuilder(
-                                      animation: _tabController.animation!,
-                                      builder: (context, child) {
-                                        final l10n = AppLocalizations.of(
-                                          context,
-                                        )!;
-                                        return TabBar(
-                                          indicatorPadding:
-                                              EdgeInsetsGeometry.only(
-                                                bottom: 32,
-                                              ),
-                                          controller: _tabController,
-                                          tabs: [
-                                            Tab(
-                                              icon: SvgPicture.asset(
-                                                'assets/neurology.svg',
-                                                width: 24,
-                                                height: 24,
-                                                colorFilter: ColorFilter.mode(
-                                                  Color.lerp(
-                                                    Theme.of(
-                                                      context,
-                                                    ).colorScheme.primary,
-                                                    Theme.of(context)
-                                                        .colorScheme
-                                                        .onSurfaceVariant,
-                                                    (_tabController
-                                                            .animation!
-                                                            .value)
-                                                        .clamp(0.0, 1.0),
-                                                  )!,
-                                                  BlendMode.srcIn,
-                                                ),
-                                              ),
-                                              text: l10n.tabQuitter,
-                                            ),
-                                            Tab(
-                                              icon: const Icon(Icons.insights),
-                                              text: l10n.tabStats,
-                                            ),
-                                            if (settings.showJournal)
-                                              Tab(
-                                                icon: const Icon(
-                                                  Icons.menu_book,
-                                                ),
-                                                text: l10n.tabJournal,
-                                              ),
-                                          ],
-                                        );
-                                      },
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: TabBarView(
+              home: switch (settings.isPinEnabled && !settings.isUnlocked) {
+                true => PinPage(),
+                false => Builder(
+                  builder: (context) => LayoutBuilder(
+                    builder: (context, constraints) {
+                      if (constraints.maxWidth >= 1000) {
+                        return DesktopShell(
+                          controller: _tabController,
+                          showJournal: settings.showJournal,
+                        );
+                      }
+                      return Material(
+                        color: Theme.of(context).scaffoldBackgroundColor,
+                        child: SafeArea(
+                          bottom: false,
+                          child: Column(
+                            children: [
+                              AppBar(
+                                title: AnimatedBuilder(
+                                  animation: _tabController.animation!,
+                                  builder: (context, child) {
+                                    final l10n = AppLocalizations.of(context)!;
+                                    return TabBar(
+                                      indicatorPadding: EdgeInsetsGeometry.only(
+                                        bottom: 32,
+                                      ),
                                       controller: _tabController,
-                                      physics: settings.swipeTabs
-                                          ? const AlwaysScrollableScrollPhysics()
-                                          : const NeverScrollableScrollPhysics(),
-                                      children: [
-                                        const HomePage(),
-                                        const StatsPage(),
+                                      tabs: [
+                                        Tab(
+                                          icon: SvgPicture.asset(
+                                            'assets/neurology.svg',
+                                            width: 24,
+                                            height: 24,
+                                            colorFilter: ColorFilter.mode(
+                                              Color.lerp(
+                                                Theme.of(
+                                                  context,
+                                                ).colorScheme.primary,
+                                                Theme.of(
+                                                  context,
+                                                ).colorScheme.onSurfaceVariant,
+                                                (_tabController
+                                                        .animation!
+                                                        .value)
+                                                    .clamp(0.0, 1.0),
+                                              )!,
+                                              BlendMode.srcIn,
+                                            ),
+                                          ),
+                                          text: l10n.tabQuitter,
+                                        ),
+                                        Tab(
+                                          icon: const Icon(Icons.insights),
+                                          text: l10n.tabStats,
+                                        ),
                                         if (settings.showJournal)
-                                          const JournalPage(),
+                                          Tab(
+                                            icon: const Icon(Icons.menu_book),
+                                            text: l10n.tabJournal,
+                                          ),
                                       ],
-                                    ),
-                                  ),
-                                ],
+                                    );
+                                  },
+                                ),
                               ),
-                            ),
-                          );
-                        },
-                      ),
-                    ),
+                              Expanded(
+                                child: TabBarView(
+                                  controller: _tabController,
+                                  physics: settings.swipeTabs
+                                      ? const AlwaysScrollableScrollPhysics()
+                                      : const NeverScrollableScrollPhysics(),
+                                  children: [
+                                    const HomePage(),
+                                    const StatsPage(),
+                                    if (settings.showJournal)
+                                      const JournalPage(),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                ),
+              },
             );
           },
         );

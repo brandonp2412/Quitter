@@ -147,23 +147,22 @@ class _PinPageState extends State<PinPage> {
                 ),
                 SizedBox(
                   height: 48,
-                  child: (_isError || isLockedOut)
-                      ? Center(
-                          child: Text(
-                            isLockedOut
-                                ? AppLocalizations.of(
-                                    context,
-                                  )!.pinPageTooManyAttempts(secondsRemaining)
-                                : AppLocalizations.of(
-                                    context,
-                                  )!.pinPageIncorrectPIN,
-                            style: TextStyle(
-                              color: Theme.of(context).colorScheme.error,
-                              fontSize: 14,
-                            ),
-                          ),
-                        )
-                      : null,
+                  child: switch ((_isError || isLockedOut)) {
+                    true => Center(
+                      child: Text(
+                        isLockedOut
+                            ? AppLocalizations.of(
+                                context,
+                              )!.pinPageTooManyAttempts(secondsRemaining)
+                            : AppLocalizations.of(context)!.pinPageIncorrectPIN,
+                        style: TextStyle(
+                          color: Theme.of(context).colorScheme.error,
+                          fontSize: 14,
+                        ),
+                      ),
+                    ),
+                    false => null,
+                  },
                 ),
                 const SizedBox(height: 16),
                 GridView.count(

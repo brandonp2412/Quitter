@@ -1,4 +1,9 @@
 analyzer:
+  errors:
+    analysis_options_deprecated_plugins: ignore
+    curly_braces_in_flow_control_structures: ignore
+  plugins:
+    - custom_lint
   exclude:
     - flutter/**
     - build/**
@@ -8,11 +13,13 @@ analyzer:
     - windows/**
     - macos/**
     - linux/**
-  errors:
-    curly_braces_in_flow_control_structures: ignore
 
 include: package:flutter_lints/flutter.yaml
 
 linter:
   rules:
     avoid_print: false
+
+custom_lint:
+  rules:
+    - no_nested_ternaries

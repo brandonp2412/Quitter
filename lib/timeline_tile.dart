@@ -41,33 +41,39 @@ class TimelineTile extends StatelessWidget {
                   height: 24,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: isCompleted
-                        ? colorScheme.primary
-                        : isNext
-                        ? colorScheme.secondary
-                        : colorScheme.outline.withAlpha((255 * 0.3).round()),
+                    color: switch (isCompleted) {
+                      true => colorScheme.primary,
+                      false =>
+                        isNext
+                            ? colorScheme.secondary
+                            : colorScheme.outline.withAlpha(
+                                (255 * 0.3).round(),
+                              ),
+                    },
                     border: Border.all(
-                      color: isCompleted
-                          ? colorScheme.primary
-                          : isNext
-                          ? colorScheme.secondary
-                          : colorScheme.outline,
+                      color: switch (isCompleted) {
+                        true => colorScheme.primary,
+                        false =>
+                          isNext ? colorScheme.secondary : colorScheme.outline,
+                      },
                       width: 2,
                     ),
                   ),
-                  child: isCompleted
-                      ? Icon(
-                          Icons.check,
-                          size: 16,
-                          color: colorScheme.onPrimary,
-                        )
-                      : isNext
-                      ? Icon(
-                          Icons.radio_button_unchecked,
-                          size: 12,
-                          color: colorScheme.onSecondary,
-                        )
-                      : null,
+                  child: switch (isCompleted) {
+                    true => Icon(
+                      Icons.check,
+                      size: 16,
+                      color: colorScheme.onPrimary,
+                    ),
+                    false =>
+                      isNext
+                          ? Icon(
+                              Icons.radio_button_unchecked,
+                              size: 12,
+                              color: colorScheme.onSecondary,
+                            )
+                          : null,
+                  },
                 ),
 
                 if (!isLast)
@@ -123,13 +129,15 @@ class TimelineTile extends StatelessWidget {
                           vertical: 4,
                         ),
                         decoration: BoxDecoration(
-                          color: isCompleted
-                              ? colorScheme.primary
-                              : isNext
-                              ? colorScheme.secondary
-                              : colorScheme.outline.withAlpha(
-                                  (255 * 0.3).round(),
-                                ),
+                          color: switch (isCompleted) {
+                            true => colorScheme.primary,
+                            false =>
+                              isNext
+                                  ? colorScheme.secondary
+                                  : colorScheme.outline.withAlpha(
+                                      (255 * 0.3).round(),
+                                    ),
+                          },
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: Text(
@@ -141,11 +149,13 @@ class TimelineTile extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 12,
                             fontWeight: FontWeight.bold,
-                            color: isCompleted
-                                ? colorScheme.onPrimary
-                                : isNext
-                                ? colorScheme.onSecondary
-                                : colorScheme.onSurfaceVariant,
+                            color: switch (isCompleted) {
+                              true => colorScheme.onPrimary,
+                              false =>
+                                isNext
+                                    ? colorScheme.onSecondary
+                                    : colorScheme.onSurfaceVariant,
+                            },
                           ),
                         ),
                       ),
@@ -191,11 +201,13 @@ class TimelineTile extends StatelessWidget {
                   Text(
                     milestone.title,
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      color: isCompleted
-                          ? colorScheme.primary
-                          : isNext
-                          ? colorScheme.secondary
-                          : colorScheme.onSurfaceVariant,
+                      color: switch (isCompleted) {
+                        true => colorScheme.primary,
+                        false =>
+                          isNext
+                              ? colorScheme.secondary
+                              : colorScheme.onSurfaceVariant,
+                      },
                     ),
                   ),
                   const SizedBox(height: 8),

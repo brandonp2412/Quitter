@@ -42,6 +42,11 @@ dev_dependencies:
     sdk: flutter
 
 
+  custom_lint: ^0.8.1
+  presley_lints:
+    git:
+      url: https://github.com/brandonp2412/presley_lints.git
+      ref: 5296be0a1f6a312fea70b936705d99f6402298bd
 flutter:
   generate: true
   uses-material-design: true
