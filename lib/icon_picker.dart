@@ -38,7 +38,7 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
   @override
   void initState() {
     super.initState();
-    filteredIcons = allIcons.values.toList();
+    filteredIcons = allIcons.values.toSet().toList();
     _searchController.addListener(_filterIcons);
   }
 
@@ -53,10 +53,11 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
     final String query = _searchController.text.toLowerCase();
     setState(() {
       filteredIcons = query.isEmpty
-          ? allIcons.values.toList()
+          ? allIcons.values.toSet().toList()
           : allIcons.entries
                 .where((entry) => entry.key.contains(query))
                 .map((entry) => entry.value)
+                .toSet()
                 .toList();
     });
   }
