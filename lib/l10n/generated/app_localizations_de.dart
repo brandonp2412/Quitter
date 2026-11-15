@@ -1233,7 +1233,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get tabSettings => 'Einstellungen';
 
   @override
-  String get homeAddButton => 'Addition';
+  String get homeAddButton => 'Hinzufügen';
 
   @override
   String get homeAddTooltip => 'Erstellen Sie Ihre eigene Sucht zu beenden';
@@ -1272,7 +1272,7 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get cancel => 'Stornierung';
+  String get cancel => 'Abbrechen';
 
   @override
   String get hide => 'Hüllen';
@@ -1297,7 +1297,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get addAddictionTitle => 'Verfolge eine Sucht';
 
   @override
-  String get addAddictionCustom => 'Zoll';
+  String get addAddictionCustom => 'Individuell';
 
   @override
   String get addAddictionCustomSubtitle =>
@@ -1411,7 +1411,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get clearSearch => 'Klare Suche';
 
   @override
-  String get homeSearchHint => 'Suchtsucht...';
+  String get homeSearchHint => 'Sucht...';
 
   @override
   String get homeTrackAnyway => 'Track it sowieso';
@@ -1621,16 +1621,16 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsWhatsNew => 'Was ist neu';
 
   @override
-  String get settingsEnjoyingApp => 'Genießen Sie die App?';
+  String get settingsEnjoyingApp => 'Mögen Sie die App?';
 
   @override
   String get settingsReportBug => 'Einen Bug melden';
 
   @override
-  String get settingsExportData => 'Ausfuhrdaten';
+  String get settingsExportData => 'Export';
 
   @override
-  String get settingsImportData => 'Einfuhrdaten';
+  String get settingsImportData => 'Import';
 
   @override
   String get settingsDeleteEverything => 'Alles löschen';
@@ -1681,7 +1681,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get notificationFrequencyAt => 'im';
 
   @override
-  String get notificationFrequencySave => 'Sparen';
+  String get notificationFrequencySave => 'Speichern';
 
   @override
   String get notificationTestTitle => 'Positive Bestätigung';
@@ -1810,7 +1810,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get editEntryIcon => 'Symbol';
 
   @override
-  String get editEntrySave => 'Sparen';
+  String get editEntrySave => 'Speichern';
 
   @override
   String get editEntryDeleteDialogTitle => 'Sind Sie sicher?';

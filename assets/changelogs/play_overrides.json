@@ -34,5 +34,23 @@
     "id": "• Perbaiki notifikasi sementara yang tidak pernah hilang\n• Pindahkan ikon hapus dari kiri atas ke kanan atas\n• Buka halaman edit lengkap dari tombol edit entri kustom\n• Perbaiki tombol kembali sistem agar keluar dari mode edit, bukan meninggalkan beranda",
     "ur": "• ٹوسٹ نوٹیفکیشن کا خود بند نہ ہونے کا مسئلہ درست کیا\n• حذف کرنے کا آئیکن اوپر بائیں سے اوپر دائیں منتقل کیا\n• کسٹم اندراج کے ترمیم بٹن سے مکمل ترمیمی صفحہ کھولنے کی سہولت دی\n• سسٹم بیک دبانے پر ہوم چھوڑنے کے بجائے ترمیمی موڈ بند کیا",
     "pt-BR": "• Corrige notificações temporárias que nunca desapareciam\n• Move o ícone de exclusão do canto superior esquerdo para o canto superior direito\n• Abre a página completa de edição pelo botão de editar de uma entrada personalizada\n• Corrige o botão Voltar do sistema para sair do modo de edição em vez de sair da tela inicial"
+  },
+  "12643": {
+    "ar": "• حدّد الإنفاق الأسبوعي والعملة المستخدمة لتقدير المبلغ الذي وفرته.",
+    "de": "• Lege die wöchentlichen Ausgaben und die Währung für deine Sparschätzung fest.",
+    "es": "• Configura el gasto semanal y la moneda para calcular el ahorro.",
+    "fa": "• هزینهٔ هفتگی و واحد پول برآورد پس‌انداز را تنظیم کنید.",
+    "fr": "• Définissez les dépenses hebdomadaires et la devise utilisées pour estimer vos économies.",
+    "id": "• Atur pengeluaran mingguan dan mata uang untuk memperkirakan penghematan.",
+    "ja": "• 節約額の見積もりに使う週間支出と通貨を設定できます。",
+    "ko": "• 절약액을 계산할 주간 지출과 통화를 설정할 수 있습니다.",
+    "pl": "• Ustaw tygodniowe wydatki i walutę używaną do szacowania oszczędności.",
+    "pt": "• Defina os gastos semanais e a moeda usada para estimar as poupanças.",
+    "pt-BR": "• Defina os gastos semanais e a moeda usada para estimar a economia.",
+    "ru": "• Настройте недельные расходы и валюту для расчёта экономии.",
+    "th": "• ตั้งค่ารายจ่ายรายสัปดาห์และสกุลเงินสำหรับคำนวณเงินที่ประหยัดได้",
+    "ur": "• بچت کا اندازہ لگانے کے لیے ہفتہ وار خرچ اور کرنسی مقرر کریں۔",
+    "zh": "• 设置每周支出和用于估算节省金额的货币。",
+    "zh-Hant": "• 設定每週支出和用來估算節省金額的貨幣。"
   }
 }
