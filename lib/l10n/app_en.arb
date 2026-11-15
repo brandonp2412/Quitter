@@ -664,14 +664,18 @@
       }
     }
   },
-  "editEntryWeeklySpend": "Weekly spend ($)",
-  "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
+  "editEntryWeeklySpend": "Weekly spend",
+  "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction"},
   "editEntryWeeklySpendHint": "Leave blank for an estimate, if available",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
   "editEntryWeeklySpendInvalid": "Enter a valid amount",
   "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
   "statsMoneySavedCustomEstimate": "Uses your weekly spending where set; other values are estimated",
   "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
+  "statsMoneySavedCurrency": "Currency",
+  "@statsMoneySavedCurrency": {"description": "Currency selector for estimated money saved"},
+  "statsMoneySavedCurrencyHint": "Changing currency does not convert existing amounts.",
+  "@statsMoneySavedCurrencyHint": {"description": "Explains that changing the currency is not an exchange rate conversion"},
   "statsMoneySavedTitle": "Estimated Money Saved",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"

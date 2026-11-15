@@ -2034,10 +2034,10 @@ abstract class AppLocalizations {
   /// **'{count} tracked'**
   String statsAddictionsTracked(int count);
 
-  /// Input label for weekly money spent on an addiction in US dollars
+  /// Input label for weekly money spent on an addiction
   ///
   /// In en, this message translates to:
-  /// **'Weekly spend (\$)'**
+  /// **'Weekly spend'**
   String get editEntryWeeklySpend;
 
   /// Hint that leaving weekly spending blank uses the default estimate
@@ -2057,6 +2057,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Uses your weekly spending where set; other values are estimated'**
   String get statsMoneySavedCustomEstimate;
+
+  /// Currency selector for estimated money saved
+  ///
+  /// In en, this message translates to:
+  /// **'Currency'**
+  String get statsMoneySavedCurrency;
+
+  /// Explains that changing the currency is not an exchange rate conversion
+  ///
+  /// In en, this message translates to:
+  /// **'Changing currency does not convert existing amounts.'**
+  String get statsMoneySavedCurrencyHint;
 
   /// Section title for the money saved card on stats page
   ///

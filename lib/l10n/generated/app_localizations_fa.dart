@@ -1110,7 +1110,7 @@ class AppLocalizationsFa extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'هزینه هفتگی (\$)';
+  String get editEntryWeeklySpend => 'هزینه هفتگی';
 
   @override
   String get editEntryWeeklySpendHint =>
@@ -1122,6 +1122,13 @@ class AppLocalizationsFa extends AppLocalizations {
   @override
   String get statsMoneySavedCustomEstimate =>
       'در صورت تنظیم، هزینه هفتگی شما استفاده می‌شود؛ بقیه تخمینی است';
+
+  @override
+  String get statsMoneySavedCurrency => 'واحد پول';
+
+  @override
+  String get statsMoneySavedCurrencyHint =>
+      'تغییر واحد پول، مبالغ فعلی را تبدیل نمی‌کند.';
 
   @override
   String get statsMoneySavedTitle => 'پول پس‌اندازشدهٔ برآوردی';

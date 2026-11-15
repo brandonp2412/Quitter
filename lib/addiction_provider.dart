@@ -48,6 +48,7 @@ class AddictionProvider extends ChangeNotifier {
   Map<String, IconData> customIcons = {};
   Map<String, Color> customColors = {};
   Map<String, double> weeklySpends = {};
+  String moneyCurrency = 'USD';
   Map<String, List<int>> _days = {};
 
   Future<void> loadAddictions() async {
@@ -150,6 +151,10 @@ class AddictionProvider extends ChangeNotifier {
       };
     }
 
+    final storedCurrency = _pref!.getString('money_currency');
+    moneyCurrency = supportedMoneyCurrencies.contains(storedCurrency)
+        ? storedCurrency!
+        : 'USD';
     weeklySpends = {};
     final weeklySpendsData = decodeJson('weekly_spend');
     if (weeklySpendsData is Map<String, dynamic>) {
@@ -335,6 +340,34 @@ class AddictionProvider extends ChangeNotifier {
     );
     notifyListeners();
   }
+
+  Future<void> setMoneyCurrency(String currencyCode) async {
+    if (!supportedMoneyCurrencies.contains(currencyCode)) {
+      throw ArgumentError.value(currencyCode, 'currencyCode');
+    }
+    moneyCurrency = currencyCode;
+    await _pref?.setString('money_currency', currencyCode);
+    notifyListeners();
+  }
+
+  static const supportedMoneyCurrencies = [
+    'USD',
+    'NZD',
+    'AUD',
+    'EUR',
+    'GBP',
+    'CAD',
+    'JPY',
+    'CNY',
+    'INR',
+    'BRL',
+    'CHF',
+    'ZAR',
+    'KRW',
+    'PLN',
+    'THB',
+    'IDR',
+  ];
 
   double? weeklySpendFor(String key) => weeklySpends[key];
 

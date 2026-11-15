@@ -1130,7 +1130,7 @@ class AppLocalizationsId extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'Pengeluaran mingguan (\$)';
+  String get editEntryWeeklySpend => 'Pengeluaran mingguan';
 
   @override
   String get editEntryWeeklySpendHint =>
@@ -1142,6 +1142,13 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get statsMoneySavedCustomEstimate =>
       'Menggunakan pengeluaran mingguan yang diatur; sisanya perkiraan';
+
+  @override
+  String get statsMoneySavedCurrency => 'Mata uang';
+
+  @override
+  String get statsMoneySavedCurrencyHint =>
+      'Mengganti mata uang tidak mengonversi jumlah yang sudah ada.';
 
   @override
   String get statsMoneySavedTitle => 'Perkiraan uang yang dihemat';

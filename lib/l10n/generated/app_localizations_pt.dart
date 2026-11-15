@@ -1129,7 +1129,7 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'Gasto semanal (\$)';
+  String get editEntryWeeklySpend => 'Gasto semanal';
 
   @override
   String get editEntryWeeklySpendHint =>
@@ -1141,6 +1141,13 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get statsMoneySavedCustomEstimate =>
       'Usa o gasto semanal definido; os restantes valores são estimativas';
+
+  @override
+  String get statsMoneySavedCurrency => 'Moeda';
+
+  @override
+  String get statsMoneySavedCurrencyHint =>
+      'Alterar a moeda não converte os valores existentes.';
 
   @override
   String get statsMoneySavedTitle => 'Dinheiro poupado estimado';
@@ -5671,7 +5678,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   }
 
   @override
-  String get editEntryWeeklySpend => 'Gasto semanal (\$)';
+  String get editEntryWeeklySpend => 'Gasto semanal';
 
   @override
   String get editEntryWeeklySpendHint =>
@@ -5683,6 +5690,13 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get statsMoneySavedCustomEstimate =>
       'Usa o gasto semanal informado; os demais valores são estimativas';
+
+  @override
+  String get statsMoneySavedCurrency => 'Moeda';
+
+  @override
+  String get statsMoneySavedCurrencyHint =>
+      'Alterar a moeda não converte os valores existentes.';
 
   @override
   String get statsMoneySavedTitle => 'Economia estimada';

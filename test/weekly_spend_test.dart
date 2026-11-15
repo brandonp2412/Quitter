@@ -159,4 +159,82 @@ void main() {
     expect(find.text('\$30'), findsOneWidget);
     expect(find.textContaining('your weekly spending'), findsOneWidget);
   });
+
+  test('money currency persists and rejects unsupported codes', () async {
+    final provider = AddictionProvider();
+    await provider.loadAddictions();
+    expect(provider.moneyCurrency, 'USD');
+    await provider.setMoneyCurrency('EUR');
+    expect(provider.moneyCurrency, 'EUR');
+    final reloaded = AddictionProvider();
+    await reloaded.loadAddictions();
+    expect(reloaded.moneyCurrency, 'EUR');
+    await expectLater(
+      reloaded.setMoneyCurrency('INVALID'),
+      throwsArgumentError,
+    );
+  });
+
+  testWidgets('money card opens editor and saves currency and weekly spend', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({
+      'alcohol': DateTime.now().toIso8601String(),
+    });
+    final provider = AddictionProvider();
+    await provider.loadAddictions();
+    await tester.pumpWidget(app(const StatsPage(), provider));
+
+    expect(find.byKey(const ValueKey('moneySavedCard')), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('moneySavedCard')));
+    await tester.pumpAndSettle();
+    expect(find.text('Currency'), findsOneWidget);
+
+    await tester.enterText(
+      find.byKey(const ValueKey('moneyWeeklySpend:alcohol')),
+      '210.50',
+    );
+    await tester.tap(find.byKey(const ValueKey('moneyCurrency')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('EUR').last);
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Save'));
+    await tester.pumpAndSettle();
+
+    expect(provider.weeklySpendFor('alcohol'), 210.5);
+    expect(provider.moneyCurrency, 'EUR');
+    expect(find.textContaining('€'), findsWidgets);
+    final reloaded = AddictionProvider();
+    await reloaded.loadAddictions();
+    expect(reloaded.weeklySpendFor('alcohol'), 210.5);
+    expect(reloaded.moneyCurrency, 'EUR');
+  });
+
+  testWidgets('can configure savings when every addiction has zero spend', (
+    tester,
+  ) async {
+    final provider = AddictionProvider();
+    await provider.loadAddictions();
+    await provider.addEntry(
+      Entry(
+        id: 'no-cost',
+        title: 'Custom habit',
+        quitDate: DateTime.now(),
+        color: Colors.blue,
+      ),
+    );
+    await tester.pumpWidget(app(const StatsPage(), provider));
+
+    expect(find.byKey(const ValueKey('moneySavedCard')), findsOneWidget);
+    expect(find.textContaining('0 cups'), findsNothing);
+    await tester.tap(find.byKey(const ValueKey('moneySavedCard')));
+    await tester.pumpAndSettle();
+    await tester.enterText(
+      find.byKey(const ValueKey('moneyWeeklySpend:no-cost')),
+      '35',
+    );
+    await tester.tap(find.text('Save'));
+    await tester.pumpAndSettle();
+    expect(provider.weeklySpendFor('no-cost'), 35);
+  });
 }

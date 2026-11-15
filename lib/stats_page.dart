@@ -8,6 +8,7 @@ import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/empty_state.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
+import 'package:quitter/money_saved_settings_page.dart';
 
 class StatsPage extends StatelessWidget {
   const StatsPage({super.key});
@@ -89,12 +90,12 @@ class StatsPage extends StatelessWidget {
                         addictionCount: entries.length,
                         l10n: l10n,
                       ),
-                      if (moneySaved > 0)
-                        _MoneySavedCard(
-                          moneySaved: moneySaved,
-                          moneyEntries: moneyEntries,
-                          l10n: l10n,
-                        ),
+                      _MoneySavedCard(
+                        moneySaved: moneySaved,
+                        moneyEntries: moneyEntries,
+                        allEntries: entries,
+                        l10n: l10n,
+                      ),
                       if (hoursSaved >= 1)
                         _TimeSavedCard(
                           hoursSaved: hoursSaved,
@@ -145,14 +146,15 @@ class StatsPage extends StatelessWidget {
       Color color, {
       double? costPerDay,
       double? hoursPerDay,
-      String? key,
+      required String key,
     }) {
       if (quitDate == null) return;
       final days = daysCeil(quitDate);
-      final allDays = key != null ? addictions.getDays(key) : <int>[];
-      final weeklySpend = key == null ? null : addictions.weeklySpendFor(key);
+      final allDays = addictions.getDays(key);
+      final weeklySpend = addictions.weeklySpendFor(key);
       entries.add(
         _StatEntry(
+          id: key,
           name: name,
           icon: icon,
           color: color,
@@ -376,6 +378,7 @@ class StatsPage extends StatelessWidget {
       final weeklySpend = addictions.weeklySpendFor(entry.id);
       entries.add(
         _StatEntry(
+          id: entry.id,
           name: addictions.customNames[entry.id] ?? entry.title,
           icon: addictions.customIcons[entry.id] ?? entry.icon ?? Icons.star,
           color: customColor,
@@ -393,6 +396,7 @@ class StatsPage extends StatelessWidget {
 }
 
 class _StatEntry {
+  final String id;
   final String name;
   final IconData icon;
   final Color color;
@@ -404,6 +408,7 @@ class _StatEntry {
   final int totalRelapseDays;
 
   const _StatEntry({
+    required this.id,
     required this.name,
     required this.icon,
     required this.color,
@@ -504,11 +509,13 @@ class _MoneySavedCard extends StatelessWidget {
   const _MoneySavedCard({
     required this.moneySaved,
     required this.moneyEntries,
+    required this.allEntries,
     required this.l10n,
   });
 
   final double moneySaved;
   final List<_StatEntry> moneyEntries;
+  final List<_StatEntry> allEntries;
   final AppLocalizations l10n;
 
   String _equivalence(double amount, AppLocalizations l) {
@@ -521,97 +528,123 @@ class _MoneySavedCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final currencyFmt = NumberFormat.currency(
+    final currencyFmt = NumberFormat.simpleCurrency(
       locale: l10n.localeName,
-      symbol: '\$',
+      name: context.watch<AddictionProvider>().moneyCurrency,
       decimalDigits: 0,
     );
     final equivalence = _equivalence(moneySaved, l10n);
 
-    return Container(
-      padding: const EdgeInsets.all(20),
-      decoration: BoxDecoration(
-        color: theme.colorScheme.surfaceContainerHigh,
-        borderRadius: BorderRadius.circular(20),
+    return InkWell(
+      key: const ValueKey('moneySavedCard'),
+      borderRadius: BorderRadius.circular(20),
+      onTap: () => Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (_) => MoneySavedSettingsPage(
+            items: [
+              for (final entry in allEntries)
+                MoneySavedItem(
+                  id: entry.id,
+                  name: entry.name,
+                  icon: entry.icon,
+                  color: entry.color,
+                ),
+            ],
+          ),
+        ),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Container(
-                padding: const EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                  color: const Color(0xFF16A34A).withValues(alpha: 0.15),
-                  borderRadius: BorderRadius.circular(10),
+      child: Container(
+        padding: const EdgeInsets.all(20),
+        decoration: BoxDecoration(
+          color: theme.colorScheme.surfaceContainerHigh,
+          borderRadius: BorderRadius.circular(20),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF16A34A).withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: const Icon(
+                    Icons.savings,
+                    color: Color(0xFF16A34A),
+                    size: 20,
+                  ),
                 ),
-                child: const Icon(
-                  Icons.savings,
-                  color: Color(0xFF16A34A),
-                  size: 20,
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    l10n.statsMoneySavedTitle,
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ),
+                const Icon(Icons.chevron_right),
+              ],
+            ),
+            const SizedBox(height: 16),
+            Text(
+              currencyFmt.format(moneySaved.round()),
+              style: theme.textTheme.displaySmall?.copyWith(
+                fontWeight: FontWeight.bold,
+                color: const Color(0xFF16A34A),
+                height: 1,
               ),
-              const SizedBox(width: 10),
+            ),
+            if (moneySaved > 0) ...[
+              const SizedBox(height: 4),
               Text(
-                l10n.statsMoneySavedTitle,
-                style: theme.textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
+                equivalence,
+                style: theme.textTheme.bodyMedium?.copyWith(
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.65),
                 ),
               ),
             ],
-          ),
-          const SizedBox(height: 16),
-          Text(
-            currencyFmt.format(moneySaved.round()),
-            style: theme.textTheme.displaySmall?.copyWith(
-              fontWeight: FontWeight.bold,
-              color: const Color(0xFF16A34A),
-              height: 1,
-            ),
-          ),
-          const SizedBox(height: 4),
-          Text(
-            equivalence,
-            style: theme.textTheme.bodyMedium?.copyWith(
-              color: theme.colorScheme.onSurface.withValues(alpha: 0.65),
-            ),
-          ),
-          const SizedBox(height: 16),
-          ...moneyEntries.map(
-            (e) => Padding(
-              padding: const EdgeInsets.only(bottom: 6),
-              child: Row(
-                children: [
-                  Icon(e.icon, size: 16, color: e.color),
-                  const SizedBox(width: 8),
-                  Expanded(
-                    child: Text(
-                      e.name,
-                      style: theme.textTheme.bodySmall,
-                      overflow: TextOverflow.ellipsis,
+            const SizedBox(height: 16),
+            ...moneyEntries.map(
+              (e) => Padding(
+                padding: const EdgeInsets.only(bottom: 6),
+                child: Row(
+                  children: [
+                    Icon(e.icon, size: 16, color: e.color),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        e.name,
+                        style: theme.textTheme.bodySmall,
+                        overflow: TextOverflow.ellipsis,
+                      ),
                     ),
-                  ),
-                  Text(
-                    '${currencyFmt.format((e.costPerDay! * e.days).round())}  ·  ${l10n.statsDaysSuffix(e.days)}',
-                    style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                    Text(
+                      '${currencyFmt.format((e.costPerDay! * e.days).round())}  ·  ${l10n.statsDaysSuffix(e.days)}',
+                      style: theme.textTheme.bodySmall?.copyWith(
+                        color: theme.colorScheme.onSurface.withValues(
+                          alpha: 0.6,
+                        ),
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
-          ),
-          const SizedBox(height: 8),
-          Text(
-            moneyEntries.any((entry) => entry.hasCustomCost)
-                ? l10n.statsMoneySavedCustomEstimate
-                : l10n.statsMoneySavedEstimate,
-            style: theme.textTheme.bodySmall?.copyWith(
-              color: theme.colorScheme.onSurface.withValues(alpha: 0.45),
-              fontStyle: FontStyle.italic,
+            const SizedBox(height: 8),
+            Text(
+              moneyEntries.any((entry) => entry.hasCustomCost)
+                  ? l10n.statsMoneySavedCustomEstimate
+                  : l10n.statsMoneySavedEstimate,
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.45),
+                fontStyle: FontStyle.italic,
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

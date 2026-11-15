@@ -664,7 +664,7 @@
       }
     }
   },
-  "editEntryWeeklySpend": "ค่าใช้จ่ายต่อสัปดาห์ ($)",
+  "editEntryWeeklySpend": "ค่าใช้จ่ายต่อสัปดาห์",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "เว้นว่างเพื่อใช้ค่าประมาณ หากมี",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
@@ -672,6 +672,8 @@
   "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
   "statsMoneySavedCustomEstimate": "ใช้ค่าใช้จ่ายรายสัปดาห์ที่ตั้งไว้ ส่วนที่เหลือเป็นค่าประมาณ",
   "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
+  "statsMoneySavedCurrency": "สกุลเงิน",
+  "statsMoneySavedCurrencyHint": "การเปลี่ยนสกุลเงินจะไม่แปลงจำนวนเงินเดิม",
   "statsMoneySavedTitle": "เงินที่ประหยัดได้โดยประมาณ",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"

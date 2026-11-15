@@ -1087,7 +1087,7 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => '1週間の支出 (\$)';
+  String get editEntryWeeklySpend => '1週間の支出';
 
   @override
   String get editEntryWeeklySpendHint => '空欄の場合は利用可能な推定値を使用';
@@ -1097,6 +1097,12 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get statsMoneySavedCustomEstimate => '設定した週間支出を使用し、それ以外は推定値です';
+
+  @override
+  String get statsMoneySavedCurrency => '通貨';
+
+  @override
+  String get statsMoneySavedCurrencyHint => '通貨を変更しても、既存の金額は換算されません。';
 
   @override
   String get statsMoneySavedTitle => '推定節約額';

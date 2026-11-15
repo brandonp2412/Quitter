@@ -1110,7 +1110,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'Weekly spend (\$)';
+  String get editEntryWeeklySpend => 'Weekly spend';
 
   @override
   String get editEntryWeeklySpendHint =>
@@ -1122,6 +1122,13 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get statsMoneySavedCustomEstimate =>
       'Uses your weekly spending where set; other values are estimated';
+
+  @override
+  String get statsMoneySavedCurrency => 'Currency';
+
+  @override
+  String get statsMoneySavedCurrencyHint =>
+      'Changing currency does not convert existing amounts.';
 
   @override
   String get statsMoneySavedTitle => 'Estimated Money Saved';

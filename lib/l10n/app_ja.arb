@@ -664,7 +664,7 @@
       }
     }
   },
-  "editEntryWeeklySpend": "1週間の支出 ($)",
+  "editEntryWeeklySpend": "1週間の支出",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "空欄の場合は利用可能な推定値を使用",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
@@ -672,6 +672,8 @@
   "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
   "statsMoneySavedCustomEstimate": "設定した週間支出を使用し、それ以外は推定値です",
   "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
+  "statsMoneySavedCurrency": "通貨",
+  "statsMoneySavedCurrencyHint": "通貨を変更しても、既存の金額は換算されません。",
   "statsMoneySavedTitle": "推定節約額",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"

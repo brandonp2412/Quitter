@@ -1102,7 +1102,7 @@ class AppLocalizationsAr extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'الإنفاق الأسبوعي (\$)';
+  String get editEntryWeeklySpend => 'الإنفاق الأسبوعي';
 
   @override
   String get editEntryWeeklySpendHint => 'اتركه فارغًا لاستخدام تقدير إن توفر';
@@ -1113,6 +1113,13 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get statsMoneySavedCustomEstimate =>
       'يستخدم إنفاقك الأسبوعي حيث تحدده، والباقي تقديري';
+
+  @override
+  String get statsMoneySavedCurrency => 'العملة';
+
+  @override
+  String get statsMoneySavedCurrencyHint =>
+      'تغيير العملة لا يحوّل المبالغ الحالية.';
 
   @override
   String get statsMoneySavedTitle => 'المال المُوفَّر المقدر';

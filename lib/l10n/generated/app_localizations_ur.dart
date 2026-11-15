@@ -1117,7 +1117,7 @@ class AppLocalizationsUr extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'ہفتہ وار خرچ (\$)';
+  String get editEntryWeeklySpend => 'ہفتہ وار خرچ';
 
   @override
   String get editEntryWeeklySpendHint =>
@@ -1129,6 +1129,13 @@ class AppLocalizationsUr extends AppLocalizations {
   @override
   String get statsMoneySavedCustomEstimate =>
       'جہاں سیٹ ہو وہاں ہفتہ وار خرچ استعمال ہوگا، باقی تخمینے ہیں';
+
+  @override
+  String get statsMoneySavedCurrency => 'کرنسی';
+
+  @override
+  String get statsMoneySavedCurrencyHint =>
+      'کرنسی بدلنے سے موجودہ رقوم تبدیل نہیں ہوتیں۔';
 
   @override
   String get statsMoneySavedTitle => 'تخمینی بچت';
