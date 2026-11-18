@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/app_icons.dart';
 import 'package:quitter/entry.dart';
 import 'package:quitter/logging.dart';
+import 'package:quitter/weekly_time_estimates.dart';
 
 class AddictionProvider extends ChangeNotifier {
   AddictionProvider({this.onReminderDataChanged});
@@ -48,6 +49,7 @@ class AddictionProvider extends ChangeNotifier {
   Map<String, IconData> customIcons = {};
   Map<String, Color> customColors = {};
   Map<String, double> weeklySpends = {};
+  Map<String, int?> weeklyTimeOverrides = {};
   String moneyCurrency = 'USD';
   Map<String, List<int>> _days = {};
 
@@ -164,6 +166,19 @@ class AddictionProvider extends ChangeNotifier {
               (entry.value as num).toDouble().isFinite &&
               (entry.value as num) >= 0)
             entry.key: (entry.value as num).toDouble(),
+      };
+    }
+
+    weeklyTimeOverrides = {};
+    final weeklyTimeData = decodeJson('weekly_time_minutes');
+    if (weeklyTimeData is Map<String, dynamic>) {
+      weeklyTimeOverrides = {
+        for (final entry in weeklyTimeData.entries)
+          if (entry.value == null ||
+              (entry.value is int &&
+                  (entry.value as int) >= 0 &&
+                  (entry.value as int) <= 10080))
+            entry.key: entry.value as int?,
       };
     }
 
@@ -369,6 +384,34 @@ class AddictionProvider extends ChangeNotifier {
     'IDR',
   ];
 
+  int? weeklyTimeMinutesFor(String key) => weeklyTimeOverrides.containsKey(key)
+      ? weeklyTimeOverrides[key]
+      : defaultWeeklyTimeMinutes[key];
+
+  bool hasWeeklyTimeOverride(String key) =>
+      weeklyTimeOverrides.containsKey(key);
+
+  Future<void> setWeeklyTimeMinutes(String key, int? minutes) async {
+    if (minutes != null && (minutes < 0 || minutes > 10080)) {
+      throw ArgumentError.value(minutes, 'minutes');
+    }
+    weeklyTimeOverrides[key] = minutes;
+    await _pref?.setString(
+      'weekly_time_minutes',
+      json.encode(weeklyTimeOverrides),
+    );
+    notifyListeners();
+  }
+
+  Future<void> resetWeeklyTimeMinutes(String key) async {
+    weeklyTimeOverrides.remove(key);
+    await _pref?.setString(
+      'weekly_time_minutes',
+      json.encode(weeklyTimeOverrides),
+    );
+    notifyListeners();
+  }
+
   double? weeklySpendFor(String key) => weeklySpends[key];
 
   Future<void> setWeeklySpend(String key, double? amount) async {
@@ -413,6 +456,13 @@ class AddictionProvider extends ChangeNotifier {
     await _saveEntries();
     if (weeklySpends.remove(id) != null) {
       await _pref?.setString('weekly_spend', json.encode(weeklySpends));
+    }
+    if (weeklyTimeOverrides.containsKey(id)) {
+      weeklyTimeOverrides.remove(id);
+      await _pref?.setString(
+        'weekly_time_minutes',
+        json.encode(weeklyTimeOverrides),
+      );
     }
     notifyListeners();
     talker.info('Deleted a custom recovery entry');

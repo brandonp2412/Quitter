@@ -4533,4 +4533,38 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       'Pięć lat bez sterydów anabolicznych\n\nŹródło: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nPięć lat to ważny kamień milowy\nDowody pokazują, że powrót do zdrowia po AAS jest bardzo zróżnicowany. Wiele zmian hormonalnych poprawia się znacznie wcześniej, natomiast skutki rozrodcze lub psychiczne mogą mieć dłuższy i mniej przewidywalny przebieg.\n\nPół dekady bez ponownej ekspozycji\nPrzegląd nie wyznacza biologicznej mety po pięciu latach. Pięć lat bez sterydów warto świętować za samą trwałość zmiany, a utrzymujące się objawy nadal powinny być oceniane medycznie.';
+
+  @override
+  String get statsTimeWeekly => 'tygodniowo';
+
+  @override
+  String get statsTimeDetail =>
+      'Przybliżony czas poświęcony na nawyki, bez skutków odurzenia i wyrządzonych szkód.';
+
+  @override
+  String get statsTimeConfigure =>
+      'Dostosuj tygodniowy czas każdego nawyku. Wyłącz szacunki, które Ci nie odpowiadają.';
+
+  @override
+  String get statsTimeHours => 'Godziny';
+
+  @override
+  String get statsTimeMinutes => 'Minuty';
+
+  @override
+  String get statsTimeInvalid =>
+      'Podaj czas od 1 minuty do 168 godzin tygodniowo.';
+
+  @override
+  String get statsTimeEmpty =>
+      'Dodaj tygodniowy szacunek, aby zobaczyć odzyskany czas.';
+
+  @override
+  String get statsTimeDefault => 'Użyj domyślnego';
+
+  @override
+  String get statsTimeMinuteAbbreviation => 'min';
+
+  @override
+  String get statsTimeEditTitle => 'Czas tygodniowy';
 }

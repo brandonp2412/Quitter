@@ -196,6 +196,7 @@ void main() {
     'themeSystem',
   };
   const intentionalSharedFrenchValues = {
+    'statsTimeMinutes',
     'tabJournal',
     'addictionFentanyl',
     'settingsSectionNotifications',

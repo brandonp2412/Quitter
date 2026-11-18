@@ -3530,5 +3530,15 @@
   "steroidsMilestone1825Description": "اسٹیرائڈز کے بغیر پانچ سال ایک بڑی طویل مدتی کامیابی ہیں۔ بحالی غیر یکساں ہو سکتی ہے اور کچھ مسائل باقی رہ سکتے ہیں، مگر دوبارہ سامنا ہوئے بغیر پانچ سال منانے کے قابل ہیں۔",
   "@steroidsMilestone1825Description": {"description": "Description for the steroids recovery milestone at 1825 days."},
   "steroidsReferenceDay1825": "اینابولک اسٹیرائڈز کے بغیر پانچ سال\n\nماخذ: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nپانچ سال ایک بڑا سنگِ میل ہیں\nشواہد دکھاتے ہیں کہ AAS کے بعد بحالی میں بہت فرق ہوتا ہے۔ بہت سی ہارمونی تبدیلیاں کہیں پہلے بہتر ہو جاتی ہیں، جبکہ تولیدی یا نفسیاتی اثرات زیادہ طویل اور کم قابلِ پیش گوئی راستہ اختیار کر سکتے ہیں۔\n\nدوبارہ سامنا ہوئے بغیر پانچ سال\nجائزہ پانچ سال کو حیاتیاتی بحالی کی آخری حد مقرر نہیں کرتا۔ اسٹیرائڈز کے بغیر پانچ سال برقرار تبدیلی کی وجہ سے خود جشن کے قابل ہیں، اور مسلسل علامات کی طبی جانچ جاری رہنی چاہیے۔",
-  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."}
+  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."},
+  "statsTimeWeekly": "فی ہفتہ",
+  "statsTimeDetail": "ہر عادت میں لگنے والے وقت کا تخمینہ، اس کے اثرات یا نقصان کا نہیں۔",
+  "statsTimeConfigure": "ہر عادت کا ہفتہ وار وقت مقرر کریں اور غیر موزوں تخمینے بند کریں۔",
+  "statsTimeHours": "گھنٹے",
+  "statsTimeMinutes": "منٹ",
+  "statsTimeInvalid": "فی ہفتہ ۱ منٹ سے ۱۶۸ گھنٹے کا وقت درج کریں۔",
+  "statsTimeEmpty": "واپس ملنے والا وقت دیکھنے کے لیے ہفتہ وار تخمینہ شامل کریں۔",
+  "statsTimeDefault": "ڈیفالٹ استعمال کریں",
+  "statsTimeMinuteAbbreviation": "منٹ",
+  "statsTimeEditTitle": "ہفتہ وار وقت"
 }

@@ -3530,5 +3530,15 @@
   "steroidsMilestone1825Description": "خمس سنوات بلا ستيرويدات إنجاز كبير طويل الأمد. قد يكون التعافي متفاوتًا وقد تستمر بعض المشكلات، لكن نصف عقد من دون إعادة التعرض يستحق الاحتفال.",
   "@steroidsMilestone1825Description": {"description": "Description for the steroids recovery milestone at 1825 days."},
   "steroidsReferenceDay1825": "خمس سنوات من دون الستيرويدات البنائية\n\nالمصدر: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nخمس سنوات محطة كبيرة\nتُظهر الأدلة أن التعافي بعد الستيرويدات البنائية يختلف كثيرًا. تتحسن تغيّرات هرمونية عديدة في وقت أبكر، بينما قد تسير الآثار التناسلية أو النفسية في مسارات أطول وأقل قابلية للتنبؤ.\n\nنصف عقد من دون إعادة التعرض\nلا تحدد المراجعة خط نهاية بيولوجيًا عند خمس سنوات. خمس سنوات بلا ستيرويدات تستحق الاحتفال بالتغيير المستمر نفسه، مع بقاء الأعراض المستمرة سببًا للتقييم الطبي.",
-  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."}
+  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."},
+  "statsTimeWeekly": "في الأسبوع",
+  "statsTimeDetail": "تقديرات تقريبية للوقت المستغرق في كل عادة، دون احتساب التأثير أو الضرر.",
+  "statsTimeConfigure": "عدّل الوقت الأسبوعي لكل عادة، وأوقف التقديرات التي لا تناسب تجربتك.",
+  "statsTimeHours": "ساعات",
+  "statsTimeMinutes": "دقائق",
+  "statsTimeInvalid": "أدخل مدة من دقيقة إلى ١٦٨ ساعة أسبوعيًا.",
+  "statsTimeEmpty": "أضف تقديرًا أسبوعيًا لعرض الوقت المستعاد.",
+  "statsTimeDefault": "استخدام الافتراضي",
+  "statsTimeMinuteAbbreviation": "د",
+  "statsTimeEditTitle": "الوقت الأسبوعي"
 }

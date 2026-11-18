@@ -186,6 +186,12 @@ void main() {
     await tester.pumpWidget(app(const StatsPage(), provider));
 
     expect(find.byKey(const ValueKey('moneySavedCard')), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('moneySavedCard')),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('moneySavedCard')));
     await tester.pumpAndSettle();
     expect(find.text('Currency'), findsOneWidget);

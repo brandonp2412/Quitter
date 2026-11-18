@@ -3530,5 +3530,15 @@
   "steroidsMilestone1825Description": "Lima tahun tanpa steroid adalah kemenangan jangka panjang yang besar. Pemulihan dapat tidak merata dan beberapa masalah bisa menetap, tetapi setengah dekade tanpa paparan ulang layak dirayakan.",
   "@steroidsMilestone1825Description": {"description": "Description for the steroids recovery milestone at 1825 days."},
   "steroidsReferenceDay1825": "Lima tahun tanpa steroid anabolik\n\nSumber: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nLima tahun adalah tonggak besar\nBukti menunjukkan bahwa pemulihan setelah AAS sangat bervariasi. Banyak perubahan hormonal membaik jauh lebih awal, sedangkan dampak reproduksi atau psikologis dapat berlangsung lebih lama dan lebih sulit diprediksi.\n\nSetengah dekade tanpa paparan ulang\nTinjauan ini tidak menetapkan garis akhir biologis pada tahun kelima. Lima tahun tanpa steroid layak dirayakan karena perubahan yang terus dipertahankan, sementara gejala yang menetap tetap perlu dinilai secara medis.",
-  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."}
+  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."},
+  "statsTimeWeekly": "per minggu",
+  "statsTimeDetail": "Perkiraan kasar waktu yang dihabiskan untuk kebiasaan, bukan waktu terdampak atau kerugiannya.",
+  "statsTimeConfigure": "Sesuaikan waktu mingguan setiap kebiasaan. Nonaktifkan perkiraan yang tidak sesuai.",
+  "statsTimeHours": "Jam",
+  "statsTimeMinutes": "Menit",
+  "statsTimeInvalid": "Masukkan waktu antara 1 menit dan 168 jam per minggu.",
+  "statsTimeEmpty": "Tambahkan perkiraan mingguan untuk melihat waktu yang didapat kembali.",
+  "statsTimeDefault": "Gunakan bawaan",
+  "statsTimeMinuteAbbreviation": "mnt",
+  "statsTimeEditTitle": "Waktu mingguan"
 }

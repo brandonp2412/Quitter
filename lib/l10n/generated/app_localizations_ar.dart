@@ -4488,4 +4488,36 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       'خمس سنوات من دون الستيرويدات البنائية\n\nالمصدر: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nخمس سنوات محطة كبيرة\nتُظهر الأدلة أن التعافي بعد الستيرويدات البنائية يختلف كثيرًا. تتحسن تغيّرات هرمونية عديدة في وقت أبكر، بينما قد تسير الآثار التناسلية أو النفسية في مسارات أطول وأقل قابلية للتنبؤ.\n\nنصف عقد من دون إعادة التعرض\nلا تحدد المراجعة خط نهاية بيولوجيًا عند خمس سنوات. خمس سنوات بلا ستيرويدات تستحق الاحتفال بالتغيير المستمر نفسه، مع بقاء الأعراض المستمرة سببًا للتقييم الطبي.';
+
+  @override
+  String get statsTimeWeekly => 'في الأسبوع';
+
+  @override
+  String get statsTimeDetail =>
+      'تقديرات تقريبية للوقت المستغرق في كل عادة، دون احتساب التأثير أو الضرر.';
+
+  @override
+  String get statsTimeConfigure =>
+      'عدّل الوقت الأسبوعي لكل عادة، وأوقف التقديرات التي لا تناسب تجربتك.';
+
+  @override
+  String get statsTimeHours => 'ساعات';
+
+  @override
+  String get statsTimeMinutes => 'دقائق';
+
+  @override
+  String get statsTimeInvalid => 'أدخل مدة من دقيقة إلى ١٦٨ ساعة أسبوعيًا.';
+
+  @override
+  String get statsTimeEmpty => 'أضف تقديرًا أسبوعيًا لعرض الوقت المستعاد.';
+
+  @override
+  String get statsTimeDefault => 'استخدام الافتراضي';
+
+  @override
+  String get statsTimeMinuteAbbreviation => 'د';
+
+  @override
+  String get statsTimeEditTitle => 'الوقت الأسبوعي';
 }

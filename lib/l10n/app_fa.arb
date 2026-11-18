@@ -3530,5 +3530,15 @@
   "steroidsMilestone1825Description": "پنج سال بدون استروئید یک پیروزی بزرگ و بلندمدت است. بهبودی ممکن است نابرابر باشد و بعضی مشکلات بمانند، اما نیم دهه بدون مواجههٔ دوباره ارزش جشن گرفتن دارد.",
   "@steroidsMilestone1825Description": {"description": "Description for the steroids recovery milestone at 1825 days."},
   "steroidsReferenceDay1825": "پنج سال بدون استروئیدهای آنابولیک\n\nمنبع: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nپنج سال یک نقطهٔ بزرگ است\nشواهد نشان می‌دهد بهبودی پس از استروئیدهای آنابولیک بسیار متفاوت است. بسیاری از تغییرات هورمونی زودتر بهتر می‌شوند، اما آثار تولیدمثلی یا روانی ممکن است طولانی‌تر و کم‌پیش‌بینی‌تر باشند.\n\nنیم دهه بدون مواجههٔ دوباره\nاین مرور خط پایان زیستی پنج‌ساله تعیین نمی‌کند. پنج سال بدون استروئید به‌خاطر خودِ تغییر پایدار شایستهٔ جشن است و علائم ماندگار همچنان باید پزشکی بررسی شوند.",
-  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."}
+  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."},
+  "statsTimeWeekly": "در هفته",
+  "statsTimeDetail": "برآورد تقریبی زمان صرف‌شده برای هر عادت، بدون در نظر گرفتن آسیب یا اختلال.",
+  "statsTimeConfigure": "زمان هفتگی هر عادت را تنظیم کنید و برآوردهای نامناسب را خاموش کنید.",
+  "statsTimeHours": "ساعت",
+  "statsTimeMinutes": "دقیقه",
+  "statsTimeInvalid": "زمانی بین ۱ دقیقه تا ۱۶۸ ساعت در هفته وارد کنید.",
+  "statsTimeEmpty": "برای دیدن زمان بازیافته، برآورد هفتگی اضافه کنید.",
+  "statsTimeDefault": "استفاده از پیش‌فرض",
+  "statsTimeMinuteAbbreviation": "دقیقه",
+  "statsTimeEditTitle": "زمان هفتگی"
 }

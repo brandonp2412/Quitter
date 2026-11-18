@@ -3528,5 +3528,15 @@
   "steroidsMilestone1825Description": "ステロイドを使わず5年は、長期にわたる大きな成果です。回復にはばらつきがあり問題が残ることもありますが、再曝露なしで5年を重ねたことは十分に祝う価値があります。",
   "@steroidsMilestone1825Description": {"description": "Description for the steroids recovery milestone at 1825 days."},
   "steroidsReferenceDay1825": "アナボリックステロイド中止から5年\n\n出典：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n5年は大きな節目です\nAAS中止後の回復には大きな幅があります。多くのホルモン変化はもっと早く改善しますが、妊孕性や心理面の影響は長く、予測しにくい経過をたどることがあります。\n\n再曝露なしの5年\nレビューは5年を生物学的な回復完了点とはしていません。ステロイドを使わず5年を重ねた継続そのものが祝う価値のある変化です。症状が残る場合は引き続き医療評価が適切です。",
-  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."}
+  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."},
+  "statsTimeWeekly": "週間あたり",
+  "statsTimeDetail": "各習慣に直接費やした時間の概算です。影響や健康被害は含みません。",
+  "statsTimeConfigure": "各習慣に週あたり費やした時間を調整します。合わない推定値はオフにできます。",
+  "statsTimeHours": "時間",
+  "statsTimeMinutes": "分",
+  "statsTimeInvalid": "週あたり1分から168時間まで入力してください。",
+  "statsTimeEmpty": "週間の推定時間を設定すると取り戻した時間を確認できます。",
+  "statsTimeDefault": "初期値に戻す",
+  "statsTimeMinuteAbbreviation": "分",
+  "statsTimeEditTitle": "週間の時間"
 }

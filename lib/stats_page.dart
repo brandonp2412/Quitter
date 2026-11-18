@@ -9,6 +9,7 @@ import 'package:quitter/empty_state.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
 import 'package:quitter/money_saved_settings_page.dart';
+import 'package:quitter/time_saved_settings_page.dart';
 
 class StatsPage extends StatelessWidget {
   const StatsPage({super.key});
@@ -37,10 +38,12 @@ class StatsPage extends StatelessWidget {
           0.0,
           (sum, e) => sum + (e.costPerDay ?? 0) * e.days,
         );
-        final hoursSaved = entries.fold(
-          0.0,
-          (sum, e) => sum + (e.hoursPerDay ?? 0) * e.days,
-        );
+        final minutesReclaimed = entries
+            .fold<double>(
+              0,
+              (sum, e) => sum + (e.weeklyMinutes ?? 0) * e.days / 7,
+            )
+            .round();
         final totalRelapses = entries.fold(0, (sum, e) => sum + e.relapseCount);
         final totalRelapseDays = entries.fold(
           0,
@@ -50,9 +53,11 @@ class StatsPage extends StatelessWidget {
         final moneyEntries = entries
             .where((e) => e.costPerDay != null && e.costPerDay! > 0)
             .toList();
-        final timeEntries = entries
-            .where((e) => e.hoursPerDay != null && e.hoursPerDay! > 0)
-            .toList();
+        final timeEntries =
+            entries
+                .where((e) => e.weeklyMinutes != null && e.weeklyMinutes! > 0)
+                .toList()
+              ..sort((a, b) => b.weeklyMinutes!.compareTo(a.weeklyMinutes!));
         final sortedByStreak = [...entries]
           ..sort((a, b) => b.days.compareTo(a.days));
 
@@ -85,6 +90,12 @@ class StatsPage extends StatelessWidget {
                         ? (constraints.maxWidth - spacing) / 2
                         : constraints.maxWidth;
                     final cards = <Widget>[
+                      _TimeSavedCard(
+                        minutesReclaimed: minutesReclaimed,
+                        timeEntries: timeEntries,
+                        allEntries: entries,
+                        l10n: l10n,
+                      ),
                       _JourneyCard(
                         totalDays: totalDays,
                         addictionCount: entries.length,
@@ -96,12 +107,6 @@ class StatsPage extends StatelessWidget {
                         allEntries: entries,
                         l10n: l10n,
                       ),
-                      if (hoursSaved >= 1)
-                        _TimeSavedCard(
-                          hoursSaved: hoursSaved,
-                          timeEntries: timeEntries,
-                          l10n: l10n,
-                        ),
                       _StreaksCard(entries: sortedByStreak, l10n: l10n),
                       if (totalRelapses > 0)
                         _ResilienceCard(
@@ -145,7 +150,6 @@ class StatsPage extends StatelessWidget {
       IconData icon,
       Color color, {
       double? costPerDay,
-      double? hoursPerDay,
       required String key,
     }) {
       if (quitDate == null) return;
@@ -161,7 +165,7 @@ class StatsPage extends StatelessWidget {
           days: days,
           costPerDay: weeklySpend == null ? costPerDay : weeklySpend / 7,
           hasCustomCost: weeklySpend != null,
-          hoursPerDay: hoursPerDay,
+          weeklyMinutes: addictions.weeklyTimeMinutesFor(key),
           relapseCount: allDays.length,
           totalRelapseDays: allDays.fold(0, (s, d) => s + d),
         ),
@@ -213,7 +217,6 @@ class StatsPage extends StatelessWidget {
       l10n.addictionSocialMedia,
       PresetIcons.social,
       const Color(0xFF8B5CF6),
-      hoursPerDay: 2.5,
       key: 'social_media',
     );
     addPreset(
@@ -221,7 +224,6 @@ class StatsPage extends StatelessWidget {
       l10n.addictionAdultContent,
       Icons.block,
       const Color(0xFFF43F5E),
-      hoursPerDay: 1.0,
       key: 'pornography',
     );
     addPreset(
@@ -385,6 +387,7 @@ class StatsPage extends StatelessWidget {
           days: days,
           costPerDay: weeklySpend == null ? null : weeklySpend / 7,
           hasCustomCost: weeklySpend != null,
+          weeklyMinutes: addictions.weeklyTimeMinutesFor(entry.id),
           relapseCount: entry.daysAchieved.length,
           totalRelapseDays: entry.daysAchieved.fold(0, (s, d) => s + d),
         ),
@@ -403,7 +406,7 @@ class _StatEntry {
   final int days;
   final double? costPerDay;
   final bool hasCustomCost;
-  final double? hoursPerDay;
+  final int? weeklyMinutes;
   final int relapseCount;
   final int totalRelapseDays;
 
@@ -415,7 +418,7 @@ class _StatEntry {
     required this.days,
     this.costPerDay,
     this.hasCustomCost = false,
-    this.hoursPerDay,
+    this.weeklyMinutes,
     this.relapseCount = 0,
     this.totalRelapseDays = 0,
   });
@@ -652,112 +655,241 @@ class _MoneySavedCard extends StatelessWidget {
 
 class _TimeSavedCard extends StatelessWidget {
   const _TimeSavedCard({
-    required this.hoursSaved,
+    required this.minutesReclaimed,
     required this.timeEntries,
+    required this.allEntries,
     required this.l10n,
   });
 
-  final double hoursSaved;
+  final int minutesReclaimed;
   final List<_StatEntry> timeEntries;
+  final List<_StatEntry> allEntries;
   final AppLocalizations l10n;
 
-  String _equivalence(double hours, AppLocalizations l) {
-    final movies = (hours / 2).round();
-    final books = (hours / 6).round();
-    if (books >= 3) return l.statsEquivalentBooks(books);
-    return l.statsEquivalentMovies(movies.clamp(1, 9999));
+  String formatMinutes(int minutes) {
+    final hours = minutes ~/ 60;
+    final remaining = minutes % 60;
+    final minutesText = '$remaining${l10n.statsTimeMinuteAbbreviation}';
+    if (hours == 0) return minutesText;
+    if (remaining == 0) return l10n.statsHoursSuffix(hours);
+    return '${l10n.statsHoursSuffix(hours)} $minutesText';
   }
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final equivalence = _equivalence(hoursSaved, l10n);
+    final isDark = theme.brightness == Brightness.dark;
+    final accent = isDark ? const Color(0xFFC4B5FD) : const Color(0xFF6D28D9);
+    final primaryShade = isDark
+        ? const Color(0xFF251A41)
+        : const Color(0xFFF0E9FF);
+    final secondaryShade = isDark
+        ? const Color(0xFF1A1B30)
+        : const Color(0xFFF9F7FF);
+    final foreground = theme.colorScheme.onSurface;
+    final weeklyTotal = timeEntries.fold<int>(
+      0,
+      (sum, e) => sum + e.weeklyMinutes!,
+    );
+    final largestWeekly = timeEntries.isEmpty
+        ? 1
+        : timeEntries.first.weeklyMinutes!;
+    final subtitle = l10n.statsTimeWeekly;
 
     return Container(
-      padding: const EdgeInsets.all(20),
+      key: const ValueKey('timeSavedCard'),
       decoration: BoxDecoration(
-        color: theme.colorScheme.surfaceContainerHigh,
-        borderRadius: BorderRadius.circular(20),
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [primaryShade, secondaryShade],
+        ),
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: accent.withValues(alpha: 0.17)),
       ),
+      padding: const EdgeInsets.fromLTRB(20, 20, 20, 18),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
               Container(
-                padding: const EdgeInsets.all(8),
+                padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                  color: const Color(0xFF7C3AED).withValues(alpha: 0.15),
-                  borderRadius: BorderRadius.circular(10),
+                  color: accent.withValues(alpha: 0.15),
+                  borderRadius: BorderRadius.circular(14),
                 ),
-                child: const Icon(
-                  Icons.access_time,
-                  color: Color(0xFF7C3AED),
-                  size: 20,
-                ),
-              ),
-              const SizedBox(width: 10),
-              Text(
-                l10n.statsTimeSavedTitle,
-                style: theme.textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
+                child: Icon(
+                  Icons.hourglass_top_rounded,
+                  color: accent,
+                  size: 22,
                 ),
               ),
-            ],
-          ),
-          const SizedBox(height: 16),
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: [
-              Text(
-                l10n.statsHoursSaved(hoursSaved.round()),
-                style: theme.textTheme.displaySmall?.copyWith(
-                  fontWeight: FontWeight.bold,
-                  color: const Color(0xFF7C3AED),
-                  height: 1,
+              const SizedBox(width: 12),
+              Expanded(
+                child: Text(
+                  l10n.statsTimeSavedTitle,
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w800,
+                    color: foreground,
+                  ),
                 ),
               ),
-            ],
-          ),
-          const SizedBox(height: 4),
-          Text(
-            equivalence,
-            style: theme.textTheme.bodyMedium?.copyWith(
-              color: theme.colorScheme.onSurface.withValues(alpha: 0.65),
-            ),
-          ),
-          const SizedBox(height: 16),
-          ...timeEntries.map(
-            (e) => Padding(
-              padding: const EdgeInsets.only(bottom: 6),
-              child: Row(
-                children: [
-                  Icon(e.icon, size: 16, color: e.color),
-                  const SizedBox(width: 8),
-                  Expanded(
-                    child: Text(
-                      e.name,
-                      style: theme.textTheme.bodySmall,
-                      overflow: TextOverflow.ellipsis,
+              IconButton.filledTonal(
+                key: const ValueKey('editTimeSaved'),
+                tooltip: l10n.statsTimeConfigure,
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) => TimeSavedSettingsPage(
+                      items: [
+                        for (final e in allEntries)
+                          TimeSavedItem(
+                            id: e.id,
+                            name: e.name,
+                            icon: e.icon,
+                            color: e.color,
+                          ),
+                      ],
                     ),
                   ),
+                ),
+                icon: const Icon(Icons.tune_rounded, size: 20),
+              ),
+            ],
+          ),
+          const SizedBox(height: 20),
+          Text(
+            formatMinutes(minutesReclaimed),
+            key: const ValueKey('timeSavedTotal'),
+            style: theme.textTheme.displayMedium?.copyWith(
+              color: accent,
+              fontSize: 40,
+              height: 1.05,
+              fontWeight: FontWeight.w900,
+              letterSpacing: -1.5,
+            ),
+          ),
+          const SizedBox(height: 10),
+          Row(
+            children: [
+              Icon(Icons.trending_up_rounded, size: 17, color: accent),
+              const SizedBox(width: 6),
+              Expanded(
+                child: Text(
+                  '${formatMinutes(weeklyTotal)} $subtitle',
+                  style: theme.textTheme.titleSmall?.copyWith(
+                    color: foreground.withValues(alpha: 0.75),
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          if (timeEntries.isNotEmpty) ...[
+            const SizedBox(height: 18),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(8),
+              child: SizedBox(
+                height: 9,
+                child: Row(
+                  children: [
+                    for (final e in timeEntries)
+                      Expanded(
+                        flex: e.weeklyMinutes!,
+                        child: ColoredBox(color: e.color),
+                      ),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+            for (final e in timeEntries) ...[
+              Row(
+                children: [
+                  Container(
+                    width: 34,
+                    height: 34,
+                    decoration: BoxDecoration(
+                      color: e.color.withValues(alpha: 0.13),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    alignment: Alignment.center,
+                    child: Icon(e.icon, size: 18, color: e.color),
+                  ),
+                  const SizedBox(width: 10),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          e.name,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: theme.textTheme.bodyMedium?.copyWith(
+                            color: foreground,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                        const SizedBox(height: 2),
+                        Text(
+                          '${formatMinutes(e.weeklyMinutes!)} $subtitle',
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: foreground.withValues(alpha: 0.62),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(width: 6),
                   Text(
-                    '${l10n.statsHoursSuffix((e.hoursPerDay! * e.days).round())}  ·  ${l10n.statsDaysSuffix(e.days)}',
-                    style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                    formatMinutes((e.weeklyMinutes! * e.days / 7).round()),
+                    style: theme.textTheme.titleSmall?.copyWith(
+                      color: foreground,
+                      fontWeight: FontWeight.w700,
                     ),
                   ),
                 ],
               ),
-            ),
-          ),
+              const SizedBox(height: 8),
+              Padding(
+                padding: const EdgeInsets.only(left: 44),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(4),
+                  child: LinearProgressIndicator(
+                    minHeight: 4,
+                    value: e.weeklyMinutes! / largestWeekly,
+                    color: e.color,
+                    backgroundColor: e.color.withValues(alpha: 0.12),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16),
+            ],
+          ] else ...[
+            const SizedBox(height: 20),
+            Text(l10n.statsTimeEmpty, style: theme.textTheme.bodyMedium),
+          ],
+          Divider(color: accent.withValues(alpha: 0.15), height: 8),
           const SizedBox(height: 8),
-          Text(
-            l10n.statsMoneySavedEstimate,
-            style: theme.textTheme.bodySmall?.copyWith(
-              color: theme.colorScheme.onSurface.withValues(alpha: 0.45),
-              fontStyle: FontStyle.italic,
-            ),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Icon(
+                Icons.info_outline_rounded,
+                size: 16,
+                color: foreground.withValues(alpha: 0.55),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  l10n.statsTimeDetail,
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    color: foreground.withValues(alpha: 0.65),
+                    height: 1.35,
+                  ),
+                ),
+              ),
+            ],
           ),
         ],
       ),

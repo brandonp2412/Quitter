@@ -4540,4 +4540,38 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       'Lima tahun tanpa steroid anabolik\n\nSumber: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nLima tahun adalah tonggak besar\nBukti menunjukkan bahwa pemulihan setelah AAS sangat bervariasi. Banyak perubahan hormonal membaik jauh lebih awal, sedangkan dampak reproduksi atau psikologis dapat berlangsung lebih lama dan lebih sulit diprediksi.\n\nSetengah dekade tanpa paparan ulang\nTinjauan ini tidak menetapkan garis akhir biologis pada tahun kelima. Lima tahun tanpa steroid layak dirayakan karena perubahan yang terus dipertahankan, sementara gejala yang menetap tetap perlu dinilai secara medis.';
+
+  @override
+  String get statsTimeWeekly => 'per minggu';
+
+  @override
+  String get statsTimeDetail =>
+      'Perkiraan kasar waktu yang dihabiskan untuk kebiasaan, bukan waktu terdampak atau kerugiannya.';
+
+  @override
+  String get statsTimeConfigure =>
+      'Sesuaikan waktu mingguan setiap kebiasaan. Nonaktifkan perkiraan yang tidak sesuai.';
+
+  @override
+  String get statsTimeHours => 'Jam';
+
+  @override
+  String get statsTimeMinutes => 'Menit';
+
+  @override
+  String get statsTimeInvalid =>
+      'Masukkan waktu antara 1 menit dan 168 jam per minggu.';
+
+  @override
+  String get statsTimeEmpty =>
+      'Tambahkan perkiraan mingguan untuk melihat waktu yang didapat kembali.';
+
+  @override
+  String get statsTimeDefault => 'Gunakan bawaan';
+
+  @override
+  String get statsTimeMinuteAbbreviation => 'mnt';
+
+  @override
+  String get statsTimeEditTitle => 'Waktu mingguan';
 }

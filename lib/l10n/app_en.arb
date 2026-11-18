@@ -3603,5 +3603,15 @@
   "steroidsMilestone1825Description": "Your hormone system has had sustained time to function without anabolic steroids, and you've stayed the course.",
   "@steroidsMilestone1825Description": {"description": "Description for the steroids recovery milestone at 1825 days."},
   "steroidsReferenceDay1825": "Five Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nFive Years Is a Major Milestone\nThe evidence shows that recovery after AAS varies widely. Many hormonal changes improve much earlier, while reproductive or psychological effects can follow longer and less predictable courses.\n\nHalf a Decade Without Re-Exposure\nThe review does not set a five-year biological finish line. Five years steroid-free is worth celebrating for the sustained change itself, while any persistent symptoms should still be assessed medically.",
-  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."}
+  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."},
+  "statsTimeWeekly": "per week",
+  "statsTimeDetail": "Rough estimates of time spent on each habit, not time impaired or harm caused.",
+  "statsTimeConfigure": "Adjust the time spent per week on each habit. Turn off estimates that do not fit your experience.",
+  "statsTimeHours": "Hours",
+  "statsTimeMinutes": "Minutes",
+  "statsTimeInvalid": "Enter a time from 1 minute to 168 hours per week.",
+  "statsTimeEmpty": "Add a weekly estimate to see time reclaimed.",
+  "statsTimeDefault": "Use default",
+  "statsTimeMinuteAbbreviation": "m",
+  "statsTimeEditTitle": "Weekly Time"
 }

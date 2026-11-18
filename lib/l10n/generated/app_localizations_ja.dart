@@ -4376,4 +4376,34 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       'アナボリックステロイド中止から5年\n\n出典：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n5年は大きな節目です\nAAS中止後の回復には大きな幅があります。多くのホルモン変化はもっと早く改善しますが、妊孕性や心理面の影響は長く、予測しにくい経過をたどることがあります。\n\n再曝露なしの5年\nレビューは5年を生物学的な回復完了点とはしていません。ステロイドを使わず5年を重ねた継続そのものが祝う価値のある変化です。症状が残る場合は引き続き医療評価が適切です。';
+
+  @override
+  String get statsTimeWeekly => '週間あたり';
+
+  @override
+  String get statsTimeDetail => '各習慣に直接費やした時間の概算です。影響や健康被害は含みません。';
+
+  @override
+  String get statsTimeConfigure => '各習慣に週あたり費やした時間を調整します。合わない推定値はオフにできます。';
+
+  @override
+  String get statsTimeHours => '時間';
+
+  @override
+  String get statsTimeMinutes => '分';
+
+  @override
+  String get statsTimeInvalid => '週あたり1分から168時間まで入力してください。';
+
+  @override
+  String get statsTimeEmpty => '週間の推定時間を設定すると取り戻した時間を確認できます。';
+
+  @override
+  String get statsTimeDefault => '初期値に戻す';
+
+  @override
+  String get statsTimeMinuteAbbreviation => '分';
+
+  @override
+  String get statsTimeEditTitle => '週間の時間';
 }

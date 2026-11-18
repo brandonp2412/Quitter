@@ -3528,5 +3528,15 @@
   "steroidsMilestone1825Description": "五年未使用類固醇，是重大的長期成果。恢復可能並不均勻，一些問題也可能持續，但五年沒有再次暴露本身就值得紀念。",
   "@steroidsMilestone1825Description": {"description": "Description for the steroids recovery milestone at 1825 days."},
   "steroidsReferenceDay1825": "停用合成代謝類固醇五年\n\n來源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n五年是重要里程碑\n證據顯示，AAS 停用後的恢復差異很大。許多激素變化會更早改善，而生殖或心理方面的影響可能持續更久，也更難預測。\n\n五年沒有再次暴露\n綜述沒有把五年設定為生物學恢復終點。五年未使用類固醇，持續改變本身就值得慶祝；任何持續存在的症狀仍應接受醫學評估。",
-  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."}
+  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."},
+  "statsTimeWeekly": "每週",
+  "statsTimeDetail": "對每種習慣直接花費時間的粗略估計，不包括受影響時間或造成的傷害。",
+  "statsTimeConfigure": "調整每種習慣每週的耗時。不適用的估計可以關閉。",
+  "statsTimeHours": "小時",
+  "statsTimeMinutes": "分鐘",
+  "statsTimeInvalid": "請輸入每週1分鐘至168小時的時間。",
+  "statsTimeEmpty": "新增每週估計值以查看省下的時間。",
+  "statsTimeDefault": "使用預設值",
+  "statsTimeMinuteAbbreviation": "分",
+  "statsTimeEditTitle": "每週時間"
 }

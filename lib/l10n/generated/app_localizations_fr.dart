@@ -4565,4 +4565,38 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       'Cinq ans sans stéroïdes anabolisants\n\nSource : Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nCinq ans, un jalon majeur\nLes données montrent que la récupération après les AAS varie fortement. De nombreux changements hormonaux s’améliorent bien plus tôt, tandis que les effets reproductifs ou psychologiques peuvent suivre des parcours plus longs et moins prévisibles.\n\nUn demi-décennie sans nouvelle exposition\nLa revue ne fixe aucune ligne d’arrivée biologique à cinq ans. Cinq ans sans stéroïdes méritent d’être célébrés pour la continuité du changement, tout symptôme persistant devant encore être évalué médicalement.';
+
+  @override
+  String get statsTimeWeekly => 'par semaine';
+
+  @override
+  String get statsTimeDetail =>
+      'Estimations approximatives du temps consacré à chaque habitude, sans compter les effets ou les dommages.';
+
+  @override
+  String get statsTimeConfigure =>
+      'Ajustez le temps hebdomadaire de chaque habitude. Désactivez les estimations inadaptées.';
+
+  @override
+  String get statsTimeHours => 'Heures';
+
+  @override
+  String get statsTimeMinutes => 'Minutes';
+
+  @override
+  String get statsTimeInvalid =>
+      'Saisissez une durée de 1 minute à 168 heures par semaine.';
+
+  @override
+  String get statsTimeEmpty =>
+      'Ajoutez une estimation hebdomadaire pour voir le temps récupéré.';
+
+  @override
+  String get statsTimeDefault => 'Valeur par défaut';
+
+  @override
+  String get statsTimeMinuteAbbreviation => 'min';
+
+  @override
+  String get statsTimeEditTitle => 'Temps hebdomadaire';
 }

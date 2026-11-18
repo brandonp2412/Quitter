@@ -7613,6 +7613,66 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Five Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nFive Years Is a Major Milestone\nThe evidence shows that recovery after AAS varies widely. Many hormonal changes improve much earlier, while reproductive or psychological effects can follow longer and less predictable courses.\n\nHalf a Decade Without Re-Exposure\nThe review does not set a five-year biological finish line. Five years steroid-free is worth celebrating for the sustained change itself, while any persistent symptoms should still be assessed medically.'**
   String get steroidsReferenceDay1825;
+
+  /// No description provided for @statsTimeWeekly.
+  ///
+  /// In en, this message translates to:
+  /// **'per week'**
+  String get statsTimeWeekly;
+
+  /// No description provided for @statsTimeDetail.
+  ///
+  /// In en, this message translates to:
+  /// **'Rough estimates of time spent on each habit, not time impaired or harm caused.'**
+  String get statsTimeDetail;
+
+  /// No description provided for @statsTimeConfigure.
+  ///
+  /// In en, this message translates to:
+  /// **'Adjust the time spent per week on each habit. Turn off estimates that do not fit your experience.'**
+  String get statsTimeConfigure;
+
+  /// No description provided for @statsTimeHours.
+  ///
+  /// In en, this message translates to:
+  /// **'Hours'**
+  String get statsTimeHours;
+
+  /// No description provided for @statsTimeMinutes.
+  ///
+  /// In en, this message translates to:
+  /// **'Minutes'**
+  String get statsTimeMinutes;
+
+  /// No description provided for @statsTimeInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a time from 1 minute to 168 hours per week.'**
+  String get statsTimeInvalid;
+
+  /// No description provided for @statsTimeEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a weekly estimate to see time reclaimed.'**
+  String get statsTimeEmpty;
+
+  /// No description provided for @statsTimeDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'Use default'**
+  String get statsTimeDefault;
+
+  /// No description provided for @statsTimeMinuteAbbreviation.
+  ///
+  /// In en, this message translates to:
+  /// **'m'**
+  String get statsTimeMinuteAbbreviation;
+
+  /// No description provided for @statsTimeEditTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Weekly Time'**
+  String get statsTimeEditTitle;
 }
 
 class _AppLocalizationsDelegate

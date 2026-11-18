@@ -3528,5 +3528,15 @@
   "steroidsMilestone1825Description": "Пять лет без стероидов — крупный долгосрочный успех. Восстановление может идти неравномерно, а некоторые проблемы сохраняться, но пять лет без повторного воздействия заслуживают особой отметки.",
   "@steroidsMilestone1825Description": {"description": "Description for the steroids recovery milestone at 1825 days."},
   "steroidsReferenceDay1825": "Пять лет без анаболических стероидов\n\nИсточник: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nПять лет — крупный рубеж\nДанные показывают, что восстановление после ААС сильно различается. Многие гормональные изменения улучшаются значительно раньше, а репродуктивные или психологические последствия могут иметь более длительное и менее предсказуемое течение.\n\nПолдесятилетия без повторного воздействия\nОбзор не устанавливает пятилетнюю биологическую точку полного восстановления. Пять лет без стероидов стоит отмечать как устойчивое изменение само по себе, а сохраняющиеся симптомы по-прежнему требуют медицинской оценки.",
-  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."}
+  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."},
+  "statsTimeWeekly": "в неделю",
+  "statsTimeDetail": "Приблизительное время, потраченное на привычку, без учета последствий и ухудшения состояния.",
+  "statsTimeConfigure": "Настройте время в неделю для каждой привычки. Отключите неподходящие оценки.",
+  "statsTimeHours": "Часы",
+  "statsTimeMinutes": "Минуты",
+  "statsTimeInvalid": "Укажите время от 1 минуты до 168 часов в неделю.",
+  "statsTimeEmpty": "Добавьте оценку за неделю, чтобы увидеть возвращенное время.",
+  "statsTimeDefault": "По умолчанию",
+  "statsTimeMinuteAbbreviation": "мин",
+  "statsTimeEditTitle": "Время за неделю"
 }

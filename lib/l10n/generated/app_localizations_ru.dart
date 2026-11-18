@@ -4563,4 +4563,38 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       'Пять лет без анаболических стероидов\n\nИсточник: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nПять лет — крупный рубеж\nДанные показывают, что восстановление после ААС сильно различается. Многие гормональные изменения улучшаются значительно раньше, а репродуктивные или психологические последствия могут иметь более длительное и менее предсказуемое течение.\n\nПолдесятилетия без повторного воздействия\nОбзор не устанавливает пятилетнюю биологическую точку полного восстановления. Пять лет без стероидов стоит отмечать как устойчивое изменение само по себе, а сохраняющиеся симптомы по-прежнему требуют медицинской оценки.';
+
+  @override
+  String get statsTimeWeekly => 'в неделю';
+
+  @override
+  String get statsTimeDetail =>
+      'Приблизительное время, потраченное на привычку, без учета последствий и ухудшения состояния.';
+
+  @override
+  String get statsTimeConfigure =>
+      'Настройте время в неделю для каждой привычки. Отключите неподходящие оценки.';
+
+  @override
+  String get statsTimeHours => 'Часы';
+
+  @override
+  String get statsTimeMinutes => 'Минуты';
+
+  @override
+  String get statsTimeInvalid =>
+      'Укажите время от 1 минуты до 168 часов в неделю.';
+
+  @override
+  String get statsTimeEmpty =>
+      'Добавьте оценку за неделю, чтобы увидеть возвращенное время.';
+
+  @override
+  String get statsTimeDefault => 'По умолчанию';
+
+  @override
+  String get statsTimeMinuteAbbreviation => 'мин';
+
+  @override
+  String get statsTimeEditTitle => 'Время за неделю';
 }

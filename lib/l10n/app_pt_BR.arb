@@ -3532,5 +3532,15 @@
   "steroidsMilestone1825Description": "Cinco anos sem esteroides são uma grande vitória de longo prazo. A recuperação pode ser irregular e alguns problemas persistirem, mas meia década sem nova exposição merece ser celebrada.",
   "@steroidsMilestone1825Description": {"description": "Description for the steroids recovery milestone at 1825 days."},
   "steroidsReferenceDay1825": "Cinco anos sem esteroides anabolizantes\n\nFonte: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nCinco anos são um grande marco\nAs evidências mostram que a recuperação depois dos AAS varia muito. Muitas mudanças hormonais melhoram bem antes, enquanto efeitos reprodutivos ou psicológicos podem ter trajetórias mais longas e menos previsíveis.\n\nMeia década sem nova exposição\nA revisão não estabelece uma linha de chegada biológica aos cinco anos. Cinco anos sem esteroides merecem ser celebrados pela mudança sustentada em si, e qualquer sintoma persistente ainda deve ser avaliado clinicamente.",
-  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."}
+  "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."},
+  "statsTimeWeekly": "por semana",
+  "statsTimeDetail": "Estimativas aproximadas do tempo gasto em cada hábito, não dos efeitos ou danos causados.",
+  "statsTimeConfigure": "Ajuste o tempo semanal de cada hábito. Desative estimativas que não correspondem à sua experiência.",
+  "statsTimeHours": "Horas",
+  "statsTimeMinutes": "Minutos",
+  "statsTimeInvalid": "Informe um tempo de 1 minuto a 168 horas por semana.",
+  "statsTimeEmpty": "Adicione uma estimativa semanal para ver o tempo recuperado.",
+  "statsTimeDefault": "Usar padrão",
+  "statsTimeMinuteAbbreviation": "min",
+  "statsTimeEditTitle": "Tempo semanal"
 }

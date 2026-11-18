@@ -4491,4 +4491,37 @@ class AppLocalizationsTh extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       'ห้าปีหลังหยุดสเตียรอยด์อนาโบลิก\n\nแหล่งที่มา: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nห้าปีคือหมุดหมายใหญ่\nหลักฐานแสดงว่าการฟื้นตัวหลัง AAS แตกต่างกันมาก การเปลี่ยนแปลงของฮอร์โมนหลายอย่างดีขึ้นเร็วกว่านั้นมาก ส่วนผลต่อระบบสืบพันธุ์หรือจิตใจอาจยาวนานและคาดการณ์ได้ยากกว่า\n\nห้าปีโดยไม่มีการสัมผัสซ้ำ\nงานทบทวนไม่ได้กำหนดว่าห้าปีคือจุดสิ้นสุดทางชีววิทยา ห้าปีโดยไม่ใช้สเตียรอยด์ควรได้รับการฉลองจากการเปลี่ยนแปลงที่รักษาไว้ได้เอง และอาการที่ยังคงอยู่ก็ควรได้รับการประเมินทางการแพทย์ต่อไป';
+
+  @override
+  String get statsTimeWeekly => 'ต่อสัปดาห์';
+
+  @override
+  String get statsTimeDetail =>
+      'การประมาณเวลาที่ใช้กับแต่ละพฤติกรรม ไม่รวมผลกระทบหรืออันตรายที่เกิดขึ้น';
+
+  @override
+  String get statsTimeConfigure =>
+      'ปรับเวลาต่อสัปดาห์ของแต่ละพฤติกรรม ปิดค่าประมาณที่ไม่ตรงกับคุณ';
+
+  @override
+  String get statsTimeHours => 'ชั่วโมง';
+
+  @override
+  String get statsTimeMinutes => 'นาที';
+
+  @override
+  String get statsTimeInvalid =>
+      'ป้อนเวลาตั้งแต่ 1 นาที ถึง 168 ชั่วโมงต่อสัปดาห์';
+
+  @override
+  String get statsTimeEmpty => 'เพิ่มค่าประมาณรายสัปดาห์เพื่อดูเวลาที่ได้คืน';
+
+  @override
+  String get statsTimeDefault => 'ใช้ค่าเริ่มต้น';
+
+  @override
+  String get statsTimeMinuteAbbreviation => 'น.';
+
+  @override
+  String get statsTimeEditTitle => 'เวลาต่อสัปดาห์';
 }

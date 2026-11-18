@@ -4550,6 +4550,40 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       'Cinco anos sem esteroides anabolizantes\n\nFonte: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nCinco anos são um grande marco\nA evidência mostra que a recuperação após AAS varia muito. Muitas alterações hormonais melhoram bastante mais cedo, enquanto efeitos reprodutivos ou psicológicos podem seguir percursos mais longos e menos previsíveis.\n\nMeio decénio sem nova exposição\nA revisão não fixa uma meta biológica aos cinco anos. Cinco anos sem esteroides merecem ser celebrados pela mudança sustentada em si, e quaisquer sintomas persistentes devem continuar a ser avaliados clinicamente.';
+
+  @override
+  String get statsTimeWeekly => 'por semana';
+
+  @override
+  String get statsTimeDetail =>
+      'Estimativas aproximadas do tempo gasto em cada hábito, não dos efeitos ou danos causados.';
+
+  @override
+  String get statsTimeConfigure =>
+      'Ajusta o tempo semanal de cada hábito. Desativa as estimativas que não se aplicam.';
+
+  @override
+  String get statsTimeHours => 'Horas';
+
+  @override
+  String get statsTimeMinutes => 'Minutos';
+
+  @override
+  String get statsTimeInvalid =>
+      'Introduz um tempo de 1 minuto a 168 horas por semana.';
+
+  @override
+  String get statsTimeEmpty =>
+      'Adiciona uma estimativa semanal para veres o tempo recuperado.';
+
+  @override
+  String get statsTimeDefault => 'Usar predefinição';
+
+  @override
+  String get statsTimeMinuteAbbreviation => 'min';
+
+  @override
+  String get statsTimeEditTitle => 'Tempo semanal';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -9094,4 +9128,38 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get steroidsReferenceDay1825 =>
       'Cinco anos sem esteroides anabolizantes\n\nFonte: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nCinco anos são um grande marco\nAs evidências mostram que a recuperação depois dos AAS varia muito. Muitas mudanças hormonais melhoram bem antes, enquanto efeitos reprodutivos ou psicológicos podem ter trajetórias mais longas e menos previsíveis.\n\nMeia década sem nova exposição\nA revisão não estabelece uma linha de chegada biológica aos cinco anos. Cinco anos sem esteroides merecem ser celebrados pela mudança sustentada em si, e qualquer sintoma persistente ainda deve ser avaliado clinicamente.';
+
+  @override
+  String get statsTimeWeekly => 'por semana';
+
+  @override
+  String get statsTimeDetail =>
+      'Estimativas aproximadas do tempo gasto em cada hábito, não dos efeitos ou danos causados.';
+
+  @override
+  String get statsTimeConfigure =>
+      'Ajuste o tempo semanal de cada hábito. Desative estimativas que não correspondem à sua experiência.';
+
+  @override
+  String get statsTimeHours => 'Horas';
+
+  @override
+  String get statsTimeMinutes => 'Minutos';
+
+  @override
+  String get statsTimeInvalid =>
+      'Informe um tempo de 1 minuto a 168 horas por semana.';
+
+  @override
+  String get statsTimeEmpty =>
+      'Adicione uma estimativa semanal para ver o tempo recuperado.';
+
+  @override
+  String get statsTimeDefault => 'Usar padrão';
+
+  @override
+  String get statsTimeMinuteAbbreviation => 'min';
+
+  @override
+  String get statsTimeEditTitle => 'Tempo semanal';
 }

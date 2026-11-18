@@ -4491,4 +4491,38 @@ class AppLocalizationsFa extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       'پنج سال بدون استروئیدهای آنابولیک\n\nمنبع: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nپنج سال یک نقطهٔ بزرگ است\nشواهد نشان می‌دهد بهبودی پس از استروئیدهای آنابولیک بسیار متفاوت است. بسیاری از تغییرات هورمونی زودتر بهتر می‌شوند، اما آثار تولیدمثلی یا روانی ممکن است طولانی‌تر و کم‌پیش‌بینی‌تر باشند.\n\nنیم دهه بدون مواجههٔ دوباره\nاین مرور خط پایان زیستی پنج‌ساله تعیین نمی‌کند. پنج سال بدون استروئید به‌خاطر خودِ تغییر پایدار شایستهٔ جشن است و علائم ماندگار همچنان باید پزشکی بررسی شوند.';
+
+  @override
+  String get statsTimeWeekly => 'در هفته';
+
+  @override
+  String get statsTimeDetail =>
+      'برآورد تقریبی زمان صرف‌شده برای هر عادت، بدون در نظر گرفتن آسیب یا اختلال.';
+
+  @override
+  String get statsTimeConfigure =>
+      'زمان هفتگی هر عادت را تنظیم کنید و برآوردهای نامناسب را خاموش کنید.';
+
+  @override
+  String get statsTimeHours => 'ساعت';
+
+  @override
+  String get statsTimeMinutes => 'دقیقه';
+
+  @override
+  String get statsTimeInvalid =>
+      'زمانی بین ۱ دقیقه تا ۱۶۸ ساعت در هفته وارد کنید.';
+
+  @override
+  String get statsTimeEmpty =>
+      'برای دیدن زمان بازیافته، برآورد هفتگی اضافه کنید.';
+
+  @override
+  String get statsTimeDefault => 'استفاده از پیش‌فرض';
+
+  @override
+  String get statsTimeMinuteAbbreviation => 'دقیقه';
+
+  @override
+  String get statsTimeEditTitle => 'زمان هفتگی';
 }

@@ -4504,4 +4504,37 @@ class AppLocalizationsUr extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       'اینابولک اسٹیرائڈز کے بغیر پانچ سال\n\nماخذ: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nپانچ سال ایک بڑا سنگِ میل ہیں\nشواہد دکھاتے ہیں کہ AAS کے بعد بحالی میں بہت فرق ہوتا ہے۔ بہت سی ہارمونی تبدیلیاں کہیں پہلے بہتر ہو جاتی ہیں، جبکہ تولیدی یا نفسیاتی اثرات زیادہ طویل اور کم قابلِ پیش گوئی راستہ اختیار کر سکتے ہیں۔\n\nدوبارہ سامنا ہوئے بغیر پانچ سال\nجائزہ پانچ سال کو حیاتیاتی بحالی کی آخری حد مقرر نہیں کرتا۔ اسٹیرائڈز کے بغیر پانچ سال برقرار تبدیلی کی وجہ سے خود جشن کے قابل ہیں، اور مسلسل علامات کی طبی جانچ جاری رہنی چاہیے۔';
+
+  @override
+  String get statsTimeWeekly => 'فی ہفتہ';
+
+  @override
+  String get statsTimeDetail =>
+      'ہر عادت میں لگنے والے وقت کا تخمینہ، اس کے اثرات یا نقصان کا نہیں۔';
+
+  @override
+  String get statsTimeConfigure =>
+      'ہر عادت کا ہفتہ وار وقت مقرر کریں اور غیر موزوں تخمینے بند کریں۔';
+
+  @override
+  String get statsTimeHours => 'گھنٹے';
+
+  @override
+  String get statsTimeMinutes => 'منٹ';
+
+  @override
+  String get statsTimeInvalid => 'فی ہفتہ ۱ منٹ سے ۱۶۸ گھنٹے کا وقت درج کریں۔';
+
+  @override
+  String get statsTimeEmpty =>
+      'واپس ملنے والا وقت دیکھنے کے لیے ہفتہ وار تخمینہ شامل کریں۔';
+
+  @override
+  String get statsTimeDefault => 'ڈیفالٹ استعمال کریں';
+
+  @override
+  String get statsTimeMinuteAbbreviation => 'منٹ';
+
+  @override
+  String get statsTimeEditTitle => 'ہفتہ وار وقت';
 }

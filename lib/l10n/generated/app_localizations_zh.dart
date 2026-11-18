@@ -4372,6 +4372,36 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get steroidsReferenceDay1825 =>
       '停用合成代谢类固醇五年\n\n来源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n五年是重要里程碑\n证据显示，AAS 停用后的恢复差异很大。许多激素变化会更早改善，而生殖或心理方面的影响可能持续更久，也更难预测。\n\n五年没有再次暴露\n综述没有把五年设定为生物学恢复终点。五年未使用类固醇，持续改变本身就值得庆祝；任何持续存在的症状仍应接受医学评估。';
+
+  @override
+  String get statsTimeWeekly => '每周';
+
+  @override
+  String get statsTimeDetail => '对每种习惯直接花费时间的粗略估计，不包括失能时间或造成的损害。';
+
+  @override
+  String get statsTimeConfigure => '调整每种习惯每周的耗时。不适用的估计可以关闭。';
+
+  @override
+  String get statsTimeHours => '小时';
+
+  @override
+  String get statsTimeMinutes => '分钟';
+
+  @override
+  String get statsTimeInvalid => '请输入每周1分钟至168小时的时间。';
+
+  @override
+  String get statsTimeEmpty => '添加每周估计值以查看节省的时间。';
+
+  @override
+  String get statsTimeDefault => '使用默认值';
+
+  @override
+  String get statsTimeMinuteAbbreviation => '分';
+
+  @override
+  String get statsTimeEditTitle => '每周时间';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -8742,4 +8772,34 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get steroidsReferenceDay1825 =>
       '停用合成代謝類固醇五年\n\n來源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n五年是重要里程碑\n證據顯示，AAS 停用後的恢復差異很大。許多激素變化會更早改善，而生殖或心理方面的影響可能持續更久，也更難預測。\n\n五年沒有再次暴露\n綜述沒有把五年設定為生物學恢復終點。五年未使用類固醇，持續改變本身就值得慶祝；任何持續存在的症狀仍應接受醫學評估。';
+
+  @override
+  String get statsTimeWeekly => '每週';
+
+  @override
+  String get statsTimeDetail => '對每種習慣直接花費時間的粗略估計，不包括受影響時間或造成的傷害。';
+
+  @override
+  String get statsTimeConfigure => '調整每種習慣每週的耗時。不適用的估計可以關閉。';
+
+  @override
+  String get statsTimeHours => '小時';
+
+  @override
+  String get statsTimeMinutes => '分鐘';
+
+  @override
+  String get statsTimeInvalid => '請輸入每週1分鐘至168小時的時間。';
+
+  @override
+  String get statsTimeEmpty => '新增每週估計值以查看省下的時間。';
+
+  @override
+  String get statsTimeDefault => '使用預設值';
+
+  @override
+  String get statsTimeMinuteAbbreviation => '分';
+
+  @override
+  String get statsTimeEditTitle => '每週時間';
 }
