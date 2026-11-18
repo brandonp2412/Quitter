@@ -98,7 +98,7 @@ void main() {
       expect(find.text('17h 30m per week'), findsOneWidget);
       expect(find.text('2h per week'), findsOneWidget);
 
-      await tester.tap(find.byKey(const ValueKey('editTimeSaved')));
+      await tester.tap(find.text('Estimated Time Reclaimed'));
       await tester.pumpAndSettle();
       expect(find.text('Hours'), findsWidgets);
 
@@ -130,6 +130,30 @@ void main() {
     },
   );
 
+  testWidgets('tapping the time total opens the same editor', (tester) async {
+    SharedPreferences.setMockInitialValues({
+      'smoking': DateTime.now()
+          .subtract(const Duration(days: 4))
+          .toIso8601String(),
+    });
+    final provider = AddictionProvider();
+    await provider.loadAddictions();
+    await tester.pumpWidget(app(const StatsPage(), provider));
+
+    final timeCard = find.byKey(const ValueKey('timeSavedCard'));
+    expect(timeCard, findsOneWidget);
+    expect(
+      find.descendant(of: timeCard, matching: find.byIcon(Icons.chevron_right)),
+      findsOneWidget,
+    );
+    expect(find.byIcon(Icons.tune_rounded), findsNothing);
+
+    await tester.tap(find.byKey(const ValueKey('timeSavedTotal')));
+    await tester.pumpAndSettle();
+    expect(find.text('Weekly Time'), findsOneWidget);
+    expect(find.byKey(const ValueKey('timeHours:smoking')), findsOneWidget);
+  });
+
   testWidgets('custom-only stats offer an editable time estimate', (
     tester,
   ) async {
@@ -149,7 +173,7 @@ void main() {
       find.text('Add a weekly estimate to see time reclaimed.'),
       findsOneWidget,
     );
-    await tester.tap(find.byKey(const ValueKey('editTimeSaved')));
+    await tester.tap(find.text('Estimated Time Reclaimed'));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('timeEnabled:custom-time')));
     await tester.pumpAndSettle();

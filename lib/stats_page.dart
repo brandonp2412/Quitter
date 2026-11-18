@@ -696,202 +696,205 @@ class _TimeSavedCard extends StatelessWidget {
         : timeEntries.first.weeklyMinutes!;
     final subtitle = l10n.statsTimeWeekly;
 
-    return Container(
-      key: const ValueKey('timeSavedCard'),
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [primaryShade, secondaryShade],
-        ),
+    return Material(
+      color: Colors.transparent,
+      borderRadius: BorderRadius.circular(24),
+      child: InkWell(
+        key: const ValueKey('timeSavedCard'),
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: accent.withValues(alpha: 0.17)),
-      ),
-      padding: const EdgeInsets.fromLTRB(20, 20, 20, 18),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: accent.withValues(alpha: 0.15),
-                  borderRadius: BorderRadius.circular(14),
-                ),
-                child: Icon(
-                  Icons.hourglass_top_rounded,
-                  color: accent,
-                  size: 22,
-                ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Text(
-                  l10n.statsTimeSavedTitle,
-                  style: theme.textTheme.titleMedium?.copyWith(
-                    fontWeight: FontWeight.w800,
-                    color: foreground,
+        onTap: () => Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (_) => TimeSavedSettingsPage(
+              items: [
+                for (final e in allEntries)
+                  TimeSavedItem(
+                    id: e.id,
+                    name: e.name,
+                    icon: e.icon,
+                    color: e.color,
                   ),
-                ),
-              ),
-              IconButton.filledTonal(
-                key: const ValueKey('editTimeSaved'),
-                tooltip: l10n.statsTimeConfigure,
-                onPressed: () => Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (_) => TimeSavedSettingsPage(
-                      items: [
-                        for (final e in allEntries)
-                          TimeSavedItem(
-                            id: e.id,
-                            name: e.name,
-                            icon: e.icon,
-                            color: e.color,
-                          ),
-                      ],
-                    ),
-                  ),
-                ),
-                icon: const Icon(Icons.tune_rounded, size: 20),
-              ),
-            ],
-          ),
-          const SizedBox(height: 20),
-          Text(
-            formatMinutes(minutesReclaimed),
-            key: const ValueKey('timeSavedTotal'),
-            style: theme.textTheme.displayMedium?.copyWith(
-              color: accent,
-              fontSize: 40,
-              height: 1.05,
-              fontWeight: FontWeight.w900,
-              letterSpacing: -1.5,
+              ],
             ),
           ),
-          const SizedBox(height: 10),
-          Row(
-            children: [
-              Icon(Icons.trending_up_rounded, size: 17, color: accent),
-              const SizedBox(width: 6),
-              Expanded(
-                child: Text(
-                  '${formatMinutes(weeklyTotal)} $subtitle',
-                  style: theme.textTheme.titleSmall?.copyWith(
-                    color: foreground.withValues(alpha: 0.75),
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-              ),
-            ],
-          ),
-          if (timeEntries.isNotEmpty) ...[
-            const SizedBox(height: 18),
-            ClipRRect(
-              borderRadius: BorderRadius.circular(8),
-              child: SizedBox(
-                height: 9,
-                child: Row(
-                  children: [
-                    for (final e in timeEntries)
-                      Expanded(
-                        flex: e.weeklyMinutes!,
-                        child: ColoredBox(color: e.color),
-                      ),
-                  ],
-                ),
-              ),
+        ),
+        child: Ink(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [primaryShade, secondaryShade],
             ),
-            const SizedBox(height: 20),
-            for (final e in timeEntries) ...[
+            borderRadius: BorderRadius.circular(24),
+            border: Border.all(color: accent.withValues(alpha: 0.17)),
+          ),
+          padding: const EdgeInsets.fromLTRB(20, 20, 20, 18),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
               Row(
                 children: [
                   Container(
-                    width: 34,
-                    height: 34,
+                    padding: const EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: e.color.withValues(alpha: 0.13),
-                      borderRadius: BorderRadius.circular(10),
+                      color: accent.withValues(alpha: 0.15),
+                      borderRadius: BorderRadius.circular(14),
                     ),
-                    alignment: Alignment.center,
-                    child: Icon(e.icon, size: 18, color: e.color),
+                    child: Icon(
+                      Icons.hourglass_top_rounded,
+                      color: accent,
+                      size: 22,
+                    ),
                   ),
-                  const SizedBox(width: 10),
+                  const SizedBox(width: 12),
                   Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          e.name,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: theme.textTheme.bodyMedium?.copyWith(
-                            color: foreground,
-                            fontWeight: FontWeight.w700,
-                          ),
-                        ),
-                        const SizedBox(height: 2),
-                        Text(
-                          '${formatMinutes(e.weeklyMinutes!)} $subtitle',
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            color: foreground.withValues(alpha: 0.62),
-                          ),
-                        ),
-                      ],
+                    child: Text(
+                      l10n.statsTimeSavedTitle,
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w800,
+                        color: foreground,
+                      ),
                     ),
                   ),
+                  const Icon(Icons.chevron_right),
+                ],
+              ),
+              const SizedBox(height: 20),
+              Text(
+                formatMinutes(minutesReclaimed),
+                key: const ValueKey('timeSavedTotal'),
+                style: theme.textTheme.displayMedium?.copyWith(
+                  color: accent,
+                  fontSize: 40,
+                  height: 1.05,
+                  fontWeight: FontWeight.w900,
+                  letterSpacing: -1.5,
+                ),
+              ),
+              const SizedBox(height: 10),
+              Row(
+                children: [
+                  Icon(Icons.trending_up_rounded, size: 17, color: accent),
                   const SizedBox(width: 6),
-                  Text(
-                    formatMinutes((e.weeklyMinutes! * e.days / 7).round()),
-                    style: theme.textTheme.titleSmall?.copyWith(
-                      color: foreground,
-                      fontWeight: FontWeight.w700,
+                  Expanded(
+                    child: Text(
+                      '${formatMinutes(weeklyTotal)} $subtitle',
+                      style: theme.textTheme.titleSmall?.copyWith(
+                        color: foreground.withValues(alpha: 0.75),
+                        fontWeight: FontWeight.w600,
+                      ),
                     ),
                   ),
                 ],
               ),
+              if (timeEntries.isNotEmpty) ...[
+                const SizedBox(height: 18),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(8),
+                  child: SizedBox(
+                    height: 9,
+                    child: Row(
+                      children: [
+                        for (final e in timeEntries)
+                          Expanded(
+                            flex: e.weeklyMinutes!,
+                            child: ColoredBox(color: e.color),
+                          ),
+                      ],
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 20),
+                for (final e in timeEntries) ...[
+                  Row(
+                    children: [
+                      Container(
+                        width: 34,
+                        height: 34,
+                        decoration: BoxDecoration(
+                          color: e.color.withValues(alpha: 0.13),
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        alignment: Alignment.center,
+                        child: Icon(e.icon, size: 18, color: e.color),
+                      ),
+                      const SizedBox(width: 10),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              e.name,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: theme.textTheme.bodyMedium?.copyWith(
+                                color: foreground,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                            const SizedBox(height: 2),
+                            Text(
+                              '${formatMinutes(e.weeklyMinutes!)} $subtitle',
+                              style: theme.textTheme.bodySmall?.copyWith(
+                                color: foreground.withValues(alpha: 0.62),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 6),
+                      Text(
+                        formatMinutes((e.weeklyMinutes! * e.days / 7).round()),
+                        style: theme.textTheme.titleSmall?.copyWith(
+                          color: foreground,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 44),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(4),
+                      child: LinearProgressIndicator(
+                        minHeight: 4,
+                        value: e.weeklyMinutes! / largestWeekly,
+                        color: e.color,
+                        backgroundColor: e.color.withValues(alpha: 0.12),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                ],
+              ] else ...[
+                const SizedBox(height: 20),
+                Text(l10n.statsTimeEmpty, style: theme.textTheme.bodyMedium),
+              ],
+              Divider(color: accent.withValues(alpha: 0.15), height: 8),
               const SizedBox(height: 8),
-              Padding(
-                padding: const EdgeInsets.only(left: 44),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(4),
-                  child: LinearProgressIndicator(
-                    minHeight: 4,
-                    value: e.weeklyMinutes! / largestWeekly,
-                    color: e.color,
-                    backgroundColor: e.color.withValues(alpha: 0.12),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Icon(
+                    Icons.info_outline_rounded,
+                    size: 16,
+                    color: foreground.withValues(alpha: 0.55),
                   ),
-                ),
-              ),
-              const SizedBox(height: 16),
-            ],
-          ] else ...[
-            const SizedBox(height: 20),
-            Text(l10n.statsTimeEmpty, style: theme.textTheme.bodyMedium),
-          ],
-          Divider(color: accent.withValues(alpha: 0.15), height: 8),
-          const SizedBox(height: 8),
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Icon(
-                Icons.info_outline_rounded,
-                size: 16,
-                color: foreground.withValues(alpha: 0.55),
-              ),
-              const SizedBox(width: 8),
-              Expanded(
-                child: Text(
-                  l10n.statsTimeDetail,
-                  style: theme.textTheme.bodySmall?.copyWith(
-                    color: foreground.withValues(alpha: 0.65),
-                    height: 1.35,
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      l10n.statsTimeDetail,
+                      style: theme.textTheme.bodySmall?.copyWith(
+                        color: foreground.withValues(alpha: 0.65),
+                        height: 1.35,
+                      ),
+                    ),
                   ),
-                ),
+                ],
               ),
             ],
           ),
-        ],
+        ),
       ),
     );
   }
