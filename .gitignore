@@ -42,3 +42,4 @@ app.*.map.json
 
 # Local Serena agent state
 .serena/
+graphify-out
