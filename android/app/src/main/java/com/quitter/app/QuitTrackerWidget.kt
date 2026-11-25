@@ -3,6 +3,7 @@ package com.quitter.app
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
+import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.util.Log
@@ -276,6 +277,18 @@ class QuitTrackerWidget : AppWidgetProvider() {
             views.setOnClickPendingIntent(R.id.widget_container, mainPendingIntent)
 
             appWidgetManager.updateAppWidget(appWidgetId, views)
+        }
+    }
+
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action == Intent.ACTION_MY_PACKAGE_REPLACED) {
+            val manager = AppWidgetManager.getInstance(context)
+            val ids = manager.getAppWidgetIds(ComponentName(context, QuitTrackerWidget::class.java))
+            if (ids.isNotEmpty()) {
+                onUpdate(context, manager, ids)
+            }
+        } else {
+            super.onReceive(context, intent)
         }
     }
 
