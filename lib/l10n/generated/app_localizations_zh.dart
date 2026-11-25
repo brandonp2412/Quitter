@@ -1589,6 +1589,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get notificationFrequencyDays => '天';
 
   @override
+  String get notificationFrequencyOnMilestones => '达到里程碑时';
+
+  @override
   String get notificationFrequencyAt => '时间';
 
   @override
@@ -5987,6 +5990,9 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get notificationFrequencyDays => '天';
+
+  @override
+  String get notificationFrequencyOnMilestones => '達到里程碑時';
 
   @override
   String get notificationFrequencyAt => '時間';

@@ -1338,6 +1338,7 @@
   "@notificationFrequencyDays": {
     "description": "Suffix text for days in notification frequency"
   },
+  "notificationFrequencyOnMilestones": "節目に通知",
   "notificationFrequencyAt": "時刻",
   "@notificationFrequencyAt": {
     "description": "Label for notification time field"

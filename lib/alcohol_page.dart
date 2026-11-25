@@ -8,7 +8,7 @@ class AlcoholPage extends StatelessWidget {
 
   const AlcoholPage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -250,7 +250,7 @@ class AlcoholPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.alcoholPageTitle,
       storageKey: 'alcohol',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.alcoholHeaderStarted,
       headerNotStarted: l10n.alcoholHeaderNotStarted,
       subtitleStarted: l10n.alcoholSubtitleStarted,

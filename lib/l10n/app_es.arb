@@ -1338,6 +1338,7 @@
   "@notificationFrequencyDays": {
     "description": "Suffix text for days in notification frequency"
   },
+  "notificationFrequencyOnMilestones": "Al alcanzar hitos",
   "notificationFrequencyAt": "A las",
   "@notificationFrequencyAt": {
     "description": "Label for notification time field"

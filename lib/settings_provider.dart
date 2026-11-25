@@ -19,6 +19,7 @@ class SettingsProvider extends ChangeNotifier {
   static const String _colorSchemeKey = 'color_scheme';
   static const String _customColorKey = 'custom_color';
   static const String _notifyEveryKey = 'notify_every';
+  static const String _notifyOnMilestonesKey = 'notify_on_milestones';
   static const String _notifyAtKey = 'notify_at';
   static const _pinHashKey = 'pin_hash';
   static const _pinEnabledKey = 'pin_enabled';
@@ -106,6 +107,7 @@ class SettingsProvider extends ChangeNotifier {
   ColorSchemeType _colorSchemeType = ColorSchemeType.dynamic;
   Color _customColor = const Color(0xFF6750A4);
   int _notifyEvery = 1;
+  bool _notifyOnMilestones = false;
   int _notifyAt = 8 * 60;
 
   final Map<String, bool> _showSettings = {
@@ -120,6 +122,8 @@ class SettingsProvider extends ChangeNotifier {
   ColorSchemeType get colorSchemeType => _colorSchemeType;
   Color get customColor => _customColor;
   int get notifyEvery => _notifyEvery;
+  bool get notifyOnMilestones => _notifyOnMilestones;
+  bool get remindersEnabled => _notifyOnMilestones || _notifyEvery > 0;
   int get notifyAt => _notifyAt;
 
   bool get showReset => _showSettings['reset']!;
@@ -228,6 +232,7 @@ class SettingsProvider extends ChangeNotifier {
     _notifyAt = storedNotifyAt >= 0 && storedNotifyAt < 24 * 60
         ? storedNotifyAt
         : 8 * 60;
+    _notifyOnMilestones = read<bool>(_notifyOnMilestonesKey) ?? false;
     final storedNotifyEvery = read<int>(_notifyEveryKey) ?? 1;
     _notifyEvery = storedNotifyEvery >= 0 ? storedNotifyEvery : 0;
     final storedPinTimeout = read<int>(_pinTimeoutKey) ?? 15;
@@ -359,14 +364,18 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setNotificationSchedule({
     required int days,
     required int at,
+    bool onMilestones = false,
   }) async {
     final normalizedDays = days < 0 ? 0 : days;
     final normalizedAt = at.clamp(0, 24 * 60 - 1);
     _notifyEvery = normalizedDays;
     _notifyAt = normalizedAt;
+    _notifyOnMilestones = onMilestones;
     await Future.wait([
       _prefs?.setInt(_notifyEveryKey, normalizedDays) ?? Future.value(true),
       _prefs?.setInt(_notifyAtKey, normalizedAt) ?? Future.value(true),
+      _prefs?.setBool(_notifyOnMilestonesKey, onMilestones) ??
+          Future.value(true),
     ]);
     notifyListeners();
     await rescheduleTasks();

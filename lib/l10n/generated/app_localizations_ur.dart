@@ -1653,6 +1653,9 @@ class AppLocalizationsUr extends AppLocalizations {
   String get notificationFrequencyDays => 'دن (s )';
 
   @override
+  String get notificationFrequencyOnMilestones => 'سنگ میل پر';
+
+  @override
   String get notificationFrequencyAt => 'پر';
 
   @override

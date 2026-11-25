@@ -154,7 +154,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     final addictions = context.read<AddictionProvider>();
     if (!context.mounted) return;
     final settingsProvider = context.read<SettingsProvider>();
-    if (settingsProvider.notifyEvery > 0 &&
+    if (settingsProvider.remindersEnabled &&
         (defaultTargetPlatform == TargetPlatform.android ||
             defaultTargetPlatform == TargetPlatform.iOS)) {
       final permission = await Permission.notification.request();

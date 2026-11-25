@@ -1647,6 +1647,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get notificationFrequencyDays => 'أيام)';
 
   @override
+  String get notificationFrequencyOnMilestones => 'عند المحطات المهمة';
+
+  @override
   String get notificationFrequencyAt => 'في';
 
   @override

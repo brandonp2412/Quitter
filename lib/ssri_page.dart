@@ -12,7 +12,7 @@ class SsriPage extends StatelessWidget {
   final bool started;
   const SsriPage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 3,
@@ -228,7 +228,7 @@ class SsriPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.ssriPageTitle,
       storageKey: 'ssri',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.ssriHeaderStarted,
       headerNotStarted: l10n.ssriHeaderNotStarted,
       subtitleStarted: l10n.ssriSubtitleStarted,

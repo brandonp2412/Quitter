@@ -1,0 +1,1 @@
+Recibe recordatorios al alcanzar un hito. Define una estimación semanal para ver cuánto tiempo has recuperado. Corregimos los iconos de los widgets que aparecían al revés.

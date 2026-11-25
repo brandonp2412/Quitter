@@ -7,7 +7,7 @@ class CocainePage extends StatelessWidget {
   final bool started;
   const CocainePage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -264,7 +264,7 @@ class CocainePage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.cocainePageTitle,
       storageKey: 'cocaine',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.cocaineHeaderStarted,
       headerNotStarted: l10n.cocaineHeaderNotStarted,
       subtitleStarted: l10n.cocaineSubtitleStarted,

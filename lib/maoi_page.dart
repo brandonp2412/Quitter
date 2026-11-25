@@ -13,7 +13,7 @@ class MaoiPage extends StatelessWidget {
   final bool started;
   const MaoiPage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 3,
@@ -239,7 +239,7 @@ class MaoiPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.maoiPageTitle,
       storageKey: 'maoi',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.maoiHeaderStarted,
       headerNotStarted: l10n.maoiHeaderNotStarted,
       subtitleStarted: l10n.maoiSubtitleStarted,

@@ -25,7 +25,7 @@ class GhbPage extends StatelessWidget {
     this.infoBoxMessage,
   });
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -170,7 +170,7 @@ class GhbPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: pageTitle ?? l10n.ghbPageTitle,
       storageKey: storageKey,
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: headerStarted ?? l10n.ghbHeaderStarted,
       headerNotStarted: headerNotStarted ?? l10n.ghbHeaderNotStarted,
       subtitleStarted: subtitleStarted ?? l10n.ghbSubtitleStarted,

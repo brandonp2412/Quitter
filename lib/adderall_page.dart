@@ -7,7 +7,7 @@ class AdderallPage extends StatelessWidget {
   final bool started;
   const AdderallPage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -297,7 +297,7 @@ class AdderallPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.adderallPageTitle,
       storageKey: 'adderall',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.adderallHeaderStarted,
       headerNotStarted: l10n.adderallHeaderNotStarted,
       subtitleStarted: l10n.adderallSubtitleStarted,

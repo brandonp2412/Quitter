@@ -8,7 +8,7 @@ class SocialMediaPage extends StatelessWidget {
 
   const SocialMediaPage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -297,7 +297,7 @@ class SocialMediaPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.socialMediaPageTitle,
       storageKey: 'social_media',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.socialMediaHeaderStarted,
       headerNotStarted: l10n.socialMediaHeaderNotStarted,
       subtitleStarted: l10n.socialMediaSubtitleStarted,

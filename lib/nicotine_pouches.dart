@@ -164,9 +164,7 @@ Five years pouch-free is an enormous sustained-change milestone on its own. Cele
     };
   }
 
-  @override
-  Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
+  SmokingPage _smokingPage(AppLocalizations l10n) {
     return SmokingPage(
       started: started,
       storageKey: 'nicotine_pouches',
@@ -179,4 +177,11 @@ Five years pouch-free is an enormous sustained-change milestone on its own. Cele
       milestoneDays: const {1, 3, 7, 14, 730, 1095, 1460, 1825},
     );
   }
+
+  List<QuitMilestone> milestonesFor(AppLocalizations l10n) =>
+      _smokingPage(l10n).milestonesFor(l10n);
+
+  @override
+  Widget build(BuildContext context) =>
+      _smokingPage(AppLocalizations.of(context)!);
 }

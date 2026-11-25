@@ -8,7 +8,7 @@ class KratomPage extends StatelessWidget {
 
   const KratomPage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -148,7 +148,7 @@ class KratomPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.kratomPageTitle,
       storageKey: 'kratom',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.kratomHeaderStarted,
       headerNotStarted: l10n.kratomHeaderNotStarted,
       subtitleStarted: l10n.kratomSubtitleStarted,

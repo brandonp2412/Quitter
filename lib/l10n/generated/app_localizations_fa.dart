@@ -1647,6 +1647,9 @@ class AppLocalizationsFa extends AppLocalizations {
   String get notificationFrequencyDays => 'روز';
 
   @override
+  String get notificationFrequencyOnMilestones => 'در نقاط عطف';
+
+  @override
   String get notificationFrequencyAt => 'در';
 
   @override

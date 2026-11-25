@@ -8,7 +8,7 @@ class KetaminePage extends StatelessWidget {
 
   const KetaminePage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -142,7 +142,7 @@ class KetaminePage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.ketaminePageTitle,
       storageKey: 'ketamine',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.ketamineHeaderStarted,
       headerNotStarted: l10n.ketamineHeaderNotStarted,
       subtitleStarted: l10n.ketamineSubtitleStarted,

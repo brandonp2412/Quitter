@@ -74,11 +74,11 @@ Future<void> main() async {
       await _migrateHiddenToDeleted();
 
       final settings = SettingsProvider(
-        onReminderDataChanged: refreshAndroidRemindersSoon,
+        onReminderDataChanged: refreshRemindersSoon,
       );
       await settings.loadPreferences();
       final addiction = AddictionProvider(
-        onReminderDataChanged: refreshAndroidRemindersSoon,
+        onReminderDataChanged: refreshRemindersSoon,
       );
       await addiction.loadAddictions();
 

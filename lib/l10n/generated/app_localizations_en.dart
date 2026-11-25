@@ -1645,6 +1645,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get notificationFrequencyDays => 'day(s)';
 
   @override
+  String get notificationFrequencyOnMilestones => 'On milestones';
+
+  @override
   String get notificationFrequencyAt => 'At';
 
   @override

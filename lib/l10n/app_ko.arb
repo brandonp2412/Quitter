@@ -1346,6 +1346,7 @@
   "@notificationFrequencyDays": {
     "description": "Suffix text for days in notification frequency"
   },
+  "notificationFrequencyOnMilestones": "마일스톤 달성 시",
   "notificationFrequencyAt": "~에",
   "@notificationFrequencyAt": {
     "description": "Label for notification time field"

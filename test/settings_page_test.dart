@@ -693,6 +693,29 @@ void main() {
       expect(find.text('Import data'), findsOneWidget);
     });
 
+    testWidgets('milestone mode hides the day interval and keeps the time', (
+      WidgetTester tester,
+    ) async {
+      await tester.pumpWidget(createTestWidget());
+      await tester.enterText(find.byType(TextField).first, 'notifications');
+      await tester.pump();
+      await tester.tap(find.text('Notification frequency'));
+      await tester.pumpAndSettle();
+
+      final l10n = AppLocalizations.of(
+        tester.element(find.byType(AlertDialog)),
+      )!;
+      expect(find.text(l10n.notificationFrequencyNotifyEvery), findsOneWidget);
+      await tester.tap(find.text('On milestones'));
+      await tester.pumpAndSettle();
+      expect(find.text(l10n.notificationFrequencyNotifyEvery), findsNothing);
+      expect(find.text(l10n.notificationFrequencyAt), findsOneWidget);
+
+      await tester.tap(find.text('On milestones'));
+      await tester.pumpAndSettle();
+      expect(find.text(l10n.notificationFrequencyNotifyEvery), findsOneWidget);
+    });
+
     testWidgets('settings search tolerates typos', (WidgetTester tester) async {
       await tester.pumpWidget(createTestWidget());
 

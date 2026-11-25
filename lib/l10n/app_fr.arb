@@ -947,6 +947,7 @@
   "@notificationFrequencyNotifyEvery": {"description": "Label for notification frequency field"},
   "notificationFrequencyDays": "jour(s)",
   "@notificationFrequencyDays": {"description": "Suffix text for days in notification frequency"},
+  "notificationFrequencyOnMilestones": "Aux étapes clés",
   "notificationFrequencyAt": "À",
   "@notificationFrequencyAt": {"description": "Label for notification time field"},
   "notificationFrequencySave": "Enregistrer",

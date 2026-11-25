@@ -279,7 +279,7 @@ class _SettingsPageState extends State<SettingsPage> {
       if (!context.mounted || defaultTargetPlatform == TargetPlatform.linux)
         return;
 
-      if (settings.notifyEvery == 0) return;
+      if (!settings.remindersEnabled) return;
       if (!addictions.hasActivePresetJourney && addictions.entries.isEmpty)
         return;
 
@@ -784,9 +784,11 @@ class _SettingsPageState extends State<SettingsPage> {
         leading: const Icon(Icons.schedule),
         title: Text(l10n.settingsNotificationFrequency),
         subtitle: Text(
-          l10n.settingsNotificationFrequencySubtitle(
+          _notificationScheduleLabel(
+            context,
             settings.notifyEvery,
-            getTimeString(context, settings.notifyAt),
+            settings.notifyAt,
+            settings.notifyOnMilestones,
           ),
         ),
         onTap: () => _showNotificationFrequencyDialog(context, settings),
@@ -1152,6 +1154,19 @@ class _SettingsPageState extends State<SettingsPage> {
     );
   }
 
+  String _notificationScheduleLabel(
+    BuildContext context,
+    int days,
+    int at,
+    bool onMilestones,
+  ) {
+    final l10n = AppLocalizations.of(context)!;
+    final time = getTimeString(context, at);
+    return onMilestones
+        ? '${l10n.notificationFrequencyOnMilestones} · $time'
+        : l10n.settingsNotificationFrequencySubtitle(days, time);
+  }
+
   Future<void> _showNotificationFrequencyDialog(
     BuildContext context,
     SettingsProvider settings,
@@ -1160,6 +1175,7 @@ class _SettingsPageState extends State<SettingsPage> {
       text: settings.notifyEvery.toString(),
     );
     var selectedAt = settings.notifyAt;
+    var onMilestones = settings.notifyOnMilestones;
     final atCtrl = TextEditingController(
       text: getTimeString(context, selectedAt),
     );
@@ -1169,78 +1185,99 @@ class _SettingsPageState extends State<SettingsPage> {
         context: context,
         builder: (context) {
           final l10n = AppLocalizations.of(context)!;
-          return AlertDialog(
-            title: Text(l10n.settingsNotificationFrequency),
-            content: SingleChildScrollView(
-              child: Column(
-                children: [
-                  TextField(
-                    controller: everyCtrl,
-                    keyboardType: TextInputType.number,
-                    inputFormatters: [FilteringTextInputFormatter.digitsOnly],
-                    onTap: () => selectAll(everyCtrl),
-                    decoration: InputDecoration(
-                      labelText: l10n.notificationFrequencyNotifyEvery,
-                      suffixText: l10n.notificationFrequencyDays,
-                      border: OutlineInputBorder(),
+          return StatefulBuilder(
+            builder: (context, setState) => AlertDialog(
+              title: Text(l10n.settingsNotificationFrequency),
+              content: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    SwitchListTile(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.notificationFrequencyOnMilestones),
+                      value: onMilestones,
+                      onChanged: (value) =>
+                          setState(() => onMilestones = value),
                     ),
-                  ),
-                  const SizedBox(height: 16),
-                  TextField(
-                    controller: atCtrl,
-                    readOnly: true,
-                    decoration: InputDecoration(
-                      labelText: l10n.notificationFrequencyAt,
-                      border: OutlineInputBorder(),
-                    ),
-                    autofocus: true,
-                    onTap: () async {
-                      final hours = selectedAt ~/ 60;
-                      final minutes = selectedAt % 60;
-                      final result = await showTimePicker(
-                        context: context,
-                        initialTime: TimeOfDay(hour: hours, minute: minutes),
-                      );
-
-                      if (result != null && context.mounted) {
-                        selectedAt = result.hour * 60 + result.minute;
-                        atCtrl.text = getTimeString(context, selectedAt);
-                      }
-                    },
-                  ),
-                ],
-              ),
-            ),
-            actions: [
-              TextButton(
-                onPressed: () => Navigator.pop(context),
-                child: Text(l10n.cancel),
-              ),
-              TextButton(
-                onPressed: () async {
-                  final days = int.tryParse(everyCtrl.text);
-                  if (days != null && days >= 0) {
-                    final notificationPreviewBody = l10n
-                        .settingsNotificationFrequencySubtitle(
-                          days,
-                          getTimeString(context, selectedAt),
+                    if (!onMilestones)
+                      TextField(
+                        controller: everyCtrl,
+                        keyboardType: TextInputType.number,
+                        inputFormatters: [
+                          FilteringTextInputFormatter.digitsOnly,
+                        ],
+                        onTap: () => selectAll(everyCtrl),
+                        decoration: InputDecoration(
+                          labelText: l10n.notificationFrequencyNotifyEvery,
+                          suffixText: l10n.notificationFrequencyDays,
+                          border: OutlineInputBorder(),
+                        ),
+                      ),
+                    const SizedBox(height: 16),
+                    TextField(
+                      controller: atCtrl,
+                      readOnly: true,
+                      decoration: InputDecoration(
+                        labelText: l10n.notificationFrequencyAt,
+                        border: OutlineInputBorder(),
+                      ),
+                      autofocus: true,
+                      onTap: () async {
+                        final hours = selectedAt ~/ 60;
+                        final minutes = selectedAt % 60;
+                        final result = await showTimePicker(
+                          context: context,
+                          initialTime: TimeOfDay(hour: hours, minute: minutes),
                         );
-                    await settings.setNotificationSchedule(
-                      days: days,
-                      at: selectedAt,
-                    );
-                    if (days > 0) {
-                      await testNotification(
-                        title: l10n.notificationTestTitle,
-                        body: notificationPreviewBody,
-                      );
-                    }
-                    if (context.mounted) Navigator.pop(context);
-                  }
-                },
-                child: Text(l10n.notificationFrequencySave),
+
+                        if (result != null && context.mounted) {
+                          selectedAt = result.hour * 60 + result.minute;
+                          atCtrl.text = getTimeString(context, selectedAt);
+                        }
+                      },
+                    ),
+                  ],
+                ),
               ),
-            ],
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  child: Text(l10n.cancel),
+                ),
+                TextButton(
+                  onPressed: () async {
+                    final days = onMilestones
+                        ? settings.notifyEvery
+                        : int.tryParse(everyCtrl.text);
+                    if (days != null && days >= 0) {
+                      final notificationPreviewBody =
+                          _notificationScheduleLabel(
+                            context,
+                            days,
+                            selectedAt,
+                            onMilestones,
+                          );
+                      if (onMilestones &&
+                          defaultTargetPlatform == TargetPlatform.android) {
+                        await Permission.notification.request();
+                      }
+                      await settings.setNotificationSchedule(
+                        days: days,
+                        at: selectedAt,
+                        onMilestones: onMilestones,
+                      );
+                      if (onMilestones || days > 0) {
+                        await testNotification(
+                          title: l10n.notificationTestTitle,
+                          body: notificationPreviewBody,
+                        );
+                      }
+                      if (context.mounted) Navigator.pop(context);
+                    }
+                  },
+                  child: Text(l10n.notificationFrequencySave),
+                ),
+              ],
+            ),
           );
         },
       );

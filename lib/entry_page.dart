@@ -13,10 +13,8 @@ class EntryPage extends StatefulWidget {
 
   @override
   State<EntryPage> createState() => _EntryPageState();
-}
 
-class _EntryPageState extends State<EntryPage> {
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestones(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -131,7 +129,9 @@ class _EntryPageState extends State<EntryPage> {
       ),
     ];
   }
+}
 
+class _EntryPageState extends State<EntryPage> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
@@ -148,7 +148,7 @@ class _EntryPageState extends State<EntryPage> {
           title: entry.title,
           storageKey: entry.id,
           shareTitle: entry.title,
-          milestones: _getMilestones(l10n),
+          milestones: EntryPage.milestones(l10n),
           headerStarted: l10n.entryPageHeaderStarted,
           headerNotStarted: l10n.entryPageHeaderNotStarted,
           subtitleStarted: l10n.entryPageSubtitleStarted,

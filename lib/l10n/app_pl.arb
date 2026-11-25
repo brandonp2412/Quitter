@@ -1340,6 +1340,7 @@
   "@notificationFrequencyDays": {
     "description": "Suffix text for days in notification frequency"
   },
+  "notificationFrequencyOnMilestones": "Po osiągnięciu kamieni milowych",
   "notificationFrequencyAt": "O",
   "@notificationFrequencyAt": {
     "description": "Label for notification time field"

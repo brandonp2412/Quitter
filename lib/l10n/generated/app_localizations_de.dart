@@ -1678,6 +1678,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get notificationFrequencyDays => 'Tag(e)';
 
   @override
+  String get notificationFrequencyOnMilestones => 'Bei Meilensteinen';
+
+  @override
   String get notificationFrequencyAt => 'im';
 
   @override

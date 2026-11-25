@@ -1,0 +1,1 @@
+Recevez un rappel quand vous atteignez un jalon. Saisissez une estimation hebdomadaire pour voir combien de temps vous avez récupéré. Les icônes de widgets affichées à l’envers ont été corrigées.

@@ -10,6 +10,7 @@ import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/locale_utils.dart';
 import 'package:quitter/logging.dart';
+import 'package:quitter/milestone_reminders.dart';
 import 'package:workmanager/workmanager.dart';
 import 'package:timezone/timezone.dart' as tz;
 import 'package:shared_preferences/shared_preferences.dart';
@@ -19,19 +20,31 @@ import 'package:quitter/settings_provider.dart';
 Timer? timer;
 Timer? oneOffReminderTimer;
 Timer? periodicStarterTimer;
-Timer? _androidReminderRefresh;
+Timer? _reminderRefresh;
 Future<void> _taskRefreshQueue = Future<void>.value();
 
-void refreshAndroidRemindersSoon() {
-  if (defaultTargetPlatform != TargetPlatform.android) return;
-  _androidReminderRefresh?.cancel();
-  _androidReminderRefresh = Timer(const Duration(seconds: 2), () {
+void refreshRemindersSoon() {
+  if (kIsWeb) return;
+  _reminderRefresh?.cancel();
+  _reminderRefresh = Timer(const Duration(seconds: 2), () {
     unawaited(
-      rescheduleTasks().catchError((Object error, StackTrace stack) {
+      _refreshRemindersAfterDataChange().catchError((
+        Object error,
+        StackTrace stack,
+      ) {
         talker.handle(error, stack, 'Unable to refresh reminders');
       }),
     );
   });
+}
+
+Future<void> _refreshRemindersAfterDataChange() async {
+  if (defaultTargetPlatform != TargetPlatform.android) {
+    final settings = SettingsProvider();
+    await settings.loadPreferences();
+    if (!settings.notifyOnMilestones) return;
+  }
+  await rescheduleTasks();
 }
 
 AppLocalizations _localizationsFor(SharedPreferences prefs) {
@@ -63,9 +76,14 @@ Future<void> setupTasks() async {
 
   final settings = SettingsProvider();
   await settings.loadPreferences();
-  if (settings.notifyEvery == 0) {
+  if (!settings.remindersEnabled) {
     talker.info('Reminder scheduling disabled by settings');
     await cancelReminderTasks();
+    return;
+  }
+
+  if (settings.notifyOnMilestones) {
+    await _scheduleMilestoneReminders(now, settings.notifyAt);
     return;
   }
 
@@ -229,34 +247,69 @@ Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin(
   return plugin;
 }
 
+NotificationDetails _reminderDetails(AppLocalizations l10n) =>
+    NotificationDetails(
+      android: AndroidNotificationDetails(
+        'reminders_channel_id',
+        l10n.notificationChannelName,
+        channelDescription: l10n.notificationChannelDescription,
+        importance: Importance.high,
+        priority: Priority.high,
+        icon: 'neurology',
+      ),
+      iOS: DarwinNotificationDetails(),
+      linux: LinuxNotificationDetails(),
+      macOS: DarwinNotificationDetails(),
+      windows: WindowsNotificationDetails(),
+    );
+
 Future<void> _showNotification(
   FlutterLocalNotificationsPlugin plugin,
   String title,
   String body,
   AppLocalizations l10n,
 ) async {
-  final notificationDetails = NotificationDetails(
-    android: AndroidNotificationDetails(
-      'reminders_channel_id',
-      l10n.notificationChannelName,
-      channelDescription: l10n.notificationChannelDescription,
-      importance: Importance.high,
-      priority: Priority.high,
-      icon: 'neurology',
-    ),
-    iOS: DarwinNotificationDetails(),
-    linux: LinuxNotificationDetails(),
-    macOS: DarwinNotificationDetails(),
-    windows: WindowsNotificationDetails(),
-  );
-
   await plugin.show(
     id: Random().nextInt(1000),
     title: title,
     body: body,
-    notificationDetails: notificationDetails,
+    notificationDetails: _reminderDetails(l10n),
   );
 }
+
+List<Map<String, String>> _presetJourneys(AppLocalizations l10n) => [
+  {'key': 'adderall', 'name': l10n.addictionAdderall},
+  {'key': 'ssri', 'name': l10n.addictionSsri},
+  {'key': 'snri', 'name': l10n.addictionSnri},
+  {'key': 'tca', 'name': l10n.addictionTca},
+  {'key': 'maoi', 'name': l10n.addictionMaoi},
+  {'key': 'alcohol', 'name': l10n.addictionAlcohol},
+  {'key': 'benzos', 'name': l10n.addictionBenzos},
+  {'key': 'vaping', 'name': l10n.addictionVaping},
+  {'key': 'smoking', 'name': l10n.addictionSmoking},
+  {'key': 'marijuana', 'name': l10n.addictionMarijuana},
+  {'key': 'opioids', 'name': l10n.addictionOpioids},
+  {'key': 'nicotine_pouches', 'name': l10n.addictionNicotinePouches},
+  {'key': 'social_media', 'name': l10n.addictionSocialMedia},
+  {'key': 'pornography', 'name': l10n.addictionAdultContent},
+  {'key': 'cocaine', 'name': l10n.addictionCocaine},
+  {'key': 'meth', 'name': l10n.addictionMeth},
+  {'key': 'nitrous_oxide', 'name': l10n.addictionNitrousOxide},
+  {'key': 'kratom', 'name': l10n.addictionKratom},
+  {'key': 'gabapentinoids', 'name': l10n.addictionGabapentinoid},
+  {'key': 'ghb', 'name': l10n.addictionGhb},
+  {'key': 'ketamine', 'name': l10n.addictionKetamine},
+  {'key': 'inhalants', 'name': l10n.addictionInhalants},
+  {
+    'key': 'synthetic_cannabinoids',
+    'name': l10n.addictionSyntheticCannabinoids,
+  },
+  {'key': 'mdma', 'name': l10n.addictionMdma},
+  {'key': 'steroids', 'name': l10n.addictionSteroids},
+  {'key': 'heroin', 'name': l10n.addictionHeroin},
+  {'key': 'fentanyl', 'name': l10n.addictionFentanyl},
+  {'key': 'smokeless_tobacco', 'name': l10n.addictionSmokelessTobacco},
+];
 
 Future<({String title, String body})?> createProgressNotification(
   SharedPreferences prefs,
@@ -265,40 +318,6 @@ Future<({String title, String body})?> createProgressNotification(
   AddictionProvider? addictionProvider,
 }) async {
   final random = Random();
-
-  final List<Map<String, String>> journeys = [
-    {'key': 'adderall', 'name': l10n.addictionAdderall},
-    {'key': 'ssri', 'name': l10n.addictionSsri},
-    {'key': 'snri', 'name': l10n.addictionSnri},
-    {'key': 'tca', 'name': l10n.addictionTca},
-    {'key': 'maoi', 'name': l10n.addictionMaoi},
-    {'key': 'alcohol', 'name': l10n.addictionAlcohol},
-    {'key': 'benzos', 'name': l10n.addictionBenzos},
-    {'key': 'vaping', 'name': l10n.addictionVaping},
-    {'key': 'smoking', 'name': l10n.addictionSmoking},
-    {'key': 'marijuana', 'name': l10n.addictionMarijuana},
-    {'key': 'opioids', 'name': l10n.addictionOpioids},
-    {'key': 'nicotine_pouches', 'name': l10n.addictionNicotinePouches},
-    {'key': 'social_media', 'name': l10n.addictionSocialMedia},
-    {'key': 'pornography', 'name': l10n.addictionAdultContent},
-    {'key': 'cocaine', 'name': l10n.addictionCocaine},
-    {'key': 'meth', 'name': l10n.addictionMeth},
-    {'key': 'nitrous_oxide', 'name': l10n.addictionNitrousOxide},
-    {'key': 'kratom', 'name': l10n.addictionKratom},
-    {'key': 'gabapentinoids', 'name': l10n.addictionGabapentinoid},
-    {'key': 'ghb', 'name': l10n.addictionGhb},
-    {'key': 'ketamine', 'name': l10n.addictionKetamine},
-    {'key': 'inhalants', 'name': l10n.addictionInhalants},
-    {
-      'key': 'synthetic_cannabinoids',
-      'name': l10n.addictionSyntheticCannabinoids,
-    },
-    {'key': 'mdma', 'name': l10n.addictionMdma},
-    {'key': 'steroids', 'name': l10n.addictionSteroids},
-    {'key': 'heroin', 'name': l10n.addictionHeroin},
-    {'key': 'fentanyl', 'name': l10n.addictionFentanyl},
-    {'key': 'smokeless_tobacco', 'name': l10n.addictionSmokelessTobacco},
-  ];
 
   final List<String> messages = [
     l10n.notificationProgressMessage1,
@@ -313,7 +332,7 @@ Future<({String title, String body})?> createProgressNotification(
     l10n.notificationProgressMessage10,
   ];
 
-  final activeJourneys = journeys.where((journey) {
+  final activeJourneys = _presetJourneys(l10n).where((journey) {
     final key = journey['key']!;
     return _validQuitDate(prefs, key) != null &&
         _notificationEnabled(prefs, key);
@@ -411,16 +430,7 @@ Future<void> _scheduleAndroidReminders(
   final plugin = await _initializeNotificationPlugin(l10n);
   final addiction = AddictionProvider();
   await addiction.loadAddictions();
-  final details = NotificationDetails(
-    android: AndroidNotificationDetails(
-      'reminders_channel_id',
-      l10n.notificationChannelName,
-      channelDescription: l10n.notificationChannelDescription,
-      importance: Importance.high,
-      priority: Priority.high,
-      icon: 'neurology',
-    ),
-  );
+  final details = _reminderDetails(l10n);
 
   var id = 10000;
   for (final date in reminderDatesForYear(firstReminder, intervalDays)) {
@@ -445,6 +455,94 @@ Future<void> _scheduleAndroidReminders(
   );
 }
 
+Future<void> _scheduleMilestoneReminders(DateTime now, int at) async {
+  final prefs = await SharedPreferences.getInstance();
+  final l10n = _localizationsFor(prefs);
+  final addiction = AddictionProvider();
+  await addiction.loadAddictions();
+
+  final reminders = <({DateTime date, String title, String body})>[];
+  void addJourney(String name, DateTime quitDate, String? presetKey) {
+    final milestones = milestonesForJourney(l10n, presetKey);
+    final titles = {
+      for (final milestone in milestones) milestone.day: milestone.title,
+    };
+    for (final milestone in upcomingMilestoneDates(
+      quitDate: quitDate,
+      now: now,
+      at: at,
+      predefinedDays: titles.keys,
+    )) {
+      final day = milestone.day;
+      reminders.add((
+        date: milestone.date,
+        title: l10n.notificationProgressTitle(name),
+        body:
+            titles[day] ??
+            (day % 365 == 0
+                ? l10n.timelineMilestoneYears(day ~/ 365)
+                : l10n.timelineMilestoneDay(day)),
+      ));
+    }
+  }
+
+  for (final preset in _presetJourneys(l10n)) {
+    final key = preset['key']!;
+    final quitDate = _validQuitDate(prefs, key);
+    if (quitDate != null && _notificationEnabled(prefs, key)) {
+      addJourney(preset['name']!, DateTime.parse(quitDate), key);
+    }
+  }
+  for (final entry in addiction.entries) {
+    if (_notificationEnabled(prefs, 'entry_${entry.id}')) {
+      addJourney(entry.title, entry.quitDate, null);
+    }
+  }
+  if (reminders.isEmpty) return;
+  reminders.sort((a, b) => a.date.compareTo(b.date));
+
+  final platform = defaultTargetPlatform;
+  if (platform == TargetPlatform.android || platform == TargetPlatform.iOS) {
+    final plugin = await _initializeNotificationPlugin(l10n);
+    final details = _reminderDetails(l10n);
+    var id = 10000;
+    final scheduleStart = DateTime.now();
+    for (final reminder in reminders.take(
+      platform == TargetPlatform.iOS ? 64 : 365,
+    )) {
+      if (!reminder.date.isAfter(scheduleStart)) continue;
+      await plugin.zonedSchedule(
+        id: id++,
+        title: reminder.title,
+        body: reminder.body,
+        scheduledDate: tz.TZDateTime.from(reminder.date.toUtc(), tz.UTC),
+        notificationDetails: details,
+        androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+      );
+    }
+    return;
+  }
+
+  final pending = reminders.iterator;
+  void scheduleNext() {
+    if (!pending.moveNext()) return;
+    final reminder = pending.current;
+    oneOffReminderTimer = Timer(reminder.date.difference(DateTime.now()), () {
+      scheduleNext();
+      unawaited(() async {
+        try {
+          final plugin = await _initializeNotificationPlugin(l10n);
+          await _showNotification(plugin, reminder.title, reminder.body, l10n);
+        } catch (error, stack) {
+          talker.handle(error, stack, 'Unable to deliver milestone reminder');
+        }
+      }());
+    });
+  }
+
+  scheduleNext();
+}
+
 Future<void> cancelReminderTasks() async {
   if (kIsWeb) return;
 
@@ -455,9 +553,7 @@ Future<void> cancelReminderTasks() async {
       Workmanager().cancelByUniqueName('reminders'),
       Workmanager().cancelByUniqueName('reminder_oneoff'),
     ]);
-    if (defaultTargetPlatform == TargetPlatform.android) {
-      await FlutterLocalNotificationsPlugin().cancelAllPendingNotifications();
-    }
+    await FlutterLocalNotificationsPlugin().cancelAllPendingNotifications();
     return;
   }
 

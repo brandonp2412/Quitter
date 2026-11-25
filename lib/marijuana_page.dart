@@ -25,7 +25,7 @@ class MarijuanaPage extends StatelessWidget {
     this.infoBoxMessage,
   });
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -312,7 +312,7 @@ class MarijuanaPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: pageTitle ?? l10n.marijuanaPageTitle,
       storageKey: storageKey,
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: headerStarted ?? l10n.marijuanaHeaderStarted,
       headerNotStarted: headerNotStarted ?? l10n.marijuanaHeaderNotStarted,
       subtitleStarted: subtitleStarted ?? l10n.marijuanaSubtitleStarted,

@@ -13,7 +13,7 @@ class OpioidPage extends StatelessWidget {
     this.storageKey = 'opioids',
   });
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -303,7 +303,7 @@ Five years is half a decade of sustained change. That achievement stands on its 
     return QuitMilestonesPage(
       title: l10n.opioidsPageTitle,
       storageKey: storageKey,
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.opioidsHeaderStarted,
       headerNotStarted: l10n.opioidsHeaderNotStarted,
       subtitleStarted: l10n.opioidsSubtitleStarted,

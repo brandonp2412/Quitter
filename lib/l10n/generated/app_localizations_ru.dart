@@ -1690,6 +1690,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get notificationFrequencyDays => 'день(а)';
 
   @override
+  String get notificationFrequencyOnMilestones => 'При достижении вех';
+
+  @override
   String get notificationFrequencyAt => 'В';
 
   @override

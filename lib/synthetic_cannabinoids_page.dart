@@ -15,7 +15,7 @@ class SyntheticCannabinoidsPage extends StatelessWidget {
   static const _longTermGuidelineLink =
       'https://pmc.ncbi.nlm.nih.gov/articles/PMC13222391/';
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -131,7 +131,7 @@ class SyntheticCannabinoidsPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.synthetic_cannabinoidsPageTitle,
       storageKey: 'synthetic_cannabinoids',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.synthetic_cannabinoidsHeaderStarted,
       headerNotStarted: l10n.synthetic_cannabinoidsHeaderNotStarted,
       subtitleStarted: l10n.synthetic_cannabinoidsSubtitleStarted,

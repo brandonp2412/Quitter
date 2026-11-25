@@ -1590,6 +1590,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get notificationFrequencyDays => '日';
 
   @override
+  String get notificationFrequencyOnMilestones => '節目に通知';
+
+  @override
   String get notificationFrequencyAt => '時刻';
 
   @override

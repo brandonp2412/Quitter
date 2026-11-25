@@ -2970,6 +2970,12 @@ abstract class AppLocalizations {
   /// **'day(s)'**
   String get notificationFrequencyDays;
 
+  /// No description provided for @notificationFrequencyOnMilestones.
+  ///
+  /// In en, this message translates to:
+  /// **'On milestones'**
+  String get notificationFrequencyOnMilestones;
+
   /// Label for notification time field
   ///
   /// In en, this message translates to:

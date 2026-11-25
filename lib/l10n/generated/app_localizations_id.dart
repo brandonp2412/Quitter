@@ -1675,6 +1675,9 @@ class AppLocalizationsId extends AppLocalizations {
   String get notificationFrequencyDays => 'hari';
 
   @override
+  String get notificationFrequencyOnMilestones => 'Saat mencapai tonggak';
+
+  @override
   String get notificationFrequencyAt => 'Pada';
 
   @override

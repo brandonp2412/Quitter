@@ -12,7 +12,7 @@ class SnriPage extends StatelessWidget {
   final bool started;
   const SnriPage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 3,
@@ -236,7 +236,7 @@ class SnriPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.snriPageTitle,
       storageKey: 'snri',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.snriHeaderStarted,
       headerNotStarted: l10n.snriHeaderNotStarted,
       subtitleStarted: l10n.snriSubtitleStarted,

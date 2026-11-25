@@ -1684,6 +1684,9 @@ class AppLocalizationsPt extends AppLocalizations {
   String get notificationFrequencyDays => 'dia(s)';
 
   @override
+  String get notificationFrequencyOnMilestones => 'Ao atingir marcos';
+
+  @override
   String get notificationFrequencyAt => 'Em';
 
   @override
@@ -6261,6 +6264,9 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get notificationFrequencyDays => 'dia(s)';
+
+  @override
+  String get notificationFrequencyOnMilestones => 'Ao atingir marcos';
 
   @override
   String get notificationFrequencyAt => 'Em';

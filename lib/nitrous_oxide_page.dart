@@ -8,7 +8,7 @@ class NitrousOxidePage extends StatelessWidget {
 
   const NitrousOxidePage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -214,7 +214,7 @@ Five years without nitrous oxide is 1825 days of sustained change. Half a decade
     return QuitMilestonesPage(
       title: l10n.nitrousOxidePageTitle,
       storageKey: 'nitrous_oxide',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.nitrousOxideHeaderStarted,
       headerNotStarted: l10n.nitrousOxideHeaderNotStarted,
       subtitleStarted: l10n.nitrousOxideSubtitleStarted,

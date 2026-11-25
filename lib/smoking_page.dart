@@ -28,7 +28,7 @@ class SmokingPage extends StatelessWidget {
     this.milestoneDays,
   });
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> _defaultMilestones(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -261,20 +261,22 @@ Inflammatory signaling recovered on a slower timetable, with altered cytokine re
     ];
   }
 
-  @override
-  Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
+  List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     final overrides =
         milestoneOverridesBuilder?.call(l10n) ?? <int, QuitMilestone>{};
-    final milestones = _getMilestones(l10n)
+    return _defaultMilestones(l10n)
         .where((milestone) => milestoneDays?.contains(milestone.day) ?? true)
         .map((milestone) => overrides[milestone.day] ?? milestone)
         .toList(growable: false);
+  }
 
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return QuitMilestonesPage(
       title: pageTitle ?? l10n.smokingPageTitle,
       storageKey: storageKey,
-      milestones: milestones,
+      milestones: milestonesFor(l10n),
       headerStarted: headerStarted ?? l10n.smokingHeaderStarted,
       headerNotStarted: headerNotStarted ?? l10n.smokingHeaderNotStarted,
       subtitleStarted: subtitleStarted ?? l10n.smokingSubtitleStarted,

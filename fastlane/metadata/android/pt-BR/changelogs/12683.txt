@@ -1,0 +1,1 @@
+Receba lembretes ao atingir um marco. Informe uma estimativa semanal para ver quanto tempo você recuperou. Corrigimos os ícones dos widgets que apareciam de cabeça para baixo.

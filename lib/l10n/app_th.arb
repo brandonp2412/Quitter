@@ -1340,6 +1340,7 @@
   "@notificationFrequencyDays": {
     "description": "Suffix text for days in notification frequency"
   },
+  "notificationFrequencyOnMilestones": "เมื่อถึงหมุดหมาย",
   "notificationFrequencyAt": "ณ",
   "@notificationFrequencyAt": {
     "description": "Label for notification time field"

@@ -1693,6 +1693,9 @@ class AppLocalizationsFr extends AppLocalizations {
   String get notificationFrequencyDays => 'jour(s)';
 
   @override
+  String get notificationFrequencyOnMilestones => 'Aux étapes clés';
+
+  @override
   String get notificationFrequencyAt => 'À';
 
   @override

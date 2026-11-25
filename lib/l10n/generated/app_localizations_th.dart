@@ -1647,6 +1647,9 @@ class AppLocalizationsTh extends AppLocalizations {
   String get notificationFrequencyDays => 'วัน';
 
   @override
+  String get notificationFrequencyOnMilestones => 'เมื่อถึงหมุดหมาย';
+
+  @override
   String get notificationFrequencyAt => 'ณ';
 
   @override

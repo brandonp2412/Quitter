@@ -1609,6 +1609,9 @@ class AppLocalizationsKo extends AppLocalizations {
   String get notificationFrequencyDays => '날)';
 
   @override
+  String get notificationFrequencyOnMilestones => '마일스톤 달성 시';
+
+  @override
   String get notificationFrequencyAt => '~에';
 
   @override

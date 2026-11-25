@@ -8,7 +8,7 @@ class SteroidsPage extends StatelessWidget {
 
   const SteroidsPage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -140,7 +140,7 @@ class SteroidsPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.steroidsPageTitle,
       storageKey: 'steroids',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.steroidsHeaderStarted,
       headerNotStarted: l10n.steroidsHeaderNotStarted,
       subtitleStarted: l10n.steroidsSubtitleStarted,

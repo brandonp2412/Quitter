@@ -12,7 +12,7 @@ class TcaPage extends StatelessWidget {
   final bool started;
   const TcaPage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 3,
@@ -212,7 +212,7 @@ class TcaPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.tcaPageTitle,
       storageKey: 'tca',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.tcaHeaderStarted,
       headerNotStarted: l10n.tcaHeaderNotStarted,
       subtitleStarted: l10n.tcaSubtitleStarted,

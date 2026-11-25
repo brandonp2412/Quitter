@@ -1678,6 +1678,10 @@ class AppLocalizationsPl extends AppLocalizations {
   String get notificationFrequencyDays => 'DNI)';
 
   @override
+  String get notificationFrequencyOnMilestones =>
+      'Po osiągnięciu kamieni milowych';
+
+  @override
   String get notificationFrequencyAt => 'O';
 
   @override

@@ -8,7 +8,7 @@ class PornographyPage extends StatelessWidget {
 
   const PornographyPage({super.key, required this.started});
 
-  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+  static List<QuitMilestone> milestonesFor(AppLocalizations l10n) {
     return [
       QuitMilestone(
         day: 1,
@@ -209,7 +209,7 @@ class PornographyPage extends StatelessWidget {
     return QuitMilestonesPage(
       title: l10n.pornographyPageTitle,
       storageKey: 'pornography',
-      milestones: _getMilestones(l10n),
+      milestones: milestonesFor(l10n),
       headerStarted: l10n.pornographyHeaderStarted,
       headerNotStarted: l10n.pornographyHeaderNotStarted,
       subtitleStarted: l10n.pornographySubtitleStarted,
