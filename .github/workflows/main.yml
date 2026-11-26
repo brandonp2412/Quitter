@@ -265,8 +265,18 @@ jobs:
           CHANGELOG_FILE="fastlane/metadata/android/en-US/changelogs/$CHANGELOG_NUMBER.txt"
           mkdir -p "$(dirname "$CHANGELOG_FILE")"
 
-          test -s "$CHANGELOG_FILE"
+          python3 scripts/release_notes.py "$CHANGELOG_FILE" release-notes/current.txt
           python3 scripts/sync_play_changelogs.py --check
+          python3 - "$CHANGELOG_FILE" <<'PY'
+          import sys
+          from pathlib import Path
+          text = Path(sys.argv[1]).read_text(encoding="utf-8").strip()
+          if not any(p.read_text(encoding="utf-8").strip() == text for p in Path("assets/changelogs").glob("*.txt")):
+              raise SystemExit("English Play notes must match the in-app notes")
+          for p in Path("fastlane/metadata/android").glob("*/changelogs/" + Path(sys.argv[1]).name):
+              if len(p.read_text(encoding="utf-8").strip().encode("utf-16-le")) // 2 > 500:
+                  raise SystemExit(f"Play notes exceed 500 characters: {p}")
+          PY
 
       - name: Commit, tag, and push the tested release
         id: release
@@ -274,7 +284,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RELEASE_VERSION: ${{ steps.bump.outputs.version }}
         run: |
-          git add pubspec.yaml fastlane/metadata assets/changelogs/
+          git add release-notes/current.txt pubspec.yaml fastlane/metadata assets/changelogs/
           git commit -m "Release $RELEASE_VERSION [skip ci]"
           git tag "$RELEASE_VERSION"
           gh auth setup-git
@@ -471,6 +481,10 @@ jobs:
 
       - name: Publish to Microsoft Store
         shell: pwsh
+        env:
+          NOTES_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+          NOTES_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+          NOTES_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
         run: |
           $packages = @(Get-ChildItem -Path "build/windows/x64/runner/Release" -Filter "*.msix" -File -Recurse)
           if ($packages.Count -ne 1) {
@@ -479,10 +493,12 @@ jobs:
           $package = $packages[0]
           $packageDirectory = $package.Directory.FullName
           Write-Host "Publishing $($package.FullName) to Microsoft Store"
-          & msstore publish . --inputDirectory $packageDirectory --appId 9PKVZWDG3FGC
+          if (-not (Test-Path -LiteralPath "release-notes/current.txt")) { throw "Missing release notes" }
+          & msstore publish . --inputDirectory $packageDirectory --appId 9PKVZWDG3FGC --noCommit
           if ($LASTEXITCODE -ne 0) {
             throw "Microsoft Store publish failed with exit code $LASTEXITCODE."
           }
+          ./scripts/publish-store-notes.ps1 -ProductId 9PKVZWDG3FGC -NotesFile "release-notes/current.txt" -PlayVersionCode "${{ needs.version-bump.outputs.changelog_number }}"
           & msstore submission status 9PKVZWDG3FGC
           if ($LASTEXITCODE -ne 0) {
             throw "Microsoft Store submission status verification failed with exit code $LASTEXITCODE."
