@@ -69,10 +69,7 @@
             </intent-filter>
         </activity>
         <receiver
-            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
-            android:exported="false" />
-        <receiver
-            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+            android:name=".ReminderReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />

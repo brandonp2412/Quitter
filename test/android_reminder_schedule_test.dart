@@ -1,8 +1,54 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/tasks.dart';
 import 'package:quitter/utils.dart';
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
+  test(
+    'Android sends the year of reminders in one native queue replacement',
+    () async {
+      debugDefaultTargetPlatformOverride = TargetPlatform.android;
+      final messenger =
+          TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger;
+      const channel = MethodChannel('android.widget');
+      final calls = <MethodCall>[];
+      messenger.setMockMethodCallHandler(channel, (call) async {
+        calls.add(call);
+        return null;
+      });
+      SharedPreferences.setMockInitialValues({
+        'alcohol': '2020-01-01',
+        'locale': 'en',
+        'notify_every': 1,
+        'notify_at': 480,
+      });
+      try {
+        await setupTasks();
+        expect(calls.map((call) => call.method), [
+          'scheduleWidgetUpdates',
+          'replaceReminders',
+        ]);
+        final records = (calls.last.arguments as Map)['records'] as List;
+        expect(records, hasLength(365));
+        expect(records.map((record) => record['id']).toSet(), hasLength(365));
+        expect(
+          records.every((record) => (record['title'] as String).isNotEmpty),
+          isTrue,
+        );
+        await cancelReminderTasks();
+        expect((calls.last.arguments as Map)['records'], isEmpty);
+      } finally {
+        messenger.setMockMethodCallHandler(channel, null);
+        debugDefaultTargetPlatformOverride = null;
+        SharedPreferences.setMockInitialValues({});
+      }
+    },
+  );
+
   test('Android reminder dates keep local wall-clock time across DST', () {
     final dates = reminderDatesForYear(
       DateTime(2026, 9, 26, 8, 30),

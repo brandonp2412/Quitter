@@ -13,8 +13,12 @@ class CrashLogger {
   static Future<CrashLogger> install({String fileName = 'crash.log'}) async {
     File? file;
     if (!kIsWeb) {
-      final dir = await getApplicationSupportDirectory();
-      file = File('${dir.path}${Platform.pathSeparator}$fileName');
+      try {
+        final dir = await getApplicationSupportDirectory();
+        file = File('${dir.path}${Platform.pathSeparator}$fileName');
+      } catch (error) {
+        debugPrint('Crash log storage unavailable: $error');
+      }
     }
 
     final logger = CrashLogger._(file);

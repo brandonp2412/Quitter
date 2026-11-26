@@ -68,7 +68,6 @@ Future<void> setupTasks() async {
 
   if (defaultTargetPlatform == TargetPlatform.android) {
     talker.info('Registering Android background tasks');
-    await Workmanager().initialize(taskHandler);
     await const MethodChannel(
       'android.widget',
     ).invokeMethod<void>('scheduleWidgetUpdates');
@@ -421,18 +420,37 @@ Iterable<DateTime> reminderDatesForYear(
   }
 }
 
+Future<void> _replaceAndroidReminders(
+  List<({DateTime date, String title, String body})> reminders,
+  AppLocalizations l10n,
+) async {
+  await const MethodChannel('android.widget').invokeMethod<void>(
+    'replaceReminders',
+    {
+      'channelName': l10n.notificationChannelName,
+      'channelDescription': l10n.notificationChannelDescription,
+      'records': [
+        for (final (index, reminder) in reminders.indexed)
+          {
+            'id': 10000 + index,
+            'at': reminder.date.millisecondsSinceEpoch,
+            'title': reminder.title,
+            'body': reminder.body,
+          },
+      ],
+    },
+  );
+}
+
 Future<void> _scheduleAndroidReminders(
   DateTime firstReminder,
   int intervalDays,
 ) async {
   final prefs = await SharedPreferences.getInstance();
   final l10n = _localizationsFor(prefs);
-  final plugin = await _initializeNotificationPlugin(l10n);
   final addiction = AddictionProvider();
   await addiction.loadAddictions();
-  final details = _reminderDetails(l10n);
-
-  var id = 10000;
+  final reminders = <({DateTime date, String title, String body})>[];
   for (final date in reminderDatesForYear(firstReminder, intervalDays)) {
     final content = await createProgressNotification(
       prefs,
@@ -441,17 +459,11 @@ Future<void> _scheduleAndroidReminders(
       addictionProvider: addiction,
     );
     if (content == null) break;
-    await plugin.zonedSchedule(
-      id: id++,
-      title: content.title,
-      body: content.body,
-      scheduledDate: tz.TZDateTime.from(date.toUtc(), tz.UTC),
-      notificationDetails: details,
-      androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
-    );
+    reminders.add((date: date, title: content.title, body: content.body));
   }
+  await _replaceAndroidReminders(reminders, l10n);
   talker.info(
-    'Scheduled ${id - 10000} Android reminders without Flutter workers',
+    'Scheduled ${reminders.length} Android reminders in native queue',
   );
 }
 
@@ -498,18 +510,27 @@ Future<void> _scheduleMilestoneReminders(DateTime now, int at) async {
       addJourney(entry.title, entry.quitDate, null);
     }
   }
-  if (reminders.isEmpty) return;
   reminders.sort((a, b) => a.date.compareTo(b.date));
 
   final platform = defaultTargetPlatform;
-  if (platform == TargetPlatform.android || platform == TargetPlatform.iOS) {
+  if (platform == TargetPlatform.android) {
+    final scheduleStart = DateTime.now();
+    await _replaceAndroidReminders(
+      reminders
+          .where((reminder) => reminder.date.isAfter(scheduleStart))
+          .take(365)
+          .toList(),
+      l10n,
+    );
+    return;
+  }
+  if (reminders.isEmpty) return;
+  if (platform == TargetPlatform.iOS) {
     final plugin = await _initializeNotificationPlugin(l10n);
     final details = _reminderDetails(l10n);
     var id = 10000;
     final scheduleStart = DateTime.now();
-    for (final reminder in reminders.take(
-      platform == TargetPlatform.iOS ? 64 : 365,
-    )) {
+    for (final reminder in reminders.take(64)) {
       if (!reminder.date.isAfter(scheduleStart)) continue;
       await plugin.zonedSchedule(
         id: id++,
@@ -546,8 +567,12 @@ Future<void> _scheduleMilestoneReminders(DateTime now, int at) async {
 Future<void> cancelReminderTasks() async {
   if (kIsWeb) return;
 
-  if (defaultTargetPlatform == TargetPlatform.android ||
-      defaultTargetPlatform == TargetPlatform.iOS) {
+  if (defaultTargetPlatform == TargetPlatform.android) {
+    final prefs = await SharedPreferences.getInstance();
+    await _replaceAndroidReminders([], _localizationsFor(prefs));
+    return;
+  }
+  if (defaultTargetPlatform == TargetPlatform.iOS) {
     talker.info('Cancelling mobile reminder tasks');
     await Future.wait([
       Workmanager().cancelByUniqueName('reminders'),
@@ -570,8 +595,7 @@ Future<void> cancelTasks() async {
   if (kIsWeb) return;
 
   await cancelReminderTasks();
-  if (defaultTargetPlatform == TargetPlatform.android ||
-      defaultTargetPlatform == TargetPlatform.iOS) {
+  if (defaultTargetPlatform == TargetPlatform.iOS) {
     talker.info('Cancelling mobile widget tasks');
     await Future.wait([
       Workmanager().cancelByUniqueName('widgets'),
@@ -582,7 +606,9 @@ Future<void> cancelTasks() async {
 
 Future<void> rescheduleTasks() {
   final pending = _taskRefreshQueue.then((_) async {
-    await cancelTasks();
+    if (kIsWeb || defaultTargetPlatform != TargetPlatform.android) {
+      await cancelTasks();
+    }
     await setupTasks();
   });
   _taskRefreshQueue = pending.catchError((Object error, StackTrace stack) {
