@@ -1,0 +1,1 @@
+Fixed Android reminder scheduling to prevent crashes, including after restarting your phone. Fixed a startup issue when diagnostic logs cannot be saved.

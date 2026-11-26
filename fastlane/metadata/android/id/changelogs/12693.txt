@@ -1,0 +1,1 @@
+Penjadwalan pengingat Android diperbaiki untuk mencegah aplikasi mogok, termasuk setelah ponsel dimulai ulang. Masalah saat membuka aplikasi ketika log diagnostik tidak dapat disimpan juga diperbaiki.

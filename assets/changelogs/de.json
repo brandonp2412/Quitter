@@ -123,5 +123,6 @@
   "1793508331": "• Größeres Symbol auf den Kacheln für Dampfen\n• Die Spenden-Schaltfläche und die Tab-Leiste bleiben von der Android-Systemnavigation frei\n• Die Fußzeile der Seite „Neuigkeiten“ ist jetzt an der Tab-Leiste ausgerichtet\n• Update-Hinweise erscheinen höchstens einmal alle 14 Tage",
   "1794092321": "• Weniger Wiederholungen und doppelte Zeitangaben bei Meilensteinen\n• README ohne Funktions-, Datenschutz- und lokale Entwicklungsabschnitte\n• Desktop-Karten einfacher bearbeiten und sortieren\n• Android: randlose Anzeige und gespeicherte Absturzprotokolle\n• Eigene Vorlagensymbole als Vektoren\n• Flüssigeres Scrollen des Meilensteinfortschritts am Desktop\n• Normale Textfarbe am Desktop-Einstellungsbutton\n• Zurücksetzen am Anfang der Auswahlfelder",
   "1794181230": "• Android-Builds korrigiert, damit F-Droid die Veröffentlichungen prüfen kann.",
-  "1795635989": "Lass dich beim Erreichen eines Meilensteins benachrichtigen. Gib einen Wochenwert ein, um deine zurückgewonnene Zeit zu sehen. Auf dem Kopf stehende Widget-Symbole wurden korrigiert."
+  "1795635989": "Lass dich beim Erreichen eines Meilensteins benachrichtigen. Gib einen Wochenwert ein, um deine zurückgewonnene Zeit zu sehen. Auf dem Kopf stehende Widget-Symbole wurden korrigiert.",
+  "1795727248": "Die Erinnerungsplanung unter Android wurde korrigiert, um Abstürze auch nach einem Neustart des Telefons zu verhindern. Ein Startproblem bei nicht speicherbaren Diagnoseprotokollen wurde behoben."
 }

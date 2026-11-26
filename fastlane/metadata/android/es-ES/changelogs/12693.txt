@@ -1,0 +1,1 @@
+Se corrigió la programación de recordatorios en Android para evitar fallos, incluso después de reiniciar el teléfono. Se corrigió un problema de inicio cuando no se pueden guardar los registros de diagnóstico.

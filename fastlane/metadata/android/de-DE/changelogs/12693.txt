@@ -1,0 +1,1 @@
+Die Erinnerungsplanung unter Android wurde korrigiert, um Abstürze auch nach einem Neustart des Telefons zu verhindern. Ein Startproblem bei nicht speicherbaren Diagnoseprotokollen wurde behoben.

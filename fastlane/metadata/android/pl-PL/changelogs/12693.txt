@@ -1,0 +1,1 @@
+Naprawiono planowanie przypomnień na Androidzie, aby zapobiec awariom, także po ponownym uruchomieniu telefonu. Naprawiono problem z uruchamianiem aplikacji, gdy nie można zapisać dzienników diagnostycznych.

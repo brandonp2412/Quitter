@@ -1,0 +1,1 @@
+La planification des rappels sur Android a été corrigée pour éviter les plantages, même après le redémarrage du téléphone. Un problème de démarrage lorsque les journaux de diagnostic ne peuvent pas être enregistrés a été corrigé.

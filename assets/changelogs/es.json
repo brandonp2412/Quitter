@@ -123,5 +123,6 @@
   "1793508331": "• Los mosaicos de vapeo ahora muestran un icono más grande\n• El botón Donar y la barra de pestañas quedan fuera de la navegación del sistema de Android\n• El pie de la página «Novedades» ahora se alinea con la barra de pestañas\n• Los avisos de actualización aparecen como máximo una vez cada 14 días",
   "1794092321": "• Menos repeticiones y textos de duración duplicados en los hitos\n• README sin secciones de funciones, privacidad ni desarrollo local\n• Edición y ordenación de tarjetas más sencillas en el escritorio\n• Android: vista de borde a borde y registros de fallos guardados\n• Iconos vectoriales para preajustes personalizados\n• Progreso de hitos con desplazamiento más fluido en el escritorio\n• Color de texto normal en ajustes del escritorio\n• Botones de restablecimiento al inicio de los selectores",
   "1794181230": "• Corregida la compilación de Android para que F-Droid pueda verificar las versiones.",
-  "1795635989": "Recibe recordatorios al alcanzar un hito. Define una estimación semanal para ver cuánto tiempo has recuperado. Corregimos los iconos de los widgets que aparecían al revés."
+  "1795635989": "Recibe recordatorios al alcanzar un hito. Define una estimación semanal para ver cuánto tiempo has recuperado. Corregimos los iconos de los widgets que aparecían al revés.",
+  "1795727248": "Se corrigió la programación de recordatorios en Android para evitar fallos, incluso después de reiniciar el teléfono. Se corrigió un problema de inicio cuando no se pueden guardar los registros de diagnóstico."
 }

@@ -1,0 +1,1 @@
+Corrigido o agendamento de lembretes no Android para evitar falhas, inclusive após reiniciar o celular. Corrigido um problema de inicialização quando não é possível salvar os registros de diagnóstico.
