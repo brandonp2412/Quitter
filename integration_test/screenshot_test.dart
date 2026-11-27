@@ -20,10 +20,14 @@ import 'package:quitter/settings_page.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/settings_provider.dart';
 
-const screenshotLocale = String.fromEnvironment(
+const _nativeScreenshotLocale = String.fromEnvironment(
   'QUITTER_LOCALE',
   defaultValue: 'en',
 );
+
+String get screenshotLocale => kIsWeb
+    ? Uri.base.queryParameters['locale'] ?? _nativeScreenshotLocale
+    : _nativeScreenshotLocale;
 
 String get screenshotStoreLocale => switch (screenshotLocale) {
   'ar' => 'ar',
@@ -89,7 +93,7 @@ Future<void> screenshot({
   settle ? await tester.pump() : await tester.pumpAndSettle();
   await binding.convertFlutterSurfaceToImage();
   settle ? await tester.pump() : await tester.pumpAndSettle();
-  if (defaultTargetPlatform != TargetPlatform.linux)
+  if (kIsWeb || defaultTargetPlatform != TargetPlatform.linux)
     await binding.takeScreenshot('${name}_$screenshotStoreLocale');
 }
 
@@ -98,7 +102,7 @@ void main() {
       IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   setUpAll(() async {
-    if (defaultTargetPlatform == TargetPlatform.android) {
+    if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
       final packageInfo = await PackageInfo.fromPlatform();
       if (packageInfo.packageName != 'com.quitter.app.debug' &&
           packageInfo.packageName != 'com.quitter.app.profile') {

@@ -1230,6 +1230,12 @@ void main() {
       'scripts/ci_screenshots.sh',
     ).readAsStringSync();
     final workflow = File('.github/workflows/main.yml').readAsStringSync();
+    final browserScript = File(
+      'scripts/capture-screenshots.py',
+    ).readAsStringSync();
+    final stagingScript = File(
+      'scripts/stage-screenshots.py',
+    ).readAsStringSync();
 
     const storeLocales = {
       'en': 'en-US',
@@ -1262,6 +1268,10 @@ void main() {
       contains("if: \${{ github.event_name == 'workflow_dispatch' }}"),
     );
     expect(workflow, contains('needs: [quality-checks, generate-screenshots]'));
+    expect(workflow, contains('python scripts/capture-screenshots.py'));
+    expect(workflow, contains('python scripts/stage-screenshots.py'));
+    expect(stagingScript, contains('capture.LOCALES.items()'));
+    expect(stagingScript, contains('capture.expected_names(locale)'));
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
       final storeLocale = storeLocales[localeKey];
@@ -1270,6 +1280,7 @@ void main() {
         isNotNull,
         reason: '$localeKey must map to a Play Store screenshot locale',
       );
+      expect(browserScript, contains('"$localeKey": "$storeLocale"'));
       if (localeKey == 'en') continue;
 
       expect(screenshotTest, contains("'$localeKey' => '$storeLocale'"));
@@ -1278,7 +1289,6 @@ void main() {
         screenshotScript,
         contains('$localeKey) store_locale="$storeLocale"'),
       );
-      expect(workflow, contains('$localeKey) STORE_LOCALE=$storeLocale'));
     }
   });
 
