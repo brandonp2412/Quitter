@@ -3668,7 +3668,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get smokingReferenceDay365 =>
-      '一年：心脏病发作风险大幅下降\n\n来源：PMC——Smoking Cessation and Stroke Outcome；CDC，Benefits of Quitting Smoking\n\n吸烟通过促进动脉斑块积聚、增加血液凝固、升高血压和损害脑血管，使中风风险大约翻倍。CDC自己的戒烟益处时间线将心脏病发作风险的急剧下降放在1到2年节点——你正处在这个窗口的前沿。\n\n恢复时间线\n中风风险的完全正常化需要更长时间：所引用的中风研究对戒烟者进行了中位数近五年的随访，才显示出比持续吸烟者有意义地更低的中风率，而CDC数据将冠心病风险减半放在3到6年，中风风险则在5到10年节点下降。\n\n一年仍然是一个真正的医学里程碑——急性风险下降最陡峭的部分已经在你身后，尽管更长期的心血管和癌症益处还会持续积累数年。';
+      '一年：心脏病发作风险大幅下降\n\n来源：PMC——Smoking Cessation and Stroke Outcome；CDC，戒烟的健康益处\n\n吸烟通过促进动脉斑块积聚、增加血液凝固、升高血压和损害脑血管，使中风风险大约翻倍。CDC自己的戒烟益处时间线将心脏病发作风险的急剧下降放在1到2年节点——你正处在这个窗口的前沿。\n\n恢复时间线\n中风风险的完全正常化需要更长时间：所引用的中风研究对戒烟者进行了中位数近五年的随访，才显示出比持续吸烟者有意义地更低的中风率，而CDC数据将冠心病风险减半放在3到6年，中风风险则在5到10年节点下降。\n\n一年仍然是一个真正的医学里程碑——急性风险下降最陡峭的部分已经在你身后，尽管更长期的心血管和癌症益处还会持续积累数年。';
 
   @override
   String get smokingReferenceDay730 =>
@@ -3684,7 +3684,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      '五年：降低癌症风险的重大胜利开始了\n\n来源：CDC，Benefits of Quitting Smoking\n\n五年让您来到一个重要风险下降窗口的起点。\n\n5–10年里程碑\n• 口腔、咽喉和喉头癌的额外风险：减半\n• 中风风险：下降\n\n还在前方\n• 约10年：膀胱癌、食道癌和肾癌风险下降\n• 10–15年：肺癌额外风险减半\n• 15年：冠心病风险接近不吸烟者\n• 20年：口腔、咽喉和喉头癌风险接近不吸烟者；宫颈癌额外风险约减半\n\n戒烟五年是个巨大的里程碑——您已经进入癌症和中风风险显著下降的阶段，而且后面还有更多大胜利。';
+      '五年：降低癌症风险的重大胜利开始了\n\n来源：CDC，戒烟的健康益处\n\n五年让您来到一个重要风险下降窗口的起点。\n\n5–10年里程碑\n• 口腔、咽喉和喉头癌的额外风险：减半\n• 中风风险：下降\n\n还在前方\n• 约10年：膀胱癌、食道癌和肾癌风险下降\n• 10–15年：肺癌额外风险减半\n• 15年：冠心病风险接近不吸烟者\n• 20年：口腔、咽喉和喉头癌风险接近不吸烟者；宫颈癌额外风险约减半\n\n戒烟五年是个巨大的里程碑——您已经进入癌症和中风风险显著下降的阶段，而且后面还有更多大胜利。';
 
   @override
   String get snriReferenceDay3 =>
@@ -3756,7 +3756,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriReferenceDay7 =>
-      '停用SSRI一周：急性期\n\n来源：NHS——Stopping or coming off antidepressants\n\n急性停药阶段\nNHS记载，大多数抗抑郁药停药症状在停止后的五天内开始，并在大多数情况下持续长达六周。到一周时，对于逐步减量的人来说，急性身体症状通常最为明显，并开始呈下降趋势。\n\n一周时可以预期什么\n• 身体症状（恶心、头晕、流感样感觉）最为强烈，但应开始缓解\n• 睡眠紊乱，包括生动的梦境或失眠，很常见\n• 情绪不稳定——快速的情绪变化——在这一阶段很常见\n• 脑闪可能仍然存在，但通常开始减少频率\n\n减量的作用\nNHS强烈建议缓慢减量——对长期使用者有时需要数月——以尽量减少停药效应。英国皇家精神科医学院制定了减量指南，建议对长期服用SSRI的人采用非常渐进的剂量减少，通常使用液体制剂。';
+      '停用SSRI一周：急性期\n\n来源：NHS——停用抗抑郁药\n\n急性停药阶段\nNHS记载，大多数抗抑郁药停药症状在停止后的五天内开始，并在大多数情况下持续长达六周。到一周时，对于逐步减量的人来说，急性身体症状通常最为明显，并开始呈下降趋势。\n\n一周时可以预期什么\n• 身体症状（恶心、头晕、流感样感觉）最为强烈，但应开始缓解\n• 睡眠紊乱，包括生动的梦境或失眠，很常见\n• 情绪不稳定——快速的情绪变化——在这一阶段很常见\n• 脑闪可能仍然存在，但通常开始减少频率\n\n减量的作用\nNHS强烈建议缓慢减量——对长期使用者有时需要数月——以尽量减少停药效应。英国皇家精神科医学院制定了减量指南，建议对长期服用SSRI的人采用非常渐进的剂量减少，通常使用液体制剂。';
 
   @override
   String get ssriReferenceDay14 =>
@@ -4308,7 +4308,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriReferenceDay730 =>
-      '停用 SSRI 两年：稳步前进\n\n来源：Royal College of Psychiatrists — Stopping antidepressants\n\n指南指出，抗抑郁药通常不应突然停用，减量应根据个人情况调整。停药症状在人与人之间差异很大。\n\n指南并未把停用 SSRI 两年定义为生物学恢复阈值。第 730 天纪念的是两年来持续保持的进展。';
+      '停用 SSRI 两年：稳步前进\n\n来源：Royal College of Psychiatrists — 停用抗抑郁药\n\n指南指出，抗抑郁药通常不应突然停用，减量应根据个人情况调整。停药症状在人与人之间差异很大。\n\n指南并未把停用 SSRI 两年定义为生物学恢复阈值。第 730 天纪念的是两年来持续保持的进展。';
 
   @override
   String get ssriMilestone1095Title => '3年：持续进展';
@@ -4319,7 +4319,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1095 =>
-      '停用 SSRI 三年：持续进展\n\n来源：Royal College of Psychiatrists — Stopping antidepressants\n\n指南强调停药过程具有个体差异，减量速度会受到用药时长以及以往减量时是否出现症状等因素影响。\n\n三年并不是普遍适用的 SSRI 恢复期限。第 1095 天代表三年来一直维持的进展。';
+      '停用 SSRI 三年：持续进展\n\n来源：Royal College of Psychiatrists — 停用抗抑郁药\n\n指南强调停药过程具有个体差异，减量速度会受到用药时长以及以往减量时是否出现症状等因素影响。\n\n三年并不是普遍适用的 SSRI 恢复期限。第 1095 天代表三年来一直维持的进展。';
 
   @override
   String get ssriMilestone1460Title => '4年：基础更稳';
@@ -4330,7 +4330,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1460 =>
-      '停用 SSRI 四年：基础更稳\n\n来源：Royal College of Psychiatrists — Stopping antidepressants\n\n指南建议循序、个体化地减量，因为停药症状的强度和持续时间因人而异，有些人需要数月甚至更久。\n\n这些证据并没有把四年设为神经系统终点。第 1460 天纪念四年来持续的改变。';
+      '停用 SSRI 四年：基础更稳\n\n来源：Royal College of Psychiatrists — 停用抗抑郁药\n\n指南建议循序、个体化地减量，因为停药症状的强度和持续时间因人而异，有些人需要数月甚至更久。\n\n这些证据并没有把四年设为神经系统终点。第 1460 天纪念四年来持续的改变。';
 
   @override
   String get ssriMilestone1825Title => '5年：重要里程碑';
@@ -4341,7 +4341,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1825 =>
-      '停用 SSRI 五年：重要里程碑\n\n来源：Royal College of Psychiatrists — Stopping antidepressants\n\n指南关注安全、个体化的减量和对症状的处理，而不是给所有人规定同一个恢复时间表。\n\n指南没有设定有证据支持的 SSRI 五年恢复阈值。第 1825 天仍然是值得纪念的重要周年。';
+      '停用 SSRI 五年：重要里程碑\n\n来源：Royal College of Psychiatrists — 停用抗抑郁药\n\n指南关注安全、个体化的减量和对症状的处理，而不是给所有人规定同一个恢复时间表。\n\n指南没有设定有证据支持的 SSRI 五年恢复阈值。第 1825 天仍然是值得纪念的重要周年。';
 
   @override
   String get steroidsMilestone1095Title => '三年 — 稳固根基';
@@ -8071,7 +8071,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get smokingReferenceDay365 =>
-      '一年：心臟病發作風險大幅下降\n\n來源：PMC——Smoking Cessation and Stroke Outcome；CDC，Benefits of Quitting Smoking\n\n吸煙通過促進動脈斑塊積聚、增加血液凝固、升高血壓和損害腦血管，使中風風險大約翻倍。CDC自己的戒煙益處時間線將心臟病發作風險的急劇下降放在1到2年節點——你正處在這個窗口的前沿。\n\n恢復時間線\n中風風險的完全正常化需要更長時間：所引用的中風研究對戒煙者進行了中位數近五年的隨訪，才顯示出比持續吸煙者有意義地更低的中風率，而CDC數據將冠心病風險減半放在3到6年，中風風險則在5到10年節點下降。\n\n一年仍然是一個真正的醫學里程碑——急性風險下降最陡峭的部分已經在你身後，儘管更長期的心血管和癌症益處還會持續積累數年。';
+      '一年：心臟病發作風險大幅下降\n\n來源：PMC——Smoking Cessation and Stroke Outcome；CDC，戒菸的健康益處\n\n吸煙通過促進動脈斑塊積聚、增加血液凝固、升高血壓和損害腦血管，使中風風險大約翻倍。CDC自己的戒煙益處時間線將心臟病發作風險的急劇下降放在1到2年節點——你正處在這個窗口的前沿。\n\n恢復時間線\n中風風險的完全正常化需要更長時間：所引用的中風研究對戒煙者進行了中位數近五年的隨訪，才顯示出比持續吸煙者有意義地更低的中風率，而CDC數據將冠心病風險減半放在3到6年，中風風險則在5到10年節點下降。\n\n一年仍然是一個真正的醫學里程碑——急性風險下降最陡峭的部分已經在你身後，儘管更長期的心血管和癌症益處還會持續積累數年。';
 
   @override
   String get smokingReferenceDay730 =>
@@ -8087,7 +8087,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get smokingReferenceDay1825 =>
-      '五年：降低癌症風險的重大勝利開始了\n\n來源：CDC，Benefits of Quitting Smoking\n\n五年讓您來到一個重要風險下降窗口的起點。\n\n5–10年里程碑\n• 口腔、咽喉和喉頭癌的額外風險：減半\n• 中風風險：下降\n\n還在前方\n• 約10年：膀胱癌、食道癌和腎癌風險下降\n• 10–15年：肺癌額外風險減半\n• 15年：冠心病風險接近不吸菸者\n• 20年：口腔、咽喉和喉頭癌風險接近不吸菸者；子宮頸癌額外風險約減半\n\n戒菸五年是個巨大的里程碑——您已經進入癌症和中風風險顯著下降的階段，而且後面還有更多大勝利。';
+      '五年：降低癌症風險的重大勝利開始了\n\n來源：CDC，戒菸的健康益處\n\n五年讓您來到一個重要風險下降窗口的起點。\n\n5–10年里程碑\n• 口腔、咽喉和喉頭癌的額外風險：減半\n• 中風風險：下降\n\n還在前方\n• 約10年：膀胱癌、食道癌和腎癌風險下降\n• 10–15年：肺癌額外風險減半\n• 15年：冠心病風險接近不吸菸者\n• 20年：口腔、咽喉和喉頭癌風險接近不吸菸者；子宮頸癌額外風險約減半\n\n戒菸五年是個巨大的里程碑——您已經進入癌症和中風風險顯著下降的階段，而且後面還有更多大勝利。';
 
   @override
   String get snriReferenceDay3 =>
@@ -8159,7 +8159,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get ssriReferenceDay7 =>
-      '停用SSRI一周：急性期\n\n來源：NHS——Stopping or coming off antidepressants\n\n急性停藥階段\nNHS記載，大多數抗抑鬱藥停藥症狀在停止後的五天內開始，並在大多數情況下持續長達六周。到一周時，對於逐步減量的人來說，急性身體症狀通常最為明顯，並開始呈下降趨勢。\n\n一周時可以預期甚麼\n• 身體症狀（惡心、頭暈、流感樣感覺）最為強烈，但應開始緩解\n• 睡眠紊亂，包括生動的夢境或失眠，很常見\n• 情緒不穩定——快速的情緒變化——在這一階段很常見\n• 腦閃可能仍然存在，但通常開始減少頻率\n\n減量的作用\nNHS強烈建議緩慢減量——對長期使用者有時需要數月——以盡量減少停藥效應。英國皇家精神科醫學院制定了減量指南，建議對長期服用SSRI的人採用非常漸進的劑量減少，通常使用液體制劑。';
+      '停用SSRI一周：急性期\n\n來源：NHS——停用抗憂鬱藥\n\n急性停藥階段\nNHS記載，大多數抗抑鬱藥停藥症狀在停止後的五天內開始，並在大多數情況下持續長達六周。到一周時，對於逐步減量的人來說，急性身體症狀通常最為明顯，並開始呈下降趨勢。\n\n一周時可以預期甚麼\n• 身體症狀（惡心、頭暈、流感樣感覺）最為強烈，但應開始緩解\n• 睡眠紊亂，包括生動的夢境或失眠，很常見\n• 情緒不穩定——快速的情緒變化——在這一階段很常見\n• 腦閃可能仍然存在，但通常開始減少頻率\n\n減量的作用\nNHS強烈建議緩慢減量——對長期使用者有時需要數月——以盡量減少停藥效應。英國皇家精神科醫學院制定了減量指南，建議對長期服用SSRI的人採用非常漸進的劑量減少，通常使用液體制劑。';
 
   @override
   String get ssriReferenceDay14 =>
@@ -8711,7 +8711,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get ssriReferenceDay730 =>
-      '停用 SSRI 兩年：穩步前進\n\n來源：Royal College of Psychiatrists — Stopping antidepressants\n\n指引指出，抗抑鬱藥通常不應突然停用，減量應按個人情況調整。停藥症狀在人與人之間差異很大。\n\n指引並未把停用 SSRI 兩年定義為生物學恢復門檻。第 730 天紀念的是兩年來持續保持的進展。';
+      '停用 SSRI 兩年：穩步前進\n\n來源：Royal College of Psychiatrists — 停用抗憂鬱藥\n\n指引指出，抗抑鬱藥通常不應突然停用，減量應按個人情況調整。停藥症狀在人與人之間差異很大。\n\n指引並未把停用 SSRI 兩年定義為生物學恢復門檻。第 730 天紀念的是兩年來持續保持的進展。';
 
   @override
   String get ssriMilestone1095Title => '3 年：持續進展';
@@ -8722,7 +8722,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get ssriReferenceDay1095 =>
-      '停用 SSRI 三年：持續進展\n\n來源：Royal College of Psychiatrists — Stopping antidepressants\n\n指引強調停藥過程具有個體差異，減量速度會受到用藥時間以及以往減量時是否出現症狀等因素影響。\n\n三年並不是普遍適用的 SSRI 恢復期限。第 1095 天代表三年來一直維持的進展。';
+      '停用 SSRI 三年：持續進展\n\n來源：Royal College of Psychiatrists — 停用抗憂鬱藥\n\n指引強調停藥過程具有個體差異，減量速度會受到用藥時間以及以往減量時是否出現症狀等因素影響。\n\n三年並不是普遍適用的 SSRI 恢復期限。第 1095 天代表三年來一直維持的進展。';
 
   @override
   String get ssriMilestone1460Title => '4 年：基礎更穩';
@@ -8733,7 +8733,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get ssriReferenceDay1460 =>
-      '停用 SSRI 四年：基礎更穩\n\n來源：Royal College of Psychiatrists — Stopping antidepressants\n\n指引建議循序、個體化地減量，因為停藥症狀的強度和持續時間因人而異，有些人需要數月甚至更久。\n\n這些證據並沒有把四年設為神經系統終點。第 1460 天紀念四年來持續的改變。';
+      '停用 SSRI 四年：基礎更穩\n\n來源：Royal College of Psychiatrists — 停用抗憂鬱藥\n\n指引建議循序、個體化地減量，因為停藥症狀的強度和持續時間因人而異，有些人需要數月甚至更久。\n\n這些證據並沒有把四年設為神經系統終點。第 1460 天紀念四年來持續的改變。';
 
   @override
   String get ssriMilestone1825Title => '5 年：重要里程碑';
@@ -8744,7 +8744,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get ssriReferenceDay1825 =>
-      '停用 SSRI 五年：重要里程碑\n\n來源：Royal College of Psychiatrists — Stopping antidepressants\n\n指引著重安全、個體化的減量和對症狀的處理，而不是為所有人規定同一個恢復時間表。\n\n指引沒有設定有證據支持的 SSRI 五年恢復門檻。第 1825 天仍然是值得紀念的重要週年。';
+      '停用 SSRI 五年：重要里程碑\n\n來源：Royal College of Psychiatrists — 停用抗憂鬱藥\n\n指引著重安全、個體化的減量和對症狀的處理，而不是為所有人規定同一個恢復時間表。\n\n指引沒有設定有證據支持的 SSRI 五年恢復門檻。第 1825 天仍然是值得紀念的重要週年。';
 
   @override
   String get steroidsMilestone1095Title => '三年 — 穩固根基';

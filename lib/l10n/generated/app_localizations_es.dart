@@ -2930,7 +2930,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get snriReferenceDay1095 =>
-      'Tres años tras los SNRI: Progreso duradero\n\nFuente: Royal College of Psychiatrists — Dejar los antidepresivos\n\nLa experiencia de abstinencia cambia entre personas. La velocidad de reducción debe considerar a la persona, la duración del tratamiento, síntomas previos y el medicamento utilizado.\n\nNinguna guía clínica establece tres años como plazo universal de recuperación de SNRI; este hito reconoce tu progreso.';
+      'Tres años tras los SNRI: Progreso duradero\n\nFuente: Royal College of Psychiatrists — Dejar los antidepresivos\n\nLa experiencia de retirada cambia entre personas. La velocidad de reducción debe considerar a la persona, la duración del tratamiento, síntomas previos y el medicamento utilizado.\n\nNinguna guía clínica establece tres años como plazo universal de recuperación de SNRI; este hito reconoce tu progreso.';
 
   @override
   String get snriMilestone1460Title => '4 años: Fuerza con el tiempo';
@@ -2941,7 +2941,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get snriReferenceDay1460 =>
-      'Cuatro años tras los SNRI: Progreso a largo plazo\n\nFuente: Royal College of Psychiatrists — Dejar los antidepresivos\n\nEl Royal College describe la abstinencia como variable y recomienda reducciones graduales e individualizadas. Duloxetina y venlafaxina están entre los fármacos con mayor riesgo de síntomas de abstinencia.\n\nEso no crea un hito neurológico a los cuatro años; hoy se celebra el progreso sostenido.';
+      'Cuatro años tras los SNRI: Progreso a largo plazo\n\nFuente: Royal College of Psychiatrists — Dejar los antidepresivos\n\nEl Royal College describe la retirada como variable y recomienda reducciones graduales e individualizadas. Duloxetina y venlafaxina están entre los fármacos con mayor riesgo de síntomas de retirada.\n\nEso no crea un hito neurológico a los cuatro años; hoy se celebra el progreso sostenido.';
 
   @override
   String get snriMilestone1825Title => '5 años: Cinco años logrados';
@@ -3839,7 +3839,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get smokingReferenceDay365 =>
-      'Un año: disminuye de forma marcada el riesgo cardiovascular\n\nFuente: PMC — Smoking Cessation and Stroke Outcome; CDC, Benefits of Quitting Smoking\n\nFumar aproximadamente duplica el riesgo de ictus al favorecer la acumulación de placa arterial, aumentar la coagulación, elevar la presión arterial y dañar los vasos sanguíneos cerebrales. La cronología de beneficios del CDC sitúa la caída pronunciada del riesgo de infarto en la ventana de 1 a 2 años; al cumplir un año estás entrando en ese periodo.\n\nCronología de recuperación\nLa normalización completa del riesgo de ictus tarda más. El estudio citado sobre ictus siguió a personas que dejaron de fumar durante una mediana de casi cinco años para mostrar una tasa de ictus claramente menor que entre quienes seguían fumando. Los datos del CDC sitúan una reducción aproximada a la mitad del riesgo de cardiopatía coronaria entre 3 y 6 años, mientras que el riesgo de ictus sigue disminuyendo durante la ventana de 5 a 10 años.\n\nUn año sigue siendo un hito médico real: la parte más rápida de la reducción del riesgo agudo ya ha quedado atrás, aunque los beneficios cardiovasculares y frente al cáncer siguen acumulándose durante años.';
+      'Un año: disminuye de forma marcada el riesgo cardiovascular\n\nFuente: PMC — Smoking Cessation and Stroke Outcome; CDC, beneficios de dejar de fumar\n\nFumar aproximadamente duplica el riesgo de ictus al favorecer la acumulación de placa arterial, aumentar la coagulación, elevar la presión arterial y dañar los vasos sanguíneos cerebrales. La cronología de beneficios del CDC sitúa la caída pronunciada del riesgo de infarto en la ventana de 1 a 2 años; al cumplir un año estás entrando en ese periodo.\n\nCronología de recuperación\nLa normalización completa del riesgo de ictus tarda más. El estudio citado sobre ictus siguió a personas que dejaron de fumar durante una mediana de casi cinco años para mostrar una tasa de ictus claramente menor que entre quienes seguían fumando. Los datos del CDC sitúan una reducción aproximada a la mitad del riesgo de cardiopatía coronaria entre 3 y 6 años, mientras que el riesgo de ictus sigue disminuyendo durante la ventana de 5 a 10 años.\n\nUn año sigue siendo un hito médico real: la parte más rápida de la reducción del riesgo agudo ya ha quedado atrás, aunque los beneficios cardiovasculares y frente al cáncer siguen acumulándose durante años.';
 
   @override
   String get smokingReferenceDay730 =>
@@ -3855,7 +3855,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Cinco años: empiezan grandes victorias contra el riesgo de cáncer\n\nFuente: CDC, Benefits of Quitting Smoking\n\nCinco años te colocan en el borde inicial de una gran ventana de reducción del riesgo.\n\nHitos de 5–10 años\n• Riesgo añadido de cáncer de boca, garganta y laringe: se reduce a la mitad\n• Riesgo de ictus: disminuye\n\nTodavía por delante\n• Alrededor de 10 años: disminuye el riesgo de cáncer de vejiga, esófago y riñón\n• 10–15 años: el riesgo añadido de cáncer de pulmón se reduce a la mitad\n• 15 años: el riesgo de cardiopatía coronaria se acerca al de una persona que no fuma\n• 20 años: el riesgo de cáncer de boca, garganta y laringe se acerca al de una persona que no fuma; el riesgo añadido de cáncer de cuello uterino baja aproximadamente a la mitad\n\nCinco años sin fumar son un hito enorme: has llegado a la ventana en la que empiezan a consolidarse grandes reducciones del riesgo de cáncer e ictus, y aún quedan grandes victorias por delante.';
+      'Cinco años: empiezan grandes victorias contra el riesgo de cáncer\n\nFuente: CDC, beneficios de dejar de fumar\n\nCinco años te colocan en el borde inicial de una gran ventana de reducción del riesgo.\n\nHitos de 5–10 años\n• Riesgo añadido de cáncer de boca, garganta y laringe: se reduce a la mitad\n• Riesgo de ictus: disminuye\n\nTodavía por delante\n• Alrededor de 10 años: disminuye el riesgo de cáncer de vejiga, esófago y riñón\n• 10–15 años: el riesgo añadido de cáncer de pulmón se reduce a la mitad\n• 15 años: el riesgo de cardiopatía coronaria se acerca al de una persona que no fuma\n• 20 años: el riesgo de cáncer de boca, garganta y laringe se acerca al de una persona que no fuma; el riesgo añadido de cáncer de cuello uterino baja aproximadamente a la mitad\n\nCinco años sin fumar son un hito enorme: has llegado a la ventana en la que empiezan a consolidarse grandes reducciones del riesgo de cáncer e ictus, y aún quedan grandes victorias por delante.';
 
   @override
   String get snriReferenceDay3 =>
@@ -3927,7 +3927,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get ssriReferenceDay7 =>
-      'Una semana después de los ISRS: la fase aguda\n\nFuente: NHS — Stopping or coming off antidepressants\n\nLa fase aguda de discontinuación\nEl NHS documenta que la mayoría de los síntomas de discontinuación de antidepresivos comienzan durante los cinco primeros días tras suspenderlos y duran hasta seis semanas en la mayoría de los casos. Al cabo de una semana, los síntomas físicos agudos suelen encontrarse entre sus momentos más intensos y, en quienes redujeron la dosis de forma gradual, empiezan a disminuir.\n\nQué esperar a la semana\n• Los síntomas físicos, como náuseas, mareos y sensación similar a la gripe, pueden estar en su punto más intenso pero deberían empezar a aliviarse\n• Son frecuentes las alteraciones del sueño, incluidos sueños vívidos o insomnio\n• La labilidad emocional, con cambios rápidos de estado de ánimo, es frecuente en esta fase\n• Las descargas cerebrales pueden seguir presentes, aunque normalmente empiezan a reducirse en frecuencia\n\nLa importancia de reducir la dosis\nEl NHS recomienda firmemente una reducción lenta, a veces durante meses en personas que llevan mucho tiempo tomando el medicamento, para minimizar los efectos de discontinuación. El Royal College of Psychiatrists ha elaborado orientaciones que proponen reducciones muy graduales de dosis, a menudo mediante formulaciones líquidas, para quienes han tomado ISRS durante periodos prolongados.';
+      'Una semana después de los ISRS: la fase aguda\n\nFuente: NHS — Suspender los antidepresivos\n\nLa fase aguda de discontinuación\nEl NHS documenta que la mayoría de los síntomas de discontinuación de antidepresivos comienzan durante los cinco primeros días tras suspenderlos y duran hasta seis semanas en la mayoría de los casos. Al cabo de una semana, los síntomas físicos agudos suelen encontrarse entre sus momentos más intensos y, en quienes redujeron la dosis de forma gradual, empiezan a disminuir.\n\nQué esperar a la semana\n• Los síntomas físicos, como náuseas, mareos y sensación similar a la gripe, pueden estar en su punto más intenso pero deberían empezar a aliviarse\n• Son frecuentes las alteraciones del sueño, incluidos sueños vívidos o insomnio\n• La labilidad emocional, con cambios rápidos de estado de ánimo, es frecuente en esta fase\n• Las descargas cerebrales pueden seguir presentes, aunque normalmente empiezan a reducirse en frecuencia\n\nLa importancia de reducir la dosis\nEl NHS recomienda firmemente una reducción lenta, a veces durante meses en personas que llevan mucho tiempo tomando el medicamento, para minimizar los efectos de discontinuación. El Royal College of Psychiatrists ha elaborado orientaciones que proponen reducciones muy graduales de dosis, a menudo mediante formulaciones líquidas, para quienes han tomado ISRS durante periodos prolongados.';
 
   @override
   String get ssriReferenceDay14 =>
@@ -4480,7 +4480,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get ssriReferenceDay730 =>
-      'Dos años tras los ISRS: Progreso constante\n\nFuente: Royal College of Psychiatrists — Stopping antidepressants\n\nLa guía indica que los antidepresivos no suelen suspenderse de golpe y que la reducción debe adaptarse a cada persona. Los síntomas de retirada varían mucho.\n\nNo define un umbral biológico de recuperación a los dos años tras un ISRS. El día 730 celebra dos años de progreso sostenido.';
+      'Dos años tras los ISRS: Progreso constante\n\nFuente: Royal College of Psychiatrists — Suspender los antidepresivos\n\nLa guía indica que los antidepresivos no suelen suspenderse de golpe y que la reducción debe adaptarse a cada persona. Los síntomas de retirada varían mucho.\n\nNo define un umbral biológico de recuperación a los dos años tras un ISRS. El día 730 celebra dos años de progreso sostenido.';
 
   @override
   String get ssriMilestone1095Title => '3 años: Progreso sostenido';
@@ -4491,7 +4491,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1095 =>
-      'Tres años tras los ISRS: Progreso sostenido\n\nFuente: Royal College of Psychiatrists — Stopping antidepressants\n\nLa guía describe la retirada como individual. El ritmo de reducción depende, entre otras cosas, del tiempo de tratamiento y de síntomas previos al reducir dosis.\n\nNo establece tres años como plazo universal de recuperación de un ISRS. El día 1095 reconoce tres años de progreso mantenido.';
+      'Tres años tras los ISRS: Progreso sostenido\n\nFuente: Royal College of Psychiatrists — Suspender los antidepresivos\n\nLa guía describe la retirada como individual. El ritmo de reducción depende, entre otras cosas, del tiempo de tratamiento y de síntomas previos al reducir dosis.\n\nNo establece tres años como plazo universal de recuperación de un ISRS. El día 1095 reconoce tres años de progreso mantenido.';
 
   @override
   String get ssriMilestone1460Title => '4 años: Base más firme';
@@ -4502,7 +4502,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1460 =>
-      'Cuatro años tras los ISRS: Base más firme\n\nFuente: Royal College of Psychiatrists — Stopping antidepressants\n\nLa guía recomienda una reducción gradual e individualizada porque la intensidad y duración de la retirada varían. Algunas personas necesitan meses o más.\n\nEso no crea un punto final neurológico a los cuatro años. El día 1460 celebra cuatro años de cambio sostenido.';
+      'Cuatro años tras los ISRS: Base más firme\n\nFuente: Royal College of Psychiatrists — Suspender los antidepresivos\n\nLa guía recomienda una reducción gradual e individualizada porque la intensidad y duración de la retirada varían. Algunas personas necesitan meses o más.\n\nEso no crea un punto final neurológico a los cuatro años. El día 1460 celebra cuatro años de cambio sostenido.';
 
   @override
   String get ssriMilestone1825Title => '5 años: Gran hito';
@@ -4513,7 +4513,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1825 =>
-      'Cinco años tras los ISRS: Gran hito\n\nFuente: Royal College of Psychiatrists — Stopping antidepressants\n\nLa guía se centra en una reducción segura e individualizada y en responder a los síntomas, no en asignar el mismo calendario de recuperación a todo el mundo.\n\nNo establece un umbral de recuperación de cinco años para los ISRS. El día 1825 sigue siendo un aniversario importante.';
+      'Cinco años tras los ISRS: Gran hito\n\nFuente: Royal College of Psychiatrists — Suspender los antidepresivos\n\nLa guía se centra en una reducción segura e individualizada y en responder a los síntomas, no en asignar el mismo calendario de recuperación a todo el mundo.\n\nNo establece un umbral de recuperación de cinco años para los ISRS. El día 1825 sigue siendo un aniversario importante.';
 
   @override
   String get steroidsMilestone1095Title => 'Tres años — base firme';

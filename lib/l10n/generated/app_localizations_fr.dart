@@ -3860,7 +3860,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get smokingReferenceDay365 =>
-      'Un an : le risque d\'infarctus diminue fortement\n\nSource : PMC — Smoking Cessation and Stroke Outcome ; CDC, Benefits of Quitting Smoking\n\nLe tabagisme double approximativement le risque d\'AVC en favorisant l\'accumulation de plaques dans les artères, en augmentant la coagulation et la pression artérielle, et en endommageant les vaisseaux sanguins du cerveau. La chronologie des bénéfices de l\'arrêt publiée par le CDC situe la forte baisse du risque d\'infarctus entre un et deux ans : vous entrez donc dans cette période.\n\nChronologie de la récupération\nLa normalisation complète du risque d\'AVC prend plus de temps. L\'étude citée sur les AVC a suivi les personnes ayant arrêté pendant une durée médiane de près de cinq ans pour mettre en évidence un taux d\'AVC sensiblement inférieur à celui des personnes continuant à fumer. Les données du CDC situent une division par deux du risque de maladie coronarienne entre trois et six ans, et une diminution du risque d\'AVC sur une période de cinq à dix ans.\n\nUn an reste un véritable jalon médical : la partie la plus forte de la baisse du risque aigu est derrière vous, même si les bénéfices cardiovasculaires et anticancéreux à long terme continuent de s\'accumuler pendant des années.';
+      'Un an : le risque d\'infarctus diminue fortement\n\nSource : PMC — Smoking Cessation and Stroke Outcome ; CDC, bienfaits de l’arrêt du tabac\n\nLe tabagisme double approximativement le risque d\'AVC en favorisant l\'accumulation de plaques dans les artères, en augmentant la coagulation et la pression artérielle, et en endommageant les vaisseaux sanguins du cerveau. La chronologie des bénéfices de l\'arrêt publiée par le CDC situe la forte baisse du risque d\'infarctus entre un et deux ans : vous entrez donc dans cette période.\n\nChronologie de la récupération\nLa normalisation complète du risque d\'AVC prend plus de temps. L\'étude citée sur les AVC a suivi les personnes ayant arrêté pendant une durée médiane de près de cinq ans pour mettre en évidence un taux d\'AVC sensiblement inférieur à celui des personnes continuant à fumer. Les données du CDC situent une division par deux du risque de maladie coronarienne entre trois et six ans, et une diminution du risque d\'AVC sur une période de cinq à dix ans.\n\nUn an reste un véritable jalon médical : la partie la plus forte de la baisse du risque aigu est derrière vous, même si les bénéfices cardiovasculaires et anticancéreux à long terme continuent de s\'accumuler pendant des années.';
 
   @override
   String get smokingReferenceDay730 =>
@@ -3876,7 +3876,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Cinq ans : les grandes victoires contre le risque de cancer commencent\n\nSource : CDC, Benefits of Quitting Smoking\n\nCinq ans vous placent au tout début d’une grande fenêtre de réduction des risques.\n\nJalons entre 5 et 10 ans\n• Sur-risque de cancers de la bouche, de la gorge et du larynx : diminué de moitié\n• Risque d’AVC : diminue\n\nEncore à venir\n• Vers 10 ans : le risque de cancers de la vessie, de l’œsophage et du rein diminue\n• 10–15 ans : le sur-risque de cancer du poumon diminue de moitié\n• 15 ans : le risque de maladie coronarienne se rapproche de celui d’une personne qui ne fume pas\n• 20 ans : le risque de cancers de la bouche, de la gorge et du larynx se rapproche de celui d’une personne qui ne fume pas ; le sur-risque de cancer du col de l’utérus diminue d’environ moitié\n\nCinq ans sans fumer, c’est un cap énorme — vous avez atteint la fenêtre où d’importantes baisses des risques de cancer et d’AVC commencent à s’installer, avec encore de grandes victoires devant vous.';
+      'Cinq ans : les grandes victoires contre le risque de cancer commencent\n\nSource : CDC, bienfaits de l’arrêt du tabac\n\nCinq ans vous placent au tout début d’une grande fenêtre de réduction des risques.\n\nJalons entre 5 et 10 ans\n• Sur-risque de cancers de la bouche, de la gorge et du larynx : diminué de moitié\n• Risque d’AVC : diminue\n\nEncore à venir\n• Vers 10 ans : le risque de cancers de la vessie, de l’œsophage et du rein diminue\n• 10–15 ans : le sur-risque de cancer du poumon diminue de moitié\n• 15 ans : le risque de maladie coronarienne se rapproche de celui d’une personne qui ne fume pas\n• 20 ans : le risque de cancers de la bouche, de la gorge et du larynx se rapproche de celui d’une personne qui ne fume pas ; le sur-risque de cancer du col de l’utérus diminue d’environ moitié\n\nCinq ans sans fumer, c’est un cap énorme — vous avez atteint la fenêtre où d’importantes baisses des risques de cancer et d’AVC commencent à s’installer, avec encore de grandes victoires devant vous.';
 
   @override
   String get snriReferenceDay3 =>
@@ -3948,7 +3948,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ssriReferenceDay7 =>
-      'Une semaine après l\'arrêt des ISRS : la phase aiguë\n\nSource : NHS — Stopping or coming off antidepressants\n\nLa phase aiguë du sevrage\nLe NHS indique que la plupart des symptômes de sevrage des antidépresseurs commencent dans les cinq jours suivant l\'arrêt et durent jusqu\'à six semaines dans la majorité des cas. Au bout d\'une semaine, les symptômes physiques aigus sont généralement parmi les plus marqués et commencent à diminuer chez les personnes ayant réduit progressivement leur dose.\n\nÀ quoi s\'attendre après une semaine\n• les symptômes physiques — nausées, vertiges, sensations pseudo-grippales — sont souvent les plus intenses, mais devraient commencer à s\'atténuer\n• les troubles du sommeil, notamment les rêves très vifs ou l\'insomnie, sont fréquents\n• la labilité émotionnelle, avec des changements rapides d\'humeur, est fréquente à ce stade\n• les « décharges cérébrales » peuvent encore être présentes, mais commencent généralement à devenir moins fréquentes\n\nLe rôle de la diminution progressive\nLe NHS recommande vivement une diminution lente — parfois étalée sur plusieurs mois chez les personnes traitées longtemps — afin de réduire les effets du sevrage. Le Royal College of Psychiatrists a élaboré des recommandations proposant des réductions de dose très progressives, parfois à l\'aide de formulations liquides, pour les personnes ayant pris des ISRS pendant une période prolongée.';
+      'Une semaine après l\'arrêt des ISRS : la phase aiguë\n\nSource : NHS — Arrêter les antidépresseurs\n\nLa phase aiguë du sevrage\nLe NHS indique que la plupart des symptômes de sevrage des antidépresseurs commencent dans les cinq jours suivant l\'arrêt et durent jusqu\'à six semaines dans la majorité des cas. Au bout d\'une semaine, les symptômes physiques aigus sont généralement parmi les plus marqués et commencent à diminuer chez les personnes ayant réduit progressivement leur dose.\n\nÀ quoi s\'attendre après une semaine\n• les symptômes physiques — nausées, vertiges, sensations pseudo-grippales — sont souvent les plus intenses, mais devraient commencer à s\'atténuer\n• les troubles du sommeil, notamment les rêves très vifs ou l\'insomnie, sont fréquents\n• la labilité émotionnelle, avec des changements rapides d\'humeur, est fréquente à ce stade\n• les « décharges cérébrales » peuvent encore être présentes, mais commencent généralement à devenir moins fréquentes\n\nLe rôle de la diminution progressive\nLe NHS recommande vivement une diminution lente — parfois étalée sur plusieurs mois chez les personnes traitées longtemps — afin de réduire les effets du sevrage. Le Royal College of Psychiatrists a élaboré des recommandations proposant des réductions de dose très progressives, parfois à l\'aide de formulations liquides, pour les personnes ayant pris des ISRS pendant une période prolongée.';
 
   @override
   String get ssriReferenceDay14 =>
@@ -4501,7 +4501,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ssriReferenceDay730 =>
-      'Deux ans après les ISRS : Progrès durable\n\nSource : Royal College of Psychiatrists — Stopping antidepressants\n\nLe guide indique que les antidépresseurs ne doivent généralement pas être arrêtés brutalement et que la diminution doit être adaptée à chacun. Les symptômes de sevrage varient.\n\nIl ne définit pas de seuil biologique de récupération à deux ans après un ISRS. Le jour 730 célèbre deux ans de progrès durable.';
+      'Deux ans après les ISRS : Progrès durable\n\nSource : Royal College of Psychiatrists — Arrêter les antidépresseurs\n\nLe guide indique que les antidépresseurs ne doivent généralement pas être arrêtés brutalement et que la diminution doit être adaptée à chacun. Les symptômes de sevrage varient.\n\nIl ne définit pas de seuil biologique de récupération à deux ans après un ISRS. Le jour 730 célèbre deux ans de progrès durable.';
 
   @override
   String get ssriMilestone1095Title => '3 ans : Progrès maintenu';
@@ -4512,7 +4512,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1095 =>
-      'Trois ans après les ISRS : Progrès maintenu\n\nSource : Royal College of Psychiatrists — Stopping antidepressants\n\nLe guide décrit le sevrage comme individuel. Le rythme de diminution dépend notamment de la durée du traitement et des symptômes apparus lors de réductions précédentes.\n\nIl ne considère pas trois ans comme une échéance universelle de récupération après un ISRS. Le jour 1095 reconnaît trois ans de progrès maintenu.';
+      'Trois ans après les ISRS : Progrès maintenu\n\nSource : Royal College of Psychiatrists — Arrêter les antidépresseurs\n\nLe guide décrit le sevrage comme individuel. Le rythme de diminution dépend notamment de la durée du traitement et des symptômes apparus lors de réductions précédentes.\n\nIl ne considère pas trois ans comme une échéance universelle de récupération après un ISRS. Le jour 1095 reconnaît trois ans de progrès maintenu.';
 
   @override
   String get ssriMilestone1460Title => '4 ans : Base plus solide';
@@ -4523,7 +4523,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1460 =>
-      'Quatre ans après les ISRS : Base plus solide\n\nSource : Royal College of Psychiatrists — Stopping antidepressants\n\nLe guide recommande une diminution progressive et individualisée, car l’intensité et la durée du sevrage varient. Certaines personnes ont besoin de plusieurs mois ou davantage.\n\nCes données ne créent pas de point final neurologique à quatre ans. Le jour 1460 célèbre quatre années de changement durable.';
+      'Quatre ans après les ISRS : Base plus solide\n\nSource : Royal College of Psychiatrists — Arrêter les antidépresseurs\n\nLe guide recommande une diminution progressive et individualisée, car l’intensité et la durée du sevrage varient. Certaines personnes ont besoin de plusieurs mois ou davantage.\n\nCes données ne créent pas de point final neurologique à quatre ans. Le jour 1460 célèbre quatre années de changement durable.';
 
   @override
   String get ssriMilestone1825Title => '5 ans : Étape majeure';
@@ -4534,7 +4534,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1825 =>
-      'Cinq ans après les ISRS : Étape majeure\n\nSource : Royal College of Psychiatrists — Stopping antidepressants\n\nLe guide met l’accent sur une diminution sûre et individualisée et sur la réponse aux symptômes, plutôt que sur un calendrier de récupération identique pour tous.\n\nIl ne fixe pas de seuil de récupération à cinq ans pour les ISRS. Le jour 1825 reste un anniversaire important.';
+      'Cinq ans après les ISRS : Étape majeure\n\nSource : Royal College of Psychiatrists — Arrêter les antidépresseurs\n\nLe guide met l’accent sur une diminution sûre et individualisée et sur la réponse aux symptômes, plutôt que sur un calendrier de récupération identique pour tous.\n\nIl ne fixe pas de seuil de récupération à cinq ans pour les ISRS. Le jour 1825 reste un anniversaire important.';
 
   @override
   String get steroidsMilestone1095Title => 'Trois ans — bases solides';

@@ -3817,11 +3817,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get smokingReferenceDay14 =>
-      'Zwei Wochen: Kreislauf verbessert\n\nQuelle: NHS Better Health\n\nInnerhalb von 2-12 Wochen nach dem Stoppen verbessert sich die Durchblutung. Nikotin verengt die Blutgefäße mit jeder Zigarette; ohne sie entspannen sich die Gefäße und das Blut fließt freier.\n\nWas das bedeutet\n• Der Blutfluss zu Händen, Füßen und peripherem Gewebe verbessert sich\n• Viele Menschen bemerken wärmere Hände und Füße\n• Gehen und Treppensteigen fühlt sich leichter an\n\nDa Kohlenmonoxid bereits am ersten Tag aus dem Blut entfernt wurde und sich die Durchblutung jetzt verbessert, gelangt Sauerstoff effektiver in die Muskeln.\n\nDie Zilien, die die Atemwege auskleiden, erholen sich und schieben den aufgebauten Schleim aus. Wenn Sie mehr als üblich husten, ist dies ein Zeichen der Erholung, kein Rückschlag.';
+      'Zwei Wochen: Die Durchblutung verbessert sich\n\nQuelle: NHS Better Health\n\nInnerhalb von 2–12 Wochen nach dem Rauchstopp verbessert sich die Durchblutung. Nikotin verengt mit jeder Zigarette die Blutgefäße; ohne Nikotin entspannen sie sich und das Blut kann freier fließen.\n\nWas das bedeutet\n• Hände, Füße und andere periphere Gewebe werden besser durchblutet\n• Viele Menschen bemerken wärmere Hände und Füße\n• Gehen und Treppensteigen fühlt sich allmählich leichter an\n\nDa Kohlenmonoxid bereits aus dem Blut abgebaut wurde und sich die Durchblutung verbessert, erreicht Sauerstoff die Muskeln wirksamer.\n\nDie Flimmerhärchen in den Atemwegen erholen sich und transportieren angesammelten Schleim ab. Wenn du mehr hustest als sonst, kann das ein Zeichen der Erholung und kein Rückschritt sein.';
 
   @override
   String get smokingReferenceDay30 =>
-      'Ein Monat: Lungenfunktion klettert\n\nQuelle: NHS Better Health\n\nDie Atmung wird einfacher und die Lungenfunktion verbessert sich - sie steigt um bis zu 10% über das 3- bis 9-Monatsfenster. Nach einem Monat sind Sie gut in dieser Erholungskurve.\n\nWas passiert in der Lunge\n• Zilien sind nachgewachsen und reinigen Schleim effektiver\n• Die Entzündung der Atemwege beruhigt sich\n• Der anhaltende Raucherhusten verblasst\n• Übungstoleranz verbessert sich\n\nHusten, Keuchen und Atemprobleme verbessern sich, wenn die Lungenfunktion zunimmt. Ein Monat ist ein bedeutungsvoller Punkt auf dieser Erholungskurve.';
+      'Ein Monat: Die Lungenfunktion verbessert sich\n\nQuelle: NHS Better Health\n\nDas Atmen wird leichter und die Lungenfunktion verbessert sich — im Zeitraum von 3 bis 9 Monaten um bis zu 10 %. Nach einem Monat bist du bereits auf diesem Erholungspfad.\n\nWas in der Lunge passiert\n• Flimmerhärchen wachsen nach und entfernen Schleim wirksamer\n• Entzündungen in den Atemwegen gehen zurück\n• Der anhaltende Raucherhusten lässt nach\n• Die Belastbarkeit beim Sport verbessert sich\n\nHusten, pfeifende Atmung und andere Atemprobleme bessern sich mit zunehmender Lungenfunktion. Ein Monat ist ein wichtiger Punkt auf diesem Erholungspfad.';
 
   @override
   String get smokingReferenceDay90 =>
@@ -3849,7 +3849,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Fünf Jahre: Große Gewinne beim Krebsrisiko beginnen\n\nQuelle: CDC, Benefits of Quitting Smoking\n\nFünf Jahre bringen Sie an den Anfang eines wichtigen Fensters der Risikosenkung.\n\nMeilensteine nach 5–10 Jahren\n• Zusätzliches Risiko für Mund-, Rachen- und Kehlkopfkrebs: sinkt um die Hälfte\n• Schlaganfallrisiko: sinkt\n\nNoch vor Ihnen\n• Um 10 Jahre: Risiko für Blasen-, Speiseröhren- und Nierenkrebs sinkt\n• 10–15 Jahre: zusätzliches Lungenkrebsrisiko sinkt um die Hälfte\n• 15 Jahre: Risiko für koronare Herzkrankheit nähert sich dem von Menschen, die nicht rauchen\n• 20 Jahre: Risiko für Mund-, Rachen- und Kehlkopfkrebs nähert sich dem von Menschen, die nicht rauchen; zusätzliches Gebärmutterhalskrebsrisiko sinkt um etwa die Hälfte\n\nFünf rauchfreie Jahre sind ein riesiger Meilenstein — Sie haben das Fenster erreicht, in dem große Rückgänge bei Krebs- und Schlaganfallrisiken einsetzen, und weitere große Gewinne liegen noch vor Ihnen.';
+      'Fünf Jahre: Große Gewinne beim Krebsrisiko beginnen\n\nQuelle: CDC, Vorteile des Rauchstopps\n\nFünf Jahre bringen Sie an den Anfang eines wichtigen Fensters der Risikosenkung.\n\nMeilensteine nach 5–10 Jahren\n• Zusätzliches Risiko für Mund-, Rachen- und Kehlkopfkrebs: sinkt um die Hälfte\n• Schlaganfallrisiko: sinkt\n\nNoch vor Ihnen\n• Um 10 Jahre: Risiko für Blasen-, Speiseröhren- und Nierenkrebs sinkt\n• 10–15 Jahre: zusätzliches Lungenkrebsrisiko sinkt um die Hälfte\n• 15 Jahre: Risiko für koronare Herzkrankheit nähert sich dem von Menschen, die nicht rauchen\n• 20 Jahre: Risiko für Mund-, Rachen- und Kehlkopfkrebs nähert sich dem von Menschen, die nicht rauchen; zusätzliches Gebärmutterhalskrebsrisiko sinkt um etwa die Hälfte\n\nFünf rauchfreie Jahre sind ein riesiger Meilenstein — Sie haben das Fenster erreicht, in dem große Rückgänge bei Krebs- und Schlaganfallrisiken einsetzen, und weitere große Gewinne liegen noch vor Ihnen.';
 
   @override
   String get snriReferenceDay3 =>
@@ -4477,7 +4477,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get ssriReferenceDay730 =>
-      'Zwei Jahre nach SSRIs: Stetiger Fortschritt\n\nQuelle: Royal College of Psychiatrists — Stopping antidepressants\n\nDie Leitlinie rät, Antidepressiva in der Regel nicht abrupt abzusetzen und das Ausschleichen individuell anzupassen. Entzugssymptome unterscheiden sich von Mensch zu Mensch.\n\nSie definiert keine biologische Zwei-Jahres-Schwelle nach einem SSRI. Tag 730 würdigt zwei Jahre anhaltenden Fortschritts.';
+      'Zwei Jahre nach SSRIs: Stetiger Fortschritt\n\nQuelle: Royal College of Psychiatrists — Antidepressiva absetzen\n\nDie Leitlinie rät, Antidepressiva in der Regel nicht abrupt abzusetzen und das Ausschleichen individuell anzupassen. Entzugssymptome unterscheiden sich von Mensch zu Mensch.\n\nSie definiert keine biologische Zwei-Jahres-Schwelle nach einem SSRI. Tag 730 würdigt zwei Jahre anhaltenden Fortschritts.';
 
   @override
   String get ssriMilestone1095Title => '3 Jahre: Fortschritt bleibt';
@@ -4488,7 +4488,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1095 =>
-      'Drei Jahre nach SSRIs: Fortschritt bleibt\n\nQuelle: Royal College of Psychiatrists — Stopping antidepressants\n\nDie Leitlinie beschreibt den Entzug als individuell. Das Tempo des Ausschleichens hängt unter anderem von Behandlungsdauer und früheren Entzugssymptomen ab.\n\nDrei Jahre gelten nicht als allgemeine SSRI-Erholungsfrist. Tag 1095 würdigt drei Jahre gehaltenen Fortschritts.';
+      'Drei Jahre nach SSRIs: Fortschritt bleibt\n\nQuelle: Royal College of Psychiatrists — Antidepressiva absetzen\n\nDie Leitlinie beschreibt den Entzug als individuell. Das Tempo des Ausschleichens hängt unter anderem von Behandlungsdauer und früheren Entzugssymptomen ab.\n\nDrei Jahre gelten nicht als allgemeine SSRI-Erholungsfrist. Tag 1095 würdigt drei Jahre gehaltenen Fortschritts.';
 
   @override
   String get ssriMilestone1460Title => '4 Jahre: Fester Boden';
@@ -4499,7 +4499,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1460 =>
-      'Vier Jahre nach SSRIs: Fester Boden\n\nQuelle: Royal College of Psychiatrists — Stopping antidepressants\n\nDie Leitlinie empfiehlt ein schrittweises, individuelles Ausschleichen, weil Stärke und Dauer von Entzugssymptomen variieren. Manche Menschen brauchen dafür Monate oder länger.\n\nDaraus folgt kein neurologischer Vier-Jahres-Endpunkt. Tag 1460 feiert vier Jahre anhaltender Veränderung.';
+      'Vier Jahre nach SSRIs: Fester Boden\n\nQuelle: Royal College of Psychiatrists — Antidepressiva absetzen\n\nDie Leitlinie empfiehlt ein schrittweises, individuelles Ausschleichen, weil Stärke und Dauer von Entzugssymptomen variieren. Manche Menschen brauchen dafür Monate oder länger.\n\nDaraus folgt kein neurologischer Vier-Jahres-Endpunkt. Tag 1460 feiert vier Jahre anhaltender Veränderung.';
 
   @override
   String get ssriMilestone1825Title => '5 Jahre: Großer Meilenstein';
@@ -4510,7 +4510,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1825 =>
-      'Fünf Jahre nach SSRIs: Großer Meilenstein\n\nQuelle: Royal College of Psychiatrists — Stopping antidepressants\n\nDie Leitlinie konzentriert sich auf sicheres, individuelles Ausschleichen und den Umgang mit Symptomen, nicht auf einen festen Erholungsplan für alle.\n\nEine evidenzbasierte Fünf-Jahres-Schwelle für SSRIs wird nicht genannt. Tag 1825 bleibt dennoch ein bedeutendes Jubiläum.';
+      'Fünf Jahre nach SSRIs: Großer Meilenstein\n\nQuelle: Royal College of Psychiatrists — Antidepressiva absetzen\n\nDie Leitlinie konzentriert sich auf sicheres, individuelles Ausschleichen und den Umgang mit Symptomen, nicht auf einen festen Erholungsplan für alle.\n\nEine evidenzbasierte Fünf-Jahres-Schwelle für SSRIs wird nicht genannt. Tag 1825 bleibt dennoch ein bedeutendes Jubiläum.';
 
   @override
   String get steroidsMilestone1095Title => 'Drei Jahre — fester Boden';

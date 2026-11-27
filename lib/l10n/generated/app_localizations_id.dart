@@ -3850,7 +3850,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Lima Tahun: Kemenangan Besar atas Risiko Kanker Dimulai\n\nSumber: CDC, Benefits of Quitting Smoking\n\nLima tahun menempatkan Anda di awal jendela besar penurunan risiko.\n\nTonggak 5–10 tahun\n• Risiko tambahan kanker mulut, tenggorokan, dan laring: turun setengah\n• Risiko stroke: menurun\n\nMasih di depan\n• Sekitar 10 tahun: risiko kanker kandung kemih, kerongkongan, dan ginjal menurun\n• 10–15 tahun: risiko tambahan kanker paru-paru turun setengah\n• 15 tahun: risiko penyakit jantung koroner mendekati orang yang tidak merokok\n• 20 tahun: risiko kanker mulut, tenggorokan, dan laring mendekati orang yang tidak merokok; risiko tambahan kanker serviks turun sekitar setengah\n\nLima tahun bebas rokok adalah tonggak besar — Anda sudah mencapai jendela ketika penurunan besar risiko kanker dan stroke mulai terbentuk, dengan kemenangan besar lain masih menunggu.';
+      'Lima Tahun: Kemenangan Besar atas Risiko Kanker Dimulai\n\nSumber: CDC, manfaat berhenti merokok\n\nLima tahun menempatkan Anda di awal jendela besar penurunan risiko.\n\nTonggak 5–10 tahun\n• Risiko tambahan kanker mulut, tenggorokan, dan laring: turun setengah\n• Risiko stroke: menurun\n\nMasih di depan\n• Sekitar 10 tahun: risiko kanker kandung kemih, kerongkongan, dan ginjal menurun\n• 10–15 tahun: risiko tambahan kanker paru-paru turun setengah\n• 15 tahun: risiko penyakit jantung koroner mendekati orang yang tidak merokok\n• 20 tahun: risiko kanker mulut, tenggorokan, dan laring mendekati orang yang tidak merokok; risiko tambahan kanker serviks turun sekitar setengah\n\nLima tahun bebas rokok adalah tonggak besar — Anda sudah mencapai jendela ketika penurunan besar risiko kanker dan stroke mulai terbentuk, dengan kemenangan besar lain masih menunggu.';
 
   @override
   String get snriReferenceDay3 =>
@@ -4476,7 +4476,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get ssriReferenceDay730 =>
-      'Dua Tahun Setelah SSRI: Kemajuan Stabil\n\nSumber: Royal College of Psychiatrists — Stopping antidepressants\n\nPanduan menyatakan antidepresan umumnya tidak boleh dihentikan mendadak dan penurunan dosis perlu disesuaikan dengan tiap orang. Gejala putus obat berbeda-beda.\n\nPanduan itu tidak menetapkan ambang pemulihan biologis dua tahun setelah SSRI. Hari ke-730 merayakan dua tahun kemajuan yang bertahan.';
+      'Dua Tahun Setelah SSRI: Kemajuan Stabil\n\nSumber: Royal College of Psychiatrists — Menghentikan antidepresan\n\nPanduan menyatakan antidepresan umumnya tidak boleh dihentikan mendadak dan penurunan dosis perlu disesuaikan dengan tiap orang. Gejala putus obat berbeda-beda.\n\nPanduan itu tidak menetapkan ambang pemulihan biologis dua tahun setelah SSRI. Hari ke-730 merayakan dua tahun kemajuan yang bertahan.';
 
   @override
   String get ssriMilestone1095Title => '3 Tahun: Kemajuan Bertahan';
@@ -4487,7 +4487,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1095 =>
-      'Tiga Tahun Setelah SSRI: Kemajuan Bertahan\n\nSumber: Royal College of Psychiatrists — Stopping antidepressants\n\nPanduan menjelaskan bahwa putus obat bersifat individual. Kecepatan penurunan dosis bergantung antara lain pada lama penggunaan obat dan gejala saat penurunan sebelumnya.\n\nTiga tahun bukan batas pemulihan SSRI yang berlaku untuk semua. Hari ke-1095 menghargai tiga tahun kemajuan yang terjaga.';
+      'Tiga Tahun Setelah SSRI: Kemajuan Bertahan\n\nSumber: Royal College of Psychiatrists — Menghentikan antidepresan\n\nPanduan menjelaskan bahwa putus obat bersifat individual. Kecepatan penurunan dosis bergantung antara lain pada lama penggunaan obat dan gejala saat penurunan sebelumnya.\n\nTiga tahun bukan batas pemulihan SSRI yang berlaku untuk semua. Hari ke-1095 menghargai tiga tahun kemajuan yang terjaga.';
 
   @override
   String get ssriMilestone1460Title => '4 Tahun: Pijakan Lebih Kuat';
@@ -4498,7 +4498,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1460 =>
-      'Empat Tahun Setelah SSRI: Pijakan Lebih Kuat\n\nSumber: Royal College of Psychiatrists — Stopping antidepressants\n\nPanduan menganjurkan penurunan dosis bertahap dan individual karena tingkat serta lamanya gejala putus obat berbeda-beda. Sebagian orang memerlukan waktu berbulan-bulan atau lebih.\n\nBukti itu tidak menciptakan titik akhir neurologis empat tahun. Hari ke-1460 merayakan empat tahun perubahan yang bertahan.';
+      'Empat Tahun Setelah SSRI: Pijakan Lebih Kuat\n\nSumber: Royal College of Psychiatrists — Menghentikan antidepresan\n\nPanduan menganjurkan penurunan dosis bertahap dan individual karena tingkat serta lamanya gejala putus obat berbeda-beda. Sebagian orang memerlukan waktu berbulan-bulan atau lebih.\n\nBukti itu tidak menciptakan titik akhir neurologis empat tahun. Hari ke-1460 merayakan empat tahun perubahan yang bertahan.';
 
   @override
   String get ssriMilestone1825Title => '5 Tahun: Tonggak Besar';
@@ -4509,7 +4509,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1825 =>
-      'Lima Tahun Setelah SSRI: Tonggak Besar\n\nSumber: Royal College of Psychiatrists — Stopping antidepressants\n\nPanduan berfokus pada penurunan dosis yang aman dan individual serta penanganan gejala, bukan satu jadwal pemulihan yang sama bagi semua orang.\n\nTidak ada ambang pemulihan SSRI lima tahun yang ditetapkan. Hari ke-1825 tetap merupakan peringatan yang bermakna.';
+      'Lima Tahun Setelah SSRI: Tonggak Besar\n\nSumber: Royal College of Psychiatrists — Menghentikan antidepresan\n\nPanduan berfokus pada penurunan dosis yang aman dan individual serta penanganan gejala, bukan satu jadwal pemulihan yang sama bagi semua orang.\n\nTidak ada ambang pemulihan SSRI lima tahun yang ditetapkan. Hari ke-1825 tetap merupakan peringatan yang bermakna.';
 
   @override
   String get steroidsMilestone1095Title => 'Tiga Tahun — Fondasi Kuat';

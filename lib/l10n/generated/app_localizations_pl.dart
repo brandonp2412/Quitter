@@ -3845,7 +3845,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Pięć lat: zaczynają się wielkie korzyści dotyczące ryzyka nowotworów\n\nŹródło: CDC, Benefits of Quitting Smoking\n\nPięć lat oznacza wejście w ważny okres wyraźnego spadku ryzyka.\n\nKamienie milowe 5–10 lat\n• Dodatkowe ryzyko nowotworów jamy ustnej, gardła i krtani: spada o połowę\n• Ryzyko udaru: maleje\n\nJeszcze przed Tobą\n• Około 10 lat: maleje ryzyko raka pęcherza, przełyku i nerki\n• 10–15 lat: dodatkowe ryzyko raka płuca spada o połowę\n• 15 lat: ryzyko choroby wieńcowej zbliża się do poziomu osoby niepalącej\n• 20 lat: ryzyko nowotworów jamy ustnej, gardła i krtani zbliża się do poziomu osoby niepalącej; dodatkowe ryzyko raka szyjki macicy spada mniej więcej o połowę\n\nPięć lat bez palenia to ogromny kamień milowy — docierasz do okresu, w którym zaczynają się duże spadki ryzyka nowotworów i udaru, a kolejne wielkie korzyści są jeszcze przed Tobą.';
+      'Pięć lat: zaczynają się wielkie korzyści dotyczące ryzyka nowotworów\n\nŹródło: CDC, korzyści z rzucenia palenia\n\nPięć lat oznacza wejście w ważny okres wyraźnego spadku ryzyka.\n\nKamienie milowe 5–10 lat\n• Dodatkowe ryzyko nowotworów jamy ustnej, gardła i krtani: spada o połowę\n• Ryzyko udaru: maleje\n\nJeszcze przed Tobą\n• Około 10 lat: maleje ryzyko raka pęcherza, przełyku i nerki\n• 10–15 lat: dodatkowe ryzyko raka płuca spada o połowę\n• 15 lat: ryzyko choroby wieńcowej zbliża się do poziomu osoby niepalącej\n• 20 lat: ryzyko nowotworów jamy ustnej, gardła i krtani zbliża się do poziomu osoby niepalącej; dodatkowe ryzyko raka szyjki macicy spada mniej więcej o połowę\n\nPięć lat bez palenia to ogromny kamień milowy — docierasz do okresu, w którym zaczynają się duże spadki ryzyka nowotworów i udaru, a kolejne wielkie korzyści są jeszcze przed Tobą.';
 
   @override
   String get snriReferenceDay3 =>
@@ -4470,7 +4470,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get ssriReferenceDay730 =>
-      'Dwa lata po SSRI: Stały postęp\n\nŹródło: Royal College of Psychiatrists — Stopping antidepressants\n\nWytyczne mówią, że leków przeciwdepresyjnych zwykle nie należy odstawiać nagle, a tempo zmniejszania dawki powinno być indywidualne. Objawy odstawienne są różne.\n\nNie wyznaczają biologicznego progu dwóch lat po SSRI. Dzień 730 świętuje dwa lata utrzymanego postępu.';
+      'Dwa lata po SSRI: Stały postęp\n\nŹródło: Royal College of Psychiatrists — Odstawianie leków przeciwdepresyjnych\n\nWytyczne mówią, że leków przeciwdepresyjnych zwykle nie należy odstawiać nagle, a tempo zmniejszania dawki powinno być indywidualne. Objawy odstawienne są różne.\n\nNie wyznaczają biologicznego progu dwóch lat po SSRI. Dzień 730 świętuje dwa lata utrzymanego postępu.';
 
   @override
   String get ssriMilestone1095Title => '3 lata: Trwały postęp';
@@ -4481,7 +4481,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1095 =>
-      'Trzy lata po SSRI: Trwały postęp\n\nŹródło: Royal College of Psychiatrists — Stopping antidepressants\n\nWytyczne podkreślają indywidualny przebieg odstawienia. Tempo redukcji zależy m.in. od długości leczenia i wcześniejszych objawów przy zmniejszaniu dawki.\n\nTrzy lata nie są uniwersalnym terminem zdrowienia po SSRI. Dzień 1095 oznacza trzy lata utrzymanego postępu.';
+      'Trzy lata po SSRI: Trwały postęp\n\nŹródło: Royal College of Psychiatrists — Odstawianie leków przeciwdepresyjnych\n\nWytyczne podkreślają indywidualny przebieg odstawienia. Tempo redukcji zależy m.in. od długości leczenia i wcześniejszych objawów przy zmniejszaniu dawki.\n\nTrzy lata nie są uniwersalnym terminem zdrowienia po SSRI. Dzień 1095 oznacza trzy lata utrzymanego postępu.';
 
   @override
   String get ssriMilestone1460Title => '4 lata: Mocniejszy grunt';
@@ -4492,7 +4492,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1460 =>
-      'Cztery lata po SSRI: Mocniejszy grunt\n\nŹródło: Royal College of Psychiatrists — Stopping antidepressants\n\nWytyczne zalecają stopniowe, indywidualne zmniejszanie dawki, ponieważ nasilenie i czas objawów odstawiennych są różne. Niektóre osoby potrzebują miesięcy lub dłużej.\n\nNie tworzy to neurologicznego punktu końcowego po czterech latach. Dzień 1460 świętuje cztery lata trwałej zmiany.';
+      'Cztery lata po SSRI: Mocniejszy grunt\n\nŹródło: Royal College of Psychiatrists — Odstawianie leków przeciwdepresyjnych\n\nWytyczne zalecają stopniowe, indywidualne zmniejszanie dawki, ponieważ nasilenie i czas objawów odstawiennych są różne. Niektóre osoby potrzebują miesięcy lub dłużej.\n\nNie tworzy to neurologicznego punktu końcowego po czterech latach. Dzień 1460 świętuje cztery lata trwałej zmiany.';
 
   @override
   String get ssriMilestone1825Title => '5 lat: Wielki kamień milowy';
@@ -4503,7 +4503,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get ssriReferenceDay1825 =>
-      'Pięć lat po SSRI: Wielki kamień milowy\n\nŹródło: Royal College of Psychiatrists — Stopping antidepressants\n\nWytyczne skupiają się na bezpiecznym, indywidualnym odstawianiu i reagowaniu na objawy, a nie na jednym harmonogramie zdrowienia dla wszystkich.\n\nNie wyznaczają pięcioletniego progu zdrowienia po SSRI. Dzień 1825 nadal jest znaczącą rocznicą.';
+      'Pięć lat po SSRI: Wielki kamień milowy\n\nŹródło: Royal College of Psychiatrists — Odstawianie leków przeciwdepresyjnych\n\nWytyczne skupiają się na bezpiecznym, indywidualnym odstawianiu i reagowaniu na objawy, a nie na jednym harmonogramie zdrowienia dla wszystkich.\n\nNie wyznaczają pięcioletniego progu zdrowienia po SSRI. Dzień 1825 nadal jest znaczącą rocznicą.';
 
   @override
   String get steroidsMilestone1095Title => 'Trzy lata — mocny fundament';
