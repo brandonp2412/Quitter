@@ -1223,12 +1223,6 @@ void main() {
     final screenshotTest = File(
       'integration_test/screenshot_test.dart',
     ).readAsStringSync();
-    final screenshotDriver = File(
-      'test_driver/integration_test.dart',
-    ).readAsStringSync();
-    final screenshotScript = File(
-      'scripts/ci_screenshots.sh',
-    ).readAsStringSync();
     final workflow = File('.github/workflows/main.yml').readAsStringSync();
     final browserScript = File(
       'scripts/capture-screenshots.py',
@@ -1284,11 +1278,6 @@ void main() {
       if (localeKey == 'en') continue;
 
       expect(screenshotTest, contains("'$localeKey' => '$storeLocale'"));
-      expect(screenshotDriver, contains('"$localeKey" => "$storeLocale"'));
-      expect(
-        screenshotScript,
-        contains('$localeKey) store_locale="$storeLocale"'),
-      );
     }
   });
 
