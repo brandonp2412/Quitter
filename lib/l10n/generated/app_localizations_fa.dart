@@ -1784,7 +1784,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get editEntrySave => 'ذخیره';
 
   @override
-  String get editEntryDeleteDialogTitle => 'مطمئن هستید؟';
+  String get editEntryDeleteDialogTitle => 'ورودی حذف شود؟';
 
   @override
   String get editEntryDeleteDialogMessage =>
@@ -4528,4 +4528,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => 'زمان هفتگی';
+
+  @override
+  String get notificationFrequencyDisabled => 'غیرفعال';
 }

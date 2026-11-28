@@ -125,11 +125,14 @@ class _EditEntryPageState extends State<EditEntryPage> {
         actions: [
           TextButton(
             onPressed: () => Navigator.of(ctx).pop(false),
-            child: Text(AppLocalizations.of(ctx)!.editEntryDeleteNo),
+            child: Text(AppLocalizations.of(ctx)!.cancel),
           ),
           TextButton(
+            style: TextButton.styleFrom(
+              foregroundColor: Theme.of(ctx).colorScheme.error,
+            ),
             onPressed: () => Navigator.of(ctx).pop(true),
-            child: Text(AppLocalizations.of(ctx)!.editEntryDeleteYes),
+            child: Text(AppLocalizations.of(ctx)!.deleteEverythingConfirm),
           ),
         ],
       ),
@@ -156,10 +159,16 @@ class _EditEntryPageState extends State<EditEntryPage> {
       ),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.only(left: 16.0, right: 16.0),
+          padding: EdgeInsets.symmetric(
+            horizontal: ((MediaQuery.sizeOf(context).width - 760) / 2).clamp(
+              16.0,
+              double.infinity,
+            ),
+          ),
           child: Form(
             key: _formKey,
             child: ListView(
+              padding: const EdgeInsets.only(bottom: 96),
               children: [
                 SizedBox(height: 8),
                 TextFormField(

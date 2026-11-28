@@ -1369,7 +1369,7 @@
       }
     }
   },
-  "deleteEverythingDialogMessage": "Are you sure you delete everything? This action cannot be undone.",
+  "deleteEverythingDialogMessage": "All your data will be permanently deleted. This cannot be undone.",
   "@deleteEverythingDialogMessage": {
     "description": "Message warning about deleting all data"
   },
@@ -1518,11 +1518,11 @@
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-  "editEntryDeleteDialogTitle": "Are you sure?",
+  "editEntryDeleteDialogTitle": "Delete entry?",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
-  "editEntryDeleteDialogMessage": "Do you really want to delete this entry?",
+  "editEntryDeleteDialogMessage": "This entry will be permanently deleted. This cannot be undone.",
   "@editEntryDeleteDialogMessage": {
     "description": "Message asking for delete confirmation"
   },
@@ -3614,5 +3614,6 @@
   "statsTimeEmpty": "Add a weekly estimate to see time reclaimed.",
   "statsTimeDefault": "Use default",
   "statsTimeMinuteAbbreviation": "m",
-  "statsTimeEditTitle": "Weekly Time"
+  "statsTimeEditTitle": "Weekly Time",
+  "notificationFrequencyDisabled": "Disabled"
 }

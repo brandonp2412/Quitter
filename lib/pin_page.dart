@@ -100,7 +100,13 @@ class _PinPageState extends State<PinPage> {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(24.0),
+          padding: EdgeInsets.symmetric(
+            horizontal: ((MediaQuery.sizeOf(context).width - 400) / 2).clamp(
+              24.0,
+              double.infinity,
+            ),
+            vertical: 16,
+          ),
           child: Center(
             child: ListView(
               shrinkWrap: true,
@@ -117,7 +123,7 @@ class _PinPageState extends State<PinPage> {
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
                   ),
                 ),
-                const SizedBox(height: 48),
+                const SizedBox(height: 20),
                 Center(
                   child: Container(
                     padding: const EdgeInsets.symmetric(
@@ -170,7 +176,8 @@ class _PinPageState extends State<PinPage> {
                   crossAxisCount: 3,
                   mainAxisSpacing: 16,
                   crossAxisSpacing: 16,
-                  childAspectRatio: 1.5,
+                  mainAxisExtent: 56,
+                  physics: const NeverScrollableScrollPhysics(),
                   children: [
                     ...[1, 2, 3, 4, 5, 6, 7, 8, 9].map(
                       (number) => _NumberButton(

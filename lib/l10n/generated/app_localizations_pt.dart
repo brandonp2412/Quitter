@@ -1822,7 +1822,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get editEntrySave => 'Guardar';
 
   @override
-  String get editEntryDeleteDialogTitle => 'Tem certeza?';
+  String get editEntryDeleteDialogTitle => 'Eliminar entrada?';
 
   @override
   String get editEntryDeleteDialogMessage =>
@@ -4587,6 +4587,9 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => 'Tempo semanal';
+
+  @override
+  String get notificationFrequencyDisabled => 'Desativadas';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -6404,7 +6407,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String get editEntrySave => 'Salvar';
 
   @override
-  String get editEntryDeleteDialogTitle => 'Tem certeza?';
+  String get editEntryDeleteDialogTitle => 'Excluir entrada?';
 
   @override
   String get editEntryDeleteDialogMessage =>
@@ -9168,4 +9171,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get statsTimeEditTitle => 'Tempo semanal';
+
+  @override
+  String get notificationFrequencyDisabled => 'Desativadas';
 }

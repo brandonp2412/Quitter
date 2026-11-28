@@ -1511,7 +1511,7 @@
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-  "editEntryDeleteDialogTitle": "هل أنت متأكد؟",
+  "editEntryDeleteDialogTitle": "حذف الإدخال؟",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
@@ -3541,5 +3541,6 @@
   "statsTimeEmpty": "أضف تقديرًا أسبوعيًا لعرض الوقت المستعاد.",
   "statsTimeDefault": "استخدام الافتراضي",
   "statsTimeMinuteAbbreviation": "د",
-  "statsTimeEditTitle": "الوقت الأسبوعي"
+  "statsTimeEditTitle": "الوقت الأسبوعي",
+  "notificationFrequencyDisabled": "معطّلة"
 }

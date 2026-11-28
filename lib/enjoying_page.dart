@@ -13,6 +13,12 @@ class EnjoyingPage extends StatelessWidget {
       ),
       body: SafeArea(
         child: ListView(
+          padding: EdgeInsets.symmetric(
+            horizontal: ((MediaQuery.sizeOf(context).width - 640) / 2).clamp(
+              0.0,
+              double.infinity,
+            ),
+          ),
           children: [
             ListTile(
               title: Text(AppLocalizations.of(context)!.enjoyingLeaveReview),

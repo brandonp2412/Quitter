@@ -1511,7 +1511,7 @@
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-  "editEntryDeleteDialogTitle": "คุณแน่ใจเหรอ?",
+  "editEntryDeleteDialogTitle": "ลบรายการนี้หรือไม่",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
@@ -3541,5 +3541,6 @@
   "statsTimeEmpty": "เพิ่มค่าประมาณรายสัปดาห์เพื่อดูเวลาที่ได้คืน",
   "statsTimeDefault": "ใช้ค่าเริ่มต้น",
   "statsTimeMinuteAbbreviation": "น.",
-  "statsTimeEditTitle": "เวลาต่อสัปดาห์"
+  "statsTimeEditTitle": "เวลาต่อสัปดาห์",
+  "notificationFrequencyDisabled": "ปิดใช้งาน"
 }

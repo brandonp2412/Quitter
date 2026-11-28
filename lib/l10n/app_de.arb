@@ -1014,7 +1014,7 @@
   "@editEntryIcon": {"description": "Label for icon selection"},
   "editEntrySave": "Speichern",
   "@editEntrySave": {"description": "Save button in edit entry page"},
-  "editEntryDeleteDialogTitle": "Sind Sie sicher?",
+  "editEntryDeleteDialogTitle": "Eintrag löschen?",
   "@editEntryDeleteDialogTitle": {"description": "Dialog title for delete entry confirmation"},
   "editEntryDeleteDialogMessage": "Möchten Sie diesen Eintrag wirklich löschen?",
   "@editEntryDeleteDialogMessage": {"description": "Message asking for delete confirmation"},
@@ -2550,5 +2550,6 @@
   "statsTimeEmpty": "Füge eine Wochenschätzung hinzu, um die gewonnene Zeit zu sehen.",
   "statsTimeDefault": "Standardwert verwenden",
   "statsTimeMinuteAbbreviation": "Min.",
-  "statsTimeEditTitle": "Zeit pro Woche"
+  "statsTimeEditTitle": "Zeit pro Woche",
+  "notificationFrequencyDisabled": "Deaktiviert"
 }

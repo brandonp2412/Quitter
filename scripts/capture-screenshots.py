@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import argparse, asyncio, functools, html, http.server, json, threading, shutil, struct, tempfile
+import argparse, asyncio, functools, html, http.server, json, threading, shutil, struct, tempfile, urllib.parse
 from pathlib import Path
 from patchright.async_api import async_playwright
 from screenshot_status_bar import STATUS_BAR_HEIGHT, capture_with_status_bar
@@ -12,8 +12,9 @@ LOCALES = {"en": "en-US", "ar": "ar", "de": "de-DE", "es": "es-ES",
 def expected_names(locale):
     return {f"{n}_{LOCALES[locale]}.png" for n in range(1, 9)}
 FULL_NAMES = {f"full-{name}.png" for name in (
-    "home-dark",
-    "home-light",
+    "home",
+    "home-actions",
+    "custom-icon-scroll",
     "home-search",
     "home-search-empty",
     "add-journey",
@@ -29,8 +30,7 @@ FULL_NAMES = {f"full-{name}.png" for name in (
     "money-saved-settings",
     "time-saved-settings",
     "journal-filled",
-    "settings-dark",
-    "settings-light",
+    "settings",
     "settings-security",
     "settings-notifications",
     "settings-system",
@@ -112,8 +112,8 @@ async def request(page, message=None):
         raise RuntimeError(response)
     return json.loads(response["response"]["message"])
 
-async def capture(browser, url, out, name, debug_dir, locale, full):
-    EXPECTED_NAMES = FULL_NAMES if full else expected_names(locale)
+async def capture(browser, url, out, name, debug_dir, locale, full, theme, states=None):
+    EXPECTED_NAMES = {f"full-{state}.png" for state in states} if states else (FULL_NAMES if full else expected_names(locale))
     w,h,scale = PROFILES[name]
     status_bar = name != "desktop"
     options = dict(viewport={"width":w,"height":h - STATUS_BAR_HEIGHT if status_bar else h}, device_scale_factor=scale, reduced_motion="reduce", locale="en-US", timezone_id="UTC")
@@ -129,7 +129,12 @@ async def capture(browser, url, out, name, debug_dir, locale, full):
     errors = []
     page.on("pageerror", lambda e: errors.append(str(e)))
     try:
-        await page.goto(url + "?locale=" + locale + ("&gallery=full" if full else ""), wait_until="domcontentloaded")
+        query = {"locale": locale}
+        if full:
+            query.update(gallery="full", theme=theme, profile=name)
+        if states:
+            query["states"] = ",".join(states)
+        await page.goto(url + "?" + urllib.parse.urlencode(query), wait_until="domcontentloaded")
         await page.wait_for_function("typeof window.$flutterDriver === 'function'",timeout=90000)
         print(name, "viewport",await page.evaluate("() => [innerWidth,innerHeight,devicePixelRatio]"),flush=True)
         response=await request(page,"pending")
@@ -161,7 +166,7 @@ async def capture(browser, url, out, name, debug_dir, locale, full):
             else:
                 raise RuntimeError(response)
     except Exception:
-        shutil.copytree(dest, debug_dir / "failed" / ("full" if full else "store") / name, dirs_exist_ok=True)
+        shutil.copytree(dest, debug_dir / "failed" / ("full" if full else "store") / theme / name, dirs_exist_ok=True)
         await page.screenshot(path=str(debug_dir / f"{name}-debug.png"))
         raise
     finally:
@@ -182,65 +187,71 @@ PROFILE_LABELS = {
 }
 
 
-def build_gallery(captures, destination):
-    entries = {}
-    for profile in PROFILES:
-        files = [
-            (captures / profile / f"{number}_en-US.png", f"{number:02}-{name}.png")
-            for number, name in enumerate(STORE_NAMES, 1)
-        ] + [
-            (captures / "full" / profile / name, name.removeprefix("full-"))
-            for name in sorted(FULL_NAMES)
-        ]
-        w, h, scale = PROFILES[profile]
-        for source, name in files:
-            validate_screenshot(source, (round(w * scale), round(h * scale)))
-        entries[profile] = files
+THEMES = ("dark", "light", "amoled")
+THEME_LABELS = {"dark": "Dark", "light": "Light", "amoled": "AMOLED"}
 
+def build_gallery(captures, destination):
     destination.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(dir=destination.parent, prefix=".gallery-") as temp:
         gallery = Path(temp) / "gallery"
         gallery.mkdir()
-        root = ["# Quitter screenshot gallery", "",
-                "Generated from the automated screenshot fixture with sample data.", "",
-                f"{sum(map(len, entries.values()))} screenshots across {len(entries)} device profiles.", ""]
         sections = []
-        for profile, files in entries.items():
-            label = PROFILE_LABELS[profile]
-            root.append(f"- [{label} — {len(files)} screenshots]({profile}/)")
+        for theme in THEMES:
+            for profile, (w, h, scale) in PROFILES.items():
+                directory = gallery / theme / profile
+                directory.mkdir(parents=True, exist_ok=True)
+                cards = []
+                for filename in sorted(FULL_NAMES):
+                    source = captures / "full" / theme / profile / filename
+                    validate_screenshot(source, (round(w * scale), round(h * scale)))
+                    name = filename.removeprefix("full-")
+                    shutil.copyfile(source, directory / name)
+                    title = name.removesuffix(".png").replace("-", " ").capitalize()
+                    path = f"{theme}/{profile}/{name}"
+                    cards.append(f'<a href="{path}"><img loading="lazy" src="{path}" width="{round(w * scale)}" height="{round(h * scale)}" alt="{html.escape(title)}"><span>{html.escape(title)}</span></a>')
+                sections.append(f'<section data-theme="{theme}" id="{theme}-{profile}" {"hidden" if theme != "dark" else ""}><h2>{PROFILE_LABELS[profile]} · {len(cards)} screenshots</h2><div class="screens {profile}">{"".join(cards)}</div></section>')
+        # Keep the former direct screenshot links and mixed-theme store previews available.
+        for profile, (w, h, scale) in PROFILES.items():
             directory = gallery / profile
             directory.mkdir()
-            markdown = [f"# {label}", "", "[All device profiles](../)", ""]
             cards = []
-            w, h, scale = PROFILES[profile]
-            image_width, image_height = round(w * scale), round(h * scale)
-            for source, filename in files:
+            for number, name in enumerate(STORE_NAMES, 1):
+                source = captures / profile / f"{number}_en-US.png"
+                validate_screenshot(source, (round(w * scale), round(h * scale)))
+                filename = f"{number:02}-{name}.png"
                 shutil.copyfile(source, directory / filename)
-                title = filename.removesuffix(".png")
-                if title[:2].isdigit():
-                    title = title[3:]
-                title = title.replace("-", " ").capitalize()
-                width = 260 if profile == "phoneScreenshots" else 480
-                markdown.extend([f"### {title}", "", f'<a href="{filename}"><img src="{filename}" alt="{title}" width="{width}"/></a>', ""])
                 path = f"{profile}/{filename}"
-                cards.append(f'<a href="{path}"><img loading="lazy" src="{path}" width="{image_width}" height="{image_height}" alt="{html.escape(title)}"><span>{html.escape(title)}</span></a>')
-            (directory / "README.md").write_text("\n".join(markdown), encoding="utf-8")
-            sections.append(f'<section id="{profile}"><h2>{label} · {len(files)} screenshots</h2><div class="screens {profile}">{"".join(cards)}</div></section>')
-        (gallery / "README.md").write_text("\n".join(root) + "\n", encoding="utf-8")
-        links = " ".join(f'<a href="#{profile}">{label}</a>' for profile, label in PROFILE_LABELS.items())
+                title = name.replace("-", " ").capitalize()
+                cards.append(f'<a href="{path}"><img loading="lazy" src="{path}" width="{round(w * scale)}" height="{round(h * scale)}" alt="{html.escape(title)}"><span>{html.escape(title)}</span></a>')
+            sections.append(f'<section data-theme="store" id="store-{profile}" hidden><h2>{PROFILE_LABELS[profile]} · {len(cards)} store screenshots</h2><div class="screens {profile}">{"".join(cards)}</div></section>')
+            for name in FULL_NAMES:
+                filename = name.removeprefix("full-")
+                shutil.copyfile(gallery / "dark" / profile / filename, directory / filename)
+            for name in ("home", "settings"):
+                for theme in ("dark", "light"):
+                    shutil.copyfile(gallery / theme / profile / f"{name}.png", directory / f"{name}-{theme}.png")
+        theme_buttons = " ".join(f'<button type="button" data-select-theme="{theme}" aria-pressed="{str(theme == "dark").lower()}">{THEME_LABELS[theme]}</button>' for theme in THEMES)
+        theme_buttons += ' <button type="button" data-select-theme="store" aria-pressed="false">Store previews</button>'
+        links = " ".join(f'<a data-profile="{profile}" href="#dark-{profile}">{label}</a>' for profile, label in PROFILE_LABELS.items())
         (gallery / "index.html").write_text(
-            '<!doctype html><html lang="en"><meta charset="utf-8">'
-            '<meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>Quitter screenshots</title><style>'
             'body{font:16px system-ui;margin:24px;background:#17161b;color:#eee}'
-            'nav{display:flex;gap:20px;flex-wrap:wrap;position:sticky;top:0;z-index:1;background:#17161b;padding:12px 0}'
-            'a{color:#d3bfff;text-decoration:none}.screens{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:16px}'
+            'nav{display:flex;gap:12px;flex-wrap:wrap;align-items:center;position:sticky;top:0;z-index:1;background:#17161b;padding:12px 0}'
+            'button{font:inherit;background:#25242b;color:#eee;border:1px solid #777;border-radius:8px;padding:6px 12px;cursor:pointer}'
+            'button[aria-pressed=true]{background:#d3bfff;color:#17161b}a{color:#d3bfff;text-decoration:none}'
+            '.screens{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:16px}'
             '.phoneScreenshots{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}'
             '.screens a{display:flex;flex-direction:column;gap:8px;background:#25242b;border-radius:12px;padding:12px}'
-            'img{display:block;width:100%;height:auto;object-fit:contain;border-radius:5px;background:#17161b}section{scroll-margin-top:calc(var(--nav-height, 65px) + 12px)}'
+            'img{display:block;width:100%;height:auto;object-fit:contain;border-radius:5px;background:#17161b}'
+            'section{scroll-margin-top:calc(var(--nav-height, 65px) + 12px)}[hidden]{display:none!important}'
             '@media(max-width:500px){.screens,.phoneScreenshots{grid-template-columns:1fr}}'
-            '</style><h1>Quitter screenshots</h1><p>All device profiles · Sample data · Click any image for full resolution</p>'
-            f'<nav>{links}</nav>{"".join(sections)}<script>const nav=document.querySelector("nav");const resize=()=>document.documentElement.style.setProperty("--nav-height",nav.offsetHeight+"px");resize();new ResizeObserver(resize).observe(nav);</script></html>',
+            '</style><h1>Quitter screenshots</h1><p>All device profiles · All themes · Sample data · Click any image for full resolution</p>'
+            f'<nav>{theme_buttons}{links}</nav>{"".join(sections)}'
+            '<script>const nav=document.querySelector("nav");const resize=()=>document.documentElement.style.setProperty("--nav-height",nav.offsetHeight+"px");resize();new ResizeObserver(resize).observe(nav);'
+            'const select=t=>{document.querySelectorAll("[data-theme]").forEach(e=>e.hidden=e.dataset.theme!==t);document.querySelectorAll("[data-select-theme]").forEach(e=>e.setAttribute("aria-pressed",String(e.dataset.selectTheme===t)));document.querySelectorAll("[data-profile]").forEach(e=>e.href="#"+t+"-"+e.dataset.profile);};'
+            'document.querySelectorAll("[data-select-theme]").forEach(e=>e.onclick=()=>{select(e.dataset.selectTheme);history.replaceState(null,"","#"+e.dataset.selectTheme+"-phoneScreenshots");window.scrollTo(0,0)});'
+            'const initial=location.hash.slice(1).split("-")[0];if(["dark","light","amoled","store"].includes(initial)){select(initial);requestAnimationFrame(()=>document.getElementById(location.hash.slice(1))?.scrollIntoView())}</script></html>',
             encoding="utf-8",
         )
         if destination.exists():
@@ -262,13 +273,13 @@ async def main(args):
                 )
                 try:
                     for name in args.profiles:
-                        await capture(browser, f"http://127.0.0.1:{server.server_port}/", staged, name, args.output, args.locale, args.full)
+                        await capture(browser, f"http://127.0.0.1:{server.server_port}/", staged, name, args.output, args.locale, args.full, args.theme, args.states)
                 finally:
                     await browser.close()
             for name in args.profiles:
-                destination = args.output / "full" / name if args.full else args.output / name
+                destination = args.output / "full" / args.theme / name if args.full else args.output / name
                 destination.mkdir(parents=True, exist_ok=True)
-                for filename in sorted(FULL_NAMES if args.full else expected_names(args.locale)):
+                for filename in sorted({f"full-{state}.png" for state in args.states} if args.states else (FULL_NAMES if args.full else expected_names(args.locale))):
                     shutil.copyfile(staged / name / filename, destination / filename)
             if args.gallery:
                 build_gallery(args.output, args.gallery)
@@ -278,12 +289,18 @@ async def main(args):
 if __name__=="__main__":
     parser=argparse.ArgumentParser()
     parser.add_argument("--full", action="store_true")
+    parser.add_argument("--theme", choices=THEMES, default="dark")
+    parser.add_argument("--states", help="Comma-separated full gallery states for a targeted recapture")
     parser.add_argument("--gallery", type=Path)
     parser.add_argument("--web",type=Path,required=True)
     parser.add_argument("--output",type=Path,required=True)
     parser.add_argument("--locale", choices=LOCALES, default="en")
     parser.add_argument("profiles",nargs="*",default=None)
     args = parser.parse_args()
+    if args.states:
+        args.states = args.states.split(",")
+        if not args.full or not {f"full-{name}.png" for name in args.states} <= FULL_NAMES:
+            parser.error("--states requires valid --full screenshot state names")
     if not args.profiles:
         args.profiles = list(PROFILES) if args.full else [name for name in PROFILES if name != "desktop"]
     if args.gallery and (not args.full or args.locale != "en"):

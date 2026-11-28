@@ -627,6 +627,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       TargetPlatform.windows => true,
       _ => false,
     };
+    final noSearchResults =
+        _searchQuery.isNotEmpty &&
+        _buildAllCards(
+          context,
+          context.watch<AddictionProvider>(),
+          l10n,
+        ).isEmpty;
     return PopScope(
       canPop: !_isEditMode,
       onPopInvokedWithResult: (didPop, result) {
@@ -659,14 +666,15 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         icon: const Icon(Icons.clear),
                         onPressed: () => _searchController.clear(),
                       ),
-                    IconButton(
-                      icon: const Icon(Icons.settings),
-                      onPressed: () => Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (context) => const SettingsPage(),
+                    if (MediaQuery.sizeOf(context).width < 1000)
+                      IconButton(
+                        icon: const Icon(Icons.settings),
+                        onPressed: () => Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => const SettingsPage(),
+                          ),
                         ),
                       ),
-                    ),
                   ],
                 ),
               ),
@@ -694,9 +702,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                                   ? Icons.search_off
                                   : Icons.track_changes,
                               size: 64,
-                              color: Theme.of(
-                                context,
-                              ).colorScheme.onSurface.withAlpha(128),
+                              color: Theme.of(context).colorScheme.onSurface,
                             ),
                             const SizedBox(height: 16),
                             Text(
@@ -707,7 +713,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                                   ?.copyWith(
                                     color: Theme.of(
                                       context,
-                                    ).colorScheme.onSurface.withAlpha(128),
+                                    ).colorScheme.onSurface,
                                   ),
                             ),
                             if (_searchQuery.isEmpty) ...[
@@ -718,25 +724,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                                     ?.copyWith(
                                       color: Theme.of(
                                         context,
-                                      ).colorScheme.onSurface.withAlpha(102),
+                                      ).colorScheme.onSurfaceVariant,
                                     ),
-                              ),
-                            ],
-                            if (_searchQuery.isNotEmpty) ...[
-                              const SizedBox(height: 16),
-                              FilledButton.icon(
-                                onPressed: () async {
-                                  await Navigator.of(context).push(
-                                    MaterialPageRoute(
-                                      builder: (context) => AddAddictionPage(
-                                        initialQuery: _searchQuery,
-                                      ),
-                                    ),
-                                  );
-                                  _loadQuitDays();
-                                },
-                                icon: const Icon(Icons.add),
-                                label: Text(l10n.homeTrackAnyway),
                               ),
                             ],
                           ],
@@ -831,7 +820,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                   _loadQuitDays();
                 },
-                label: Text(l10n.homeAddButton),
+                label: Text(
+                  noSearchResults ? l10n.homeTrackAnyway : l10n.homeAddButton,
+                ),
                 icon: const Icon(Icons.add),
                 tooltip: l10n.homeAddTooltip,
               ),

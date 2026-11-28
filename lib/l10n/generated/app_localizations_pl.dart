@@ -1823,7 +1823,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get editEntrySave => 'Zapisz';
 
   @override
-  String get editEntryDeleteDialogTitle => 'Jesteś pewien?';
+  String get editEntryDeleteDialogTitle => 'Usunąć wpis?';
 
   @override
   String get editEntryDeleteDialogMessage =>
@@ -4571,4 +4571,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => 'Czas tygodniowy';
+
+  @override
+  String get notificationFrequencyDisabled => 'Wyłączone';
 }

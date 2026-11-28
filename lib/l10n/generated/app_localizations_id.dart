@@ -1813,7 +1813,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get editEntrySave => 'Simpan';
 
   @override
-  String get editEntryDeleteDialogTitle => 'Apakah Anda yakin?';
+  String get editEntryDeleteDialogTitle => 'Hapus entri?';
 
   @override
   String get editEntryDeleteDialogMessage =>
@@ -4577,4 +4577,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => 'Waktu mingguan';
+
+  @override
+  String get notificationFrequencyDisabled => 'Dinonaktifkan';
 }

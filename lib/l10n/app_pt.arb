@@ -1511,7 +1511,7 @@
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-  "editEntryDeleteDialogTitle": "Tem certeza?",
+  "editEntryDeleteDialogTitle": "Eliminar entrada?",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
@@ -3541,5 +3541,6 @@
   "statsTimeEmpty": "Adiciona uma estimativa semanal para veres o tempo recuperado.",
   "statsTimeDefault": "Usar predefinição",
   "statsTimeMinuteAbbreviation": "min",
-  "statsTimeEditTitle": "Tempo semanal"
+  "statsTimeEditTitle": "Tempo semanal",
+  "notificationFrequencyDisabled": "Desativadas"
 }

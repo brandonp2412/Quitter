@@ -168,7 +168,10 @@ jobs:
       - name: Capture comprehensive preview gallery
         run: |
           python scripts/capture-screenshots.py --web build/web --output "$RUNNER_TEMP/quitter-screenshots/en" desktop
-          python scripts/capture-screenshots.py --web build/web --output "$RUNNER_TEMP/quitter-screenshots/en" --full --gallery screenshot-gallery
+          for theme in dark light; do
+            python scripts/capture-screenshots.py --web build/web --output "$RUNNER_TEMP/quitter-screenshots/en" --full --theme "$theme"
+          done
+          python scripts/capture-screenshots.py --web build/web --output "$RUNNER_TEMP/quitter-screenshots/en" --full --theme amoled --gallery screenshot-gallery
 
       - name: Upload screenshot gallery
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
@@ -386,8 +389,10 @@ jobs:
       - name: Validate preview gallery
         run: |
           test -s build/web/screenshots/index.html
-          for profile in phoneScreenshots sevenInchScreenshots tenInchScreenshots desktop; do
-            test "$(find "build/web/screenshots/$profile" -maxdepth 1 -name '*.png' | wc -l)" -eq 75
+          for theme in dark light amoled; do
+            for profile in phoneScreenshots sevenInchScreenshots tenInchScreenshots desktop; do
+              test "$(find "build/web/screenshots/$theme/$profile" -maxdepth 1 -name '*.png' | wc -l)" -eq 67
+            done
           done
 
       - name: Setup Pages

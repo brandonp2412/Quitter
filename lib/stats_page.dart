@@ -86,9 +86,6 @@ class StatsPage extends StatelessWidget {
                   builder: (context, constraints) {
                     final desktop = constraints.maxWidth >= 840;
                     final spacing = desktop ? 20.0 : 12.0;
-                    final width = desktop
-                        ? (constraints.maxWidth - spacing) / 2
-                        : constraints.maxWidth;
                     final cards = <Widget>[
                       _TimeSavedCard(
                         minutesReclaimed: minutesReclaimed,
@@ -115,12 +112,31 @@ class StatsPage extends StatelessWidget {
                           l10n: l10n,
                         ),
                     ];
-                    return Wrap(
-                      spacing: spacing,
-                      runSpacing: spacing,
+                    Widget column(Iterable<Widget> items) => Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
-                        for (final card in cards)
-                          SizedBox(width: width, child: card),
+                        for (final card in items)
+                          Padding(
+                            padding: EdgeInsets.only(bottom: spacing),
+                            child: card,
+                          ),
+                      ],
+                    );
+                    if (!desktop) return column(cards);
+                    return Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Expanded(
+                          child: column([
+                            for (var i = 0; i < cards.length; i += 2) cards[i],
+                          ]),
+                        ),
+                        SizedBox(width: spacing),
+                        Expanded(
+                          child: column([
+                            for (var i = 1; i < cards.length; i += 2) cards[i],
+                          ]),
+                        ),
                       ],
                     );
                   },

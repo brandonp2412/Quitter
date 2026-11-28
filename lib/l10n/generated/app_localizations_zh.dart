@@ -1705,7 +1705,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get editEntrySave => '保存';
 
   @override
-  String get editEntryDeleteDialogTitle => '确定吗？';
+  String get editEntryDeleteDialogTitle => '删除此条目？';
 
   @override
   String get editEntryDeleteDialogMessage => '您真的要删除此条目吗？';
@@ -4405,6 +4405,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => '每周时间';
+
+  @override
+  String get notificationFrequencyDisabled => '已停用';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -6108,7 +6111,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get editEntrySave => '保存';
 
   @override
-  String get editEntryDeleteDialogTitle => '確定嗎？';
+  String get editEntryDeleteDialogTitle => '刪除此項目？';
 
   @override
   String get editEntryDeleteDialogMessage => '您真的要刪除此條目嗎？';
@@ -8808,4 +8811,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get statsTimeEditTitle => '每週時間';
+
+  @override
+  String get notificationFrequencyDisabled => '已停用';
 }

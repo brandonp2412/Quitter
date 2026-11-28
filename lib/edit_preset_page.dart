@@ -87,10 +87,16 @@ class _EditPresetPageState extends State<EditPresetPage> {
       appBar: AppBar(title: Text(l10n.editEntryEditTitle)),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.only(left: 16.0, right: 16.0),
+          padding: EdgeInsets.symmetric(
+            horizontal: ((MediaQuery.sizeOf(context).width - 760) / 2).clamp(
+              16.0,
+              double.infinity,
+            ),
+          ),
           child: Form(
             key: _formKey,
             child: ListView(
+              padding: const EdgeInsets.only(bottom: 96),
               children: [
                 const SizedBox(height: 8),
                 TextFormField(

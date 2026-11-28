@@ -86,21 +86,28 @@ class _MoneySavedSettingsPageState extends State<MoneySavedSettingsPage> {
     final theme = Theme.of(context);
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text(l10n.statsMoneySavedTitle),
-        actions: [
-          TextButton(
-            onPressed: _saving ? null : _save,
-            child: Text(l10n.editEntrySave),
-          ),
-          const SizedBox(width: 8),
-        ],
+      appBar: AppBar(title: Text(l10n.statsMoneySavedTitle)),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: _saving ? null : _save,
+        icon: const Icon(Icons.save),
+        label: Text(l10n.editEntrySave),
       ),
       body: SafeArea(
         child: Form(
           key: _formKey,
           child: ListView(
-            padding: const EdgeInsets.all(16),
+            padding: EdgeInsets.fromLTRB(
+              ((MediaQuery.sizeOf(context).width - 600) / 2).clamp(
+                16.0,
+                double.infinity,
+              ),
+              16,
+              ((MediaQuery.sizeOf(context).width - 600) / 2).clamp(
+                16.0,
+                double.infinity,
+              ),
+              96,
+            ),
             children: [
               DropdownButtonFormField<String>(
                 key: const ValueKey('moneyCurrency'),

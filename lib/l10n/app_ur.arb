@@ -1511,7 +1511,7 @@
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-  "editEntryDeleteDialogTitle": "کیا تمہیں یقین ہے؟",
+  "editEntryDeleteDialogTitle": "اندراج حذف کریں؟",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
@@ -3541,5 +3541,6 @@
   "statsTimeEmpty": "واپس ملنے والا وقت دیکھنے کے لیے ہفتہ وار تخمینہ شامل کریں۔",
   "statsTimeDefault": "ڈیفالٹ استعمال کریں",
   "statsTimeMinuteAbbreviation": "منٹ",
-  "statsTimeEditTitle": "ہفتہ وار وقت"
+  "statsTimeEditTitle": "ہفتہ وار وقت",
+  "notificationFrequencyDisabled": "غیر فعال"
 }

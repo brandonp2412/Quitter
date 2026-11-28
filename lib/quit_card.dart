@@ -65,8 +65,10 @@ class QuitCard extends StatelessWidget {
             onTap: onTap,
             onSecondaryTapDown: onSecondaryTapDown,
             borderRadius: BorderRadius.circular(20),
-            splashColor: Colors.white.withAlpha(76),
-            highlightColor: Colors.white.withAlpha(25),
+            splashColor: gradientColors.first.withAlpha(45),
+            highlightColor: gradientColors.first.withAlpha(32),
+            hoverColor: gradientColors.first.withAlpha(24),
+            focusColor: gradientColors.first.withAlpha(32),
             child: Padding(
               padding: const EdgeInsets.all(20),
               child: Column(

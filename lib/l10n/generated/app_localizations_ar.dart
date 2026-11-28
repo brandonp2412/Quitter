@@ -1793,7 +1793,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get editEntrySave => 'يحفظ';
 
   @override
-  String get editEntryDeleteDialogTitle => 'هل أنت متأكد؟';
+  String get editEntryDeleteDialogTitle => 'حذف الإدخال؟';
 
   @override
   String get editEntryDeleteDialogMessage => 'هل تريد حقًا حذف هذا الإدخال؟';
@@ -4523,4 +4523,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => 'الوقت الأسبوعي';
+
+  @override
+  String get notificationFrequencyDisabled => 'معطّلة';
 }

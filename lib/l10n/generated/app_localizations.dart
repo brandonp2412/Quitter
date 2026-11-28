@@ -3003,7 +3003,7 @@ abstract class AppLocalizations {
   /// Message warning about deleting all data
   ///
   /// In en, this message translates to:
-  /// **'Are you sure you delete everything? This action cannot be undone.'**
+  /// **'All your data will be permanently deleted. This cannot be undone.'**
   String get deleteEverythingDialogMessage;
 
   /// Button to confirm deleting everything
@@ -3177,13 +3177,13 @@ abstract class AppLocalizations {
   /// Dialog title for delete entry confirmation
   ///
   /// In en, this message translates to:
-  /// **'Are you sure?'**
+  /// **'Delete entry?'**
   String get editEntryDeleteDialogTitle;
 
   /// Message asking for delete confirmation
   ///
   /// In en, this message translates to:
-  /// **'Do you really want to delete this entry?'**
+  /// **'This entry will be permanently deleted. This cannot be undone.'**
   String get editEntryDeleteDialogMessage;
 
   /// No button in delete dialog
@@ -7679,6 +7679,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Weekly Time'**
   String get statsTimeEditTitle;
+
+  /// No description provided for @notificationFrequencyDisabled.
+  ///
+  /// In en, this message translates to:
+  /// **'Disabled'**
+  String get notificationFrequencyDisabled;
 }
 
 class _AppLocalizationsDelegate

@@ -1834,7 +1834,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get editEntrySave => 'Сохранить';
 
   @override
-  String get editEntryDeleteDialogTitle => 'Вы уверены?';
+  String get editEntryDeleteDialogTitle => 'Удалить запись?';
 
   @override
   String get editEntryDeleteDialogMessage =>
@@ -4600,4 +4600,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => 'Время за неделю';
+
+  @override
+  String get notificationFrequencyDisabled => 'Отключены';
 }

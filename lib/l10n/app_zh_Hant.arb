@@ -1509,7 +1509,7 @@
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-  "editEntryDeleteDialogTitle": "確定嗎？",
+  "editEntryDeleteDialogTitle": "刪除此項目？",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
@@ -3539,5 +3539,6 @@
   "statsTimeEmpty": "新增每週估計值以查看省下的時間。",
   "statsTimeDefault": "使用預設值",
   "statsTimeMinuteAbbreviation": "分",
-  "statsTimeEditTitle": "每週時間"
+  "statsTimeEditTitle": "每週時間",
+  "notificationFrequencyDisabled": "已停用"
 }

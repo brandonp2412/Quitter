@@ -1511,7 +1511,7 @@
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-  "editEntryDeleteDialogTitle": "Apakah Anda yakin?",
+  "editEntryDeleteDialogTitle": "Hapus entri?",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
@@ -3541,5 +3541,6 @@
   "statsTimeEmpty": "Tambahkan perkiraan mingguan untuk melihat waktu yang didapat kembali.",
   "statsTimeDefault": "Gunakan bawaan",
   "statsTimeMinuteAbbreviation": "mnt",
-  "statsTimeEditTitle": "Waktu mingguan"
+  "statsTimeEditTitle": "Waktu mingguan",
+  "notificationFrequencyDisabled": "Dinonaktifkan"
 }

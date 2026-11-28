@@ -94,21 +94,28 @@ class _TimeSavedSettingsPageState extends State<TimeSavedSettingsPage> {
     final theme = Theme.of(context);
     final l10n = AppLocalizations.of(context)!;
     return Scaffold(
-      appBar: AppBar(
-        title: Text(l10n.statsTimeEditTitle),
-        actions: [
-          TextButton(
-            onPressed: _saving ? null : _save,
-            child: Text(l10n.editEntrySave),
-          ),
-          const SizedBox(width: 8),
-        ],
+      appBar: AppBar(title: Text(l10n.statsTimeEditTitle)),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: _saving ? null : _save,
+        icon: const Icon(Icons.save),
+        label: Text(l10n.editEntrySave),
       ),
       body: SafeArea(
         child: Form(
           key: _formKey,
           child: ListView(
-            padding: const EdgeInsets.fromLTRB(16, 12, 16, 32),
+            padding: EdgeInsets.fromLTRB(
+              ((MediaQuery.sizeOf(context).width - 600) / 2).clamp(
+                16.0,
+                double.infinity,
+              ),
+              16,
+              ((MediaQuery.sizeOf(context).width - 600) / 2).clamp(
+                16.0,
+                double.infinity,
+              ),
+              96,
+            ),
             children: [
               Padding(
                 padding: const EdgeInsets.fromLTRB(4, 0, 4, 20),

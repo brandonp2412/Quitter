@@ -1669,7 +1669,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get deleteEverythingDialogMessage =>
-      'Are you sure you delete everything? This action cannot be undone.';
+      'All your data will be permanently deleted. This cannot be undone.';
 
   @override
   String get deleteEverythingConfirm => 'DELETE!';
@@ -1783,11 +1783,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get editEntrySave => 'Save';
 
   @override
-  String get editEntryDeleteDialogTitle => 'Are you sure?';
+  String get editEntryDeleteDialogTitle => 'Delete entry?';
 
   @override
   String get editEntryDeleteDialogMessage =>
-      'Do you really want to delete this entry?';
+      'This entry will be permanently deleted. This cannot be undone.';
 
   @override
   String get editEntryDeleteNo => 'No';
@@ -4521,4 +4521,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => 'Weekly Time';
+
+  @override
+  String get notificationFrequencyDisabled => 'Disabled';
 }

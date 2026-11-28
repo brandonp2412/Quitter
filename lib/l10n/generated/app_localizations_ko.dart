@@ -1745,7 +1745,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get editEntrySave => '구하다';
 
   @override
-  String get editEntryDeleteDialogTitle => '확실합니까?';
+  String get editEntryDeleteDialogTitle => '항목을 삭제할까요?';
 
   @override
   String get editEntryDeleteDialogMessage => '이 항목을 정말로 삭제하시겠습니까?';
@@ -4455,4 +4455,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => '주간 시간';
+
+  @override
+  String get notificationFrequencyDisabled => '비활성화';
 }

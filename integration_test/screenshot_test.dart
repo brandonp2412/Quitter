@@ -1,3 +1,4 @@
+import 'package:quitter/icon_picker.dart';
 import 'package:quitter/whats_new.dart';
 import 'package:quitter/vaping_page.dart';
 import 'package:quitter/time_saved_settings_page.dart';
@@ -60,6 +61,12 @@ const _nativeScreenshotLocale = String.fromEnvironment(
   'QUITTER_LOCALE',
   defaultValue: 'en',
 );
+
+AppThemeMode get galleryTheme => switch (Uri.base.queryParameters['theme']) {
+  'light' => AppThemeMode.light,
+  'amoled' => AppThemeMode.pureBlack,
+  _ => AppThemeMode.dark,
+};
 
 bool get fullGallery => kIsWeb && Uri.base.queryParameters['gallery'] == 'full';
 
@@ -171,6 +178,7 @@ void main() {
     );
 
     if (fullGallery) {
+      await prefs.setInt('theme_mode', galleryTheme.index);
       final now = DateTime.now();
       final entry = sampleEntry();
       await prefs.setString('entries', jsonEncode([entry.toJson()]));
@@ -347,18 +355,20 @@ Entry sampleEntry() => Entry(
 );
 
 void registerFullGallery(IntegrationTestWidgetsFlutterBinding binding) {
+  final selectedStates = Uri.base.queryParameters['states']?.split(',').toSet();
   void state(
     String name,
     Widget? Function()? page, {
     Future<void> Function(WidgetTester, BuildContext)? action,
   }) {
+    if (selectedStates != null && !selectedStates.contains(name)) return;
     testWidgets(name, (tester) async {
       await screenshot(
         binding: binding,
         tester: tester,
         name: name,
         goToPage: (context) async {
-          context.read<SettingsProvider>().themeMode = AppThemeMode.dark;
+          context.read<SettingsProvider>().themeMode = galleryTheme;
           if (page != null) navigate(context: context, page: page()!);
           await tester.pumpAndSettle();
           if (action != null) await action(tester, context);
@@ -403,14 +413,7 @@ void registerFullGallery(IntegrationTestWidgetsFlutterBinding binding) {
     expect(find.byType(AlertDialog).hitTestable(), findsOneWidget);
   }
 
-  state('home-dark', null);
-  state(
-    'home-light',
-    null,
-    action: (tester, context) async {
-      context.read<SettingsProvider>().themeMode = AppThemeMode.light;
-    },
-  );
+  state('home', null);
   state(
     'home-search',
     null,
@@ -429,6 +432,38 @@ void registerFullGallery(IntegrationTestWidgetsFlutterBinding binding) {
   state(
     'add-journey-empty',
     () => const AddAddictionPage(initialQuery: 'zzzz'),
+  );
+  state(
+    'home-actions',
+    null,
+    action: (tester, context) async {
+      final card = find.text(AppLocalizations.of(context)!.addictionSmoking);
+      if (MediaQuery.sizeOf(context).width >= 1000) {
+        await tester.tapAt(
+          tester.getCenter(card),
+          buttons: kSecondaryMouseButton,
+        );
+      } else {
+        await tester.longPress(card);
+      }
+    },
+  );
+  state(
+    'custom-icon-scroll',
+    () => EditEntryPage(entry: sampleEntry()),
+    action: (tester, context) async {
+      await tester.scrollUntilVisible(
+        find.byType(IconPickerWidget),
+        300,
+        scrollable: find
+            .descendant(
+              of: find.byType(EditEntryPage),
+              matching: find.byType(Scrollable),
+            )
+            .first,
+      );
+      await tester.pumpAndSettle();
+    },
   );
   state('custom-create', () => const EditEntryPage());
   state('custom-edit', () => EditEntryPage(entry: sampleEntry()));
@@ -518,14 +553,7 @@ void registerFullGallery(IntegrationTestWidgetsFlutterBinding binding) {
       expect(find.byType(JournalPage).hitTestable(), findsOneWidget);
     },
   );
-  state('settings-dark', () => const SettingsPage());
-  state(
-    'settings-light',
-    () => const SettingsPage(),
-    action: (tester, context) async {
-      context.read<SettingsProvider>().themeMode = AppThemeMode.light;
-    },
-  );
+  state('settings', () => const SettingsPage());
   state(
     'settings-security',
     () => const SettingsPage(),

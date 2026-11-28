@@ -108,14 +108,7 @@ class DesktopShell extends StatelessWidget {
                                   children: [
                                     const HomePage(),
                                     const StatsPage(),
-                                    if (showJournal)
-                                      const Align(
-                                        alignment: Alignment.topCenter,
-                                        child: SizedBox(
-                                          width: 800,
-                                          child: JournalPage(),
-                                        ),
-                                      ),
+                                    if (showJournal) const JournalPage(),
                                   ],
                                 ),
                               ),

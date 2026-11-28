@@ -1791,7 +1791,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get editEntrySave => 'محفوظ کریں';
 
   @override
-  String get editEntryDeleteDialogTitle => 'کیا تمہیں یقین ہے؟';
+  String get editEntryDeleteDialogTitle => 'اندراج حذف کریں؟';
 
   @override
   String get editEntryDeleteDialogMessage =>
@@ -4540,4 +4540,7 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => 'ہفتہ وار وقت';
+
+  @override
+  String get notificationFrequencyDisabled => 'غیر فعال';
 }

@@ -426,179 +426,183 @@ class _JournalPageState extends State<JournalPage> {
       Theme.of(context).colorScheme.tertiary.withValues(alpha: 0.7),
     ];
 
-    return Scaffold(
-      body: ListView(
-        children: [
-          _buildCalendarGrid(),
-          Center(
-            child: Container(
-              constraints: BoxConstraints(maxWidth: 600),
-              margin: EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: journalGradient,
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                ),
-                borderRadius: BorderRadius.circular(36),
-              ),
-              child: Container(
-                padding: EdgeInsets.all(20),
+    final editor = Center(
+      child: Container(
+        constraints: BoxConstraints(maxWidth: 600),
+        margin: EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: journalGradient,
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: BorderRadius.circular(36),
+        ),
+        child: Container(
+          padding: EdgeInsets.all(20),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            color: Theme.of(
+              context,
+            ).colorScheme.surface.withAlpha(255 ~/ (1 / 0.9)),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: Theme.of(
-                    context,
-                  ).colorScheme.surface.withAlpha(255 ~/ (1 / 0.9)),
+                  gradient: LinearGradient(
+                    colors: journalGradient,
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                  ),
+                  borderRadius: BorderRadius.circular(16),
                 ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                child: Row(
                   children: [
-                    Container(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: 16,
-                        vertical: 12,
-                      ),
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          colors: journalGradient,
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                        ),
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                      child: Row(
+                    Icon(
+                      Icons.edit_note,
+                      color: Theme.of(context).colorScheme.onTertiary,
+                      size: 24,
+                    ),
+                    SizedBox(width: 12),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Icon(
-                            Icons.edit_note,
-                            color: Theme.of(context).colorScheme.onTertiary,
-                            size: 24,
-                          ),
-                          SizedBox(width: 12),
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  AppLocalizations.of(
+                          Text(
+                            AppLocalizations.of(context)!.journalHowWasYourDay,
+                            style: Theme.of(context).textTheme.titleMedium
+                                ?.copyWith(
+                                  color: Theme.of(
                                     context,
-                                  )!.journalHowWasYourDay,
-                                  style: Theme.of(context).textTheme.titleMedium
-                                      ?.copyWith(
-                                        color: Theme.of(
-                                          context,
-                                        ).colorScheme.onTertiary,
-                                        fontWeight: FontWeight.bold,
-                                      ),
+                                  ).colorScheme.onTertiary,
+                                  fontWeight: FontWeight.bold,
                                 ),
-                                Text(
-                                  DateFormat(
-                                    'EEEE, MMMM d, yyyy',
-                                    AppLocalizations.of(context)?.localeName,
-                                  ).format(_selectedDate),
-                                  style: Theme.of(context).textTheme.bodySmall
-                                      ?.copyWith(
-                                        color: Theme.of(context)
-                                            .colorScheme
-                                            .onTertiary
-                                            .withAlpha(255 ~/ (1 / 0.8)),
-                                      ),
+                          ),
+                          Text(
+                            DateFormat(
+                              'EEEE, MMMM d, yyyy',
+                              AppLocalizations.of(context)?.localeName,
+                            ).format(_selectedDate),
+                            style: Theme.of(context).textTheme.bodySmall
+                                ?.copyWith(
+                                  color: Theme.of(context)
+                                      .colorScheme
+                                      .onTertiary
+                                      .withAlpha(255 ~/ (1 / 0.8)),
                                 ),
-                              ],
-                            ),
                           ),
                         ],
                       ),
                     ),
-                    SizedBox(height: 16),
-                    Container(
-                      decoration: BoxDecoration(
-                        color: Theme.of(context).colorScheme.surface,
-                        borderRadius: BorderRadius.circular(16),
-                        border: Border.all(
-                          color: journalGradient.first.withAlpha(
-                            255 ~/ (1 / 0.3),
-                          ),
-                          width: 1,
-                        ),
-                      ),
-                      child: SizedBox(
-                        height: 300,
-                        child: TextField(
-                          textCapitalization: TextCapitalization.sentences,
-                          controller: _entryController,
-                          maxLines: null,
-                          expands: true,
-                          textAlignVertical: TextAlignVertical.top,
-                          decoration: InputDecoration(
-                            hintText: AppLocalizations.of(
-                              context,
-                            )!.journalPlaceholder,
-                            hintStyle: TextStyle(
-                              color: Theme.of(context).colorScheme.onSurface
-                                  .withAlpha(255 ~/ (1 / 0.5)),
-                            ),
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(16),
-                              borderSide: BorderSide.none,
-                            ),
-                            focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(16),
-                              borderSide: BorderSide(
-                                color: journalGradient.first,
-                                width: 2,
-                              ),
-                            ),
-                            contentPadding: EdgeInsets.all(20),
-                            filled: true,
-                            fillColor: Colors.transparent,
-                          ),
-                        ),
-                      ),
-                    ),
-                    SizedBox(height: 16),
-                    if (_entryController.text.trim().isNotEmpty)
-                      Container(
-                        padding: EdgeInsets.symmetric(
-                          horizontal: 16,
-                          vertical: 8,
-                        ),
-                        decoration: BoxDecoration(
-                          color: journalGradient.first.withAlpha(
-                            255 ~/ (1 / 0.1),
-                          ),
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.text_fields,
-                              size: 16,
-                              color: journalGradient.first,
-                            ),
-                            SizedBox(width: 8),
-                            Text(
-                              AppLocalizations.of(context)!.journalWordCount(
-                                _entryController.text
-                                    .trim()
-                                    .split(RegExp(r'\s+'))
-                                    .where((word) => word.isNotEmpty)
-                                    .length,
-                              ),
-                              style: Theme.of(context).textTheme.bodySmall
-                                  ?.copyWith(
-                                    color: journalGradient.first,
-                                    fontWeight: FontWeight.w500,
-                                  ),
-                            ),
-                          ],
-                        ),
-                      ),
                   ],
                 ),
               ),
-            ),
+              SizedBox(height: 16),
+              Container(
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.surface,
+                  borderRadius: BorderRadius.circular(16),
+                  border: Border.all(
+                    color: journalGradient.first.withAlpha(255 ~/ (1 / 0.3)),
+                    width: 1,
+                  ),
+                ),
+                child: SizedBox(
+                  height: 300,
+                  child: TextField(
+                    textCapitalization: TextCapitalization.sentences,
+                    controller: _entryController,
+                    maxLines: null,
+                    expands: true,
+                    textAlignVertical: TextAlignVertical.top,
+                    decoration: InputDecoration(
+                      hintText: AppLocalizations.of(
+                        context,
+                      )!.journalPlaceholder,
+                      hintStyle: TextStyle(
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.onSurface.withAlpha(255 ~/ (1 / 0.5)),
+                      ),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(16),
+                        borderSide: BorderSide.none,
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(16),
+                        borderSide: BorderSide(
+                          color: journalGradient.first,
+                          width: 2,
+                        ),
+                      ),
+                      contentPadding: EdgeInsets.all(20),
+                      filled: true,
+                      fillColor: Colors.transparent,
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 16),
+              if (_entryController.text.trim().isNotEmpty)
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  decoration: BoxDecoration(
+                    color: journalGradient.first.withAlpha(255 ~/ (1 / 0.1)),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.text_fields,
+                        size: 16,
+                        color: journalGradient.first,
+                      ),
+                      SizedBox(width: 8),
+                      Text(
+                        AppLocalizations.of(context)!.journalWordCount(
+                          _entryController.text
+                              .trim()
+                              .split(RegExp(r'\s+'))
+                              .where((word) => word.isNotEmpty)
+                              .length,
+                        ),
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: journalGradient.first,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+            ],
           ),
-        ],
+        ),
+      ),
+    );
+    return Scaffold(
+      body: LayoutBuilder(
+        builder: (context, constraints) {
+          final calendar = _buildCalendarGrid();
+          return ListView(
+            children: [
+              if (constraints.maxWidth >= 850)
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Expanded(child: calendar),
+                    Expanded(child: editor),
+                  ],
+                )
+              else ...[
+                calendar,
+                editor,
+              ],
+            ],
+          );
+        },
       ),
     );
   }

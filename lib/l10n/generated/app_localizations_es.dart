@@ -1811,7 +1811,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get editEntrySave => 'Guardar';
 
   @override
-  String get editEntryDeleteDialogTitle => '¿Estás seguro?';
+  String get editEntryDeleteDialogTitle => '¿Eliminar entrada?';
 
   @override
   String get editEntryDeleteDialogMessage =>
@@ -4581,4 +4581,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => 'Tiempo semanal';
+
+  @override
+  String get notificationFrequencyDisabled => 'Desactivadas';
 }

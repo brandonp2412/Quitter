@@ -28,72 +28,90 @@ class ColorPickerWidget extends StatelessWidget {
       (color) => color.toARGB32() == selectedColor.toARGB32(),
     );
 
-    return Wrap(
-      spacing: 10,
-      runSpacing: 10,
-      children: [
-        for (final color in Colors.primaries)
-          _swatch(
-            color: color,
-            selected: selectedColor.toARGB32() == color.toARGB32(),
-            label: l10n.editEntryColor,
-            onTap: () => onColorSelected(color),
-          ),
-        Tooltip(
-          message: customLabel,
-          child: InkWell(
-            key: const Key('customColorSwatch'),
-            borderRadius: BorderRadius.circular(35),
-            onTap: () async {
-              final color = await showCustomColorPickerDialog(
-                context,
-                selectedColor,
-              );
-              if (color != null) onColorSelected(color);
-            },
-            child: Container(
-              width: 70,
-              height: 70,
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                gradient: customSelected
-                    ? null
-                    : const SweepGradient(
-                        colors: [
-                          Colors.red,
-                          Colors.yellow,
-                          Colors.green,
-                          Colors.cyan,
-                          Colors.blue,
-                          Colors.purple,
-                          Colors.red,
-                        ],
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final columns = constraints.maxWidth >= 620 ? 10 : 5;
+        final size = ((constraints.maxWidth - (columns - 1) * 10) / columns)
+            .clamp(36.0, 56.0);
+        return Align(
+          alignment: Alignment.center,
+          child: SizedBox(
+            width: columns * size + (columns - 1) * 10 + .01,
+            child: Wrap(
+              alignment: WrapAlignment.center,
+              spacing: 10,
+              runSpacing: 10,
+              children: [
+                for (final color in Colors.primaries)
+                  _swatch(
+                    color: color,
+                    size: size,
+                    selected: selectedColor.toARGB32() == color.toARGB32(),
+                    label: l10n.editEntryColor,
+                    onTap: () => onColorSelected(color),
+                  ),
+                Tooltip(
+                  message: customLabel,
+                  child: InkWell(
+                    key: const Key('customColorSwatch'),
+                    borderRadius: BorderRadius.circular(35),
+                    onTap: () async {
+                      final color = await showCustomColorPickerDialog(
+                        context,
+                        selectedColor,
+                      );
+                      if (color != null) onColorSelected(color);
+                    },
+                    child: Container(
+                      width: size,
+                      height: size,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        gradient: customSelected
+                            ? null
+                            : const SweepGradient(
+                                colors: [
+                                  Colors.red,
+                                  Colors.yellow,
+                                  Colors.green,
+                                  Colors.cyan,
+                                  Colors.blue,
+                                  Colors.purple,
+                                  Colors.red,
+                                ],
+                              ),
+                        color: customSelected ? selectedColor : null,
+                        border: Border.all(
+                          color: Theme.of(context).colorScheme.outlineVariant,
+                          width: 2,
+                        ),
                       ),
-                color: customSelected ? selectedColor : null,
-                border: Border.all(
-                  color: Theme.of(context).colorScheme.outlineVariant,
-                  width: 2,
+                      child: Icon(
+                        customSelected ? Icons.check : Icons.palette_outlined,
+                        color: customSelected
+                            ? getContrastingColor(selectedColor)
+                            : Colors.white,
+                        size: size * .5,
+                        shadows: customSelected
+                            ? null
+                            : const [
+                                Shadow(color: Colors.black87, blurRadius: 6),
+                              ],
+                      ),
+                    ),
+                  ),
                 ),
-              ),
-              child: Icon(
-                customSelected ? Icons.check : Icons.palette_outlined,
-                color: customSelected
-                    ? getContrastingColor(selectedColor)
-                    : Colors.white,
-                size: 32,
-                shadows: customSelected
-                    ? null
-                    : const [Shadow(color: Colors.black87, blurRadius: 6)],
-              ),
+              ],
             ),
           ),
-        ),
-      ],
+        );
+      },
     );
   }
 
   Widget _swatch({
     required Color color,
+    required double size,
     required bool selected,
     required String label,
     required VoidCallback onTap,
@@ -105,8 +123,8 @@ class ColorPickerWidget extends StatelessWidget {
         borderRadius: BorderRadius.circular(35),
         onTap: onTap,
         child: Container(
-          width: 70,
-          height: 70,
+          width: size,
+          height: size,
           decoration: BoxDecoration(
             color: color,
             shape: BoxShape.circle,
@@ -127,7 +145,7 @@ class ColorPickerWidget extends StatelessWidget {
             child: Icon(
               Icons.check,
               color: getContrastingColor(color),
-              size: 50,
+              size: size * .65,
             ),
           ),
         ),

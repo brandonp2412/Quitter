@@ -1785,7 +1785,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get editEntrySave => 'บันทึก';
 
   @override
-  String get editEntryDeleteDialogTitle => 'คุณแน่ใจเหรอ?';
+  String get editEntryDeleteDialogTitle => 'ลบรายการนี้หรือไม่';
 
   @override
   String get editEntryDeleteDialogMessage =>
@@ -4527,4 +4527,7 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => 'เวลาต่อสัปดาห์';
+
+  @override
+  String get notificationFrequencyDisabled => 'ปิดใช้งาน';
 }

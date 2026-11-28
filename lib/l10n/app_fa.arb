@@ -1511,7 +1511,7 @@
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-  "editEntryDeleteDialogTitle": "مطمئن هستید؟",
+  "editEntryDeleteDialogTitle": "ورودی حذف شود؟",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
@@ -3541,5 +3541,6 @@
   "statsTimeEmpty": "برای دیدن زمان بازیافته، برآورد هفتگی اضافه کنید.",
   "statsTimeDefault": "استفاده از پیش‌فرض",
   "statsTimeMinuteAbbreviation": "دقیقه",
-  "statsTimeEditTitle": "زمان هفتگی"
+  "statsTimeEditTitle": "زمان هفتگی",
+  "notificationFrequencyDisabled": "غیرفعال"
 }

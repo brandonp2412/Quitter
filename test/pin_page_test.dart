@@ -35,6 +35,46 @@ void main() {
   }
 
   group('PinPage', () {
+    testWidgets('entire PIN keypad fits desktop and tablet viewports', (
+      tester,
+    ) async {
+      await settingsProvider.setPinEnabled(true, '123');
+      for (final size in [
+        const Size(1600, 881),
+        const Size(1440, 786),
+        const Size(1280, 776),
+        const Size(450, 776),
+      ]) {
+        await tester.binding.setSurfaceSize(size);
+        await tester.pumpWidget(createTestWidget());
+        await tester.pumpAndSettle();
+        for (final digit in [
+          '0',
+          '1',
+          '2',
+          '3',
+          '4',
+          '5',
+          '6',
+          '7',
+          '8',
+          '9',
+        ]) {
+          expect(
+            find.text(digit).hitTestable(),
+            findsOneWidget,
+            reason: '$digit in $size',
+          );
+        }
+        expect(
+          find.byTooltip('OK').hitTestable(),
+          findsOneWidget,
+          reason: 'OK in $size',
+        );
+      }
+      await tester.binding.setSurfaceSize(null);
+    });
+
     testWidgets('should unlock successfully', (WidgetTester tester) async {
       await tester.binding.setSurfaceSize(const Size(800, 1200));
       await settingsProvider.setPinEnabled(true, '123');

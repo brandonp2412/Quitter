@@ -176,6 +176,17 @@ class _SettingsPageState extends State<SettingsPage> {
       ],
     );
 
+    if (_searchQuery.isNotEmpty) {
+      return SingleChildScrollView(
+        padding: const EdgeInsets.fromLTRB(16, 12, 16, 32),
+        child: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 720),
+            child: column([0, 1, 2, 3]),
+          ),
+        ),
+      );
+    }
     return SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(32, 12, 32, 32),
       child: Row(
@@ -811,6 +822,9 @@ class _SettingsPageState extends State<SettingsPage> {
               child: Text(l10n.cancel),
             ),
             TextButton(
+              style: TextButton.styleFrom(
+                foregroundColor: Theme.of(context).colorScheme.error,
+              ),
               onPressed: () async {
                 Navigator.of(context).pop();
                 final prefs = await SharedPreferences.getInstance();
@@ -1164,6 +1178,8 @@ class _SettingsPageState extends State<SettingsPage> {
     final time = getTimeString(context, at);
     return onMilestones
         ? '${l10n.notificationFrequencyOnMilestones} · $time'
+        : days == 0
+        ? l10n.notificationFrequencyDisabled
         : l10n.settingsNotificationFrequencySubtitle(days, time);
   }
 

@@ -1509,7 +1509,7 @@
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-  "editEntryDeleteDialogTitle": "Вы уверены?",
+  "editEntryDeleteDialogTitle": "Удалить запись?",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
@@ -3539,5 +3539,6 @@
   "statsTimeEmpty": "Добавьте оценку за неделю, чтобы увидеть возвращенное время.",
   "statsTimeDefault": "По умолчанию",
   "statsTimeMinuteAbbreviation": "мин",
-  "statsTimeEditTitle": "Время за неделю"
+  "statsTimeEditTitle": "Время за неделю",
+  "notificationFrequencyDisabled": "Отключены"
 }

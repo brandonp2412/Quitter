@@ -1707,7 +1707,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get editEntrySave => '保存';
 
   @override
-  String get editEntryDeleteDialogTitle => '本当によろしいですか?';
+  String get editEntryDeleteDialogTitle => '記録を削除しますか？';
 
   @override
   String get editEntryDeleteDialogMessage => '本当にこのエントリーを削除しますか?';
@@ -4409,4 +4409,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get statsTimeEditTitle => '週間の時間';
+
+  @override
+  String get notificationFrequencyDisabled => '無効';
 }
