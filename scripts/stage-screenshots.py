@@ -14,6 +14,8 @@ parser.add_argument("destination", type=Path)
 args = parser.parse_args()
 for locale, store_locale in capture.LOCALES.items():
     for profile, (width, height, scale) in capture.PROFILES.items():
+        if profile == "desktop":
+            continue
         source = args.source / locale / profile
         if {path.name for path in source.glob("*.png")} != capture.expected_names(locale):
             raise ValueError(f"Incomplete localized screenshots: {locale}/{profile}")

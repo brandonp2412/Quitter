@@ -46,6 +46,8 @@ A free and open-source quit tracker built around local data, useful milestones, 
 </p>
 </details>
 
+[View all screenshots (phone, tablets and desktop)](https://brandonp2412.github.io/Quitter/screenshots/)
+
 </div>
 
 ## Help translate Quitter

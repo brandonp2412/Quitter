@@ -117,9 +117,8 @@ jobs:
             build/app/outputs/bundle/release/app-release.aab
 
   generate-screenshots:
-    if: ${{ github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -148,16 +147,34 @@ jobs:
       - name: Capture all localized screenshots
         run: |
           set -euo pipefail
-          for locale in $SCREENSHOT_LOCALES; do
-            python scripts/capture-screenshots.py --web build/web --locale "$locale" --output "$RUNNER_TEMP/flex-screenshots/$locale"
+          locales=en
+          if [[ "${{ github.event_name }}" == workflow_dispatch ]]; then locales="$SCREENSHOT_LOCALES"; fi
+          for locale in $locales; do
+            python scripts/capture-screenshots.py --web build/web --locale "$locale" --output "$RUNNER_TEMP/quitter-screenshots/$locale"
           done
-          python scripts/stage-screenshots.py "$RUNNER_TEMP/flex-screenshots" screenshot-artifact
+          if [[ "${{ github.event_name }}" == workflow_dispatch ]]; then
+            python scripts/stage-screenshots.py "$RUNNER_TEMP/quitter-screenshots" screenshot-artifact
+          fi
 
       - name: Upload localized screenshots
+        if: github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: screenshots-localized
           path: screenshot-artifact
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Capture comprehensive preview gallery
+        run: |
+          python scripts/capture-screenshots.py --web build/web --output "$RUNNER_TEMP/quitter-screenshots/en" desktop
+          python scripts/capture-screenshots.py --web build/web --output "$RUNNER_TEMP/quitter-screenshots/en" --full --gallery screenshot-gallery
+
+      - name: Upload screenshot gallery
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: quitter-screenshot-gallery
+          path: screenshot-gallery
           if-no-files-found: error
           retention-days: 7
 
@@ -166,7 +183,7 @@ jobs:
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: screenshot-failure
-          path: ${{ runner.temp }}/flex-screenshots/**/*-debug.png
+          path: ${{ runner.temp }}/quitter-screenshots/**/*-debug.png
           if-no-files-found: ignore
           retention-days: 3
 
@@ -321,7 +338,11 @@ jobs:
           path: quitter-windows.zip
 
   build-and-deploy-web:
-    needs: version-bump
+    needs: [version-bump, generate-screenshots, quality-checks]
+    if: ${{ !cancelled() && needs.generate-screenshots.result == 'success' && needs.quality-checks.result == 'success' && (github.event_name == 'push' || needs.version-bump.result == 'success') }}
+    concurrency:
+      group: quitter-pages
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -333,7 +354,7 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
-          ref: ${{ needs.version-bump.outputs.commit_sha }}
+          ref: ${{ needs.version-bump.outputs.commit_sha || github.sha }}
           persist-credentials: false
 
       - name: Setup Flutter from submodule
@@ -355,6 +376,19 @@ jobs:
 
       - name: Add privacy policy to web deployment
         run: cp docs/privacy-policy.html build/web/privacy-policy.html
+
+      - name: Download preview gallery
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: quitter-screenshot-gallery
+          path: build/web/screenshots
+
+      - name: Validate preview gallery
+        run: |
+          test -s build/web/screenshots/index.html
+          for profile in phoneScreenshots sevenInchScreenshots tenInchScreenshots desktop; do
+            test "$(find "build/web/screenshots/$profile" -maxdepth 1 -name '*.png' | wc -l)" -eq 75
+          done
 
       - name: Setup Pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0

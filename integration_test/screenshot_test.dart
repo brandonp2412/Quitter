@@ -1,3 +1,38 @@
+import 'package:quitter/whats_new.dart';
+import 'package:quitter/vaping_page.dart';
+import 'package:quitter/time_saved_settings_page.dart';
+import 'package:quitter/tca_page.dart';
+import 'package:quitter/synthetic_cannabinoids_page.dart';
+import 'package:quitter/steroids_page.dart';
+import 'package:quitter/stats_page.dart';
+import 'package:quitter/ssri_page.dart';
+import 'package:quitter/social_media_page.dart';
+import 'package:quitter/snri_page.dart';
+import 'package:quitter/smokeless_tobacco_page.dart';
+import 'package:quitter/pornography_page.dart';
+import 'package:quitter/pin_page.dart';
+import 'package:quitter/opioid_page.dart';
+import 'package:quitter/nitrous_oxide_page.dart';
+import 'package:quitter/nicotine_pouches.dart';
+import 'package:quitter/money_saved_settings_page.dart';
+import 'package:quitter/meth_page.dart';
+import 'package:quitter/mdma_page.dart';
+import 'package:quitter/maoi_page.dart';
+import 'package:quitter/kratom_page.dart';
+import 'package:quitter/ketamine_page.dart';
+import 'package:quitter/inhalants_page.dart';
+import 'package:quitter/ghb_page.dart';
+import 'package:quitter/gabapentinoids_page.dart';
+import 'package:quitter/entry_page.dart';
+import 'package:quitter/enjoying_page.dart';
+import 'package:quitter/edit_preset_page.dart';
+import 'package:quitter/cocaine_page.dart';
+import 'package:quitter/benzodiazepine_page.dart';
+import 'package:quitter/adderall_page.dart';
+import 'package:quitter/add_addiction_page.dart';
+import 'package:quitter/about_page.dart';
+import 'dart:convert';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -13,6 +48,7 @@ import 'package:quitter/home_page.dart';
 import 'package:quitter/journal_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/marijuana_page.dart';
+import 'package:quitter/milestone_reference_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/main.dart' as app;
 import 'package:quitter/alcohol_page.dart';
@@ -24,6 +60,8 @@ const _nativeScreenshotLocale = String.fromEnvironment(
   'QUITTER_LOCALE',
   defaultValue: 'en',
 );
+
+bool get fullGallery => kIsWeb && Uri.base.queryParameters['gallery'] == 'full';
 
 String get screenshotLocale => kIsWeb
     ? Uri.base.queryParameters['locale'] ?? _nativeScreenshotLocale
@@ -94,7 +132,9 @@ Future<void> screenshot({
   await binding.convertFlutterSurfaceToImage();
   settle ? await tester.pump() : await tester.pumpAndSettle();
   if (kIsWeb || defaultTargetPlatform != TargetPlatform.linux)
-    await binding.takeScreenshot('${name}_$screenshotStoreLocale');
+    await binding.takeScreenshot(
+      fullGallery ? 'full-$name' : '${name}_$screenshotStoreLocale',
+    );
 }
 
 void main() {
@@ -129,7 +169,39 @@ void main() {
       'marijuana',
       DateTime.now().subtract(const Duration(days: 13)).toIso8601String(),
     );
+
+    if (fullGallery) {
+      final now = DateTime.now();
+      final entry = sampleEntry();
+      await prefs.setString('entries', jsonEncode([entry.toJson()]));
+      await prefs.setString(
+        'alcohol',
+        now.subtract(const Duration(days: 32)).toIso8601String(),
+      );
+      await prefs.setString(
+        'weekly_spend',
+        jsonEncode({'smoking': 65, 'alcohol': 40, 'gallery-custom': 15}),
+      );
+      await prefs.setString(
+        'days',
+        jsonEncode({
+          'smoking': [14, 28],
+          'alcohol': [7],
+        }),
+      );
+      final date = now.toIso8601String().substring(0, 10);
+      await prefs.setString(
+        'journal_$date',
+        'Went for a walk today and felt more focused. Taking it one day at a time.',
+      );
+      await prefs.setStringList('journal_dates', [date]);
+    }
   });
+
+  if (fullGallery) {
+    registerFullGallery(binding);
+    return;
+  }
 
   group("Generate Quitter App Screenshots", () {
     testWidgets(
@@ -201,7 +273,15 @@ void main() {
           settings.themeMode = AppThemeMode.dark;
           final smokingLabel = AppLocalizations.of(context)!.addictionSmoking;
           await tester.pumpAndSettle();
-          await tester.longPress(find.text(smokingLabel));
+          final card = find.text(smokingLabel);
+          if (MediaQuery.sizeOf(context).width >= 1000) {
+            await tester.tapAt(
+              tester.getCenter(card),
+              buttons: kSecondaryMouseButton,
+            );
+          } else {
+            await tester.longPress(card);
+          }
           await tester.pumpAndSettle();
         },
       ),
@@ -255,4 +335,363 @@ void main() {
       ),
     );
   });
+}
+
+Entry sampleEntry() => Entry(
+  id: 'gallery-custom',
+  title: 'Social media break',
+  color: Colors.purple,
+  quitDate: DateTime.now().subtract(const Duration(days: 42)),
+  icon: Icons.phone_android,
+  daysAchieved: [7, 14],
+);
+
+void registerFullGallery(IntegrationTestWidgetsFlutterBinding binding) {
+  void state(
+    String name,
+    Widget? Function()? page, {
+    Future<void> Function(WidgetTester, BuildContext)? action,
+  }) {
+    testWidgets(name, (tester) async {
+      await screenshot(
+        binding: binding,
+        tester: tester,
+        name: name,
+        goToPage: (context) async {
+          context.read<SettingsProvider>().themeMode = AppThemeMode.dark;
+          if (page != null) navigate(context: context, page: page()!);
+          await tester.pumpAndSettle();
+          if (action != null) await action(tester, context);
+        },
+      );
+    });
+  }
+
+  Future<void> search(WidgetTester tester, String query) async {
+    final bar = tester.widget<SearchBar>(find.byType(SearchBar).hitTestable());
+    bar.controller!.text = query;
+    await tester.pumpAndSettle();
+  }
+
+  Future<void> settingsAction(
+    WidgetTester tester,
+    BuildContext context,
+    String label,
+  ) async {
+    await search(tester, label);
+    final target = find.widgetWithText(ListTile, label).last;
+    final settingsPage = find.byType(SettingsPage);
+    final list = find
+        .descendant(
+          of: settingsPage,
+          matching: find.byType(
+            MediaQuery.sizeOf(context).width >= 1000
+                ? SingleChildScrollView
+                : ListView,
+          ),
+        )
+        .first;
+    await tester.scrollUntilVisible(
+      target,
+      240,
+      scrollable: find
+          .descendant(of: list, matching: find.byType(Scrollable))
+          .first,
+    );
+    await tester.tap(target);
+    await tester.pumpAndSettle();
+    expect(find.byType(AlertDialog).hitTestable(), findsOneWidget);
+  }
+
+  state('home-dark', null);
+  state(
+    'home-light',
+    null,
+    action: (tester, context) async {
+      context.read<SettingsProvider>().themeMode = AppThemeMode.light;
+    },
+  );
+  state(
+    'home-search',
+    null,
+    action: (tester, context) => search(tester, 'Smoking'),
+  );
+  state(
+    'home-search-empty',
+    null,
+    action: (tester, context) => search(tester, 'zzzz'),
+  );
+  state('add-journey', () => const AddAddictionPage());
+  state(
+    'add-journey-search',
+    () => const AddAddictionPage(initialQuery: 'nicotine'),
+  );
+  state(
+    'add-journey-empty',
+    () => const AddAddictionPage(initialQuery: 'zzzz'),
+  );
+  state('custom-create', () => const EditEntryPage());
+  state('custom-edit', () => EditEntryPage(entry: sampleEntry()));
+  state(
+    'custom-delete-confirmation',
+    () => EditEntryPage(entry: sampleEntry()),
+    action: (tester, context) async {
+      await tester.tap(find.byIcon(Icons.delete).hitTestable());
+    },
+  );
+  state(
+    'custom-date-picker',
+    () => EditEntryPage(entry: sampleEntry()),
+    action: (tester, context) async {
+      await tester.tap(find.byIcon(Icons.calendar_today).hitTestable().first);
+    },
+  );
+  state('custom-journey', () => EntryPage(entry: sampleEntry()));
+  state(
+    'preset-edit',
+    () => const EditPresetPage(
+      presetKey: 'smoking',
+      title: 'Smoking',
+      icon: Icons.smoking_rooms,
+      color: Colors.orange,
+    ),
+  );
+  state(
+    'stats',
+    null,
+    action: (tester, context) async {
+      final controller = tester
+          .widget<TabBarView>(find.byType(TabBarView))
+          .controller!;
+      controller.animateTo(1);
+      await tester.pumpAndSettle();
+      expect(find.byType(StatsPage).hitTestable(), findsOneWidget);
+    },
+  );
+  state(
+    'money-saved-settings',
+    () => const MoneySavedSettingsPage(
+      items: [
+        MoneySavedItem(
+          id: 'smoking',
+          name: 'Smoking',
+          icon: Icons.smoking_rooms,
+          color: Colors.orange,
+        ),
+        MoneySavedItem(
+          id: 'alcohol',
+          name: 'Alcohol',
+          icon: Icons.local_bar,
+          color: Colors.blue,
+        ),
+      ],
+    ),
+  );
+  state(
+    'time-saved-settings',
+    () => const TimeSavedSettingsPage(
+      items: [
+        TimeSavedItem(
+          id: 'smoking',
+          name: 'Smoking',
+          icon: Icons.smoking_rooms,
+          color: Colors.orange,
+        ),
+        TimeSavedItem(
+          id: 'gallery-custom',
+          name: 'Social media break',
+          icon: Icons.phone_android,
+          color: Colors.purple,
+        ),
+      ],
+    ),
+  );
+  state(
+    'journal-filled',
+    null,
+    action: (tester, context) async {
+      tester
+          .widget<TabBarView>(find.byType(TabBarView))
+          .controller!
+          .animateTo(2);
+      await tester.pumpAndSettle();
+      expect(find.byType(JournalPage).hitTestable(), findsOneWidget);
+    },
+  );
+  state('settings-dark', () => const SettingsPage());
+  state(
+    'settings-light',
+    () => const SettingsPage(),
+    action: (tester, context) async {
+      context.read<SettingsProvider>().themeMode = AppThemeMode.light;
+    },
+  );
+  state(
+    'settings-security',
+    () => const SettingsPage(),
+    action: (tester, context) =>
+        search(tester, AppLocalizations.of(context)!.settingsSectionSecurity),
+  );
+  state(
+    'settings-notifications',
+    () => const SettingsPage(),
+    action: (tester, context) => search(
+      tester,
+      AppLocalizations.of(context)!.settingsSectionNotifications,
+    ),
+  );
+  state(
+    'settings-system',
+    () => const SettingsPage(),
+    action: (tester, context) =>
+        search(tester, AppLocalizations.of(context)!.settingsSectionSystem),
+  );
+  state(
+    'settings-search-empty',
+    () => const SettingsPage(),
+    action: (tester, context) => search(tester, 'zzzz'),
+  );
+  state(
+    'settings-language-dialog',
+    () => const SettingsPage(),
+    action: (tester, context) => settingsAction(
+      tester,
+      context,
+      AppLocalizations.of(context)!.settingsLocale,
+    ),
+  );
+  state(
+    'settings-notification-dialog',
+    () => const SettingsPage(),
+    action: (tester, context) => settingsAction(
+      tester,
+      context,
+      AppLocalizations.of(context)!.settingsNotificationFrequency,
+    ),
+  );
+  state(
+    'settings-pin-dialog',
+    () => const SettingsPage(),
+    action: (tester, context) => settingsAction(
+      tester,
+      context,
+      AppLocalizations.of(context)!.settingsPinLock,
+    ),
+  );
+  state(
+    'settings-delete-confirmation',
+    () => const SettingsPage(),
+    action: (tester, context) => settingsAction(
+      tester,
+      context,
+      AppLocalizations.of(context)!.settingsDeleteEverything,
+    ),
+  );
+  state(
+    'milestone-reference',
+    null,
+    action: (tester, context) async {
+      final milestone = MarijuanaPage.milestonesFor(
+        AppLocalizations.of(context)!,
+      ).first;
+      navigate(
+        context: context,
+        page: MilestoneReferencePage(milestone: milestone),
+      );
+      await tester.pumpAndSettle();
+    },
+  );
+  state('about', () => const AboutPage());
+  state('whats-new', () => const WhatsNew());
+  state('enjoying-app', () => const EnjoyingPage());
+  state('pin-lock', () => const PinPage());
+  state(
+    'smoking-date-picker',
+    () => const SmokingPage(started: true),
+    action: (tester, context) async {
+      await tester.tap(find.byType(TextField).hitTestable().first);
+    },
+  );
+  state('preset-adderall', () => const AdderallPage(started: false));
+  state('preset-alcohol', () => const AlcoholPage(started: false));
+  state(
+    'preset-benzodiazepine',
+    () => const BenzodiazepinePage(started: false),
+  );
+  state('preset-cocaine', () => const CocainePage(started: false));
+  state('preset-gabapentinoids', () => const GabapentinoidPage(started: false));
+  state('preset-ghb', () => const GhbPage(started: false));
+  state('preset-inhalants', () => const InhalantsPage(started: false));
+  state('preset-ketamine', () => const KetaminePage(started: false));
+  state('preset-kratom', () => const KratomPage(started: false));
+  state('preset-maoi', () => const MaoiPage(started: false));
+  state('preset-marijuana', () => const MarijuanaPage(started: false));
+  state('preset-mdma', () => const MdmaPage(started: false));
+  state('preset-meth', () => const MethPage(started: false));
+  state(
+    'preset-nicotine-pouches',
+    () => const NicotinePouchesPage(started: false),
+  );
+  state('preset-nitrous-oxide', () => const NitrousOxidePage(started: false));
+  state('preset-opioid', () => const OpioidPage(started: false));
+  state('preset-pornography', () => const PornographyPage(started: false));
+  state(
+    'preset-smokeless-tobacco',
+    () => const SmokelessTobaccoPage(started: false),
+  );
+  state('preset-smoking', () => const SmokingPage(started: false));
+  state('preset-snri', () => const SnriPage(started: false));
+  state('preset-social-media', () => const SocialMediaPage(started: false));
+  state('preset-ssri', () => const SsriPage(started: false));
+  state('preset-steroids', () => const SteroidsPage(started: false));
+  state(
+    'preset-synthetic-cannabinoids',
+    () => const SyntheticCannabinoidsPage(started: false),
+  );
+  state('preset-tca', () => const TcaPage(started: false));
+  state('preset-vaping', () => const VapingPage(started: false));
+  state('journey-smoking', () => const SmokingPage(started: true));
+  state('journey-vaping', () => const VapingPage(started: true));
+  state('journey-alcohol', () => const AlcoholPage(started: true));
+  state('journey-marijuana', () => const MarijuanaPage(started: true));
+  state(
+    'preset-heroin',
+    () => const OpioidPage(started: false, storageKey: 'heroin'),
+  );
+  state(
+    'preset-fentanyl',
+    () => const OpioidPage(started: false, storageKey: 'fentanyl'),
+  );
+  state(
+    'home-empty',
+    null,
+    action: (tester, context) async {
+      final prefs = await SharedPreferences.getInstance();
+      for (final key in [
+        'smoking',
+        'vaping',
+        'marijuana',
+        'alcohol',
+        'entries',
+      ]) {
+        await prefs.remove(key);
+      }
+      if (context.mounted) {
+        await context.read<AddictionProvider>().loadAddictions();
+      }
+      await tester.pumpAndSettle();
+    },
+  );
+  state(
+    'stats-empty',
+    null,
+    action: (tester, context) async {
+      tester
+          .widget<TabBarView>(find.byType(TabBarView))
+          .controller!
+          .animateTo(1);
+      await tester.pumpAndSettle();
+      expect(find.byType(StatsPage).hitTestable(), findsOneWidget);
+    },
+  );
 }
